@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Earth Foundation</string>
+    <string name="appname">Earth Foundation</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+    <string name="changelanguage">भाषा बदलो</string>
+    <string name="statement1">आपकी चयनित भाषा है </string>
+    <string name="statement2"> जारी रखने के लिए NEXT बटन दबाएँ। </string>
+    <string name="ForgotPassword">पासवर्ड भूल गए?</string>
+    <string name="NotAccount">अभी तक कोई खाता नहीं है? एक बनाए</string>
+    <string name="ChangePassword">पासवर्ड बदलें</string>
+    <string name="TreeName">वृक्ष का नाम</string>
+    <string name="Latitude">अक्षांश</string>
+    <string name="Longitude">देशान्तर</string>
+    <string name="InMemoryOf">की याद में</string>
+    <string name="Relation">रिश्ता</string>
+    <string name="PlantDate">वृक्षारोपण की तारीख</string>
+    <string name="Address">पता</string>
+    <string name="Lanmark">सीमा चिन्ह</string>
+    <string name="Image">छवि</string>
+
+
+    <!--hint page -->
+    <string name="FirstName">पहला नाम</string>
+    <string name="LastName">अंतिम नाम</string>
+    <string name="Age">आयु</string>
+    <string name="Addresshint">पत्ता</string>
+    <string name="City">शहर</string>
+    <string name="PinCode">पिन कोड</string>
+    <string name="AadharNumber">आधार संख्या</string>
+    <string name="Email">ईमेल</string>
+    <string name="MobileNumber">मोबाइल नंबर</string>
+    <string name="UserName">उपयोगकर्ता नाम</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="ReenterPassword">पासवर्ड फिर से दर्ज करें</string>
+    <string name="CreateAccount">खाता बनाएं</string>
+    <string name="AlreadyamemberLogin">पहले से सदस्य हैं? लॉग इन करें</string>
+
+    <!--Activity update tree details -->
+    <string name="updateTreeName">पेड़ का नाम</string>
+    <string name="updateLocation">स्थित है</string>
+    <string name="updPlantedon">पर लगाया</string>
+    <string name="updUpdatedon">पिछला नवीनीकरण</string>
+    <string name="updPlantUpdateDate">पेड़ अद्यतन तिथि</string>
+    <string name="updSelectDate">तारीख़ चुनें...</string>
+    <string name="updImage">छवि</string>
+    <string name="updSelectImage">छवि चुने</string>
+    <string name="updUpdate">अद्यतन करें</string>
+    <string name="updCancel">रद्द करना</string>
+
+    <!--Content home page-->
+    <string name="chTREES">पौधे </string>
+    <string name="tpf">हमारी नींव से लगाए गए कुल पौधे </string>
+    <string name="CONTRIBUTION">योगदान</string>
+    <string name="yctp">अभीतक वृक्षारोपण में आपका योगदान</string>TOKENSEARNED
+    <string name="TOKENSEARNED">टोकन अर्जित किया</string>
+    <string name="teyc">आपके योगदान से अर्जित की गई टोकन</string>
+    <string name="chPLANTTREE">पेड़ लगाओ</string>
+    <string name="ptac">पौधे लगाएं और अपना योगदान करें</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--drawer-->
+
+    <string name="MyProfile">मेरी प्रोफाइल</string>
+    <string name="MyTrees">मेरे पेड़ </string>
+    <string name="Aboutus">हमारे बारे में</string>
+    <string name="Contactus">हमसे संपर्क करें</string>
+    <string name="Settings">सेटिंग्स</string>
+    <string name="Logout">लोग आउट</string>Rateus
+    <string name="Rateus">हमें रेटिंग दें</string>
+
+    <string name="selected_lang">हिंदी</string>
+
+</resources>

@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
     private String received_fname;
     private  String received_lname;
     private String received_password;
-    private String received_image_url;
+    private String received_image_url,received_user_type;
 
     @BindView(R.id.input_email) EditText _emailText;
     @BindView(R.id.input_password) EditText _passwordText;
@@ -85,13 +85,14 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
                 public void onClick(View view) {
                     Intent intent = new Intent(getApplicationContext(), forgotpassword.class);
                     startActivity(intent);
+                    finish();
                 }
             });
         }
     }
 
     @Override
-    public void processFinish(String type,String output){
+    public void processFinish(String output){
         //Here you will receive the result fired from async class
         //of onPostExecute(result) method.
         try {
@@ -104,6 +105,7 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
             received_lname=reader.getString("lname");
             received_password=reader.getString("password");
             received_image_url=reader.getString("image_url");
+            received_user_type=reader.getString("user_type");
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -133,9 +135,9 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
         // TODO: Implement your own authentication logic here.
 
         String type = "login";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
         backgroundWorker.delegate=this;
-        backgroundWorker.execute(type, email, password);
+        backgroundWorker.execute(email, password);
         //String result=backgroundWorker.doInBackground(type,email,password);
 
        // Toast.makeText(getBaseContext(), received_email+" "+received_password, Toast.LENGTH_LONG).show();
@@ -189,7 +191,7 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
     public void onLoginSuccess(String name,String email) {
         _loginButton.setEnabled(true);
 
-        session.createUserLoginSession(name,email,received_image_url);
+        session.createUserLoginSession(name,email,received_image_url,received_user_type);
 
         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

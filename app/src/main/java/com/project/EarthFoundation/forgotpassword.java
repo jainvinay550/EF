@@ -49,7 +49,7 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
     }
 
     @Override
-    public void processFinish(String type,String output){
+    public void processFinish(String output){
         //Here you will receive the result fired from async class
         //of onPostExecute(result) method.
         try {
@@ -62,8 +62,14 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
     }
+
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+        finish();
+    }
+
     public void forgotpassword() {
         Log.d(TAG, "FPassword");
 
@@ -86,9 +92,9 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
         // TODO: Implement your own forgotpassword logic here.
 
         String type = "ForgotPassword";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
         backgroundWorker.delegate=this;
-        backgroundWorker.execute(type, email);
+        backgroundWorker.execute(email);
 
 
         new android.os.Handler().postDelayed(

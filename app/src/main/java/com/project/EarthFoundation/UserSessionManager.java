@@ -37,6 +37,9 @@ public class UserSessionManager {
     // Profile picture (make variable public to access from outside)
     public static final String KEY_IMAGE = "image_url";
 
+    // Profile picture (make variable public to access from outside)
+    public static final String KEY_USER_TYPE = "user_type";
+
     // Constructor
     public UserSessionManager(Context context){
         this._context = context;
@@ -45,7 +48,7 @@ public class UserSessionManager {
     }
 
     //Create login session
-    public void createUserLoginSession(String name, String email,String image_url){
+    public void createUserLoginSession(String name, String email,String image_url,String user_type){
         // Storing login value as TRUE
         editor.putBoolean(IS_USER_LOGIN, true);
 
@@ -57,7 +60,7 @@ public class UserSessionManager {
 
         // Storing profile Picture in pref
         editor.putString(KEY_IMAGE, image_url);
-
+        editor.putString(KEY_USER_TYPE, user_type);
         // commit changes
         editor.commit();
     }
@@ -107,6 +110,9 @@ public class UserSessionManager {
 
         // user profile picture id
         user.put(KEY_IMAGE, pref.getString(KEY_IMAGE, null));
+
+        // user profile picture id
+        user.put(KEY_USER_TYPE, pref.getString(KEY_USER_TYPE, null));
 
         // return user
         return user;

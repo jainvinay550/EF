@@ -78,4 +78,28 @@
 
     <string name="selected_lang">English</string>
 
+    <!--Profile-->
+    <string name="phoneNo">Phone No</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="pincode">Pincode</string>
+    <string name="aadhar">Aadhar Number</string>
+    <string name="trees">Trees</string>
+    <string name="token">Tokens</string>
+
+    <string name="rateus">Rate Us</string>
+
+    <string name="logoutnotification">Logout Notification</string>
+    <string name="exitnotification">Exit Notification</string>
+
+    <!--Rate us -->
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">Would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+
+
 </resources>

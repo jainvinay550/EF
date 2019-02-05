@@ -6,6 +6,7 @@ import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
@@ -24,8 +25,9 @@ public class MyProfileActivity_ViewBinding implements Unbinder {
   public MyProfileActivity_ViewBinding(MyProfileActivity target, View source) {
     this.target = target;
 
-    target._treeText = Utils.findRequiredViewAsType(source, R.id.textView3, "field '_treeText'", TextView.class);
-    target._tokenText = Utils.findRequiredViewAsType(source, R.id.textView4, "field '_tokenText'", TextView.class);
+    target._treeText = Utils.findRequiredViewAsType(source, R.id.textTree, "field '_treeText'", TextView.class);
+    target._email = Utils.findRequiredViewAsType(source, R.id.p_email, "field '_email'", TextView.class);
+    target._tokenText = Utils.findRequiredViewAsType(source, R.id.textToken, "field '_tokenText'", TextView.class);
     target._phoneText = Utils.findRequiredViewAsType(source, R.id.phoneNo, "field '_phoneText'", EditText.class);
     target._countryText = Utils.findRequiredViewAsType(source, R.id.country, "field '_countryText'", EditText.class);
     target._stateText = Utils.findRequiredViewAsType(source, R.id.state, "field '_stateText'", EditText.class);
@@ -33,6 +35,7 @@ public class MyProfileActivity_ViewBinding implements Unbinder {
     target._pinCodeText = Utils.findRequiredViewAsType(source, R.id.pincode, "field '_pinCodeText'", EditText.class);
     target._aadharText = Utils.findRequiredViewAsType(source, R.id.aadhar, "field '_aadharText'", EditText.class);
     target._updatebtn = Utils.findRequiredViewAsType(source, R.id.btnSubmitProfile, "field '_updatebtn'", Button.class);
+    target._imageBar = Utils.findRequiredViewAsType(source, R.id.profile_bar2, "field '_imageBar'", ProgressBar.class);
   }
 
   @Override
@@ -43,6 +46,7 @@ public class MyProfileActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target._treeText = null;
+    target._email = null;
     target._tokenText = null;
     target._phoneText = null;
     target._countryText = null;
@@ -51,5 +55,6 @@ public class MyProfileActivity_ViewBinding implements Unbinder {
     target._pinCodeText = null;
     target._aadharText = null;
     target._updatebtn = null;
+    target._imageBar = null;
   }
 }

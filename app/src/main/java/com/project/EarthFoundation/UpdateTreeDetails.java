@@ -8,6 +8,8 @@ import android.provider.MediaStore;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.text.InputType;
 import android.util.Base64;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -65,7 +67,7 @@ public class UpdateTreeDetails extends AppCompatActivity {
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
 
-    private String[] urls = new String[] {"https://demonuts.com/Demonuts/SampleImages/W-03.JPG"};
+    private ArrayList<String> urls = new ArrayList<String>();
 
 
     @Override
@@ -73,7 +75,11 @@ public class UpdateTreeDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_tree_details);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         Intent intent= getIntent();
         treeName = intent.getStringExtra("treeName");
@@ -82,7 +88,7 @@ public class UpdateTreeDetails extends AppCompatActivity {
         updatedDate = intent.getStringExtra("updatedDate");
         updateStatus = intent.getStringExtra("updateStatus");
         treeImage = intent.getStringExtra("treeImage");
-
+        urls.add(treeImage);
         init();
         datePicker();
 
@@ -134,6 +140,18 @@ public class UpdateTreeDetails extends AppCompatActivity {
         });
 
         }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+        finish();
+    }
 
     private void showPictureDialog(){
         AlertDialog.Builder pictureDialog = new AlertDialog.Builder(this);
@@ -208,15 +226,16 @@ public class UpdateTreeDetails extends AppCompatActivity {
         FixBitmap.compress(Bitmap.CompressFormat.JPEG, 40, byteArrayOutputStream);
         byteArray = byteArrayOutputStream.toByteArray();
         ConvertImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
-        BackgroundWorker backgroundWorker=new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker=new BackgroundWorker(this,type);
         String imageName=GetTreeNameFromEditText+String.valueOf(tree_counter);
         tree_counter++;
-        backgroundWorker.execute(type,GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetTimeValue,GetDateValue,GetAddressValue,ConvertImage,imageName,email);
+        backgroundWorker.execute(GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetTimeValue,GetDateValue,GetAddressValue,ConvertImage,imageName,email);
     }
 
     public void datePicker(){
         // initiate the date picker and a button
         date = (EditText) findViewById(R.id.date);
+        date.setInputType(InputType.TYPE_NULL);
         // perform click event on edit text
         date.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -259,7 +278,7 @@ public class UpdateTreeDetails extends AppCompatActivity {
 //Set circle indicator radius
         indicator.setRadius(5 * density);
 
-        NUM_PAGES = urls.length;
+        NUM_PAGES = urls.size();
 
         // Auto start of viewpager
         final Handler handler = new Handler();

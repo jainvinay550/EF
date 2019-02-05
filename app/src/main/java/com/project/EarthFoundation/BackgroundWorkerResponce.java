@@ -1,5 +1,5 @@
 package com.project.EarthFoundation;
 
 public interface BackgroundWorkerResponce {
-    void processFinish(String type,String output);
+    void processFinish(String output);
 }

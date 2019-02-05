@@ -3,16 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
+
     <group android:checkableBehavior="single">
 
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/proficon"
             android:title="@string/MyProfile" />
+
+
         <item
             android:id="@+id/nav_trees"
-            android:icon="@drawable/proficon"
+            android:icon="@drawable/addtree"
             android:title="@string/MyTrees" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+
+
         <item
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/aboutus"
@@ -23,31 +31,22 @@
             android:title="@string/Contactus" />
 
         <item
-            android:id="@+id/nav_Rateus"
-            android:icon="@drawable/contactus"
-            android:title="@string/Rateus" />
-
-        <item
             android:id="@+id/nav_setting"
             android:icon="@drawable/settings"
             android:title="@string/Settings" />
+
+        <!--<item-->
+            <!--android:id="@+id/rateus"-->
+            <!--android:icon="@drawable/rateus"-->
+            <!--android:title="@string/rateus" />-->
+
+
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
             android:title="@string/Logout" />
-    </group>
 
-    <!--<item android:title="Communicate">-->
-        <!--<menu>-->
-            <!--<item-->
-                <!--android:id="@+id/nav_share"-->
-                <!--android:icon="@drawable/ic_menu_share"-->
-                <!--android:title="Share" />-->
-            <!--<item-->
-                <!--android:id="@+id/nav_send"-->
-                <!--android:icon="@drawable/ic_menu_send"-->
-                <!--android:title="Send" />-->
-        <!--</menu>-->
-    <!--</item>-->
+
+</group>
 
 </menu>

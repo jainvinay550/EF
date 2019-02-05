@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -28,6 +29,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -52,6 +54,7 @@ import org.w3c.dom.Text;
 
 import java.io.IOException;
 
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -59,19 +62,23 @@ import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import hotchemi.android.rate.AppRate;
+import hotchemi.android.rate.OnClickButtonListener;
+
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,BackgroundWorkerResponce {
     UserSessionManager session;
     Button UploadImageOnServerButton;
     ImageView lblImage;
     TextView lblName, lblEmail, lblTreesPlanted, lblContribution, lblTokensEarned;
-    String treesPlanted, contribution, tokensEarned, name, email, profile_picture;
-    LinearLayout lblPlantTree;
+    ProgressBar imageBar,homeBar;
+    String treesPlanted, contribution, tokensEarned, name, email, profile_picture,user_type;
+    LinearLayout lblPlantTree,lblcontribution;
     Button btnLogout;
     Bitmap FixBitmap;
     String ImageTag = "image_tag";
     String ImageName = "image_data";
-    ProgressDialog progressDialog;
+   // ProgressDialog progressDialog;
     ByteArrayOutputStream byteArrayOutputStream;
     byte[] byteArray;
     String ConvertImage;
@@ -82,12 +89,8 @@ public class HomeActivity extends AppCompatActivity
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
 
-    private String[] urls = new String[]{"http://earthfoundation.in/EF/Uploads/TreePhotos/ef001.jpeg",
-    "http://earthfoundation.in/EF/Uploads/TreePhotos/ef002.jpeg",
-    "http://earthfoundation.in/EF/Uploads/TreePhotos/ef003.jpeg",
-    "http://earthfoundation.in/EF/Uploads/TreePhotos/ef004.jpeg",
-    "http://earthfoundation.in/EF/Uploads/TreePhotos/ef005.jpeg",
-    "http://earthfoundation.in/EF/Uploads/TreePhotos/ef006.jpeg"};
+    private ArrayList<String> urls = new ArrayList<String>();
+
 
     // ArrayList for person names, email Id's and mobile numbers
     ArrayList<String> treeNamesList = new ArrayList<>();
@@ -113,22 +116,39 @@ public class HomeActivity extends AppCompatActivity
         else {
             loadLocale();
             setContentView(R.layout.activity_home);
-            final ProgressDialog progressDialog = new ProgressDialog(HomeActivity.this,
-                    R.style.Theme_AppCompat_Light_Dialog_Alert);
-            progressDialog.setTitle("Please wait till we get things ready for you");
-            progressDialog.setMessage("Loading");
-            progressDialog.setIndeterminate(true);
-            progressDialog.show();
-            new android.os.Handler().postDelayed(
-                    new Runnable() {
-                        public void run() {
-                            progressDialog.dismiss();
-                        }
-                    }, 4000);
+//            final ProgressDialog progressDialog = new ProgressDialog(HomeActivity.this,
+//                    R.style.Theme_AppCompat_Light_Dialog_Alert);
+//            progressDialog.setTitle("Please wait till we get things ready for you");
+//            progressDialog.setMessage("Loading");
+//            progressDialog.setIndeterminate(true);
+//            progressDialog.show();
+//            new android.os.Handler().postDelayed(
+//                    new Runnable() {
+//                        public void run() {
+//                            progressDialog.dismiss();
+//                        }
+//                    }, 4000);
             session = new UserSessionManager(getApplicationContext());
 
             Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
             setSupportActionBar(toolbar);
+
+            AppRate.with(this)
+                    .setInstallDays(3) // default 10, 0 means install day.
+                    .setLaunchTimes(3) // default 10
+                    .setRemindInterval(7) // default 1
+                    .setShowLaterButton(true) // default true
+                    .setDebug(false) // default false
+                    .setOnClickButtonListener(new OnClickButtonListener() { // callback listener.
+                        @Override
+                        public void onClickButton(int which) {
+                            Log.d(MainActivity.class.getName(), Integer.toString(which));
+                        }
+                    })
+                    .monitor();
+
+            // Show a dialog if meets conditions
+            AppRate.showRateDialogIfMeetsConditions(this);
 
             //        TextView lblName = (TextView) findViewById(R.id.username);
             //        TextView lblEmail = (TextView) findViewById(R.id.email);
@@ -144,13 +164,20 @@ public class HomeActivity extends AppCompatActivity
             name = user.get(UserSessionManager.KEY_NAME);
             // get email
             email = user.get(UserSessionManager.KEY_EMAIL);
+            user_type = user.get(UserSessionManager.KEY_USER_TYPE);
             profile_picture = user.get(UserSessionManager.KEY_IMAGE);
-
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef001.jpeg");
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef002.jpeg");
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef003.jpeg");
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef004.jpeg");
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef005.jpeg");
+            urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef006.jpeg");
             init();
             getIntegerValues();
+            loadTreeDetails();
 
             lblPlantTree = (LinearLayout) findViewById(R.id.plant_tree_layout);
-
+            lblcontribution = (LinearLayout) findViewById(R.id.plantation_contribution_layout);
             lblPlantTree.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -163,6 +190,22 @@ public class HomeActivity extends AppCompatActivity
                 }
             });
 
+            lblcontribution.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                    //                        .setAction("Action", null).show();
+                    Intent intent = new Intent(getApplicationContext(), MyTreesActivity.class);
+                    intent.putStringArrayListExtra("treeNamesList", treeNamesList);
+                    intent.putStringArrayListExtra("treeAddressList", treeAddressList);
+                    intent.putStringArrayListExtra("plantDateList", plantDateList);
+                    intent.putStringArrayListExtra("updatedDateList", updatedDateList);
+                    intent.putStringArrayListExtra("updateStatusList", updateStatusList);
+                    intent.putStringArrayListExtra("treeImageList", treeImageList);
+                    startActivity(intent);
+
+                }
+            });
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                     this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -176,6 +219,7 @@ public class HomeActivity extends AppCompatActivity
             /*View view=navigationView.inflateHeaderView(R.layout.nav_header_main);*/
             UploadImageOnServerButton = (Button) header.findViewById(R.id.upload_btn);
             lblImage = (ImageView) header.findViewById(R.id.profile_image);
+            imageBar = (ProgressBar) header.findViewById(R.id.profile_bar);
             lblName = (TextView) header.findViewById(R.id.username);
             lblEmail = (TextView) header.findViewById(R.id.email);
             byteArrayOutputStream = new ByteArrayOutputStream();
@@ -201,22 +245,29 @@ public class HomeActivity extends AppCompatActivity
                             5);
                 }
             }
-            lblName.setText(name);
+            if(user_type.equals("Admin"))
+                lblName.setText(name+"(Admin)");
+            else
+                lblName.setText(name);
             lblEmail.setText(email);
             // profile_picture=profile_picture.replace("\\","");
-            if (!profile_picture.isEmpty())
-                new ImageLoadTask(profile_picture, lblImage).execute();
-            //profile_picture=profile_picture.replace("\\","");
-            // lblImage.setImageBitmap(getBitmapFromURL("http://www.earthfoundation.in/EF/Uploads/Nayan%20Dhawas.jpg"));
 
-            loadTreeDetails();
+            if (!profile_picture.isEmpty()) {
+                new ImageLoadTask(profile_picture, lblImage, imageBar).execute();
+                //profile_picture=profile_picture.replace("\\","");
+                // lblImage.setImageBitmap(getBitmapFromURL("http://www.earthfoundation.in/EF/Uploads/Nayan%20Dhawas.jpg"));
+            } else{
+                imageBar.setVisibility(View.GONE);
+            }
+
+
             new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
                         //  call the constructor of CustomAdapter to send the reference and data to Adapter
                         notificationShow();
                     }
-                }, 10000);
+                }, 5000);
         }
     }
 
@@ -262,53 +313,41 @@ public class HomeActivity extends AppCompatActivity
         lblTreesPlanted = (TextView) findViewById(R.id.trees_planted);
         lblContribution = (TextView) findViewById(R.id.plantation_contribution);
         lblTokensEarned = (TextView) findViewById(R.id.tokens_earned);
-        String type = "GetIntValues";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
-        backgroundWorker.delegate = this;
-        backgroundWorker.execute(type, email);
 
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        //  call the constructor of CustomAdapter to send the reference and data to Adapter
-                        lblTreesPlanted.setText(treesPlanted);
-                        lblContribution.setText(contribution);
-                        lblTokensEarned.setText(tokensEarned);
-                    }
-                }, 3000);
+        String type = "GetIntValues";
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
+        backgroundWorker.delegate = this;
+        backgroundWorker.execute(email);
+
+//        new android.os.Handler().postDelayed(
+//                new Runnable() {
+//                    public void run() {
+//                        //  call the constructor of CustomAdapter to send the reference and data to Adapter
+//                        lblTreesPlanted.setText(treesPlanted);
+//                        lblContribution.setText(contribution);
+//                        lblTokensEarned.setText(tokensEarned);
+//                    }
+//                }, 2000);
     }
 
 
     @Override
-    public void processFinish(String type,String output) {
+    public void processFinish(String output) {
         //Here you will receive the result fired from async class
         //of onPostExecute(result) method.
         try {
-
-            if (type.equals("GetIntValues")) {
-                output = output.replace("[", "");
-                output = output.replace("]", "");
-                // Toast.makeText(getBaseContext(),output,   Toast.LENGTH_LONG).show();
-                JSONObject reader = new JSONObject(output);
-                treesPlanted = reader.getString("treesPlanted");
-                contribution = reader.getString("contribution");
-                tokensEarned = Integer.toString(Integer.valueOf(contribution) * 5);
-            } else if(type.equals("GetTreeData")){
-                JSONArray userArray = new JSONArray(output);
-                for (int i = 0; i < userArray.length(); i++) {
-                    // create a JSONObject for fetching single user data
-                    JSONObject userDetail = userArray.getJSONObject(i);
-                    // fetch email and name and store it in arraylist
-                    updateStatusList.add(userDetail.getString("updateStatus"));
-                    treeNamesList.add(userDetail.getString("treeName"));
-                    treeAddressList.add(userDetail.getString("treeAddress"));
-                    plantDateList.add(userDetail.getString("plantDate"));
-                    updatedDateList.add(userDetail.getString("updatedDate"));
-                    treeImageList.add(userDetail.getString("treeImage"));
-
-                }
+            JSONArray userArray = new JSONArray(output);
+            for (int i = 0; i < userArray.length(); i++) {
+                // create a JSONObject for fetching single user data
+                JSONObject userDetail = userArray.getJSONObject(i);
+                // fetch email and name and store it in arraylist
+                updateStatusList.add(userDetail.getString("updateStatus"));
+                treeNamesList.add(userDetail.getString("treeName"));
+                treeAddressList.add(userDetail.getString("treeAddress"));
+                plantDateList.add(userDetail.getString("plantDate"));
+                updatedDateList.add(userDetail.getString("updatedDate"));
+                treeImageList.add(userDetail.getString("treeImage"));
             }
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -320,7 +359,26 @@ public class HomeActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            final ProgressDialog progressDialog1 = new ProgressDialog(HomeActivity.this,
+                    R.style.Theme_AppCompat_Light_Dialog_Alert);
+            AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+            builder.setTitle(R.string.exitnotification);
+            builder.setIcon(R.mipmap.ic_launcher);
+            builder.setMessage("Do you want to exit?")
+                    .setCancelable(false)
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            progressDialog1.onBackPressed();
+                            finish();
+                        }
+                    })
+                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
+            AlertDialog alert = builder.create();
+            alert.show();
         }
     }
 
@@ -362,7 +420,11 @@ public class HomeActivity extends AppCompatActivity
 //                    runOnUiThread(new Runnable() {
 //                        @Override
 //                        public void run() {
+            contribution=lblContribution.getText().toString();
+            tokensEarned=lblTokensEarned.getText().toString();
             Intent intent = new Intent(getApplicationContext(), MyProfileActivity.class);
+            intent.putExtra("contribution",contribution);
+            intent.putExtra("tokensEarned",tokensEarned);
             startActivity(intent);
             //finish();
 //                        }
@@ -381,15 +443,48 @@ public class HomeActivity extends AppCompatActivity
             intent.putStringArrayListExtra("updateStatusList", updateStatusList);
             intent.putStringArrayListExtra("treeImageList", treeImageList);
             startActivity(intent);
-        } else if (id == R.id.nav_contactus) {
+        }
+//        else if (id == R.id.nav_contactus) {
+//
+//        }
+        else if (id == R.id.nav_logout) {
 
-        } else if (id == R.id.nav_logout) {
-
-            session.logoutUser();
-
-        } else if (id == R.id.nav_setting) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+            builder.setTitle(R.string.logoutnotification);
+            builder.setIcon(R.mipmap.ic_launcher);
+            builder.setMessage("Do you want to logout?")
+                    .setCancelable(false)
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            session.logoutUser();
+                            //finish();
+                        }
+                    })
+                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
+            AlertDialog alert = builder.create();
+            alert.show();
 
         }
+
+
+
+//        else if (id == R.id.rateus) {
+//            public void rateMe(View  view;
+//            view) {
+//                try {
+//                    startActivity(new Intent(Intent.ACTION_VIEW,
+//                            Uri.parse("market://details?id=" + this.getPackageName())));
+//                } catch (android.content.ActivityNotFoundException e) {
+//                    startActivity(new Intent(Intent.ACTION_VIEW,
+//                            Uri.parse("http://play.google.com/store/apps/details?id=" + this.getPackageName())));
+//                }
+//            }
+//
+//       }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -466,14 +561,14 @@ public class HomeActivity extends AppCompatActivity
 
     public void UploadImageToServer() {
         String type = "ImageUpload";
-        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 70, byteArrayOutputStream);
+        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
         byteArray = byteArrayOutputStream.toByteArray();
         ConvertImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
         String url_name = name.replace(" ", "_");
-        backgroundWorker.execute(type, ImageTag, url_name, ImageName, ConvertImage, email);
+        backgroundWorker.execute(ImageTag, url_name, ImageName, ConvertImage, email);
         UploadImageOnServerButton.setVisibility(View.GONE);
-        session.createUserLoginSession(name, email, "http://earthfoundation.in/EF/Uploads/UserProfilePictures/" + url_name + ".jpg");
+        session.createUserLoginSession(name, email, "http://earthfoundation.in/EF/Uploads/UserProfilePictures/" + url_name + ".jpg",user_type);
     }
 
     @Override
@@ -539,7 +634,7 @@ public class HomeActivity extends AppCompatActivity
 
 //Set circle indicator radius
         indicator.setRadius(5 * density);
-        NUM_PAGES = urls.length;
+        NUM_PAGES = urls.size();
 
         // Auto start of viewpager
         final Handler handler = new Handler();
@@ -580,9 +675,9 @@ public class HomeActivity extends AppCompatActivity
 
     public void loadTreeDetails() {
         String type = "GetTreeData";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
         backgroundWorker.delegate = this;
-        backgroundWorker.execute(type, email);
+        backgroundWorker.execute(email);
 //        new android.os.Handler().postDelayed(
 //                new Runnable() {
 //                    public void run() {

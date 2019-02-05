@@ -1,9 +1,16 @@
 package com.project.EarthFoundation;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.lang.StringBuilder;
 import java.io.BufferedReader;
@@ -27,19 +34,24 @@ import java.util.Map;
 public class BackgroundWorker extends AsyncTask<String,Void,String> {
 
     public BackgroundWorkerResponce delegate=null;
-    private String received_type="";
+    private String type;
     Context context;
     boolean check = true;
     AlertDialog alertDialog;
+    ProgressDialog progressDialog;
     int RC ;
-    BackgroundWorker (Context ctx) {
+    ProgressBar homeBar;
+
+    BackgroundWorker (Context ctx,String received_type) {
         context = ctx;
+        type=received_type;
     }
     @Override
     protected String doInBackground(String... params) {
 
-        String type = params[0];
-        received_type=type;
+//        String type = params[0];
+//        received_type=type;
+
         String login_url = "http://www.earthfoundation.in/EF/login.php";
         String signup_url = "http://www.earthfoundation.in/EF/register.php";
         String imageUpload_url="http://www.earthfoundation.in/EF/imageupload.php";
@@ -50,8 +62,8 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
         String getIntValues_url="http://www.earthfoundation.in/EF/getintvalues.php";
         if(type.equals("login")) {
             try {
-                String user_name = params[1];
-                String password = params[2];
+                String user_name = params[0];
+                String password = params[1];
                 URL url = new URL(login_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
@@ -72,11 +84,20 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while((line = bufferedReader.readLine())!= null) {
                     result.append(line+"\n");
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
 
-                return result.toString().trim();
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+
+                    return result.toString().trim();
+                }else{
+                    return "NotConnected";
+
+                }
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -84,15 +105,10 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("register")) {
             try {
-                String fname = params[1];
-                String lname = params[2];
-                String password = params[9];
-                String mobile = params[8];
-                String email = params[7];
-                String address = params[3];
-                String city = params[4];
-                String aadhar = params[6];
-                String pin = params[5];
+                String fname = params[0];
+                String lname = params[1];
+                String password = params[3];
+                String email = params[2];
 
                 URL url = new URL(signup_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
@@ -104,12 +120,8 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 String post_data = URLEncoder.encode("fname","UTF-8")+"="+URLEncoder.encode(fname,"UTF-8")+"&"
                         + URLEncoder.encode("lname","UTF-8")+"="+URLEncoder.encode(lname,"UTF-8")+"&"
                         + URLEncoder.encode("password","UTF-8")+"="+URLEncoder.encode(password,"UTF-8")+"&"
-                        + URLEncoder.encode("mobile","UTF-8")+"="+URLEncoder.encode(mobile,"UTF-8")+"&"
                         + URLEncoder.encode("email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8")+"&"
-                        + URLEncoder.encode("address","UTF-8")+"="+URLEncoder.encode(address,"UTF-8")+"&"
-                        + URLEncoder.encode("city","UTF-8")+"="+URLEncoder.encode(city,"UTF-8")+"&"
-                        + URLEncoder.encode("aadhar","UTF-8")+"="+URLEncoder.encode(aadhar,"UTF-8")+"&"
-                        + URLEncoder.encode("pin","UTF-8")+"="+URLEncoder.encode(pin,"UTF-8");
+                        + URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(type,"UTF-8");
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
                 bufferedWriter.close();
@@ -122,10 +134,72 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while(( line= bufferedReader.readLine())!= null) {
                     result += line;
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-                return result;
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result;
+                }else{
+                    return "NotConnected";
+                }
+
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }else if(type.equals("updateProfile")) {
+            try {
+                String phoneNo = params[0];
+                String country = params[1];
+                String state = params[2];
+                String city = params[3];
+                String pincode = params[4];
+                String aadhar = params[5];
+                String email = params[6];
+
+                URL url = new URL(signup_url);
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+                String post_data = URLEncoder.encode("phoneNo","UTF-8")+"="+URLEncoder.encode(phoneNo,"UTF-8")+"&"
+                        + URLEncoder.encode("country","UTF-8")+"="+URLEncoder.encode(country,"UTF-8")+"&"
+                        + URLEncoder.encode("state","UTF-8")+"="+URLEncoder.encode(state,"UTF-8")+"&"
+                        + URLEncoder.encode("city","UTF-8")+"="+URLEncoder.encode(city,"UTF-8")+"&"
+                        + URLEncoder.encode("pincode","UTF-8")+"="+URLEncoder.encode(pincode,"UTF-8")+"&"
+                        + URLEncoder.encode("aadhar","UTF-8")+"="+URLEncoder.encode(aadhar,"UTF-8")+"&"
+                        + URLEncoder.encode("email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8")+"&"
+                        + URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(type,"UTF-8");
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,"iso-8859-1"));
+                String result="";
+                String line="";
+
+                while(( line= bufferedReader.readLine())!= null) {
+                    result += line;
+                }
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result;
+                }else{
+                    return "NotConnected";
+                }
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -133,11 +207,11 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("ImageUpload")){
             try{
-                String ImageTag=params[1];
-                String GetImageNameFromEditText=params[2];
-                String ImageName=params[3];
-                String ConvertImage=params[4];
-                String email=params[5];
+                String ImageTag=params[0];
+                String GetImageNameFromEditText=params[1];
+                String ImageName=params[2];
+                String ConvertImage=params[3];
+                String email=params[4];
                 HashMap<String, String> HashMapParams = new HashMap<String, String>();
                 HashMapParams.put(ImageTag, GetImageNameFromEditText);
                 HashMapParams.put(ImageName, ConvertImage);
@@ -163,20 +237,28 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                     stringBuilder.append(URLEncoder.encode(KEY.getValue(), "UTF-8"));
                 }
                 bufferedWriter.write(stringBuilder.toString());
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                StringBuilder result = new StringBuilder();
-                String line;
-                RC = httpURLConnection.getResponseCode();
-                if (RC == HttpURLConnection.HTTP_OK) {
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
 
-                    while ((line = bufferedReader.readLine()) != null){
-                        result.append(line);
+                    bufferedWriter.flush();
+                    bufferedWriter.close();
+                    outputStream.close();
+                    StringBuilder result = new StringBuilder();
+                    String line;
+                    RC = httpURLConnection.getResponseCode();
+                    if (RC == HttpURLConnection.HTTP_OK) {
+                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+
+                        while ((line = bufferedReader.readLine()) != null){
+                            result.append(line);
+                        }
                     }
+                    return result.toString();
+                }else{
+                    return "NotConnected";
                 }
-                return result.toString();
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -184,22 +266,26 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("TreeDataUpload")){
             try{
-                String TreeName=params[1];
-                String Latitude=params[2];
-                String Longitude=params[3];
-                String PlantTime=params[4];
+                String TreeName=params[0];
+                String Latitude=params[1];
+                String Longitude=params[2];
+                String InMemoryOf=params[3];
+                String Relation=params[4];
                 String PlantDate=params[5];
                 String TreeAddress=params[6];
-                String ImageData=params[7];
-                String ImageName=params[8];
-                String email=params[9];
+                String Landmark=params[7];
+                String ImageData=params[8];
+                String ImageName=params[9];
+                String email=params[10];
                 HashMap<String, String> HashMapParams = new HashMap<String, String>();
                 HashMapParams.put("TreeName", TreeName);
                 HashMapParams.put("Latitude", Latitude);
                 HashMapParams.put("Longitude", Longitude);
-                HashMapParams.put("PlantTime", PlantTime);
+                HashMapParams.put("InMemoryOf", InMemoryOf);
+                HashMapParams.put("Relation", Relation);
                 HashMapParams.put("PlantDate", PlantDate);
                 HashMapParams.put("TreeAddress", TreeAddress);
+                HashMapParams.put("Landmark", Landmark);
                 HashMapParams.put("ImageData", ImageData);
                 HashMapParams.put("ImageName", ImageName);
                 HashMapParams.put("email", email);
@@ -224,20 +310,28 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                     stringBuilder.append(URLEncoder.encode(KEY.getValue(), "UTF-8"));
                 }
                 bufferedWriter.write(stringBuilder.toString());
-                bufferedWriter.flush();
-                bufferedWriter.close();
-                outputStream.close();
-                StringBuilder result = new StringBuilder();
-                String line;
-                RC = httpURLConnection.getResponseCode();
-                if (RC == HttpURLConnection.HTTP_OK) {
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
 
-                    while ((line = bufferedReader.readLine()) != null){
-                        result.append(line);
+                    bufferedWriter.flush();
+                    bufferedWriter.close();
+                    outputStream.close();
+                    StringBuilder result = new StringBuilder();
+                    String line;
+                    RC = httpURLConnection.getResponseCode();
+                    if (RC == HttpURLConnection.HTTP_OK) {
+                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+
+                        while ((line = bufferedReader.readLine()) != null){
+                            result.append(line);
+                        }
                     }
+                    return result.toString();
+                }else{
+                    return "NotConnected";
                 }
-                return result.toString();
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -245,7 +339,7 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("ForgotPassword")){
             try {
-                String email = params[1];
+                String email = params[0];
                 URL url = new URL(forgotPassword_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
@@ -265,10 +359,19 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while((line = bufferedReader.readLine())!= null) {
                     result.append(line+"\n");
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-                return result.toString().trim();
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result.toString().trim();
+                }else{
+                    return "NotConnected";
+                }
+
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -276,8 +379,8 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("ChangePassword")){
             try {
-                String email = params[1];
-                String password = params[2];
+                String email = params[0];
+                String password = params[1];
 
                 URL url = new URL(changePassword_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
@@ -300,10 +403,18 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while(( line= bufferedReader.readLine())!= null) {
                     result += line;
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-                return result;
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result;
+                }else{
+                    return "NotConnected";
+                }
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -312,7 +423,7 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
         }
         else if(type.equals("GetTreeData")){
             try {
-                String email = params[1];
+                String email = params[0];
                 URL url = new URL(gettreedata_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
@@ -332,10 +443,17 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while((line = bufferedReader.readLine())!= null) {
                     result.append(line+"\n");
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-                return result.toString().trim();
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result.toString().trim();
+                }else{
+                    return "NotConnected";
+                }
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -343,7 +461,7 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             }
         }else if(type.equals("GetIntValues")) {
             try {
-                String email = params[1];
+                String email = params[0];
                 URL url = new URL(getIntValues_url);
                 HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
                 httpURLConnection.setRequestMethod("POST");
@@ -363,10 +481,58 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 while((line = bufferedReader.readLine())!= null) {
                     result.append(line+"\n");
                 }
-                bufferedReader.close();
-                inputStream.close();
-                httpURLConnection.disconnect();
-                return result.toString().trim();
+                int responseCode = httpURLConnection.getResponseCode();
+
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result.toString().trim();
+                }else{
+                    return "NotConnected";
+                }
+
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }else if(type.equals("getProfile")){
+            try {
+                String email = params[0];
+                URL url = new URL(signup_url);
+                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+                String post_data = URLEncoder.encode("email","UTF-8")+"="+URLEncoder.encode(email,"UTF-8")+"&"
+                        + URLEncoder.encode("type","UTF-8")+"="+URLEncoder.encode(type,"UTF-8");
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,"iso-8859-1"));
+                String line="";
+                StringBuilder result = new StringBuilder();
+                while((line = bufferedReader.readLine())!= null) {
+                    result.append(line+"\n");
+                }
+                int responseCode = httpURLConnection.getResponseCode();
+                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
+                    // response code is OK
+                    bufferedReader.close();
+                    inputStream.close();
+                    httpURLConnection.disconnect();
+                    return result.toString().trim();
+                }else{
+                    return "NotConnected";
+                }
+
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -379,39 +545,108 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
-//        if(received_type.equals("TreeDataUpload")) {
-//            final ProgressDialog progressDialog = new ProgressDialog(context,
-//                    R.style.Theme_AppCompat_Light_Dialog);
-//            progressDialog.setMessage("Authenticating...");
-//            progressDialog.setIndeterminate(true);
-//            progressDialog.show();
-//        }
+        alertDialog = new AlertDialog.Builder(context).create();
+        alertDialog.setTitle("Oops!");
+        alertDialog.setMessage("Check your internet connection");
+//        alertDialog = new AlertDialog.Builder(context).create();
+//        alertDialog.setTitle("Login Status");
+        progressDialog = new ProgressDialog(context,
+                R.style.Theme_AppCompat_Light_Dialog_Alert);
+        progressDialog.setMessage("Loading");
+        progressDialog.setIndeterminate(true);
+        if(type.equals("GetIntValues")) {
+            progressDialog.setTitle("Please wait till we get things ready for you");
+            progressDialog.show();
+        }else if(type.equals("getProfile")) {
+//            progressDialog.setTitle("Please wait till we get things ready for you");
+            progressDialog.show();
+        }
     }
 
     @Override
     protected void onPostExecute(String result) {
         super.onPostExecute(result);
         //Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
-        if(received_type.equals("login")){
-            if(!result.isEmpty())
-                delegate.processFinish(received_type,result);
+        if(type.equals("login")){
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                delegate.processFinish(result);
         }
-        else if(received_type.equals("register")){
-            if(!result.isEmpty())
-                delegate.processFinish(received_type,result);
+        else if(type.equals("register")){
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                delegate.processFinish(result);
         }
-        else if(received_type.equals("ForgotPassword")){
-            if(!result.isEmpty())
-                delegate.processFinish(received_type,result);
+        else if(type.equals("ForgotPassword")){
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                delegate.processFinish(result);
         }
-        else if(received_type.equals("GetTreeData")){
-            if(!result.isEmpty())
-                delegate.processFinish(received_type,result);
+        else if(type.equals("GetTreeData")){
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                delegate.processFinish(result);
         }
-        else if(received_type.equals("GetIntValues")){
-            if(!result.isEmpty())
-                delegate.processFinish(received_type,result);
-        }else if(received_type.equals("TreeDataUpload")) {
+        else if(type.equals("GetIntValues")){
+            if(result.equals("NotConnected")){
+                progressDialog.dismiss();
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                try {
+                    result = result.replace("[", "");
+                    result = result.replace("]", "");
+                    // Toast.makeText(getBaseContext(),output,   Toast.LENGTH_LONG).show();
+                    JSONObject reader = new JSONObject(result);
+                    String treesPlanted = reader.getString("treesPlanted");
+                    String contribution = reader.getString("contribution");
+                    String tokensEarned = Integer.toString(Integer.valueOf(contribution) * 5);
+                    TextView lblTreesPlanted = (TextView) ((Activity)context).findViewById(R.id.trees_planted);
+                    lblTreesPlanted.setText(treesPlanted);
+                    TextView lblContribution = (TextView) ((Activity)context).findViewById(R.id.plantation_contribution);
+                    lblContribution.setText(contribution);
+                    TextView lblTokensEarned = (TextView) ((Activity)context).findViewById(R.id.tokens_earned);
+                    lblTokensEarned.setText(tokensEarned);
+                    progressDialog.dismiss();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+        }else if(type.equals("getProfile")) {
+            if(result.equals("NotConnected")){
+                progressDialog.dismiss();
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                try {
+                    result = result.replace("[", "");
+                    result = result.replace("]", "");
+                    // Toast.makeText(getBaseContext(),output,   Toast.LENGTH_LONG).show();
+                    JSONObject reader = new JSONObject(result);
+                    String cntno = reader.getString("cntno");
+                    String country = reader.getString("country");
+                    String state = reader.getString("state");
+                    String city = reader.getString("city");
+                    String aadharno = reader.getString("aadharno");
+                    String pincode = reader.getString("pincode");
+
+                    EditText lblcntno = (EditText) ((Activity)context).findViewById(R.id.phoneNo);
+                    lblcntno.setText(cntno);
+                    EditText lblcountry = (EditText) ((Activity)context).findViewById(R.id.country);
+                    lblcountry.setText(country);
+                    EditText lblstate = (EditText) ((Activity)context).findViewById(R.id.state);
+                    lblstate.setText(state);
+                    EditText lblcity = (EditText) ((Activity)context).findViewById(R.id.city);
+                    lblcity.setText(city);
+                    EditText lblaadharno = (EditText) ((Activity)context).findViewById(R.id.aadhar);
+                    lblaadharno.setText(aadharno);
+                    EditText lblpincode = (EditText) ((Activity)context).findViewById(R.id.pincode);
+                    lblpincode.setText(pincode);
+                    progressDialog.dismiss();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
         }
 //        alertDialog.setMessage(result);
 //        alertDialog.show();

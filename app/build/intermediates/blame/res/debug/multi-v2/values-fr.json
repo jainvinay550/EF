@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-fr\\values-fr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,1917",
-                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
-                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,1998"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,108",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,12032",
-                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
-                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,12113"
-                    }
-                },
-                {
                     "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\799469649bca31fb750232a3e6e13c45\\res\\values-fr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38",
@@ -55,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\998a9376a6b7d038d2b6316173ffa726\\res\\values-fr\\values-fr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "109",
-                        "startColumns": "4",
-                        "startOffsets": "12118",
-                        "endColumns": "100",
-                        "endOffsets": "12214"
-                    }
-                },
-                {
                     "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-12.0.1.aar\\b2f9ce5747c1bd7643ae9bf5b37aab2c\\res\\values-fr\\values.xml",
                     "from": {
                         "startLines": "4,5",
@@ -98,11 +64,11 @@
                         "endOffsets": "275,400,466,531,617,728,798"
                     },
                     "to": {
-                        "startLines": "101,102,103,104,105,106,107",
+                        "startLines": "106,107,108,109,110,111,112",
                         "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "11404,11485,11614,11684,11753,11843,11958",
+                        "startOffsets": "11860,11941,12070,12140,12209,12299,12414",
                         "endColumns": "80,128,69,68,89,114,73",
-                        "endOffsets": "11480,11609,11679,11748,11838,11953,12027"
+                        "endOffsets": "11936,12065,12135,12204,12294,12409,12483"
                     }
                 },
                 {
@@ -123,6 +89,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\android-rate-1.0.1.aar\\251dc3fc9e0bba5808baac5428b24bdd\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "187,256,452,506,568",
+                        "endColumns": "68,195,53,61,74",
+                        "endOffsets": "251,447,501,563,638"
+                    },
+                    "to": {
+                        "startLines": "101,102,103,104,105",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "11404,11473,11669,11723,11785",
+                        "endColumns": "68,195,53,61,74",
+                        "endOffsets": "11468,11664,11718,11780,11855"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\1a972ef4bfdefa91c8b77634a1dad3d8\\res\\values-fr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -140,6 +123,57 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.1.aar\\3c53cadf434498b9241ed066a88ced6c\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "103",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "115",
+                        "startColumns": "4",
+                        "startOffsets": "12675",
+                        "endColumns": "107",
+                        "endOffsets": "12778"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,1917",
+                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
+                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,1998"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,113",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,331,442,524,630,760,843,923,1009,1119,1231,1334,1445,1552,1659,1818,12488",
+                        "endColumns": "110,114,110,81,105,129,82,79,85,109,111,102,110,106,106,158,98,85",
+                        "endOffsets": "211,326,437,519,625,755,838,918,1004,1114,1226,1329,1440,1547,1654,1813,1912,12569"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\998a9376a6b7d038d2b6316173ffa726\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "114",
+                        "startColumns": "4",
+                        "startOffsets": "12574",
+                        "endColumns": "100",
+                        "endOffsets": "12670"
+                    }
+                },
+                {
                     "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\6b1ece9a21cb12d4a39fc5cc81f7e3e8\\res\\values-fr\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -154,23 +188,6 @@
                         "startOffsets": "7220",
                         "endColumns": "223",
                         "endOffsets": "7439"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.1.aar\\3c53cadf434498b9241ed066a88ced6c\\res\\values-fr\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "202",
-                        "endColumns": "103",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "110",
-                        "startColumns": "4",
-                        "startOffsets": "12219",
-                        "endColumns": "107",
-                        "endOffsets": "12322"
                     }
                 },
                 {

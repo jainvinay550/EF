@@ -21,6 +21,8 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.provider.Settings;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.widget.Toolbar;
+import android.text.InputType;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -65,13 +67,13 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
 
     //insertion fields
     ImageView lblTreeImage;
-    EditText lblTreeName,lblTreeAddress;
+    EditText lblTreeName,lblTreeAddress,lblInMemoryOf,lblRelation,lblLandmark;
     Button lblSelectImage,lblSubmit,lblCancel;
     Bitmap FixBitmap;
     ByteArrayOutputStream byteArrayOutputStream ;
     byte[] byteArray ;
     String ConvertImage ;
-    String GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetTimeValue,GetDateValue,GetAddressValue;
+    String GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetInMemoryOfValue,GetRelationValue,GetDateValue,GetAddressValue,GetLandmarkValue;
     String email;
     boolean check = true;
     private int GALLERY = 1, CAMERA = 2;
@@ -90,10 +92,12 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
 
         tvLatitude = (TextView) findViewById(R.id.tvLatitude);
         tvLongitude = (TextView) findViewById(R.id.tvLongitude);
-        tvTime = (TextView) findViewById(R.id.tvTime);
+        lblInMemoryOf = (EditText) findViewById(R.id.InMemory);
+        lblRelation = (EditText) findViewById(R.id.relation);
         lblTreeImage=(ImageView) findViewById(R.id.tree_image);
         lblTreeName=(EditText) findViewById(R.id.tree_name);
         lblTreeAddress=(EditText) findViewById(R.id.tree_address);
+        lblLandmark=(EditText) findViewById(R.id.tree_landmark);
         lblSubmit=(Button) findViewById(R.id.btnSubmit);
         lblSelectImage=(Button) findViewById(R.id.select_image);
 
@@ -138,15 +142,30 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
                     GetTreeNameFromEditText=lblTreeName.getText().toString();
                     GetLatitudeValue=tvLatitude.getText().toString();
                     GetLongitudeValue=tvLongitude.getText().toString();
-                    GetTimeValue=tvTime.getText().toString();
+                    GetInMemoryOfValue=lblInMemoryOf.getText().toString();
+                    GetRelationValue=lblRelation.getText().toString();
                     GetDateValue=date.getText().toString();
                     GetAddressValue=lblTreeAddress.getText().toString();
+                    GetLandmarkValue=lblLandmark.getText().toString();
                     UploadTreeData();
                 }
             });
         }
         datePicker();
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
     }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -241,13 +260,13 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
 
         String type="TreeDataUpload";
         int Unique_tree_Number=(int) ((new Date().getTime() / 1000L) % Integer.MAX_VALUE);
-        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 60, byteArrayOutputStream);
+        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
         byteArray = byteArrayOutputStream.toByteArray();
         ConvertImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
-        BackgroundWorker backgroundWorker=new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker=new BackgroundWorker(this,type);
         String imageName=GetTreeNameFromEditText;
         imageName=imageName.replace(" ","")+String.valueOf(Unique_tree_Number);;
-        backgroundWorker.execute(type,GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetTimeValue,GetDateValue,GetAddressValue,ConvertImage,imageName,email);
+        backgroundWorker.execute(GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetInMemoryOfValue,GetRelationValue,GetDateValue,GetAddressValue,GetLandmarkValue,ConvertImage,imageName,email);
         new android.os.Handler().postDelayed(
                 new Runnable() {
                     public void run() {
@@ -266,8 +285,10 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
     public void datePicker(){
         // initiate the date picker and a button
         date = (EditText) findViewById(R.id.date);
+
         // perform click event on edit text
-        date.setOnClickListener(new View.OnClickListener() {
+        date.setInputType(InputType.TYPE_NULL);
+                date.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // calender class's instance and get current date , month and year from calender
@@ -479,7 +500,6 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
         Log.d(TAG, "updateUI");
         tvLatitude.setText(Double.toString(loc.getLatitude()));
         tvLongitude.setText(Double.toString(loc.getLongitude()));
-        tvTime.setText(DateFormat.getTimeInstance().format(loc.getTime()));
     }
 
     @Override

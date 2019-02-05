@@ -66,9 +66,9 @@ public class forgotchangepassword extends AppCompatActivity {
         // TODO: Implement your own forgotpassword logic here.
 
         String type = "ChangePassword";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this);
+        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
 
-        backgroundWorker.execute(type, email,newPassword);
+        backgroundWorker.execute(email,newPassword);
 
         new android.os.Handler().postDelayed(
                 new Runnable() {
@@ -76,7 +76,7 @@ public class forgotchangepassword extends AppCompatActivity {
                         //
                         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                         startActivity(intent);
-
+                        finish();
                         progressDialog.dismiss();
                     }
                 }, 2000);
@@ -87,6 +87,13 @@ public class forgotchangepassword extends AppCompatActivity {
 
         _forgotPassButton.setEnabled(true);
     }
+
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+        finish();
+    }
+
     public boolean validate() {
         boolean valid = true;
 

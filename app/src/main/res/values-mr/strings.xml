@@ -17,8 +17,8 @@
     <string name="InMemoryOf">च्या स्मृती मध्ये</string>
     <string name="Relation">संबंध</string>
     <string name="PlantDate">रोपाची तारीख</string>
-    <string name="Address">रोपाची तारीख</string>
-    <string name="Lanmark">रोपाची तारीख</string>
+    <string name="Address">पत्ता</string>
+    <string name="Lanmark">मार्गदर्शक खूण</string>
     <string name="Image">प्रतिमा</string>
     <!--hint page -->
     <string name="FirstName">पहिले नाव</string>
@@ -79,4 +79,25 @@
 
     <string name="selected_lang">मराठी</string>
 
+    <!--Profile-->
+    <string name="phoneNo">दूरध्वनी क्रमांक</string>
+    <string name="country">देश</string>
+    <string name="state">राज्य</string>
+    <string name="city">शहर</string>
+    <string name="pincode">पिन कोड</string>
+    <string name="aadhar">पिन कोड</string>
+    <string name="trees">झाडं</string>
+    <string name="token">टोकन</string>
+
+    <string name="rateus">आम्हाला रेट करा</string>
+
+    <string name="logoutnotification">Logout Notification</string>
+    <string name="exitnotification">Exit Notification</string>
+
+    <!--rate us-->
+    <string name="rate_dialog_title">हे अॅप रेट करा</string>
+    <string name="rate_dialog_message">कृपया हे अँप रेट करून आम्हाला मदत करा,आपल्या समर्थनाबद्दल धन्यवाद!</string>
+    <string name="rate_dialog_ok">रेट करा</string>
+    <string name="rate_dialog_cancel">नंतर आठवण करून देणे</string>
+    <string name="rate_dialog_no">नाही, धन्यवाद </string>
 </resources>

@@ -46,6 +46,12 @@ public class Language extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+        finish();
+    }
+
     private void showChangeLanguageDialog() {
 
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(Language.this);

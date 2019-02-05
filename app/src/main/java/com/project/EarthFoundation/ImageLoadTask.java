@@ -7,17 +7,21 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import android.graphics.Bitmap;
+import android.view.View;
 import android.widget.ImageView;
 import android.graphics.BitmapFactory;
+import android.widget.ProgressBar;
 
 public class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
 
     private String url;
     private ImageView imageView;
+    private ProgressBar progressBar;
 
-    public ImageLoadTask(String url, ImageView imageView) {
+    public ImageLoadTask(String url, ImageView imageView,ProgressBar progressBar) {
         this.url = url;
         this.imageView = imageView;
+        this.progressBar = progressBar;
     }
 
     @Override
@@ -41,6 +45,7 @@ public class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
     protected void onPostExecute(Bitmap result) {
         super.onPostExecute(result);
         imageView.setImageBitmap(result);
+        progressBar.setVisibility(View.GONE);
     }
 
 }

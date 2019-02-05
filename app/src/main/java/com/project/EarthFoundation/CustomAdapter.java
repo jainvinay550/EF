@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,7 +54,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         holder.treeName.setText(treeNameList.get(position));
         holder.treeAddress.setText(treeAddressList.get(position));
         holder.plantDate.setText(plantDateList.get(position));
-        new ImageLoadTask(treeImageList.get(position), holder.treeImage).execute();
+        new ImageLoadTask(treeImageList.get(position), holder.treeImage,holder.imageBar).execute();
 
         // implement setOnClickListener event on item view.
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -82,6 +83,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
     public class MyViewHolder extends RecyclerView.ViewHolder {
         TextView treeName, treeAddress, plantDate, updateStatus;// init the item view's
         ImageView treeImage;
+        ProgressBar imageBar;
         public MyViewHolder(View itemView) {
             super(itemView);
 
@@ -91,6 +93,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
             treeAddress = (TextView) itemView.findViewById(R.id.tree_Address);
             plantDate = (TextView) itemView.findViewById(R.id.plant_Date);
             treeImage = (ImageView) itemView.findViewById(R.id.tree_image);
+            imageBar = (ProgressBar) itemView.findViewById(R.id.tree_bar);
 
         }
     }

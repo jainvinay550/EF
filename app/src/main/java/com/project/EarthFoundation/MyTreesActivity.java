@@ -1,10 +1,12 @@
 package com.project.EarthFoundation;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 
 import java.util.ArrayList;
 
@@ -36,5 +38,23 @@ public class MyTreesActivity extends AppCompatActivity {
             CustomAdapter customAdapter = new CustomAdapter(MyTreesActivity.this, treeNamesList, treeAddressList, plantDateList, updatedDateList, updateStatusList, treeImageList);
             recyclerView.setAdapter(customAdapter); // set the Adapter to RecyclerView
         }
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+        finish();
     }
 }

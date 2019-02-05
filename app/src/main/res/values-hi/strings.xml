@@ -80,4 +80,26 @@
 
     <string name="selected_lang">हिंदी</string>
 
+    <!--Profile-->
+    <string name="phoneNo">फोन नंबर</string>
+    <string name="country">देश</string>
+    <string name="state">राज्य</string>
+    <string name="city">शहर</string>
+    <string name="pincode">पिन कोड</string>
+    <string name="aadhar">आधार नंबर</string>
+    <string name="trees">पेड़</string>
+    <string name="token">टोकन</string>
+
+    <string name="logoutnotification">Logout Notification</string>
+    <string name="exitnotification">Exit Notification</string>
+
+    <string name="rateus">हमें रेटिंग दें</string>
+
+    <!--Rate us -->
+    <string name="rate_dialog_title">हमें रेट करे </string>
+    <string name="rate_dialog_message">कृपया इस ऐप को रेटिंग देकर हमारी मदद करें, आपके समर्थन के लिए धन्यवाद!</string>
+    <string name="rate_dialog_ok">रेट करे </string>
+    <string name="rate_dialog_cancel">बाद में याद करवाए</string>
+    <string name="rate_dialog_no">नहीं, धन्यवाद </string>
+
 </resources>

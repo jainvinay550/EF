@@ -267,19 +267,19 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
         String imageName=GetTreeNameFromEditText;
         imageName=imageName.replace(" ","")+String.valueOf(Unique_tree_Number);;
         backgroundWorker.execute(GetTreeNameFromEditText,GetLatitudeValue,GetLongitudeValue,GetInMemoryOfValue,GetRelationValue,GetDateValue,GetAddressValue,GetLandmarkValue,ConvertImage,imageName,email);
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
-                        startActivity(intent);
-                        finish();
-                        progressDialog.dismiss();
-                        Toast.makeText(getApplicationContext(),
-                    "Tree Planted",
-                    Toast.LENGTH_LONG).show();
-
-                    }
-                }, 2000);
+//        new android.os.Handler().postDelayed(
+//                new Runnable() {
+//                    public void run() {
+//                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+//                        startActivity(intent);
+//                        finish();
+//                        progressDialog.dismiss();
+//////                        Toast.makeText(getApplicationContext(),
+//////                    "Tree Planted",
+////                    Toast.LENGTH_LONG).show();
+//
+//                    }
+//                }, 2000);
     }
 
     public void datePicker(){
@@ -511,7 +511,7 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
     }
 
     public void onSubmitFailed() {
-        Toast.makeText(getBaseContext(), "Data load failed", Toast.LENGTH_LONG).show();
+        Toast.makeText(getBaseContext(), "Unable to submit, Please check all the fields", Toast.LENGTH_LONG).show();
 
 //        _signupButton.setEnabled(true);
     }

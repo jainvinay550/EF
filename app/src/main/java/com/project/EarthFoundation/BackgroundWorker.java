@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import android.widget.Toast;
 
 import java.lang.StringBuilder;
 import java.io.BufferedReader;
@@ -237,28 +239,21 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                     stringBuilder.append(URLEncoder.encode(KEY.getValue(), "UTF-8"));
                 }
                 bufferedWriter.write(stringBuilder.toString());
-                int responseCode = httpURLConnection.getResponseCode();
-                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
-                    // response code is OK
 
-                    bufferedWriter.flush();
-                    bufferedWriter.close();
-                    outputStream.close();
-                    StringBuilder result = new StringBuilder();
-                    String line;
-                    RC = httpURLConnection.getResponseCode();
-                    if (RC == HttpURLConnection.HTTP_OK) {
-                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+                StringBuilder result = new StringBuilder();
+                String line;
+                RC = httpURLConnection.getResponseCode();
+                if (RC == HttpURLConnection.HTTP_OK) {
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
 
-                        while ((line = bufferedReader.readLine()) != null){
-                            result.append(line);
-                        }
+                    while ((line = bufferedReader.readLine()) != null){
+                        result.append(line);
                     }
-                    return result.toString();
-                }else{
-                    return "NotConnected";
                 }
-
+                return result.toString();
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -310,27 +305,22 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                     stringBuilder.append(URLEncoder.encode(KEY.getValue(), "UTF-8"));
                 }
                 bufferedWriter.write(stringBuilder.toString());
-                int responseCode = httpURLConnection.getResponseCode();
-                if(responseCode == 202 || responseCode == 200 || responseCode ==HttpURLConnection.HTTP_OK) {
                     // response code is OK
 
-                    bufferedWriter.flush();
-                    bufferedWriter.close();
-                    outputStream.close();
-                    StringBuilder result = new StringBuilder();
-                    String line;
-                    RC = httpURLConnection.getResponseCode();
-                    if (RC == HttpURLConnection.HTTP_OK) {
-                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+                StringBuilder result = new StringBuilder();
+                String line;
+                RC = httpURLConnection.getResponseCode();
+                if (RC == HttpURLConnection.HTTP_OK) {
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream()));
 
-                        while ((line = bufferedReader.readLine()) != null){
-                            result.append(line);
-                        }
+                    while ((line = bufferedReader.readLine()) != null){
+                        result.append(line);
                     }
-                    return result.toString();
-                }else{
-                    return "NotConnected";
                 }
+                return result.toString();
 
             } catch (MalformedURLException e) {
                 e.printStackTrace();
@@ -552,13 +542,18 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
 //        alertDialog.setTitle("Login Status");
         progressDialog = new ProgressDialog(context,
                 R.style.Theme_AppCompat_Light_Dialog_Alert);
-        progressDialog.setMessage("Loading");
+
         progressDialog.setIndeterminate(true);
         if(type.equals("GetIntValues")) {
+            progressDialog.setMessage("Loading");
             progressDialog.setTitle("Please wait till we get things ready for you");
             progressDialog.show();
         }else if(type.equals("getProfile")) {
 //            progressDialog.setTitle("Please wait till we get things ready for you");
+            progressDialog.setMessage("Loading");
+            progressDialog.show();
+        } else if(type.equals("TreeDataUpload")) {
+            progressDialog.setMessage("Planting..");
             progressDialog.show();
         }
     }
@@ -647,6 +642,20 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
+        }else if(type.equals("ImageUpload")){
+            if(!result.isEmpty())
+                Toast.makeText(context,
+                           "Image Uploaded",
+                            Toast.LENGTH_SHORT).show();
+        }else if(type.equals("TreeDataUpload")){
+            if(!result.isEmpty())
+                progressDialog.dismiss();
+                Toast.makeText(context,
+                        "Tree Planted",
+                        Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(context, HomeActivity.class);
+            context.startActivity(intent);
+
         }
 //        alertDialog.setMessage(result);
 //        alertDialog.show();

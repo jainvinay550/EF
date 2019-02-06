@@ -43,6 +43,8 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
+        SharedPreferences pref = getSharedPreferences("Settings",Activity.MODE_PRIVATE);
+        String language = pref.getString("My Lang","");
 //        ActionBar actionBar = getSupportActionBar();
         Button next = findViewById(R.id.btn_next);
         Button skip = findViewById(R.id.btn_skip);
@@ -68,7 +70,7 @@ public class MainActivity extends Activity {
         });
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
-        expandableListDetail = ExpandableListDataPump.getData();
+        expandableListDetail = ExpandableListDataPump.getData(language);
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new ExpandableListAdapter(this, expandableListTitle, expandableListDetail);
         expandableListView.setAdapter(expandableListAdapter);

@@ -1,5 +1,7 @@
 package com.project.EarthFoundation;
 
+import android.app.Activity;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,8 +20,10 @@ public class aboutus extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
+        SharedPreferences pref = getSharedPreferences("Settings",Activity.MODE_PRIVATE);
+        String language = pref.getString("My Lang","");
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
-        expandableListDetail = ExpandableListDataPump.getData();
+        expandableListDetail = ExpandableListDataPump.getData(language);
         expandableListTitle = new ArrayList<String>(expandableListDetail.keySet());
         expandableListAdapter = new ExpandableListAdapter(this, expandableListTitle, expandableListDetail);
         expandableListView.setAdapter(expandableListAdapter);

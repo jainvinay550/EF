@@ -102,4 +102,9 @@
     <string name="rate_dialog_cancel">बाद में याद करवाए</string>
     <string name="rate_dialog_no">नहीं, धन्यवाद </string>
 
+    <!--Settings page-->
+    <string name="Oldpassword">पुराना पासवर्ड</string>
+    <string name="Newpassword">नया पासवर्ड</string>
+    <string name="Reenternewpassword">नया पासवर्ड पुनः दर्ज करें</string>
+    <string name="ChangePasswordd">पासवर्ड बदलें</string>
 </resources>

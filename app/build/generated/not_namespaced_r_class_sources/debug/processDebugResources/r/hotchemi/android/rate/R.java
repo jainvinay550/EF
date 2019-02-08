@@ -12,11 +12,11 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int rate_dialog_cancel = 0x7f0f00af;
-        public static final int rate_dialog_message = 0x7f0f00b0;
-        public static final int rate_dialog_no = 0x7f0f00b1;
-        public static final int rate_dialog_ok = 0x7f0f00b2;
-        public static final int rate_dialog_title = 0x7f0f00b3;
+        public static final int rate_dialog_cancel = 0x7f0f00b3;
+        public static final int rate_dialog_message = 0x7f0f00b4;
+        public static final int rate_dialog_no = 0x7f0f00b5;
+        public static final int rate_dialog_ok = 0x7f0f00b6;
+        public static final int rate_dialog_title = 0x7f0f00b7;
     }
     public static final class style {
         private style() {}

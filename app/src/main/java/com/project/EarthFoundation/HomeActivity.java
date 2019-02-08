@@ -472,19 +472,10 @@ public class HomeActivity extends AppCompatActivity
 
 
 
-//        else if (id == R.id.rateus) {
-//            public void rateMe(View  view;
-//            view) {
-//                try {
-//                    startActivity(new Intent(Intent.ACTION_VIEW,
-//                            Uri.parse("market://details?id=" + this.getPackageName())));
-//                } catch (android.content.ActivityNotFoundException e) {
-//                    startActivity(new Intent(Intent.ACTION_VIEW,
-//                            Uri.parse("http://play.google.com/store/apps/details?id=" + this.getPackageName())));
-//                }
-//            }
-//
-//       }
+        else if (id == R.id.nav_setting) {
+            Intent intent = new Intent(getApplicationContext(), SettingActivity.class);
+            startActivity(intent);
+       }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

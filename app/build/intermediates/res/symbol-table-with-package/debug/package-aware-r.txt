@@ -714,6 +714,7 @@ color foreground_material_light
 color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color iron
 color jet
 color jumbo
@@ -1539,10 +1540,10 @@ id bottom
 id btnSubmit
 id btnSubmitProfile
 id btn_changelanguage
-id btn_changelanguage2
 id btn_login
 id btn_next
 id btn_reset
+id btn_reset2
 id btn_signup
 id btn_skip
 id button
@@ -1663,6 +1664,9 @@ id indicator
 id info
 id input_email
 id input_fname
+id input_fname2
+id input_fname3
+id input_fname4
 id input_lname
 id input_password
 id input_reEnterPassword
@@ -2039,6 +2043,8 @@ menu activity_home_drawer
 menu home
 menu menu_main
 mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 string AadharNumber
 string Aboutus
 string Address
@@ -2047,6 +2053,7 @@ string Age
 string AlreadyamemberLogin
 string CONTRIBUTION
 string ChangePassword
+string ChangePasswordd
 string City
 string Contactus
 string CreateAccount
@@ -2063,12 +2070,15 @@ string Longitude
 string MobileNumber
 string MyProfile
 string MyTrees
+string Newpassword
 string NotAccount
+string Oldpassword
 string Password
 string PinCode
 string PlantDate
 string Rateus
 string ReenterPassword
+string Reenternewpassword
 string Relation
 string Settings
 string TOKENSEARNED

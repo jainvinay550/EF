@@ -21,7 +21,20 @@ public class SplashActivity extends Activity {
         session = new UserSessionManager(getApplicationContext());
         // Check user login
         // If User is not logged in , This will redirect user to LoginActivity.
-        if(!session.isUserLoggedIn()){
+        if (prefs.getBoolean("firstrun", true)) {
+            // Do first run stuff here then set 'firstrun' as false
+            handler=new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent=new Intent(SplashActivity.this,Language.class);
+                    startActivity(intent);
+                    finish();
+                }
+            },3000);
+            // using the following line to edit/commit prefs
+            prefs.edit().putBoolean("firstrun", false).commit();
+        }else if(!session.isUserLoggedIn()){
             handler=new Handler();
             handler.postDelayed(new Runnable() {
                 @Override
@@ -44,23 +57,23 @@ public class SplashActivity extends Activity {
         }
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        if (prefs.getBoolean("firstrun", true)) {
-            // Do first run stuff here then set 'firstrun' as false
-            handler=new Handler();
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    Intent intent=new Intent(SplashActivity.this,Language.class);
-                    startActivity(intent);
-                    finish();
-                }
-            },3000);
-            // using the following line to edit/commit prefs
-            prefs.edit().putBoolean("firstrun", false).commit();
-        }
-    }
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//
+//        if (prefs.getBoolean("firstrun", true)) {
+//            // Do first run stuff here then set 'firstrun' as false
+//            handler=new Handler();
+//            handler.postDelayed(new Runnable() {
+//                @Override
+//                public void run() {
+//                    Intent intent=new Intent(SplashActivity.this,Language.class);
+//                    startActivity(intent);
+//                    finish();
+//                }
+//            },3000);
+//            // using the following line to edit/commit prefs
+//            prefs.edit().putBoolean("firstrun", false).commit();
+//        }
+//    }
 }

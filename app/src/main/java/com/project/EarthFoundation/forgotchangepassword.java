@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -29,7 +30,11 @@ public class forgotchangepassword extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgotchangepassword);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+       // getSupportActionBar().setDisplayShowHomeEnabled(true);
         fp = new forgotpassword();
 
         // get email
@@ -67,19 +72,7 @@ public class forgotchangepassword extends AppCompatActivity {
 
         String type = "ChangePassword";
         BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-
         backgroundWorker.execute(email,newPassword);
-
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        //
-                        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                        startActivity(intent);
-                        finish();
-                        progressDialog.dismiss();
-                    }
-                }, 2000);
 
     }
     public void onChangeFailed() {
@@ -87,7 +80,11 @@ public class forgotchangepassword extends AppCompatActivity {
 
         _forgotPassButton.setEnabled(true);
     }
-
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
     @Override
     public void onBackPressed() {
         // Disable going back to the previous activity
@@ -100,14 +97,14 @@ public class forgotchangepassword extends AppCompatActivity {
         newPassword = _newPasswordText.getText().toString();
         String reEnterPassword = _reEnterPasswordText.getText().toString();
 
-        if (newPassword.isEmpty() || newPassword.length() < 4 || newPassword.length() > 10) {
-            _newPasswordText.setError("between 4 and 10 alphanumeric characters");
+        if (newPassword.isEmpty() || newPassword.length() < 4 || newPassword.length() > 15) {
+            _newPasswordText.setError("Password must be between 4 to 15 alphanumeric characters");
             valid = false;
         } else {
             _newPasswordText.setError(null);
         }
-        if (reEnterPassword.isEmpty() || reEnterPassword.length() < 4 || reEnterPassword.length() > 10 || !(reEnterPassword.equals(newPassword))) {
-            _reEnterPasswordText.setError("Password Do not match");
+        if (reEnterPassword.isEmpty() || !(reEnterPassword.equals(newPassword))) {
+            _reEnterPasswordText.setError("Password do not match");
             valid = false;
         } else {
             _reEnterPasswordText.setError(null);
@@ -115,4 +112,5 @@ public class forgotchangepassword extends AppCompatActivity {
 
         return valid;
     }
+
 }

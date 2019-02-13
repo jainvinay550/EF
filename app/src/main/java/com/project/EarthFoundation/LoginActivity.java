@@ -154,7 +154,7 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
                             builder.setTitle("Login Failed");
                             builder.setMessage("Incorrect email or password. Please enter correct credentials");
 
-                            builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
@@ -191,13 +191,14 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
     public void onLoginSuccess(String name,String email) {
         _loginButton.setEnabled(true);
 
-        session.createUserLoginSession(name,email,received_image_url,received_user_type);
+        session.createUserLoginSession(name,email,received_image_url,received_user_type,received_password);
 
         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 
         // Add new Flag to start new Activity
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        //intent.putExtra("password",received_password);
         startActivity(intent);
         finish();
     }
@@ -214,14 +215,14 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
         String password = _passwordText.getText().toString();
 
         if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            _emailText.setError("enter a valid email address");
+            _emailText.setError("Please enter a valid email address");
             valid = false;
         } else {
             _emailText.setError(null);
         }
 
-        if (password.isEmpty() || password.length() < 4 || password.length() > 10) {
-            _passwordText.setError("between 4 and 10 alphanumeric characters");
+        if (password.isEmpty()) {
+            _passwordText.setError("Please enter your password");
             valid = false;
         } else {
             _passwordText.setError(null);
@@ -250,9 +251,9 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
 
         AlertDialog.Builder builder = new AlertDialog.Builder(c,AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
         builder.setTitle("No Internet Connection");
-        builder.setMessage("You need to have Mobile Data or wifi to access this. Press ok to Exit");
+        builder.setMessage("You need to have Mobile data or Wi-Fi to access this. Press OK to Exit");
 
-        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {

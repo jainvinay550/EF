@@ -1,5 +1,6 @@
 package com.project.EarthFoundation;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -36,8 +38,7 @@ public class MyProfileActivity extends AppCompatActivity {
 
 
     UserSessionManager session;
-    String name;
-    String email;
+    String name,phoneNo, country,state,city,pincode,aadhar,email;
     String profile_picture;
 
     TextView _userName;
@@ -120,34 +121,26 @@ public class MyProfileActivity extends AppCompatActivity {
     }
 
     public void updateProfile(){
-        final ProgressDialog progressDialog = new ProgressDialog(MyProfileActivity.this,
-                R.style.AppTheme_Dark_Dialog);
-        progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Updating...");
-        progressDialog.show();
 
-        String phoneNo = _phoneText.getText().toString();
-        String country = _countryText.getText().toString();
-        String state = _stateText.getText().toString();
-        String city = _cityText.getText().toString();
-        String pincode = _pinCodeText.getText().toString();
-        String aadhar = _aadharText.getText().toString();
+        phoneNo = _phoneText.getText().toString();
+        country = _countryText.getText().toString();
+        state = _stateText.getText().toString();
+        city = _cityText.getText().toString();
+        pincode = _pinCodeText.getText().toString();
+        aadhar = _aadharText.getText().toString();
 
-        // TODO: Implement your own signup logic here.
-
-        String type = "updateProfile";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-        //backgroundWorker.delegate=this;
-        backgroundWorker.execute(phoneNo,country,state,city,pincode,aadhar,email);
-
+        if (!validate()) {
+            Toast.makeText(getBaseContext(), "Failed to edit profile. Please enter valid details.", Toast.LENGTH_LONG).show();
+           // _updatebtn.setEnabled(false);
+            return;
+        }
+        //_updatebtn.setEnabled(true);
+            String type = "updateProfile";
+            BackgroundWorker backgroundWorker = new BackgroundWorker(this, type);
+            //backgroundWorker.delegate=this;
+            backgroundWorker.execute(phoneNo, country, state, city, pincode, aadhar, email);
 
 
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        progressDialog.dismiss();
-                    }
-                }, 3000);
     }
 
 //    @Override
@@ -174,4 +167,87 @@ public class MyProfileActivity extends AppCompatActivity {
 //        }
 //    }
 
+    public final boolean containsDigit(String s){
+        boolean containsDigit = false;
+        if(s != null && !s.isEmpty()){
+            for (char c : s.toCharArray()){
+                if (containsDigit = Character.isDigit(c)){
+                    break;
+                }
+            }
+        }
+        return containsDigit;
+    }
+
+    public final boolean containsText(String s){
+        boolean containsDigit = false;
+        if(s != null && !s.isEmpty()){
+            for (char c : s.toCharArray()){
+                if (containsDigit = Character.isLetter(c)){
+                    break;
+                }
+            }
+        }
+        return containsDigit;
+    }
+
+    public boolean validate() {
+        boolean valid = true;
+
+        if ( containsDigit(phoneNo)){
+            if((phoneNo.length() > 0 && phoneNo.length() < 10) || phoneNo.length()>10)
+            {
+                _phoneText.setError("Please enter 10 digits phone number");
+                valid = false;
+            }}
+        else if(containsText(phoneNo)) {
+            _phoneText.setError("Phone number can't be text");
+            valid = false;
+        }
+        else {
+            _phoneText.setError(null);
+        }
+        if ( pincode.isEmpty() || ((pincode.length() > 0 && pincode.length() < 6) || pincode.length()>6)){
+
+            _pinCodeText.setError("Please enter 6 digits of pin-code");
+            valid = false;
+        } else if(containsText(pincode)) {
+            _pinCodeText.setError("Pin-code can't be text");
+            valid = false;
+        }else {
+            _pinCodeText.setError(null);
+        }
+        if ( containsDigit(aadhar)){
+            if((aadhar.length() > 0 && aadhar.length() < 12) || aadhar.length()>12)
+            {
+            _aadharText.setError("Please enter 12 digits of aadhar number");
+            valid = false;}
+        } else if(containsText(aadhar)) {
+            _aadharText.setError("Aadhar number can't be text");
+            valid = false;
+        }else {
+            _aadharText.setError(null);
+        }
+        if(containsDigit(country)) {
+            _countryText.setError("Country cannot be a number");
+            valid = false;
+        }else {
+            _countryText.setError(null);
+        }
+        if(containsDigit(state)) {
+            _stateText.setError("State cannot be a number");
+            valid = false;
+        }else {
+            _stateText.setError(null);
+        }
+        if(containsDigit(city)) {
+            _cityText.setError("City cannot be a number");
+            valid = false;
+        }else {
+            _cityText.setError(null);
+        }
+
+        return valid;
+    }
 }
+

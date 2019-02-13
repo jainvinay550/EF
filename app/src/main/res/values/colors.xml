@@ -5,7 +5,8 @@
   <color name="primary_darker">#0b6e04</color>
   <color name="accent">#e9faba</color>
 
-  <color name="black">#071477</color>
+  <color name="blackk">#071477</color>
+  <color name="black">#000000</color>
   <color name="jet">#222222</color>
   <color name="oil">#333333</color>
   <color name="monsoon">#777777</color>
@@ -16,7 +17,7 @@
   <color name="white">#000000</color>
 
   <color name="colorPrimary">#e96666</color>
-  <color name="colorPrimaryDark">#FFA000</color>
+  <color name="colorPrimaryDark">#ffa000</color>
   <color name="backgroundcolor">#fcfcfc</color>
   <color name="lightgray">#ededed</color>
   <color name="deeppurple">#7c4dff</color>

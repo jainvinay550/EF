@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "C:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "3,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,551",
+                        "endLines": "9,34",
+                        "endColumns": "12,12",
+                        "endOffsets": "545,1822"
+                    },
+                    "to": {
+                        "startLines": "6,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "354,848",
+                        "endLines": "12,36",
+                        "endColumns": "12,12",
+                        "endOffsets": "843,2119"
+                    }
+                },
                 {
                     "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\998a9376a6b7d038d2b6316173ffa726\\res\\values-v21\\values-v21.xml",
                     "from": {
@@ -58,25 +77,6 @@
                         "endLines": "334",
                         "endColumns": "8",
                         "endOffsets": "23981"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\src\\main\\res\\values-v21\\styles.xml",
-                    "from": {
-                        "startLines": "3,11",
-                        "startColumns": "4,4",
-                        "startOffsets": "56,551",
-                        "endLines": "9,34",
-                        "endColumns": "12,12",
-                        "endOffsets": "545,1822"
-                    },
-                    "to": {
-                        "startLines": "6,13",
-                        "startColumns": "4,4",
-                        "startOffsets": "354,848",
-                        "endLines": "12,36",
-                        "endColumns": "12,12",
-                        "endOffsets": "843,2119"
                     }
                 },
                 {

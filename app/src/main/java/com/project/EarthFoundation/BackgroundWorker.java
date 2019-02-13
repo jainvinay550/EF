@@ -528,7 +528,41 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+//        }else if(type.equals("FetchPassword")){
+//            try {
+//                String user_name = params[0];
+//                URL url = new URL(login_url);
+//                HttpURLConnection httpURLConnection = (HttpURLConnection)url.openConnection();
+//                httpURLConnection.setRequestMethod("POST");
+//                httpURLConnection.setDoOutput(true);
+//                httpURLConnection.setDoInput(true);
+//                OutputStream outputStream = httpURLConnection.getOutputStream();
+//                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+//                String post_data = URLEncoder.encode("user_name","UTF-8")+"="+URLEncoder.encode(user_name,"UTF-8");
+//                bufferedWriter.write(post_data);
+//                bufferedWriter.flush();
+//                bufferedWriter.close();
+//                outputStream.close();
+//                InputStream inputStream = httpURLConnection.getInputStream();
+//                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream,"iso-8859-1"));
+//                String line="";
+//                StringBuilder result = new StringBuilder();
+//                while((line = bufferedReader.readLine())!= null) {
+//                    result.append(line+"\n");
+//                }
+//                bufferedReader.close();
+//                inputStream.close();
+//                httpURLConnection.disconnect();
+//                return result.toString().trim();
+//
+//            } catch (MalformedURLException e) {
+//                e.printStackTrace();
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
         }
+
+
         return null;
     }
 
@@ -550,10 +584,17 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
             progressDialog.show();
         }else if(type.equals("getProfile")) {
 //            progressDialog.setTitle("Please wait till we get things ready for you");
-            progressDialog.setMessage("Loading");
+            progressDialog.setMessage("Loading..");
             progressDialog.show();
         } else if(type.equals("TreeDataUpload")) {
             progressDialog.setMessage("Planting..");
+            progressDialog.show();
+        } else if(type.equals("ChangePassword")) {
+            progressDialog.setMessage("Changing password");
+            progressDialog.show();
+        }
+        else if(type.equals("updateProfile")) {
+            progressDialog.setMessage("Updating..");
             progressDialog.show();
         }
     }
@@ -638,7 +679,17 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                     lblaadharno.setText(aadharno);
                     EditText lblpincode = (EditText) ((Activity)context).findViewById(R.id.pincode);
                     lblpincode.setText(pincode);
+                    if(cntno.equals("0")){
+                        lblcntno.setText("");
+                    }
+                    if(aadharno.equals("null")){
+                        lblaadharno.setText("");
+                    }
+                    if(pincode.equals("0")){
+                        lblpincode.setText("");
+                    }
                     progressDialog.dismiss();
+
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -655,8 +706,27 @@ public class BackgroundWorker extends AsyncTask<String,Void,String> {
                         Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(context, HomeActivity.class);
             context.startActivity(intent);
+            ((Activity)context).finish();
 
+        } else if(type.equals("ChangePassword")) {
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                progressDialog.dismiss();
+                Intent intent = new Intent(context, LoginActivity.class);
+                context.startActivity(intent);
+                ((Activity)context).finish();
         }
+        else if(type.equals("updateProfile")) {
+            if(result.equals("NotConnected")){
+                alertDialog.show();
+            }else if(!result.isEmpty())
+                progressDialog.dismiss();
+                Toast.makeText(context,
+                    "Profile Updated Successfully",
+                    Toast.LENGTH_SHORT).show();
+        }
+
 //        alertDialog.setMessage(result);
 //        alertDialog.show();
     }

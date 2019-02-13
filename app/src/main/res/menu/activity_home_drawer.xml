@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:showIn="navigation_view">
 
 
@@ -9,7 +10,9 @@
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/proficon"
-            android:title="@string/MyProfile" />
+            android:title="@string/MyProfile"
+
+            />
 
 
         <item
@@ -22,13 +25,15 @@
 
 
         <item
+        android:id="@+id/nav_contactus"
+        android:icon="@drawable/contactus"
+        android:title="@string/writetous" />
+
+        <item
             android:id="@+id/nav_aboutus"
             android:icon="@drawable/aboutus"
             android:title="@string/Aboutus" />
-        <item
-            android:id="@+id/nav_contactus"
-            android:icon="@drawable/contactus"
-            android:title="@string/Contactus" />
+
 
         <item
             android:id="@+id/nav_setting"
@@ -39,6 +44,12 @@
             <!--android:id="@+id/rateus"-->
             <!--android:icon="@drawable/rateus"-->
             <!--android:title="@string/rateus" />-->
+
+        <item
+            android:id="@+id/share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share"
+            app:showAsAction="always" />
 
 
         <item

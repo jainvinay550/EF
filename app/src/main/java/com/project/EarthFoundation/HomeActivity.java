@@ -72,7 +72,7 @@ public class HomeActivity extends AppCompatActivity
     ImageView lblImage;
     TextView lblName, lblEmail, lblTreesPlanted, lblContribution, lblTokensEarned;
     ProgressBar imageBar,homeBar;
-    String treesPlanted, contribution, tokensEarned, name, email, profile_picture,user_type;
+    String treesPlanted, contribution, tokensEarned, name, email, profile_picture,user_type,password;
     LinearLayout lblPlantTree,lblcontribution;
     Button btnLogout;
     Bitmap FixBitmap;
@@ -166,6 +166,7 @@ public class HomeActivity extends AppCompatActivity
             email = user.get(UserSessionManager.KEY_EMAIL);
             user_type = user.get(UserSessionManager.KEY_USER_TYPE);
             profile_picture = user.get(UserSessionManager.KEY_IMAGE);
+            password=user.get(UserSessionManager.KEY_PASSWORD);
             urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef001.jpeg");
             urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef002.jpeg");
             urls.add("http://earthfoundation.in/EF/Uploads/TreePhotos/ef003.jpeg");
@@ -175,6 +176,10 @@ public class HomeActivity extends AppCompatActivity
             init();
             getIntegerValues();
             loadTreeDetails();
+
+            //get password from login activity
+            //Intent intent = getIntent();
+           // password=intent.getStringExtra("password");
 
             lblPlantTree = (LinearLayout) findViewById(R.id.plant_tree_layout);
             lblcontribution = (LinearLayout) findViewById(R.id.plantation_contribution_layout);
@@ -319,15 +324,6 @@ public class HomeActivity extends AppCompatActivity
         backgroundWorker.delegate = this;
         backgroundWorker.execute(email);
 
-//        new android.os.Handler().postDelayed(
-//                new Runnable() {
-//                    public void run() {
-//                        //  call the constructor of CustomAdapter to send the reference and data to Adapter
-//                        lblTreesPlanted.setText(treesPlanted);
-//                        lblContribution.setText(contribution);
-//                        lblTokensEarned.setText(tokensEarned);
-//                    }
-//                }, 2000);
     }
 
 
@@ -410,7 +406,17 @@ public class HomeActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_aboutus) {
+        if (id == R.id.share){
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBodyText = "Let's sign-up and become part of Earth Foundation.\n" +
+                    "Download the App using - https://play.google.com/store/apps/details?id=com.project.EarthFoundation.\n"+
+                    "Download the Earth Foundation App NOW!";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Subject here");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBodyText);
+            startActivity(Intent.createChooser(sharingIntent, "Choose sharing method"));
+        }
+        else if (id == R.id.nav_aboutus) {
             Intent intent = new Intent(getApplicationContext(), aboutus.class);
             startActivity(intent);
         } else if (id == R.id.nav_profile) {
@@ -457,7 +463,7 @@ public class HomeActivity extends AppCompatActivity
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             session.logoutUser();
-                            //finish();
+                            finish();
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -468,12 +474,10 @@ public class HomeActivity extends AppCompatActivity
             AlertDialog alert = builder.create();
             alert.show();
 
-        }
-
-
-
-        else if (id == R.id.nav_setting) {
+        } else if (id == R.id.nav_setting) {
+            finish();
             Intent intent = new Intent(getApplicationContext(), SettingActivity.class);
+            //intent.putExtra("password",password);
             startActivity(intent);
        }
 
@@ -552,14 +556,25 @@ public class HomeActivity extends AppCompatActivity
 
     public void UploadImageToServer() {
         String type = "ImageUpload";
-        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
+        if(FixBitmap.getByteCount()<=10000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 40, byteArrayOutputStream);
+        }else if(FixBitmap.getByteCount()>10000000 && FixBitmap.getByteCount()<=50000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 9, byteArrayOutputStream);
+        }
+        else if(FixBitmap.getByteCount()>50000000 && FixBitmap.getByteCount()<=100000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 5, byteArrayOutputStream);
+        }
+        else{
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 2, byteArrayOutputStream);
+        }
+        //FixBitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
         byteArray = byteArrayOutputStream.toByteArray();
         ConvertImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
         BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
         String url_name = name.replace(" ", "_");
         backgroundWorker.execute(ImageTag, url_name, ImageName, ConvertImage, email);
         UploadImageOnServerButton.setVisibility(View.GONE);
-        session.createUserLoginSession(name, email, "http://earthfoundation.in/EF/Uploads/UserProfilePictures/" + url_name + ".jpg",user_type);
+        session.createUserLoginSession(name, email, "http://earthfoundation.in/EF/Uploads/UserProfilePictures/" + url_name + ".jpg",user_type,password);
     }
 
     @Override

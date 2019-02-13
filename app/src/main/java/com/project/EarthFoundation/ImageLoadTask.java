@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.graphics.BitmapFactory;
 import android.widget.ProgressBar;
+import java.io.ByteArrayOutputStream;
 
 public class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
 
@@ -34,6 +35,8 @@ public class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
             connection.connect();
             InputStream input = connection.getInputStream();
             Bitmap myBitmap = BitmapFactory.decodeStream(input);
+            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+            myBitmap.compress(Bitmap.CompressFormat.JPEG,10,stream);
             return myBitmap;
         } catch (Exception e) {
             e.printStackTrace();

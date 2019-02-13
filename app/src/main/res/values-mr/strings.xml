@@ -9,30 +9,32 @@
     <string name="statement1">आपली निवडलेली भाषा आहे </string>
     <string name="statement2">सुरू ठेवण्यासाठी NEXT बटण दाबा. </string>
     <string name="ForgotPassword">पासवर्ड विसरलात ?</string>
-    <string name="NotAccount">अद्याप खाते नाही? एक बनवा</string>पासवर्ड बदला
+    <string name="NotAccount">अद्याप खाते नाही? साइन अप करा</string>पासवर्ड बदला
     <string name="ChangePassword">पासवर्ड बदला</string>
-    <string name="TreeName">झाडाचे नाव</string>
+    <string name="TreeName">झाडाचे नाव *</string>
     <string name="Latitude">अक्षांश</string>
     <string name="Longitude">रेखांश</string>
-    <string name="InMemoryOf">च्या स्मृती मध्ये</string>
+    <string name="InMemoryOf">कोणाच्या स्मृतीमध्ये</string>
     <string name="Relation">संबंध</string>
-    <string name="PlantDate">रोपाची तारीख</string>
-    <string name="Address">पत्ता</string>
-    <string name="Lanmark">मार्गदर्शक खूण</string>
+    <string name="PlantDate">रोपाची तारीख *</string>
+    <string name="Address">पत्ता *</string>
+    <string name="Lanmark">मार्गदर्शक खूण *</string>
     <string name="Image">प्रतिमा</string>
     <!--hint page -->
-    <string name="FirstName">पहिले नाव</string>
-    <string name="LastName">आडनाव</string>
-    <string name="Age">वय</string>
-    <string name="Addresshint">पत्ता</string>
+    <string name="FirstName">पहिले नाव *</string>
+    <string name="LastName">आडनाव *</string>
+    <string name="Age">वय *</string>
+    <string name="Addresshint">पत्ता *</string>
     <string name="City">शहर</string>
     <string name="PinCode">पिन कोड</string>
     <string name="AadharNumber">आधार क्रमांक</string>
-    <string name="Email">ईमेल</string>
+    <string name="Email">ईमेल *</string>
+    <string name="email">ईमेल </string>
     <string name="MobileNumber">मोबाइल नंबर</string>
     <string name="UserName">वापरकर्ता नाव</string>
-    <string name="Password">पासवर्ड</string>
-    <string name="ReenterPassword">पासवर्ड पुन्हा प्रविष्ट करा</string>
+    <string name="Password">पासवर्ड *</string>
+    <string name="password">पासवर्ड </string>
+    <string name="ReenterPassword">पासवर्ड पुन्हा प्रविष्ट करा *</string>
     <string name="CreateAccount">खाते तयार करा</string>
     <string name="AlreadyamemberLogin">आधीपासूनच सदस्य आहात? लॉग इन</string>
 
@@ -48,6 +50,7 @@
     <string name="updSelectImage">प्रतिमा निवडा</string>
     <string name="updUpdate">अद्ययावत करा</string>
     <string name="updCancel">रद्द करा</string>
+    <string name="submit">जमा करा</string>
 
     <!--Content home page-->
     <string name="chTREES">झाडे </string>
@@ -72,7 +75,7 @@
     <string name="MyProfile">माझे प्रोफाइल</string>
     <string name="MyTrees">माझी झाडं </string>
     <string name="Aboutus">आमच्याबद्दल</string>
-    <string name="Contactus">आमच्याशी संपर्क साधा</string>
+    <string name="writetous">आम्हाला लिहा</string>
     <string name="Settings">सेटिंग्ज</string>
     <string name="Logout">बाहेर पडणे</string>Rateus
     <string name="Rateus">आम्हाला रेट करा</string>
@@ -85,7 +88,7 @@
     <string name="state">राज्य</string>
     <string name="city">शहर</string>
     <string name="pincode">पिन कोड</string>
-    <string name="aadhar">पिन कोड</string>
+    <string name="aadhar">आधार नंबर</string>
     <string name="trees">झाडं</string>
     <string name="token">टोकन</string>
 
@@ -103,9 +106,11 @@
 
     <!--Settings page-->
 
-    <string name="Oldpassword">पुराना पासवर्ड</string>
-    <string name="Newpassword">नया पासवर्ड</string>
-    <string name="Reenternewpassword">नया पासवर्ड पुनः दर्ज करें</string>
+    <string name="Oldpassword">पुराना पासवर्ड *</string>
+    <string name="Newpassword">नया पासवर्ड *</string>
+    <string name="Reenternewpassword">नया पासवर्ड पुनः दर्ज करें *</string>
     <string name="ChangePasswordd">पासवर्ड बदलें</string>
 
+    <string name="Login">लॉग इन</string>
+    <string name="Code">कोड</string>
 </resources>

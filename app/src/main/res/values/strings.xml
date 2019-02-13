@@ -5,7 +5,7 @@
     <string name="appname">Earth Foundation</string>
 
     <string name="title_activity_home">HomeActivity</string>
-    <string name="ChangePassword">ChangePassword</string>
+    <string name="ChangePassword">Change Password</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -18,44 +18,47 @@
     <string name="statement1">Your Selected Language is </string>
     <string name="statement2"> Press NEXT button to continue. </string>
     <string name="ForgotPassword">Forgot Password</string>
-    <string name="NotAccount">No account yet? Create one</string>
-    <string name="TreeName">Tree Name</string>
+    <string name="NotAccount">No account yet? SIGN UP </string>
+    <string name="TreeName">Tree Name *</string>
     <string name="Latitude">Latitude</string>
     <string name="Longitude">Longitude</string>
-    <string name="InMemoryOf">In memory of</string>
+    <string name="InMemoryOf">In memory of </string>
     <string name="Relation">Relation</string>
-    <string name="PlantDate">Date of plantation</string>
-    <string name="Address">Address</string>
-    <string name="Lanmark">Landmark</string>
-    <string name="Image">Image</string>
+    <string name="PlantDate">Date of plantation *</string>
+    <string name="Address">Address *</string>
+    <string name="Lanmark">Landmark *</string>
+    <string name="Image">Image *</string>
     <!--hint page -->
-    <string name="FirstName">FirstName</string>
-    <string name="LastName">LastName</string>
-    <string name="Age">Age</string>
-    <string name="Addresshint">Address</string>
+    <string name="FirstName">FirstName *</string>
+    <string name="LastName">LastName *</string>
+    <string name="Age">Age *</string>
+    <string name="Addresshint">Address *</string>
     <string name="City">City</string>
     <string name="PinCode">Pin Code</string>
     <string name="AadharNumber">Aadhar Number</string>
-    <string name="Email">Email</string>
+    <string name="Email">Email *</string>
+    <string name="email">Email </string>
     <string name="MobileNumber">Mobile Number</string>
     <string name="UserName">User Name</string>
-    <string name="Password">Password</string>
-    <string name="ReenterPassword">Re-enter Password</string>
+    <string name="Password">Password *</string>
+    <string name="password">Password </string>
+    <string name="ReenterPassword">Re-enter Password *</string>
     <string name="CreateAccount">Create Account</string>
     <string name="AlreadyamemberLogin">Already a member? Login</string>
 
     <!--Activity update tree details -->
 
     <string name="updateTreeName">Tree Name</string>
-    <string name="updateLocation">Located at</string>
-    <string name="updPlantedon">Planted on</string>
-    <string name="updUpdatedon">Last updated on</string>
+    <string name="updateLocation">Located at </string>
+    <string name="updPlantedon">Planted on </string>
+    <string name="updUpdatedon">Last updated on </string>
     <string name="updPlantUpdateDate">Plant Update Date</string>
     <string name="updSelectDate">Select Date...</string>
     <string name="updImage">Image</string>
     <string name="updSelectImage">Select Image</string>
     <string name="updUpdate">Update</string>
     <string name="updCancel">Cancel</string>
+    <string name="submit">Submit</string>
 
     <!--Content home page-->
     <string name="chTREES">TREES</string>
@@ -71,7 +74,7 @@
     <string name="MyProfile">My Profile</string>
     <string name="MyTrees">My Trees</string>
     <string name="Aboutus">About us</string>
-    <string name="Contactus">Contact us</string>
+    <string name="writetous">Write to us</string>
     <string name="Settings">Settings</string>
     <string name="Logout">Logout</string>Rateus
     <string name="Rateus">Rate us</string>
@@ -102,8 +105,12 @@
     <string name="rate_dialog_no">No, Thanks</string>
 
     <!--Settings page-->
-    <string name="Oldpassword">Old password</string>
-    <string name="Newpassword">New passwords</string>
-    <string name="Reenternewpassword">Re-enter new password</string>
+    <string name="Oldpassword">Old Password *</string>
+    <string name="Newpassword">New Password *</string>
+    <string name="Reenternewpassword">Re-enter new Password *</string>
     <string name="ChangePasswordd">Change Password</string>
-    </resources>
+    <string name="Login">Login</string>
+
+
+    <string name="Code">Code</string>
+</resources>

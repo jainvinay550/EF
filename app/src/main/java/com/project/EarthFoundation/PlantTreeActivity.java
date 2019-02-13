@@ -4,7 +4,9 @@ import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.app.Service;
 import android.content.DialogInterface.OnClickListener;
+import android.content.res.Resources;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Criteria;
 import android.net.Uri;
 import android.os.Build;
@@ -236,6 +238,8 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
 
         } else if (requestCode == CAMERA) {
             FixBitmap = (Bitmap) data.getExtras().get("data");
+//            lblTreeImage.setImageBitmap(
+//                    decodeSampledBitmapFromResource(getResources(), R.id.tree_image, 100, 100));
             lblTreeImage.setImageBitmap(FixBitmap);
             lblTreeImage.setVisibility(View.VISIBLE);
             //  saveImage(thumbnail);
@@ -251,16 +255,27 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
             return;
         }
 
-        final ProgressDialog progressDialog = new ProgressDialog(PlantTreeActivity.this,
-                R.style.Theme_AppCompat_Light_Dialog);
-        progressDialog.setMessage("Planting");
-        progressDialog.setIndeterminate(true);
-        progressDialog.show();
+//        final ProgressDialog progressDialog = new ProgressDialog(PlantTreeActivity.this,
+//                R.style.Theme_AppCompat_Light_Dialog);
+//        progressDialog.setMessage("Planting");
+//        progressDialog.setIndeterminate(true);
+//        progressDialog.show();
 
 
         String type="TreeDataUpload";
         int Unique_tree_Number=(int) ((new Date().getTime() / 1000L) % Integer.MAX_VALUE);
-        FixBitmap.compress(Bitmap.CompressFormat.JPEG, 80, byteArrayOutputStream);
+        if(FixBitmap.getByteCount()<=10000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 50, byteArrayOutputStream);
+        }else if(FixBitmap.getByteCount()>10000000 && FixBitmap.getByteCount()<=50000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 9, byteArrayOutputStream);
+        }
+        else if(FixBitmap.getByteCount()>50000000 && FixBitmap.getByteCount()<=100000000){
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 6, byteArrayOutputStream);
+        }
+        else{
+            FixBitmap.compress(Bitmap.CompressFormat.JPEG, 3, byteArrayOutputStream);
+        }
+
         byteArray = byteArrayOutputStream.toByteArray();
         ConvertImage = Base64.encodeToString(byteArray, Base64.DEFAULT);
         BackgroundWorker backgroundWorker=new BackgroundWorker(this,type);
@@ -304,8 +319,8 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
                             public void onDateSet(DatePicker view, int year,
                                                   int monthOfYear, int dayOfMonth) {
                                 // set day of month , month and year value in the edit text
-                                date.setText( year+ "/"
-                                        + (monthOfYear + 1) + "/" + dayOfMonth);
+                                date.setText( dayOfMonth+ "/"
+                                        + (monthOfYear + 1) + "/" + year);
 
                             }
                         }, mYear, mMonth, mDay);
@@ -521,7 +536,7 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
 
         String GetTreeNameFromEditText = lblTreeName.getText().toString();
         String GetAddressValue = lblTreeAddress.getText().toString();
-        String GetDateValue = date.getText().toString();
+        //String GetDateValue = date.getText().toString();
 
         if (GetTreeNameFromEditText.isEmpty()) {
             lblTreeName.setError("Please enter a valid tree name");
@@ -533,17 +548,36 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
             lblTreeName.setError(null);
         }
         if (GetAddressValue.isEmpty()) {
-            lblTreeAddress.setError("Enter Valid Address");
+            lblTreeAddress.setError("Enter valid address");
             valid = false;
         } else {
             lblTreeAddress.setError(null);
         }
-        if(GetDateValue.isEmpty()){
-            date.setError("Select Valid Date");
+        if(GetLandmarkValue.isEmpty()) {
+            lblLandmark.setError("Enter valid landmark");
             valid = false;
         } else {
-            date.setError(null);
+            lblLandmark.setError(null);
         }
+        if (containsDigit(GetInMemoryOfValue)) {
+            lblInMemoryOf.setError("In memory of cannot be a number");
+            valid = false;
+        } else {
+            lblInMemoryOf.setError(null);
+        }
+        if (containsDigit(GetRelationValue)) {
+            lblRelation.setError("Relation cannot be a number");
+            valid = false;
+        } else {
+            lblRelation.setError(null);
+        }
+
+//        if(GetDateValue.isEmpty()){
+//            date.setError("Select valid date");
+//            valid = false;
+//        } else {
+//            date.setError(null);
+//        }
         if(lblTreeImage.getDrawable()== null){
             Toast.makeText(getBaseContext(), "Please select an image", Toast.LENGTH_LONG).show();
             valid = false;
@@ -564,5 +598,44 @@ public class PlantTreeActivity extends AppCompatActivity implements LocationList
         }
         return containsDigit;
     }
+
+//    public static int calculateInSampleSize(
+//            BitmapFactory.Options options, int reqWidth, int reqHeight) {
+//        // Raw height and width of image
+//        final int height = options.outHeight;
+//        final int width = options.outWidth;
+//        int inSampleSize = 1;
+//
+//        if (height > reqHeight || width > reqWidth) {
+//
+//            final int halfHeight = height / 2;
+//            final int halfWidth = width / 2;
+//
+//            // Calculate the largest inSampleSize value that is a power of 2 and keeps both
+//            // height and width larger than the requested height and width.
+//            while ((halfHeight / inSampleSize) >= reqHeight
+//                    && (halfWidth / inSampleSize) >= reqWidth) {
+//                inSampleSize *= 2;
+//            }
+//        }
+//
+//        return inSampleSize;
+//    }
+//
+//    public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId,
+//                                                         int reqWidth, int reqHeight) {
+//
+//        // First decode with inJustDecodeBounds=true to check dimensions
+//        final BitmapFactory.Options options = new BitmapFactory.Options();
+//        options.inJustDecodeBounds = true;
+//        BitmapFactory.decodeResource(res, resId, options);
+//
+//        // Calculate inSampleSize
+//        options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
+//
+//        // Decode bitmap with inSampleSize set
+//        options.inJustDecodeBounds = false;
+//        return BitmapFactory.decodeResource(res, resId, options);
+//    }
 
 }

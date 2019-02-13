@@ -150,7 +150,7 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
         String reEnterPassword = _reEnterPasswordText.getText().toString();
 
         if (fname.isEmpty() || fname.length() < 3 || fname.length() > 20) {
-            _fnameText.setError("Min 3 - Max 20 Characters");
+            _fnameText.setError("Min 3 - Max 20 characters");
             valid = false;
         } else if(containsDigit(fname)) {
             _fnameText.setError("Name cannot be a number");
@@ -159,7 +159,7 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
             _fnameText.setError(null);
         }
         if (lname.isEmpty() || lname.length() < 3 || lname.length() > 20) {
-            _lnameText.setError("Min 3 - Max 20 Characters");
+            _lnameText.setError("Min 3 - Max 20 characters");
             valid = false;
         } else if(containsDigit(lname)) {
             _lnameText.setError("Name cannot be a number");
@@ -169,21 +169,21 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
         }
 
         if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            _emailText.setError("enter a valid email address");
+            _emailText.setError("Please enter a valid email address");
             valid = false;
         } else {
             _emailText.setError(null);
         }
 
-        if (password.isEmpty() || password.length() < 4 || password.length() > 10) {
-            _passwordText.setError("between 4 and 10 alphanumeric characters");
+        if (password.isEmpty() || password.length() < 4 || password.length() > 15) {
+            _passwordText.setError("Password must be between 4 to 15 alphanumeric characters");
             valid = false;
         } else {
             _passwordText.setError(null);
         }
 
-        if (reEnterPassword.isEmpty() || reEnterPassword.length() < 4 || reEnterPassword.length() > 10 || !(reEnterPassword.equals(password))) {
-            _reEnterPasswordText.setError("Password Do not match");
+        if (reEnterPassword.isEmpty() || !(reEnterPassword.equals(password))) {
+            _reEnterPasswordText.setError("Password do not match");
             valid = false;
         } else {
             _reEnterPasswordText.setError(null);

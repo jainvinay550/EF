@@ -4576,155 +4576,156 @@ public final class R {
     public static final int backgroundcolor=0x7f060020;
     public static final int base=0x7f060021;
     public static final int black=0x7f060022;
-    public static final int bright_foreground_disabled_material_dark=0x7f060023;
-    public static final int bright_foreground_disabled_material_light=0x7f060024;
-    public static final int bright_foreground_inverse_material_dark=0x7f060025;
-    public static final int bright_foreground_inverse_material_light=0x7f060026;
-    public static final int bright_foreground_material_dark=0x7f060027;
-    public static final int bright_foreground_material_light=0x7f060028;
-    public static final int button_material_dark=0x7f060029;
-    public static final int button_material_light=0x7f06002a;
-    public static final int cardview_dark_background=0x7f06002b;
-    public static final int cardview_light_background=0x7f06002c;
-    public static final int cardview_shadow_end_color=0x7f06002d;
-    public static final int cardview_shadow_start_color=0x7f06002e;
-    public static final int cast_expanded_controller_ad_container_white_stripe_color=0x7f06002f;
-    public static final int cast_expanded_controller_ad_label_background_color=0x7f060030;
-    public static final int cast_expanded_controller_background_color=0x7f060031;
-    public static final int cast_expanded_controller_progress_text_color=0x7f060032;
-    public static final int cast_expanded_controller_seek_bar_progress_background_tint_color=0x7f060033;
-    public static final int cast_expanded_controller_text_color=0x7f060034;
-    public static final int cast_intro_overlay_background_color=0x7f060035;
-    public static final int cast_intro_overlay_button_background_color=0x7f060036;
-    public static final int cast_libraries_material_featurehighlight_outer_highlight_default_color=0x7f060037;
-    public static final int cast_libraries_material_featurehighlight_text_body_color=0x7f060038;
-    public static final int cast_libraries_material_featurehighlight_text_header_color=0x7f060039;
-    public static final int colorAccent=0x7f06003a;
-    public static final int colorPrimary=0x7f06003b;
-    public static final int colorPrimaryDark=0x7f06003c;
-    public static final int common_google_signin_btn_text_dark=0x7f06003d;
-    public static final int common_google_signin_btn_text_dark_default=0x7f06003e;
-    public static final int common_google_signin_btn_text_dark_disabled=0x7f06003f;
-    public static final int common_google_signin_btn_text_dark_focused=0x7f060040;
-    public static final int common_google_signin_btn_text_dark_pressed=0x7f060041;
-    public static final int common_google_signin_btn_text_light=0x7f060042;
-    public static final int common_google_signin_btn_text_light_default=0x7f060043;
-    public static final int common_google_signin_btn_text_light_disabled=0x7f060044;
-    public static final int common_google_signin_btn_text_light_focused=0x7f060045;
-    public static final int common_google_signin_btn_text_light_pressed=0x7f060046;
-    public static final int common_google_signin_btn_tint=0x7f060047;
-    public static final int darkblue=0x7f060048;
-    public static final int deeppurple=0x7f060049;
-    public static final int default_circle_indicator_fill_color=0x7f06004a;
-    public static final int default_circle_indicator_page_color=0x7f06004b;
-    public static final int default_circle_indicator_stroke_color=0x7f06004c;
-    public static final int default_line_indicator_selected_color=0x7f06004d;
-    public static final int default_line_indicator_unselected_color=0x7f06004e;
-    public static final int default_title_indicator_footer_color=0x7f06004f;
-    public static final int default_title_indicator_selected_color=0x7f060050;
-    public static final int default_title_indicator_text_color=0x7f060051;
-    public static final int default_underline_indicator_selected_color=0x7f060052;
-    public static final int design_bottom_navigation_shadow_color=0x7f060053;
-    public static final int design_error=0x7f060054;
-    public static final int design_fab_shadow_end_color=0x7f060055;
-    public static final int design_fab_shadow_mid_color=0x7f060056;
-    public static final int design_fab_shadow_start_color=0x7f060057;
-    public static final int design_fab_stroke_end_inner_color=0x7f060058;
-    public static final int design_fab_stroke_end_outer_color=0x7f060059;
-    public static final int design_fab_stroke_top_inner_color=0x7f06005a;
-    public static final int design_fab_stroke_top_outer_color=0x7f06005b;
-    public static final int design_snackbar_background_color=0x7f06005c;
-    public static final int design_tint_password_toggle=0x7f06005d;
-    public static final int dim_foreground_disabled_material_dark=0x7f06005e;
-    public static final int dim_foreground_disabled_material_light=0x7f06005f;
-    public static final int dim_foreground_material_dark=0x7f060060;
-    public static final int dim_foreground_material_light=0x7f060061;
-    public static final int error_color_material=0x7f060062;
-    public static final int foreground_material_dark=0x7f060063;
-    public static final int foreground_material_light=0x7f060064;
-    public static final int green=0x7f060065;
-    public static final int highlighted_text_material_dark=0x7f060066;
-    public static final int highlighted_text_material_light=0x7f060067;
-    public static final int ic_launcher_background=0x7f060068;
-    public static final int iron=0x7f060069;
-    public static final int jet=0x7f06006a;
-    public static final int jumbo=0x7f06006b;
-    public static final int lightgray=0x7f06006c;
-    public static final int material_blue_grey_800=0x7f06006d;
-    public static final int material_blue_grey_900=0x7f06006e;
-    public static final int material_blue_grey_950=0x7f06006f;
-    public static final int material_deep_teal_200=0x7f060070;
-    public static final int material_deep_teal_500=0x7f060071;
-    public static final int material_grey_100=0x7f060072;
-    public static final int material_grey_300=0x7f060073;
-    public static final int material_grey_50=0x7f060074;
-    public static final int material_grey_600=0x7f060075;
-    public static final int material_grey_800=0x7f060076;
-    public static final int material_grey_850=0x7f060077;
-    public static final int material_grey_900=0x7f060078;
-    public static final int monsoon=0x7f060079;
-    public static final int notification_action_color_filter=0x7f06007a;
-    public static final int notification_icon_bg_color=0x7f06007b;
-    public static final int notification_material_background_media_default_color=0x7f06007c;
-    public static final int oil=0x7f06007d;
-    public static final int pink=0x7f06007e;
-    public static final int place_autocomplete_prediction_primary_text=0x7f06007f;
-    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f060080;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f060081;
-    public static final int place_autocomplete_search_hint=0x7f060082;
-    public static final int place_autocomplete_search_text=0x7f060083;
-    public static final int place_autocomplete_separator=0x7f060084;
-    public static final int primary=0x7f060085;
-    public static final int primary_dark=0x7f060086;
-    public static final int primary_dark_material_dark=0x7f060087;
-    public static final int primary_dark_material_light=0x7f060088;
-    public static final int primary_darker=0x7f060089;
-    public static final int primary_material_dark=0x7f06008a;
-    public static final int primary_material_light=0x7f06008b;
-    public static final int primary_text_default_material_dark=0x7f06008c;
-    public static final int primary_text_default_material_light=0x7f06008d;
-    public static final int primary_text_disabled_material_dark=0x7f06008e;
-    public static final int primary_text_disabled_material_light=0x7f06008f;
-    public static final int ripple_material_dark=0x7f060090;
-    public static final int ripple_material_light=0x7f060091;
-    public static final int secondary_text_default_material_dark=0x7f060092;
-    public static final int secondary_text_default_material_light=0x7f060093;
-    public static final int secondary_text_disabled_material_dark=0x7f060094;
-    public static final int secondary_text_disabled_material_light=0x7f060095;
-    public static final int switch_thumb_disabled_material_dark=0x7f060096;
-    public static final int switch_thumb_disabled_material_light=0x7f060097;
-    public static final int switch_thumb_material_dark=0x7f060098;
-    public static final int switch_thumb_material_light=0x7f060099;
-    public static final int switch_thumb_normal_material_dark=0x7f06009a;
-    public static final int switch_thumb_normal_material_light=0x7f06009b;
-    public static final int test_color_blue=0x7f06009c;
-    public static final int tooltip_background_dark=0x7f06009d;
-    public static final int tooltip_background_light=0x7f06009e;
-    public static final int vpi__background_holo_dark=0x7f06009f;
-    public static final int vpi__background_holo_light=0x7f0600a0;
-    public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0600a1;
-    public static final int vpi__bright_foreground_disabled_holo_light=0x7f0600a2;
-    public static final int vpi__bright_foreground_holo_dark=0x7f0600a3;
-    public static final int vpi__bright_foreground_holo_light=0x7f0600a4;
-    public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0600a5;
-    public static final int vpi__bright_foreground_inverse_holo_light=0x7f0600a6;
-    public static final int vpi__dark_theme=0x7f0600a7;
-    public static final int vpi__light_theme=0x7f0600a8;
-    public static final int wallet_bright_foreground_disabled_holo_light=0x7f0600a9;
-    public static final int wallet_bright_foreground_holo_dark=0x7f0600aa;
-    public static final int wallet_bright_foreground_holo_light=0x7f0600ab;
-    public static final int wallet_dim_foreground_disabled_holo_dark=0x7f0600ac;
-    public static final int wallet_dim_foreground_holo_dark=0x7f0600ad;
-    public static final int wallet_highlighted_text_holo_dark=0x7f0600ae;
-    public static final int wallet_highlighted_text_holo_light=0x7f0600af;
-    public static final int wallet_hint_foreground_holo_dark=0x7f0600b0;
-    public static final int wallet_hint_foreground_holo_light=0x7f0600b1;
-    public static final int wallet_holo_blue_light=0x7f0600b2;
-    public static final int wallet_link_text_light=0x7f0600b3;
-    public static final int wallet_primary_text_holo_light=0x7f0600b4;
-    public static final int wallet_secondary_text_holo_dark=0x7f0600b5;
-    public static final int white=0x7f0600b6;
-    public static final int yello=0x7f0600b7;
+    public static final int blackk=0x7f060023;
+    public static final int bright_foreground_disabled_material_dark=0x7f060024;
+    public static final int bright_foreground_disabled_material_light=0x7f060025;
+    public static final int bright_foreground_inverse_material_dark=0x7f060026;
+    public static final int bright_foreground_inverse_material_light=0x7f060027;
+    public static final int bright_foreground_material_dark=0x7f060028;
+    public static final int bright_foreground_material_light=0x7f060029;
+    public static final int button_material_dark=0x7f06002a;
+    public static final int button_material_light=0x7f06002b;
+    public static final int cardview_dark_background=0x7f06002c;
+    public static final int cardview_light_background=0x7f06002d;
+    public static final int cardview_shadow_end_color=0x7f06002e;
+    public static final int cardview_shadow_start_color=0x7f06002f;
+    public static final int cast_expanded_controller_ad_container_white_stripe_color=0x7f060030;
+    public static final int cast_expanded_controller_ad_label_background_color=0x7f060031;
+    public static final int cast_expanded_controller_background_color=0x7f060032;
+    public static final int cast_expanded_controller_progress_text_color=0x7f060033;
+    public static final int cast_expanded_controller_seek_bar_progress_background_tint_color=0x7f060034;
+    public static final int cast_expanded_controller_text_color=0x7f060035;
+    public static final int cast_intro_overlay_background_color=0x7f060036;
+    public static final int cast_intro_overlay_button_background_color=0x7f060037;
+    public static final int cast_libraries_material_featurehighlight_outer_highlight_default_color=0x7f060038;
+    public static final int cast_libraries_material_featurehighlight_text_body_color=0x7f060039;
+    public static final int cast_libraries_material_featurehighlight_text_header_color=0x7f06003a;
+    public static final int colorAccent=0x7f06003b;
+    public static final int colorPrimary=0x7f06003c;
+    public static final int colorPrimaryDark=0x7f06003d;
+    public static final int common_google_signin_btn_text_dark=0x7f06003e;
+    public static final int common_google_signin_btn_text_dark_default=0x7f06003f;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f060040;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f060041;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f060042;
+    public static final int common_google_signin_btn_text_light=0x7f060043;
+    public static final int common_google_signin_btn_text_light_default=0x7f060044;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f060045;
+    public static final int common_google_signin_btn_text_light_focused=0x7f060046;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f060047;
+    public static final int common_google_signin_btn_tint=0x7f060048;
+    public static final int darkblue=0x7f060049;
+    public static final int deeppurple=0x7f06004a;
+    public static final int default_circle_indicator_fill_color=0x7f06004b;
+    public static final int default_circle_indicator_page_color=0x7f06004c;
+    public static final int default_circle_indicator_stroke_color=0x7f06004d;
+    public static final int default_line_indicator_selected_color=0x7f06004e;
+    public static final int default_line_indicator_unselected_color=0x7f06004f;
+    public static final int default_title_indicator_footer_color=0x7f060050;
+    public static final int default_title_indicator_selected_color=0x7f060051;
+    public static final int default_title_indicator_text_color=0x7f060052;
+    public static final int default_underline_indicator_selected_color=0x7f060053;
+    public static final int design_bottom_navigation_shadow_color=0x7f060054;
+    public static final int design_error=0x7f060055;
+    public static final int design_fab_shadow_end_color=0x7f060056;
+    public static final int design_fab_shadow_mid_color=0x7f060057;
+    public static final int design_fab_shadow_start_color=0x7f060058;
+    public static final int design_fab_stroke_end_inner_color=0x7f060059;
+    public static final int design_fab_stroke_end_outer_color=0x7f06005a;
+    public static final int design_fab_stroke_top_inner_color=0x7f06005b;
+    public static final int design_fab_stroke_top_outer_color=0x7f06005c;
+    public static final int design_snackbar_background_color=0x7f06005d;
+    public static final int design_tint_password_toggle=0x7f06005e;
+    public static final int dim_foreground_disabled_material_dark=0x7f06005f;
+    public static final int dim_foreground_disabled_material_light=0x7f060060;
+    public static final int dim_foreground_material_dark=0x7f060061;
+    public static final int dim_foreground_material_light=0x7f060062;
+    public static final int error_color_material=0x7f060063;
+    public static final int foreground_material_dark=0x7f060064;
+    public static final int foreground_material_light=0x7f060065;
+    public static final int green=0x7f060066;
+    public static final int highlighted_text_material_dark=0x7f060067;
+    public static final int highlighted_text_material_light=0x7f060068;
+    public static final int ic_launcher_background=0x7f060069;
+    public static final int iron=0x7f06006a;
+    public static final int jet=0x7f06006b;
+    public static final int jumbo=0x7f06006c;
+    public static final int lightgray=0x7f06006d;
+    public static final int material_blue_grey_800=0x7f06006e;
+    public static final int material_blue_grey_900=0x7f06006f;
+    public static final int material_blue_grey_950=0x7f060070;
+    public static final int material_deep_teal_200=0x7f060071;
+    public static final int material_deep_teal_500=0x7f060072;
+    public static final int material_grey_100=0x7f060073;
+    public static final int material_grey_300=0x7f060074;
+    public static final int material_grey_50=0x7f060075;
+    public static final int material_grey_600=0x7f060076;
+    public static final int material_grey_800=0x7f060077;
+    public static final int material_grey_850=0x7f060078;
+    public static final int material_grey_900=0x7f060079;
+    public static final int monsoon=0x7f06007a;
+    public static final int notification_action_color_filter=0x7f06007b;
+    public static final int notification_icon_bg_color=0x7f06007c;
+    public static final int notification_material_background_media_default_color=0x7f06007d;
+    public static final int oil=0x7f06007e;
+    public static final int pink=0x7f06007f;
+    public static final int place_autocomplete_prediction_primary_text=0x7f060080;
+    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f060081;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f060082;
+    public static final int place_autocomplete_search_hint=0x7f060083;
+    public static final int place_autocomplete_search_text=0x7f060084;
+    public static final int place_autocomplete_separator=0x7f060085;
+    public static final int primary=0x7f060086;
+    public static final int primary_dark=0x7f060087;
+    public static final int primary_dark_material_dark=0x7f060088;
+    public static final int primary_dark_material_light=0x7f060089;
+    public static final int primary_darker=0x7f06008a;
+    public static final int primary_material_dark=0x7f06008b;
+    public static final int primary_material_light=0x7f06008c;
+    public static final int primary_text_default_material_dark=0x7f06008d;
+    public static final int primary_text_default_material_light=0x7f06008e;
+    public static final int primary_text_disabled_material_dark=0x7f06008f;
+    public static final int primary_text_disabled_material_light=0x7f060090;
+    public static final int ripple_material_dark=0x7f060091;
+    public static final int ripple_material_light=0x7f060092;
+    public static final int secondary_text_default_material_dark=0x7f060093;
+    public static final int secondary_text_default_material_light=0x7f060094;
+    public static final int secondary_text_disabled_material_dark=0x7f060095;
+    public static final int secondary_text_disabled_material_light=0x7f060096;
+    public static final int switch_thumb_disabled_material_dark=0x7f060097;
+    public static final int switch_thumb_disabled_material_light=0x7f060098;
+    public static final int switch_thumb_material_dark=0x7f060099;
+    public static final int switch_thumb_material_light=0x7f06009a;
+    public static final int switch_thumb_normal_material_dark=0x7f06009b;
+    public static final int switch_thumb_normal_material_light=0x7f06009c;
+    public static final int test_color_blue=0x7f06009d;
+    public static final int tooltip_background_dark=0x7f06009e;
+    public static final int tooltip_background_light=0x7f06009f;
+    public static final int vpi__background_holo_dark=0x7f0600a0;
+    public static final int vpi__background_holo_light=0x7f0600a1;
+    public static final int vpi__bright_foreground_disabled_holo_dark=0x7f0600a2;
+    public static final int vpi__bright_foreground_disabled_holo_light=0x7f0600a3;
+    public static final int vpi__bright_foreground_holo_dark=0x7f0600a4;
+    public static final int vpi__bright_foreground_holo_light=0x7f0600a5;
+    public static final int vpi__bright_foreground_inverse_holo_dark=0x7f0600a6;
+    public static final int vpi__bright_foreground_inverse_holo_light=0x7f0600a7;
+    public static final int vpi__dark_theme=0x7f0600a8;
+    public static final int vpi__light_theme=0x7f0600a9;
+    public static final int wallet_bright_foreground_disabled_holo_light=0x7f0600aa;
+    public static final int wallet_bright_foreground_holo_dark=0x7f0600ab;
+    public static final int wallet_bright_foreground_holo_light=0x7f0600ac;
+    public static final int wallet_dim_foreground_disabled_holo_dark=0x7f0600ad;
+    public static final int wallet_dim_foreground_holo_dark=0x7f0600ae;
+    public static final int wallet_highlighted_text_holo_dark=0x7f0600af;
+    public static final int wallet_highlighted_text_holo_light=0x7f0600b0;
+    public static final int wallet_hint_foreground_holo_dark=0x7f0600b1;
+    public static final int wallet_hint_foreground_holo_light=0x7f0600b2;
+    public static final int wallet_holo_blue_light=0x7f0600b3;
+    public static final int wallet_link_text_light=0x7f0600b4;
+    public static final int wallet_primary_text_holo_light=0x7f0600b5;
+    public static final int wallet_secondary_text_holo_dark=0x7f0600b6;
+    public static final int white=0x7f0600b7;
+    public static final int yello=0x7f0600b8;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f070000;
@@ -5311,113 +5312,116 @@ public final class R {
     public static final int ic_plusone_small_off_client=0x7f08016b;
     public static final int ic_plusone_standard_off_client=0x7f08016c;
     public static final int ic_plusone_tall_off_client=0x7f08016d;
-    public static final int ic_vol_type_speaker_dark=0x7f08016e;
-    public static final int ic_vol_type_speaker_group_dark=0x7f08016f;
-    public static final int ic_vol_type_speaker_group_light=0x7f080170;
-    public static final int ic_vol_type_speaker_light=0x7f080171;
-    public static final int ic_vol_type_tv_dark=0x7f080172;
-    public static final int ic_vol_type_tv_light=0x7f080173;
-    public static final int ic_wifi_black_24dp=0x7f080174;
-    public static final int image=0x7f080175;
-    public static final int language=0x7f080176;
-    public static final int logout=0x7f080177;
-    public static final int maleuser=0x7f080178;
-    public static final int mr_button_connected_dark=0x7f080179;
-    public static final int mr_button_connected_light=0x7f08017a;
-    public static final int mr_button_connecting_dark=0x7f08017b;
-    public static final int mr_button_connecting_light=0x7f08017c;
-    public static final int mr_button_dark=0x7f08017d;
-    public static final int mr_button_light=0x7f08017e;
-    public static final int mr_dialog_close_dark=0x7f08017f;
-    public static final int mr_dialog_close_light=0x7f080180;
-    public static final int mr_dialog_material_background_dark=0x7f080181;
-    public static final int mr_dialog_material_background_light=0x7f080182;
-    public static final int mr_group_collapse=0x7f080183;
-    public static final int mr_group_expand=0x7f080184;
-    public static final int mr_media_pause_dark=0x7f080185;
-    public static final int mr_media_pause_light=0x7f080186;
-    public static final int mr_media_play_dark=0x7f080187;
-    public static final int mr_media_play_light=0x7f080188;
-    public static final int mr_media_stop_dark=0x7f080189;
-    public static final int mr_media_stop_light=0x7f08018a;
-    public static final int mr_vol_type_audiotrack_dark=0x7f08018b;
-    public static final int mr_vol_type_audiotrack_light=0x7f08018c;
-    public static final int myprof3=0x7f08018d;
-    public static final int nav_menu_header_bg=0x7f08018e;
-    public static final int navigation_empty_icon=0x7f08018f;
-    public static final int notification_action_background=0x7f080190;
-    public static final int notification_bg=0x7f080191;
-    public static final int notification_bg_low=0x7f080192;
-    public static final int notification_bg_low_normal=0x7f080193;
-    public static final int notification_bg_low_pressed=0x7f080194;
-    public static final int notification_bg_normal=0x7f080195;
-    public static final int notification_bg_normal_pressed=0x7f080196;
-    public static final int notification_icon_background=0x7f080197;
-    public static final int notification_template_icon_bg=0x7f080198;
-    public static final int notification_template_icon_low_bg=0x7f080199;
-    public static final int notification_tile_bg=0x7f08019a;
-    public static final int notify_panel_notification_icon_bg=0x7f08019b;
-    public static final int places_ic_clear=0x7f08019c;
-    public static final int places_ic_search=0x7f08019d;
-    public static final int powered_by_google_dark=0x7f08019e;
-    public static final int powered_by_google_light=0x7f08019f;
-    public static final int profbg=0x7f0801a0;
-    public static final int proficon=0x7f0801a1;
-    public static final int profile_image=0x7f0801a2;
-    public static final int quantum_ic_art_track_grey600_48=0x7f0801a3;
-    public static final int quantum_ic_bigtop_updates_white_24=0x7f0801a4;
-    public static final int quantum_ic_cast_connected_white_24=0x7f0801a5;
-    public static final int quantum_ic_cast_white_36=0x7f0801a6;
-    public static final int quantum_ic_clear_white_24=0x7f0801a7;
-    public static final int quantum_ic_closed_caption_grey600_36=0x7f0801a8;
-    public static final int quantum_ic_closed_caption_white_36=0x7f0801a9;
-    public static final int quantum_ic_forward_10_white_24=0x7f0801aa;
-    public static final int quantum_ic_forward_30_grey600_36=0x7f0801ab;
-    public static final int quantum_ic_forward_30_white_24=0x7f0801ac;
-    public static final int quantum_ic_forward_30_white_36=0x7f0801ad;
-    public static final int quantum_ic_keyboard_arrow_down_white_36=0x7f0801ae;
-    public static final int quantum_ic_pause_circle_filled_grey600_36=0x7f0801af;
-    public static final int quantum_ic_pause_circle_filled_white_36=0x7f0801b0;
-    public static final int quantum_ic_pause_grey600_36=0x7f0801b1;
-    public static final int quantum_ic_pause_grey600_48=0x7f0801b2;
-    public static final int quantum_ic_pause_white_24=0x7f0801b3;
-    public static final int quantum_ic_play_arrow_grey600_36=0x7f0801b4;
-    public static final int quantum_ic_play_arrow_grey600_48=0x7f0801b5;
-    public static final int quantum_ic_play_arrow_white_24=0x7f0801b6;
-    public static final int quantum_ic_play_circle_filled_grey600_36=0x7f0801b7;
-    public static final int quantum_ic_play_circle_filled_white_36=0x7f0801b8;
-    public static final int quantum_ic_refresh_white_24=0x7f0801b9;
-    public static final int quantum_ic_replay_10_white_24=0x7f0801ba;
-    public static final int quantum_ic_replay_30_grey600_36=0x7f0801bb;
-    public static final int quantum_ic_replay_30_white_24=0x7f0801bc;
-    public static final int quantum_ic_replay_30_white_36=0x7f0801bd;
-    public static final int quantum_ic_replay_white_24=0x7f0801be;
-    public static final int quantum_ic_skip_next_grey600_36=0x7f0801bf;
-    public static final int quantum_ic_skip_next_white_24=0x7f0801c0;
-    public static final int quantum_ic_skip_next_white_36=0x7f0801c1;
-    public static final int quantum_ic_skip_previous_grey600_36=0x7f0801c2;
-    public static final int quantum_ic_skip_previous_white_24=0x7f0801c3;
-    public static final int quantum_ic_skip_previous_white_36=0x7f0801c4;
-    public static final int quantum_ic_stop_grey600_36=0x7f0801c5;
-    public static final int quantum_ic_stop_grey600_48=0x7f0801c6;
-    public static final int quantum_ic_stop_white_24=0x7f0801c7;
-    public static final int quantum_ic_volume_off_grey600_36=0x7f0801c8;
-    public static final int quantum_ic_volume_off_white_36=0x7f0801c9;
-    public static final int quantum_ic_volume_up_grey600_36=0x7f0801ca;
-    public static final int quantum_ic_volume_up_white_36=0x7f0801cb;
-    public static final int rateus=0x7f0801cc;
-    public static final int settings=0x7f0801cd;
-    public static final int side_nav_bar=0x7f0801ce;
-    public static final int tooltip_frame_dark=0x7f0801cf;
-    public static final int tooltip_frame_light=0x7f0801d0;
-    public static final int treebg=0x7f0801d1;
-    public static final int vpi__tab_indicator=0x7f0801d2;
-    public static final int vpi__tab_selected_focused_holo=0x7f0801d3;
-    public static final int vpi__tab_selected_holo=0x7f0801d4;
-    public static final int vpi__tab_selected_pressed_holo=0x7f0801d5;
-    public static final int vpi__tab_unselected_focused_holo=0x7f0801d6;
-    public static final int vpi__tab_unselected_holo=0x7f0801d7;
-    public static final int vpi__tab_unselected_pressed_holo=0x7f0801d8;
+    public static final int ic_stat_name=0x7f08016e;
+    public static final int ic_vol_type_speaker_dark=0x7f08016f;
+    public static final int ic_vol_type_speaker_group_dark=0x7f080170;
+    public static final int ic_vol_type_speaker_group_light=0x7f080171;
+    public static final int ic_vol_type_speaker_light=0x7f080172;
+    public static final int ic_vol_type_tv_dark=0x7f080173;
+    public static final int ic_vol_type_tv_light=0x7f080174;
+    public static final int ic_wifi_black_24dp=0x7f080175;
+    public static final int image=0x7f080176;
+    public static final int language=0x7f080177;
+    public static final int load=0x7f080178;
+    public static final int loading=0x7f080179;
+    public static final int logout=0x7f08017a;
+    public static final int maleuser=0x7f08017b;
+    public static final int mr_button_connected_dark=0x7f08017c;
+    public static final int mr_button_connected_light=0x7f08017d;
+    public static final int mr_button_connecting_dark=0x7f08017e;
+    public static final int mr_button_connecting_light=0x7f08017f;
+    public static final int mr_button_dark=0x7f080180;
+    public static final int mr_button_light=0x7f080181;
+    public static final int mr_dialog_close_dark=0x7f080182;
+    public static final int mr_dialog_close_light=0x7f080183;
+    public static final int mr_dialog_material_background_dark=0x7f080184;
+    public static final int mr_dialog_material_background_light=0x7f080185;
+    public static final int mr_group_collapse=0x7f080186;
+    public static final int mr_group_expand=0x7f080187;
+    public static final int mr_media_pause_dark=0x7f080188;
+    public static final int mr_media_pause_light=0x7f080189;
+    public static final int mr_media_play_dark=0x7f08018a;
+    public static final int mr_media_play_light=0x7f08018b;
+    public static final int mr_media_stop_dark=0x7f08018c;
+    public static final int mr_media_stop_light=0x7f08018d;
+    public static final int mr_vol_type_audiotrack_dark=0x7f08018e;
+    public static final int mr_vol_type_audiotrack_light=0x7f08018f;
+    public static final int myprof3=0x7f080190;
+    public static final int navigation_empty_icon=0x7f080191;
+    public static final int notification_action_background=0x7f080192;
+    public static final int notification_bg=0x7f080193;
+    public static final int notification_bg_low=0x7f080194;
+    public static final int notification_bg_low_normal=0x7f080195;
+    public static final int notification_bg_low_pressed=0x7f080196;
+    public static final int notification_bg_normal=0x7f080197;
+    public static final int notification_bg_normal_pressed=0x7f080198;
+    public static final int notification_icon_background=0x7f080199;
+    public static final int notification_template_icon_bg=0x7f08019a;
+    public static final int notification_template_icon_low_bg=0x7f08019b;
+    public static final int notification_tile_bg=0x7f08019c;
+    public static final int notify_panel_notification_icon_bg=0x7f08019d;
+    public static final int passbg=0x7f08019e;
+    public static final int places_ic_clear=0x7f08019f;
+    public static final int places_ic_search=0x7f0801a0;
+    public static final int powered_by_google_dark=0x7f0801a1;
+    public static final int powered_by_google_light=0x7f0801a2;
+    public static final int profbg=0x7f0801a3;
+    public static final int proficon=0x7f0801a4;
+    public static final int profile_image=0x7f0801a5;
+    public static final int quantum_ic_art_track_grey600_48=0x7f0801a6;
+    public static final int quantum_ic_bigtop_updates_white_24=0x7f0801a7;
+    public static final int quantum_ic_cast_connected_white_24=0x7f0801a8;
+    public static final int quantum_ic_cast_white_36=0x7f0801a9;
+    public static final int quantum_ic_clear_white_24=0x7f0801aa;
+    public static final int quantum_ic_closed_caption_grey600_36=0x7f0801ab;
+    public static final int quantum_ic_closed_caption_white_36=0x7f0801ac;
+    public static final int quantum_ic_forward_10_white_24=0x7f0801ad;
+    public static final int quantum_ic_forward_30_grey600_36=0x7f0801ae;
+    public static final int quantum_ic_forward_30_white_24=0x7f0801af;
+    public static final int quantum_ic_forward_30_white_36=0x7f0801b0;
+    public static final int quantum_ic_keyboard_arrow_down_white_36=0x7f0801b1;
+    public static final int quantum_ic_pause_circle_filled_grey600_36=0x7f0801b2;
+    public static final int quantum_ic_pause_circle_filled_white_36=0x7f0801b3;
+    public static final int quantum_ic_pause_grey600_36=0x7f0801b4;
+    public static final int quantum_ic_pause_grey600_48=0x7f0801b5;
+    public static final int quantum_ic_pause_white_24=0x7f0801b6;
+    public static final int quantum_ic_play_arrow_grey600_36=0x7f0801b7;
+    public static final int quantum_ic_play_arrow_grey600_48=0x7f0801b8;
+    public static final int quantum_ic_play_arrow_white_24=0x7f0801b9;
+    public static final int quantum_ic_play_circle_filled_grey600_36=0x7f0801ba;
+    public static final int quantum_ic_play_circle_filled_white_36=0x7f0801bb;
+    public static final int quantum_ic_refresh_white_24=0x7f0801bc;
+    public static final int quantum_ic_replay_10_white_24=0x7f0801bd;
+    public static final int quantum_ic_replay_30_grey600_36=0x7f0801be;
+    public static final int quantum_ic_replay_30_white_24=0x7f0801bf;
+    public static final int quantum_ic_replay_30_white_36=0x7f0801c0;
+    public static final int quantum_ic_replay_white_24=0x7f0801c1;
+    public static final int quantum_ic_skip_next_grey600_36=0x7f0801c2;
+    public static final int quantum_ic_skip_next_white_24=0x7f0801c3;
+    public static final int quantum_ic_skip_next_white_36=0x7f0801c4;
+    public static final int quantum_ic_skip_previous_grey600_36=0x7f0801c5;
+    public static final int quantum_ic_skip_previous_white_24=0x7f0801c6;
+    public static final int quantum_ic_skip_previous_white_36=0x7f0801c7;
+    public static final int quantum_ic_stop_grey600_36=0x7f0801c8;
+    public static final int quantum_ic_stop_grey600_48=0x7f0801c9;
+    public static final int quantum_ic_stop_white_24=0x7f0801ca;
+    public static final int quantum_ic_volume_off_grey600_36=0x7f0801cb;
+    public static final int quantum_ic_volume_off_white_36=0x7f0801cc;
+    public static final int quantum_ic_volume_up_grey600_36=0x7f0801cd;
+    public static final int quantum_ic_volume_up_white_36=0x7f0801ce;
+    public static final int rateus=0x7f0801cf;
+    public static final int settings=0x7f0801d0;
+    public static final int side_nav_bar=0x7f0801d1;
+    public static final int tooltip_frame_dark=0x7f0801d2;
+    public static final int tooltip_frame_light=0x7f0801d3;
+    public static final int treebackground=0x7f0801d4;
+    public static final int vpi__tab_indicator=0x7f0801d5;
+    public static final int vpi__tab_selected_focused_holo=0x7f0801d6;
+    public static final int vpi__tab_selected_holo=0x7f0801d7;
+    public static final int vpi__tab_selected_pressed_holo=0x7f0801d8;
+    public static final int vpi__tab_unselected_focused_holo=0x7f0801d9;
+    public static final int vpi__tab_unselected_holo=0x7f0801da;
+    public static final int vpi__tab_unselected_pressed_holo=0x7f0801db;
   }
   public static final class id {
     public static final int ALT=0x7f090000;
@@ -5465,397 +5469,395 @@ public final class R {
     public static final int async=0x7f09002a;
     public static final int audio_list_view=0x7f09002b;
     public static final int auto=0x7f09002c;
-    public static final int background_image_view=0x7f09002d;
-    public static final int background_place_holder_image_view=0x7f09002e;
-    public static final int bankcardId=0x7f09002f;
-    public static final int barrier=0x7f090030;
-    public static final int beginning=0x7f090031;
-    public static final int blocking=0x7f090032;
-    public static final int blurred_background_image_view=0x7f090033;
-    public static final int book_now=0x7f090034;
-    public static final int bottom=0x7f090035;
-    public static final int btnSubmit=0x7f090036;
-    public static final int btnSubmitProfile=0x7f090037;
-    public static final int btn_changelanguage=0x7f090038;
-    public static final int btn_login=0x7f090039;
-    public static final int btn_next=0x7f09003a;
-    public static final int btn_reset=0x7f09003b;
-    public static final int btn_reset2=0x7f09003c;
-    public static final int btn_signup=0x7f09003d;
-    public static final int btn_skip=0x7f09003e;
-    public static final int button=0x7f09003f;
-    public static final int buttonPanel=0x7f090040;
-    public static final int button_0=0x7f090041;
-    public static final int button_1=0x7f090042;
-    public static final int button_2=0x7f090043;
-    public static final int button_3=0x7f090044;
-    public static final int button_layout=0x7f090045;
-    public static final int button_play_pause_toggle=0x7f090046;
-    public static final int buyButton=0x7f090047;
-    public static final int buy_now=0x7f090048;
-    public static final int buy_with=0x7f090049;
-    public static final int buy_with_google=0x7f09004a;
-    public static final int cancel_action=0x7f09004b;
-    public static final int card_view=0x7f09004c;
-    public static final int cast_button_type_closed_caption=0x7f09004d;
-    public static final int cast_button_type_custom=0x7f09004e;
-    public static final int cast_button_type_empty=0x7f09004f;
-    public static final int cast_button_type_forward_30_seconds=0x7f090050;
-    public static final int cast_button_type_mute_toggle=0x7f090051;
-    public static final int cast_button_type_play_pause_toggle=0x7f090052;
-    public static final int cast_button_type_rewind_30_seconds=0x7f090053;
-    public static final int cast_button_type_skip_next=0x7f090054;
-    public static final int cast_button_type_skip_previous=0x7f090055;
-    public static final int cast_featurehighlight_help_text_body_view=0x7f090056;
-    public static final int cast_featurehighlight_help_text_header_view=0x7f090057;
-    public static final int cast_featurehighlight_view=0x7f090058;
-    public static final int cast_notification_id=0x7f090059;
-    public static final int center=0x7f09005a;
-    public static final int center_horizontal=0x7f09005b;
-    public static final int center_vertical=0x7f09005c;
-    public static final int chains=0x7f09005d;
-    public static final int checkbox=0x7f09005e;
-    public static final int chronometer=0x7f09005f;
-    public static final int city=0x7f090060;
-    public static final int classic=0x7f090061;
-    public static final int clip_horizontal=0x7f090062;
-    public static final int clip_vertical=0x7f090063;
-    public static final int collapseActionView=0x7f090064;
-    public static final int contact=0x7f090065;
-    public static final int container=0x7f090066;
-    public static final int container_all=0x7f090067;
-    public static final int container_current=0x7f090068;
-    public static final int contentPanel=0x7f090069;
-    public static final int controllers=0x7f09006a;
-    public static final int coordinator=0x7f09006b;
-    public static final int country=0x7f09006c;
-    public static final int crash_reporting_present=0x7f09006d;
-    public static final int custom=0x7f09006e;
-    public static final int customPanel=0x7f09006f;
-    public static final int dark=0x7f090070;
-    public static final int date=0x7f090071;
-    public static final int date_layout=0x7f090072;
-    public static final int decor_content_parent=0x7f090073;
-    public static final int default_activity_button=0x7f090074;
-    public static final int demote_common_words=0x7f090075;
-    public static final int demote_rfc822_hostnames=0x7f090076;
-    public static final int design_bottom_sheet=0x7f090077;
-    public static final int design_menu_item_action_area=0x7f090078;
-    public static final int design_menu_item_action_area_stub=0x7f090079;
-    public static final int design_menu_item_text=0x7f09007a;
-    public static final int design_navigation_view=0x7f09007b;
-    public static final int dimensions=0x7f09007c;
-    public static final int direct=0x7f09007d;
-    public static final int disableHome=0x7f09007e;
-    public static final int donate_with=0x7f09007f;
-    public static final int donate_with_google=0x7f090080;
-    public static final int drawer_layout=0x7f090081;
-    public static final int edit_query=0x7f090082;
-    public static final int email=0x7f090083;
-    public static final int emailNotification=0x7f090084;
-    public static final int end=0x7f090085;
-    public static final int end_padder=0x7f090086;
-    public static final int end_text=0x7f090087;
-    public static final int enterAlways=0x7f090088;
-    public static final int enterAlwaysCollapsed=0x7f090089;
-    public static final int et_code=0x7f09008a;
-    public static final int et_email=0x7f09008b;
-    public static final int et_password=0x7f09008c;
-    public static final int exitUntilCollapsed=0x7f09008d;
-    public static final int expand_activities_button=0x7f09008e;
-    public static final int expandableListView=0x7f09008f;
-    public static final int expandedListItem=0x7f090090;
-    public static final int expanded_controller_layout=0x7f090091;
-    public static final int expanded_menu=0x7f090092;
-    public static final int fill=0x7f090093;
-    public static final int fill_horizontal=0x7f090094;
-    public static final int fill_vertical=0x7f090095;
-    public static final int fixed=0x7f090096;
-    public static final int forever=0x7f090097;
-    public static final int ghost_view=0x7f090098;
-    public static final int gone=0x7f090099;
-    public static final int googleMaterial2=0x7f09009a;
-    public static final int google_wallet_classic=0x7f09009b;
-    public static final int google_wallet_grayscale=0x7f09009c;
-    public static final int google_wallet_monochrome=0x7f09009d;
-    public static final int grayscale=0x7f09009e;
-    public static final int grp2=0x7f09009f;
-    public static final int header_cover_image=0x7f0900a0;
-    public static final int holo_dark=0x7f0900a1;
-    public static final int holo_light=0x7f0900a2;
-    public static final int home=0x7f0900a3;
-    public static final int homeAsUp=0x7f0900a4;
-    public static final int html=0x7f0900a5;
-    public static final int hybrid=0x7f0900a6;
-    public static final int icon=0x7f0900a7;
-    public static final int icon_group=0x7f0900a8;
-    public static final int icon_only=0x7f0900a9;
-    public static final int icon_uri=0x7f0900aa;
-    public static final int icon_view=0x7f0900ab;
-    public static final int ifRoom=0x7f0900ac;
-    public static final int image=0x7f0900ad;
-    public static final int imageView3=0x7f0900ae;
-    public static final int image_layout=0x7f0900af;
-    public static final int index_entity_types=0x7f0900b0;
-    public static final int indicator=0x7f0900b1;
-    public static final int info=0x7f0900b2;
-    public static final int input_email=0x7f0900b3;
-    public static final int input_fname=0x7f0900b4;
-    public static final int input_fname2=0x7f0900b5;
-    public static final int input_fname3=0x7f0900b6;
-    public static final int input_fname4=0x7f0900b7;
-    public static final int input_lname=0x7f0900b8;
-    public static final int input_password=0x7f0900b9;
-    public static final int input_reEnterPassword=0x7f0900ba;
-    public static final int instant_message=0x7f0900bb;
-    public static final int intent_action=0x7f0900bc;
-    public static final int intent_activity=0x7f0900bd;
-    public static final int intent_data=0x7f0900be;
-    public static final int intent_data_id=0x7f0900bf;
-    public static final int intent_extra_data=0x7f0900c0;
-    public static final int invisible=0x7f0900c1;
-    public static final int italic=0x7f0900c2;
-    public static final int item_touch_helper_previous_elevation=0x7f0900c3;
-    public static final int largeLabel=0x7f0900c4;
-    public static final int large_icon_uri=0x7f0900c5;
-    public static final int layout=0x7f0900c6;
-    public static final int left=0x7f0900c7;
-    public static final int light=0x7f0900c8;
-    public static final int line1=0x7f0900c9;
-    public static final int line3=0x7f0900ca;
-    public static final int link_forgotpassword=0x7f0900cb;
-    public static final int link_login=0x7f0900cc;
-    public static final int link_signup=0x7f0900cd;
-    public static final int listMode=0x7f0900ce;
-    public static final int listTitle=0x7f0900cf;
-    public static final int list_item=0x7f0900d0;
-    public static final int live_stream_indicator=0x7f0900d1;
-    public static final int live_stream_seek_bar=0x7f0900d2;
-    public static final int ll=0x7f0900d3;
-    public static final int loading_indicator=0x7f0900d4;
-    public static final int location=0x7f0900d5;
-    public static final int locationTitle=0x7f0900d6;
-    public static final int logo_id=0x7f0900d7;
-    public static final int logo_only=0x7f0900d8;
-    public static final int masked=0x7f0900d9;
-    public static final int match_global_nicknames=0x7f0900da;
-    public static final int match_parent=0x7f0900db;
-    public static final int material=0x7f0900dc;
-    public static final int media_actions=0x7f0900dd;
-    public static final int message=0x7f0900de;
-    public static final int middle=0x7f0900df;
-    public static final int mini=0x7f0900e0;
-    public static final int monochrome=0x7f0900e1;
-    public static final int mr_art=0x7f0900e2;
-    public static final int mr_chooser_list=0x7f0900e3;
-    public static final int mr_chooser_route_desc=0x7f0900e4;
-    public static final int mr_chooser_route_icon=0x7f0900e5;
-    public static final int mr_chooser_route_name=0x7f0900e6;
-    public static final int mr_chooser_title=0x7f0900e7;
-    public static final int mr_close=0x7f0900e8;
-    public static final int mr_control_divider=0x7f0900e9;
-    public static final int mr_control_playback_ctrl=0x7f0900ea;
-    public static final int mr_control_subtitle=0x7f0900eb;
-    public static final int mr_control_title=0x7f0900ec;
-    public static final int mr_control_title_container=0x7f0900ed;
-    public static final int mr_custom_control=0x7f0900ee;
-    public static final int mr_default_control=0x7f0900ef;
-    public static final int mr_dialog_area=0x7f0900f0;
-    public static final int mr_expandable_area=0x7f0900f1;
-    public static final int mr_group_expand_collapse=0x7f0900f2;
-    public static final int mr_media_main_control=0x7f0900f3;
-    public static final int mr_name=0x7f0900f4;
-    public static final int mr_playback_control=0x7f0900f5;
-    public static final int mr_title_bar=0x7f0900f6;
-    public static final int mr_volume_control=0x7f0900f7;
-    public static final int mr_volume_group_list=0x7f0900f8;
-    public static final int mr_volume_item_icon=0x7f0900f9;
-    public static final int mr_volume_slider=0x7f0900fa;
-    public static final int multiply=0x7f0900fb;
-    public static final int name=0x7f0900fc;
-    public static final int nav_aboutus=0x7f0900fd;
-    public static final int nav_contactus=0x7f0900fe;
-    public static final int nav_logout=0x7f0900ff;
-    public static final int nav_profile=0x7f090100;
-    public static final int nav_setting=0x7f090101;
-    public static final int nav_trees=0x7f090102;
-    public static final int nav_view=0x7f090103;
-    public static final int navigation_header_container=0x7f090104;
-    public static final int never=0x7f090105;
-    public static final int none=0x7f090106;
-    public static final int normal=0x7f090107;
-    public static final int notification_background=0x7f090108;
-    public static final int notification_main_column=0x7f090109;
-    public static final int notification_main_column_container=0x7f09010a;
-    public static final int omnibox_title_section=0x7f09010b;
-    public static final int omnibox_url_section=0x7f09010c;
-    public static final int p_email=0x7f09010d;
-    public static final int packed=0x7f09010e;
-    public static final int pager=0x7f09010f;
-    public static final int parallax=0x7f090110;
-    public static final int parent=0x7f090111;
-    public static final int parentPanel=0x7f090112;
-    public static final int parent_matrix=0x7f090113;
-    public static final int percent=0x7f090114;
-    public static final int phoneNo=0x7f090115;
-    public static final int pin=0x7f090116;
-    public static final int pincode=0x7f090117;
-    public static final int place_autocomplete_clear_button=0x7f090118;
-    public static final int place_autocomplete_powered_by_google=0x7f090119;
-    public static final int place_autocomplete_prediction_primary_text=0x7f09011a;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f09011b;
-    public static final int place_autocomplete_progress=0x7f09011c;
-    public static final int place_autocomplete_search_button=0x7f09011d;
-    public static final int place_autocomplete_search_input=0x7f09011e;
-    public static final int place_autocomplete_separator=0x7f09011f;
-    public static final int plain=0x7f090120;
-    public static final int plant_Date=0x7f090121;
-    public static final int plant_tree_layout=0x7f090122;
-    public static final int plantation_contribution=0x7f090123;
-    public static final int plantation_contribution_layout=0x7f090124;
-    public static final int planted_date=0x7f090125;
-    public static final int planted_dateTitle=0x7f090126;
-    public static final int production=0x7f090127;
-    public static final int profile=0x7f090128;
-    public static final int profile_bar=0x7f090129;
-    public static final int profile_bar2=0x7f09012a;
-    public static final int profile_image=0x7f09012b;
-    public static final int profile_layout=0x7f09012c;
-    public static final int progress=0x7f09012d;
-    public static final int progressBar=0x7f09012e;
-    public static final int progress_circular=0x7f09012f;
-    public static final int progress_horizontal=0x7f090130;
-    public static final int radio=0x7f090131;
-    public static final int re_password=0x7f090132;
-    public static final int recyclerView=0x7f090133;
-    public static final int relation=0x7f090134;
-    public static final int relativeLayout1=0x7f090135;
-    public static final int rfc822=0x7f090136;
-    public static final int right=0x7f090137;
-    public static final int right_icon=0x7f090138;
-    public static final int right_side=0x7f090139;
-    public static final int sandbox=0x7f09013a;
-    public static final int satellite=0x7f09013b;
-    public static final int save_image_matrix=0x7f09013c;
-    public static final int save_non_transition_alpha=0x7f09013d;
-    public static final int save_scale_type=0x7f09013e;
-    public static final int screen=0x7f09013f;
-    public static final int scroll=0x7f090140;
-    public static final int scrollIndicatorDown=0x7f090141;
-    public static final int scrollIndicatorUp=0x7f090142;
-    public static final int scrollView=0x7f090143;
-    public static final int scrollable=0x7f090144;
-    public static final int search_badge=0x7f090145;
-    public static final int search_bar=0x7f090146;
-    public static final int search_button=0x7f090147;
-    public static final int search_close_btn=0x7f090148;
-    public static final int search_edit_frame=0x7f090149;
-    public static final int search_go_btn=0x7f09014a;
-    public static final int search_mag_icon=0x7f09014b;
-    public static final int search_plate=0x7f09014c;
-    public static final int search_src_text=0x7f09014d;
-    public static final int search_voice_btn=0x7f09014e;
-    public static final int seek_bar=0x7f09014f;
-    public static final int seek_bar_controls=0x7f090150;
-    public static final int select_dialog_listview=0x7f090151;
-    public static final int select_image=0x7f090152;
-    public static final int selected_language=0x7f090153;
-    public static final int selectionDetails=0x7f090154;
-    public static final int shortcut=0x7f090155;
-    public static final int showCustom=0x7f090156;
-    public static final int showHome=0x7f090157;
-    public static final int showTitle=0x7f090158;
-    public static final int show_upload=0x7f090159;
-    public static final int slide=0x7f09015a;
-    public static final int smallLabel=0x7f09015b;
-    public static final int snackbar_action=0x7f09015c;
-    public static final int snackbar_text=0x7f09015d;
-    public static final int snap=0x7f09015e;
-    public static final int spacer=0x7f09015f;
-    public static final int split_action_bar=0x7f090160;
-    public static final int spread=0x7f090161;
-    public static final int spread_inside=0x7f090162;
-    public static final int src_atop=0x7f090163;
-    public static final int src_in=0x7f090164;
-    public static final int src_over=0x7f090165;
-    public static final int standard=0x7f090166;
-    public static final int start=0x7f090167;
-    public static final int start_text=0x7f090168;
-    public static final int state=0x7f090169;
-    public static final int statement=0x7f09016a;
-    public static final int statement2=0x7f09016b;
-    public static final int status_bar_latest_event_content=0x7f09016c;
-    public static final int status_text=0x7f09016d;
-    public static final int strict_sandbox=0x7f09016e;
-    public static final int submenuarrow=0x7f09016f;
-    public static final int submit_area=0x7f090170;
-    public static final int subtitle_view=0x7f090171;
-    public static final int tabMode=0x7f090172;
-    public static final int tab_host=0x7f090173;
-    public static final int tag_transition_group=0x7f090174;
-    public static final int terrain=0x7f090175;
-    public static final int test=0x7f090176;
-    public static final int text=0x7f090177;
-    public static final int text1=0x7f090178;
-    public static final int text2=0x7f090179;
-    public static final int textSpacerNoButtons=0x7f09017a;
-    public static final int textSpacerNoTitle=0x7f09017b;
-    public static final int textTitle=0x7f09017c;
-    public static final int textToken=0x7f09017d;
-    public static final int textTree=0x7f09017e;
-    public static final int textView=0x7f09017f;
-    public static final int textView2=0x7f090180;
-    public static final int text_input_password_toggle=0x7f090181;
-    public static final int text_list_view=0x7f090182;
-    public static final int textinput_counter=0x7f090183;
-    public static final int textinput_error=0x7f090184;
-    public static final int thing_proto=0x7f090185;
-    public static final int time=0x7f090186;
-    public static final int timer=0x7f090187;
-    public static final int title=0x7f090188;
-    public static final int titleDividerNoCustom=0x7f090189;
-    public static final int title_template=0x7f09018a;
-    public static final int title_view=0x7f09018b;
-    public static final int tokens_earned=0x7f09018c;
-    public static final int tokens_earned_layout=0x7f09018d;
-    public static final int toolbar=0x7f09018e;
-    public static final int top=0x7f09018f;
-    public static final int topPanel=0x7f090190;
-    public static final int touch_outside=0x7f090191;
-    public static final int transition_current_scene=0x7f090192;
-    public static final int transition_layout_save=0x7f090193;
-    public static final int transition_position=0x7f090194;
-    public static final int transition_scene_layoutid_cache=0x7f090195;
-    public static final int transition_transform=0x7f090196;
-    public static final int tree_Address=0x7f090197;
-    public static final int tree_Name=0x7f090198;
-    public static final int tree_address=0x7f090199;
-    public static final int tree_bar=0x7f09019a;
-    public static final int tree_image=0x7f09019b;
-    public static final int tree_landmark=0x7f09019c;
-    public static final int tree_name=0x7f09019d;
-    public static final int tree_planted_layout=0x7f09019e;
-    public static final int trees_planted=0x7f09019f;
-    public static final int triangle=0x7f0901a0;
-    public static final int tvLatitude=0x7f0901a1;
-    public static final int tvLongitude=0x7f0901a2;
-    public static final int underline=0x7f0901a3;
-    public static final int uniform=0x7f0901a4;
-    public static final int up=0x7f0901a5;
-    public static final int update_error=0x7f0901a6;
-    public static final int updated_date=0x7f0901a7;
-    public static final int updated_dateTitle=0x7f0901a8;
-    public static final int upload_btn=0x7f0901a9;
-    public static final int url=0x7f0901aa;
-    public static final int useLogo=0x7f0901ab;
-    public static final int username=0x7f0901ac;
-    public static final int view_offset_helper=0x7f0901ad;
-    public static final int visible=0x7f0901ae;
-    public static final int volume_item_container=0x7f0901af;
-    public static final int wide=0x7f0901b0;
-    public static final int withText=0x7f0901b1;
-    public static final int wrap=0x7f0901b2;
-    public static final int wrap_content=0x7f0901b3;
+    public static final int background=0x7f09002d;
+    public static final int background_image_view=0x7f09002e;
+    public static final int background_place_holder_image_view=0x7f09002f;
+    public static final int bankcardId=0x7f090030;
+    public static final int barrier=0x7f090031;
+    public static final int beginning=0x7f090032;
+    public static final int blocking=0x7f090033;
+    public static final int blurred_background_image_view=0x7f090034;
+    public static final int book_now=0x7f090035;
+    public static final int bottom=0x7f090036;
+    public static final int btnSubmit=0x7f090037;
+    public static final int btnSubmitProfile=0x7f090038;
+    public static final int btn_changelanguage=0x7f090039;
+    public static final int btn_changepassword=0x7f09003a;
+    public static final int btn_login=0x7f09003b;
+    public static final int btn_next=0x7f09003c;
+    public static final int btn_reset=0x7f09003d;
+    public static final int btn_signup=0x7f09003e;
+    public static final int btn_skip=0x7f09003f;
+    public static final int button=0x7f090040;
+    public static final int buttonPanel=0x7f090041;
+    public static final int button_0=0x7f090042;
+    public static final int button_1=0x7f090043;
+    public static final int button_2=0x7f090044;
+    public static final int button_3=0x7f090045;
+    public static final int button_layout=0x7f090046;
+    public static final int button_play_pause_toggle=0x7f090047;
+    public static final int buyButton=0x7f090048;
+    public static final int buy_now=0x7f090049;
+    public static final int buy_with=0x7f09004a;
+    public static final int buy_with_google=0x7f09004b;
+    public static final int cancel_action=0x7f09004c;
+    public static final int card_view=0x7f09004d;
+    public static final int cast_button_type_closed_caption=0x7f09004e;
+    public static final int cast_button_type_custom=0x7f09004f;
+    public static final int cast_button_type_empty=0x7f090050;
+    public static final int cast_button_type_forward_30_seconds=0x7f090051;
+    public static final int cast_button_type_mute_toggle=0x7f090052;
+    public static final int cast_button_type_play_pause_toggle=0x7f090053;
+    public static final int cast_button_type_rewind_30_seconds=0x7f090054;
+    public static final int cast_button_type_skip_next=0x7f090055;
+    public static final int cast_button_type_skip_previous=0x7f090056;
+    public static final int cast_featurehighlight_help_text_body_view=0x7f090057;
+    public static final int cast_featurehighlight_help_text_header_view=0x7f090058;
+    public static final int cast_featurehighlight_view=0x7f090059;
+    public static final int cast_notification_id=0x7f09005a;
+    public static final int center=0x7f09005b;
+    public static final int center_horizontal=0x7f09005c;
+    public static final int center_vertical=0x7f09005d;
+    public static final int chains=0x7f09005e;
+    public static final int checkbox=0x7f09005f;
+    public static final int chronometer=0x7f090060;
+    public static final int city=0x7f090061;
+    public static final int classic=0x7f090062;
+    public static final int clip_horizontal=0x7f090063;
+    public static final int clip_vertical=0x7f090064;
+    public static final int collapseActionView=0x7f090065;
+    public static final int contact=0x7f090066;
+    public static final int container=0x7f090067;
+    public static final int container_all=0x7f090068;
+    public static final int container_current=0x7f090069;
+    public static final int contentPanel=0x7f09006a;
+    public static final int controllers=0x7f09006b;
+    public static final int coordinator=0x7f09006c;
+    public static final int country=0x7f09006d;
+    public static final int crash_reporting_present=0x7f09006e;
+    public static final int custom=0x7f09006f;
+    public static final int customPanel=0x7f090070;
+    public static final int dark=0x7f090071;
+    public static final int date=0x7f090072;
+    public static final int date_layout=0x7f090073;
+    public static final int decor_content_parent=0x7f090074;
+    public static final int default_activity_button=0x7f090075;
+    public static final int demote_common_words=0x7f090076;
+    public static final int demote_rfc822_hostnames=0x7f090077;
+    public static final int design_bottom_sheet=0x7f090078;
+    public static final int design_menu_item_action_area=0x7f090079;
+    public static final int design_menu_item_action_area_stub=0x7f09007a;
+    public static final int design_menu_item_text=0x7f09007b;
+    public static final int design_navigation_view=0x7f09007c;
+    public static final int dimensions=0x7f09007d;
+    public static final int direct=0x7f09007e;
+    public static final int disableHome=0x7f09007f;
+    public static final int donate_with=0x7f090080;
+    public static final int donate_with_google=0x7f090081;
+    public static final int drawer_layout=0x7f090082;
+    public static final int edit_query=0x7f090083;
+    public static final int email=0x7f090084;
+    public static final int emailNotification=0x7f090085;
+    public static final int end=0x7f090086;
+    public static final int end_padder=0x7f090087;
+    public static final int end_text=0x7f090088;
+    public static final int enterAlways=0x7f090089;
+    public static final int enterAlwaysCollapsed=0x7f09008a;
+    public static final int et_code=0x7f09008b;
+    public static final int et_email=0x7f09008c;
+    public static final int et_password=0x7f09008d;
+    public static final int exitUntilCollapsed=0x7f09008e;
+    public static final int expand_activities_button=0x7f09008f;
+    public static final int expandableListView=0x7f090090;
+    public static final int expandedListItem=0x7f090091;
+    public static final int expanded_controller_layout=0x7f090092;
+    public static final int expanded_menu=0x7f090093;
+    public static final int fill=0x7f090094;
+    public static final int fill_horizontal=0x7f090095;
+    public static final int fill_vertical=0x7f090096;
+    public static final int fixed=0x7f090097;
+    public static final int forever=0x7f090098;
+    public static final int ghost_view=0x7f090099;
+    public static final int gone=0x7f09009a;
+    public static final int googleMaterial2=0x7f09009b;
+    public static final int google_wallet_classic=0x7f09009c;
+    public static final int google_wallet_grayscale=0x7f09009d;
+    public static final int google_wallet_monochrome=0x7f09009e;
+    public static final int grayscale=0x7f09009f;
+    public static final int grp2=0x7f0900a0;
+    public static final int header_cover_image=0x7f0900a1;
+    public static final int holo_dark=0x7f0900a2;
+    public static final int holo_light=0x7f0900a3;
+    public static final int home=0x7f0900a4;
+    public static final int homeAsUp=0x7f0900a5;
+    public static final int html=0x7f0900a6;
+    public static final int hybrid=0x7f0900a7;
+    public static final int icon=0x7f0900a8;
+    public static final int icon_group=0x7f0900a9;
+    public static final int icon_only=0x7f0900aa;
+    public static final int icon_uri=0x7f0900ab;
+    public static final int icon_view=0x7f0900ac;
+    public static final int ifRoom=0x7f0900ad;
+    public static final int image=0x7f0900ae;
+    public static final int imageView3=0x7f0900af;
+    public static final int image_layout=0x7f0900b0;
+    public static final int index_entity_types=0x7f0900b1;
+    public static final int indicator=0x7f0900b2;
+    public static final int info=0x7f0900b3;
+    public static final int input_email=0x7f0900b4;
+    public static final int input_fname=0x7f0900b5;
+    public static final int input_lname=0x7f0900b6;
+    public static final int input_password=0x7f0900b7;
+    public static final int input_reEnterPassword=0x7f0900b8;
+    public static final int instant_message=0x7f0900b9;
+    public static final int intent_action=0x7f0900ba;
+    public static final int intent_activity=0x7f0900bb;
+    public static final int intent_data=0x7f0900bc;
+    public static final int intent_data_id=0x7f0900bd;
+    public static final int intent_extra_data=0x7f0900be;
+    public static final int invisible=0x7f0900bf;
+    public static final int italic=0x7f0900c0;
+    public static final int item_touch_helper_previous_elevation=0x7f0900c1;
+    public static final int largeLabel=0x7f0900c2;
+    public static final int large_icon_uri=0x7f0900c3;
+    public static final int layout=0x7f0900c4;
+    public static final int left=0x7f0900c5;
+    public static final int light=0x7f0900c6;
+    public static final int line1=0x7f0900c7;
+    public static final int line3=0x7f0900c8;
+    public static final int link_forgotpassword=0x7f0900c9;
+    public static final int link_signup=0x7f0900ca;
+    public static final int listMode=0x7f0900cb;
+    public static final int listTitle=0x7f0900cc;
+    public static final int list_item=0x7f0900cd;
+    public static final int live_stream_indicator=0x7f0900ce;
+    public static final int live_stream_seek_bar=0x7f0900cf;
+    public static final int ll=0x7f0900d0;
+    public static final int loading_indicator=0x7f0900d1;
+    public static final int location=0x7f0900d2;
+    public static final int locationTitle=0x7f0900d3;
+    public static final int logo_id=0x7f0900d4;
+    public static final int logo_only=0x7f0900d5;
+    public static final int masked=0x7f0900d6;
+    public static final int match_global_nicknames=0x7f0900d7;
+    public static final int match_parent=0x7f0900d8;
+    public static final int material=0x7f0900d9;
+    public static final int media_actions=0x7f0900da;
+    public static final int message=0x7f0900db;
+    public static final int middle=0x7f0900dc;
+    public static final int mini=0x7f0900dd;
+    public static final int monochrome=0x7f0900de;
+    public static final int mr_art=0x7f0900df;
+    public static final int mr_chooser_list=0x7f0900e0;
+    public static final int mr_chooser_route_desc=0x7f0900e1;
+    public static final int mr_chooser_route_icon=0x7f0900e2;
+    public static final int mr_chooser_route_name=0x7f0900e3;
+    public static final int mr_chooser_title=0x7f0900e4;
+    public static final int mr_close=0x7f0900e5;
+    public static final int mr_control_divider=0x7f0900e6;
+    public static final int mr_control_playback_ctrl=0x7f0900e7;
+    public static final int mr_control_subtitle=0x7f0900e8;
+    public static final int mr_control_title=0x7f0900e9;
+    public static final int mr_control_title_container=0x7f0900ea;
+    public static final int mr_custom_control=0x7f0900eb;
+    public static final int mr_default_control=0x7f0900ec;
+    public static final int mr_dialog_area=0x7f0900ed;
+    public static final int mr_expandable_area=0x7f0900ee;
+    public static final int mr_group_expand_collapse=0x7f0900ef;
+    public static final int mr_media_main_control=0x7f0900f0;
+    public static final int mr_name=0x7f0900f1;
+    public static final int mr_playback_control=0x7f0900f2;
+    public static final int mr_title_bar=0x7f0900f3;
+    public static final int mr_volume_control=0x7f0900f4;
+    public static final int mr_volume_group_list=0x7f0900f5;
+    public static final int mr_volume_item_icon=0x7f0900f6;
+    public static final int mr_volume_slider=0x7f0900f7;
+    public static final int multiply=0x7f0900f8;
+    public static final int mytrees_planttree=0x7f0900f9;
+    public static final int name=0x7f0900fa;
+    public static final int nav_aboutus=0x7f0900fb;
+    public static final int nav_contactus=0x7f0900fc;
+    public static final int nav_logout=0x7f0900fd;
+    public static final int nav_profile=0x7f0900fe;
+    public static final int nav_setting=0x7f0900ff;
+    public static final int nav_trees=0x7f090100;
+    public static final int nav_view=0x7f090101;
+    public static final int navigation_header_container=0x7f090102;
+    public static final int never=0x7f090103;
+    public static final int none=0x7f090104;
+    public static final int normal=0x7f090105;
+    public static final int notification_background=0x7f090106;
+    public static final int notification_main_column=0x7f090107;
+    public static final int notification_main_column_container=0x7f090108;
+    public static final int old_password=0x7f090109;
+    public static final int omnibox_title_section=0x7f09010a;
+    public static final int omnibox_url_section=0x7f09010b;
+    public static final int p_email=0x7f09010c;
+    public static final int packed=0x7f09010d;
+    public static final int pager=0x7f09010e;
+    public static final int parallax=0x7f09010f;
+    public static final int parent=0x7f090110;
+    public static final int parentPanel=0x7f090111;
+    public static final int parent_matrix=0x7f090112;
+    public static final int percent=0x7f090113;
+    public static final int phoneNo=0x7f090114;
+    public static final int pin=0x7f090115;
+    public static final int pincode=0x7f090116;
+    public static final int place_autocomplete_clear_button=0x7f090117;
+    public static final int place_autocomplete_powered_by_google=0x7f090118;
+    public static final int place_autocomplete_prediction_primary_text=0x7f090119;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f09011a;
+    public static final int place_autocomplete_progress=0x7f09011b;
+    public static final int place_autocomplete_search_button=0x7f09011c;
+    public static final int place_autocomplete_search_input=0x7f09011d;
+    public static final int place_autocomplete_separator=0x7f09011e;
+    public static final int plain=0x7f09011f;
+    public static final int plant_Date=0x7f090120;
+    public static final int plant_tree_layout=0x7f090121;
+    public static final int plantation_contribution=0x7f090122;
+    public static final int plantation_contribution_layout=0x7f090123;
+    public static final int planted_date=0x7f090124;
+    public static final int planted_dateTitle=0x7f090125;
+    public static final int production=0x7f090126;
+    public static final int profile=0x7f090127;
+    public static final int profile_bar=0x7f090128;
+    public static final int profile_bar2=0x7f090129;
+    public static final int profile_image=0x7f09012a;
+    public static final int profile_layout=0x7f09012b;
+    public static final int progressBar=0x7f09012c;
+    public static final int progress_circular=0x7f09012d;
+    public static final int progress_horizontal=0x7f09012e;
+    public static final int radio=0x7f09012f;
+    public static final int re_password=0x7f090130;
+    public static final int recyclerView=0x7f090131;
+    public static final int relation=0x7f090132;
+    public static final int relativeLayout1=0x7f090133;
+    public static final int rfc822=0x7f090134;
+    public static final int right=0x7f090135;
+    public static final int right_icon=0x7f090136;
+    public static final int right_side=0x7f090137;
+    public static final int sandbox=0x7f090138;
+    public static final int satellite=0x7f090139;
+    public static final int save_image_matrix=0x7f09013a;
+    public static final int save_non_transition_alpha=0x7f09013b;
+    public static final int save_scale_type=0x7f09013c;
+    public static final int screen=0x7f09013d;
+    public static final int scroll=0x7f09013e;
+    public static final int scrollIndicatorDown=0x7f09013f;
+    public static final int scrollIndicatorUp=0x7f090140;
+    public static final int scrollView=0x7f090141;
+    public static final int scrollable=0x7f090142;
+    public static final int search_badge=0x7f090143;
+    public static final int search_bar=0x7f090144;
+    public static final int search_button=0x7f090145;
+    public static final int search_close_btn=0x7f090146;
+    public static final int search_edit_frame=0x7f090147;
+    public static final int search_go_btn=0x7f090148;
+    public static final int search_mag_icon=0x7f090149;
+    public static final int search_plate=0x7f09014a;
+    public static final int search_src_text=0x7f09014b;
+    public static final int search_voice_btn=0x7f09014c;
+    public static final int seek_bar=0x7f09014d;
+    public static final int seek_bar_controls=0x7f09014e;
+    public static final int select_dialog_listview=0x7f09014f;
+    public static final int select_image=0x7f090150;
+    public static final int selected_language=0x7f090151;
+    public static final int selectionDetails=0x7f090152;
+    public static final int shortcut=0x7f090153;
+    public static final int showCustom=0x7f090154;
+    public static final int showHome=0x7f090155;
+    public static final int showTitle=0x7f090156;
+    public static final int show_upload=0x7f090157;
+    public static final int slide=0x7f090158;
+    public static final int smallLabel=0x7f090159;
+    public static final int snackbar_action=0x7f09015a;
+    public static final int snackbar_text=0x7f09015b;
+    public static final int snap=0x7f09015c;
+    public static final int spacer=0x7f09015d;
+    public static final int split_action_bar=0x7f09015e;
+    public static final int spread=0x7f09015f;
+    public static final int spread_inside=0x7f090160;
+    public static final int src_atop=0x7f090161;
+    public static final int src_in=0x7f090162;
+    public static final int src_over=0x7f090163;
+    public static final int standard=0x7f090164;
+    public static final int start=0x7f090165;
+    public static final int start_text=0x7f090166;
+    public static final int state=0x7f090167;
+    public static final int statement=0x7f090168;
+    public static final int statement2=0x7f090169;
+    public static final int status_bar_latest_event_content=0x7f09016a;
+    public static final int status_text=0x7f09016b;
+    public static final int strict_sandbox=0x7f09016c;
+    public static final int submenuarrow=0x7f09016d;
+    public static final int submit_area=0x7f09016e;
+    public static final int subtitle_view=0x7f09016f;
+    public static final int tabMode=0x7f090170;
+    public static final int tab_host=0x7f090171;
+    public static final int tag_transition_group=0x7f090172;
+    public static final int terrain=0x7f090173;
+    public static final int test=0x7f090174;
+    public static final int text=0x7f090175;
+    public static final int text1=0x7f090176;
+    public static final int text2=0x7f090177;
+    public static final int textSpacerNoButtons=0x7f090178;
+    public static final int textSpacerNoTitle=0x7f090179;
+    public static final int textTitle=0x7f09017a;
+    public static final int textToken=0x7f09017b;
+    public static final int textTree=0x7f09017c;
+    public static final int textView=0x7f09017d;
+    public static final int textView2=0x7f09017e;
+    public static final int text_input_password_toggle=0x7f09017f;
+    public static final int text_list_view=0x7f090180;
+    public static final int textinput_counter=0x7f090181;
+    public static final int textinput_error=0x7f090182;
+    public static final int thing_proto=0x7f090183;
+    public static final int time=0x7f090184;
+    public static final int timer=0x7f090185;
+    public static final int title=0x7f090186;
+    public static final int titleDividerNoCustom=0x7f090187;
+    public static final int title_template=0x7f090188;
+    public static final int title_view=0x7f090189;
+    public static final int tokens_earned=0x7f09018a;
+    public static final int tokens_earned_layout=0x7f09018b;
+    public static final int toolbar=0x7f09018c;
+    public static final int top=0x7f09018d;
+    public static final int topPanel=0x7f09018e;
+    public static final int touch_outside=0x7f09018f;
+    public static final int transition_current_scene=0x7f090190;
+    public static final int transition_layout_save=0x7f090191;
+    public static final int transition_position=0x7f090192;
+    public static final int transition_scene_layoutid_cache=0x7f090193;
+    public static final int transition_transform=0x7f090194;
+    public static final int tree_Address=0x7f090195;
+    public static final int tree_Name=0x7f090196;
+    public static final int tree_address=0x7f090197;
+    public static final int tree_bar=0x7f090198;
+    public static final int tree_image=0x7f090199;
+    public static final int tree_landmark=0x7f09019a;
+    public static final int tree_name=0x7f09019b;
+    public static final int tree_planted_layout=0x7f09019c;
+    public static final int trees_planted=0x7f09019d;
+    public static final int triangle=0x7f09019e;
+    public static final int tvLatitude=0x7f09019f;
+    public static final int tvLongitude=0x7f0901a0;
+    public static final int underline=0x7f0901a1;
+    public static final int uniform=0x7f0901a2;
+    public static final int up=0x7f0901a3;
+    public static final int update_error=0x7f0901a4;
+    public static final int updated_date=0x7f0901a5;
+    public static final int updated_dateTitle=0x7f0901a6;
+    public static final int upload_btn=0x7f0901a7;
+    public static final int url=0x7f0901a8;
+    public static final int useLogo=0x7f0901a9;
+    public static final int username=0x7f0901aa;
+    public static final int view_offset_helper=0x7f0901ab;
+    public static final int visible=0x7f0901ac;
+    public static final int volume_item_container=0x7f0901ad;
+    public static final int wide=0x7f0901ae;
+    public static final int withText=0x7f0901af;
+    public static final int wrap=0x7f0901b0;
+    public static final int wrap_content=0x7f0901b1;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -5925,63 +5927,64 @@ public final class R {
     public static final int activity_signup=0x7f0c0026;
     public static final int activity_splash=0x7f0c0027;
     public static final int activity_update_tree_details=0x7f0c0028;
-    public static final int app_bar_home=0x7f0c0029;
-    public static final int cast_expanded_controller_activity=0x7f0c002a;
-    public static final int cast_help_text=0x7f0c002b;
-    public static final int cast_intro_overlay=0x7f0c002c;
-    public static final int cast_mini_controller=0x7f0c002d;
-    public static final int cast_tracks_chooser_dialog_layout=0x7f0c002e;
-    public static final int cast_tracks_chooser_dialog_row_layout=0x7f0c002f;
-    public static final int content_home=0x7f0c0030;
-    public static final int design_bottom_navigation_item=0x7f0c0031;
-    public static final int design_bottom_sheet_dialog=0x7f0c0032;
-    public static final int design_layout_snackbar=0x7f0c0033;
-    public static final int design_layout_snackbar_include=0x7f0c0034;
-    public static final int design_layout_tab_icon=0x7f0c0035;
-    public static final int design_layout_tab_text=0x7f0c0036;
-    public static final int design_menu_item_action_area=0x7f0c0037;
-    public static final int design_navigation_item=0x7f0c0038;
-    public static final int design_navigation_item_header=0x7f0c0039;
-    public static final int design_navigation_item_separator=0x7f0c003a;
-    public static final int design_navigation_item_subheader=0x7f0c003b;
-    public static final int design_navigation_menu=0x7f0c003c;
-    public static final int design_navigation_menu_item=0x7f0c003d;
-    public static final int design_text_input_password_icon=0x7f0c003e;
-    public static final int list_group=0x7f0c003f;
-    public static final int list_item=0x7f0c0040;
-    public static final int mr_chooser_dialog=0x7f0c0041;
-    public static final int mr_chooser_list_item=0x7f0c0042;
-    public static final int mr_controller_material_dialog_b=0x7f0c0043;
-    public static final int mr_controller_volume_item=0x7f0c0044;
-    public static final int mr_playback_control=0x7f0c0045;
-    public static final int mr_volume_control=0x7f0c0046;
-    public static final int nav_header_home=0x7f0c0047;
-    public static final int notification_action=0x7f0c0048;
-    public static final int notification_action_tombstone=0x7f0c0049;
-    public static final int notification_media_action=0x7f0c004a;
-    public static final int notification_media_cancel_action=0x7f0c004b;
-    public static final int notification_template_big_media=0x7f0c004c;
-    public static final int notification_template_big_media_custom=0x7f0c004d;
-    public static final int notification_template_big_media_narrow=0x7f0c004e;
-    public static final int notification_template_big_media_narrow_custom=0x7f0c004f;
-    public static final int notification_template_custom_big=0x7f0c0050;
-    public static final int notification_template_icon_group=0x7f0c0051;
-    public static final int notification_template_lines_media=0x7f0c0052;
-    public static final int notification_template_media=0x7f0c0053;
-    public static final int notification_template_media_custom=0x7f0c0054;
-    public static final int notification_template_part_chronometer=0x7f0c0055;
-    public static final int notification_template_part_time=0x7f0c0056;
-    public static final int place_autocomplete_fragment=0x7f0c0057;
-    public static final int place_autocomplete_item_powered_by_google=0x7f0c0058;
-    public static final int place_autocomplete_item_prediction=0x7f0c0059;
-    public static final int place_autocomplete_progress=0x7f0c005a;
-    public static final int rowlayout=0x7f0c005b;
-    public static final int select_dialog_item_material=0x7f0c005c;
-    public static final int select_dialog_multichoice_material=0x7f0c005d;
-    public static final int select_dialog_singlechoice_material=0x7f0c005e;
-    public static final int slidingimages_layout=0x7f0c005f;
-    public static final int support_simple_spinner_dropdown_item=0x7f0c0060;
-    public static final int wallet_test_layout=0x7f0c0061;
+    public static final int activity_write_to_us=0x7f0c0029;
+    public static final int app_bar_home=0x7f0c002a;
+    public static final int cast_expanded_controller_activity=0x7f0c002b;
+    public static final int cast_help_text=0x7f0c002c;
+    public static final int cast_intro_overlay=0x7f0c002d;
+    public static final int cast_mini_controller=0x7f0c002e;
+    public static final int cast_tracks_chooser_dialog_layout=0x7f0c002f;
+    public static final int cast_tracks_chooser_dialog_row_layout=0x7f0c0030;
+    public static final int content_home=0x7f0c0031;
+    public static final int design_bottom_navigation_item=0x7f0c0032;
+    public static final int design_bottom_sheet_dialog=0x7f0c0033;
+    public static final int design_layout_snackbar=0x7f0c0034;
+    public static final int design_layout_snackbar_include=0x7f0c0035;
+    public static final int design_layout_tab_icon=0x7f0c0036;
+    public static final int design_layout_tab_text=0x7f0c0037;
+    public static final int design_menu_item_action_area=0x7f0c0038;
+    public static final int design_navigation_item=0x7f0c0039;
+    public static final int design_navigation_item_header=0x7f0c003a;
+    public static final int design_navigation_item_separator=0x7f0c003b;
+    public static final int design_navigation_item_subheader=0x7f0c003c;
+    public static final int design_navigation_menu=0x7f0c003d;
+    public static final int design_navigation_menu_item=0x7f0c003e;
+    public static final int design_text_input_password_icon=0x7f0c003f;
+    public static final int list_group=0x7f0c0040;
+    public static final int list_item=0x7f0c0041;
+    public static final int mr_chooser_dialog=0x7f0c0042;
+    public static final int mr_chooser_list_item=0x7f0c0043;
+    public static final int mr_controller_material_dialog_b=0x7f0c0044;
+    public static final int mr_controller_volume_item=0x7f0c0045;
+    public static final int mr_playback_control=0x7f0c0046;
+    public static final int mr_volume_control=0x7f0c0047;
+    public static final int nav_header_home=0x7f0c0048;
+    public static final int notification_action=0x7f0c0049;
+    public static final int notification_action_tombstone=0x7f0c004a;
+    public static final int notification_media_action=0x7f0c004b;
+    public static final int notification_media_cancel_action=0x7f0c004c;
+    public static final int notification_template_big_media=0x7f0c004d;
+    public static final int notification_template_big_media_custom=0x7f0c004e;
+    public static final int notification_template_big_media_narrow=0x7f0c004f;
+    public static final int notification_template_big_media_narrow_custom=0x7f0c0050;
+    public static final int notification_template_custom_big=0x7f0c0051;
+    public static final int notification_template_icon_group=0x7f0c0052;
+    public static final int notification_template_lines_media=0x7f0c0053;
+    public static final int notification_template_media=0x7f0c0054;
+    public static final int notification_template_media_custom=0x7f0c0055;
+    public static final int notification_template_part_chronometer=0x7f0c0056;
+    public static final int notification_template_part_time=0x7f0c0057;
+    public static final int place_autocomplete_fragment=0x7f0c0058;
+    public static final int place_autocomplete_item_powered_by_google=0x7f0c0059;
+    public static final int place_autocomplete_item_prediction=0x7f0c005a;
+    public static final int place_autocomplete_progress=0x7f0c005b;
+    public static final int rowlayout=0x7f0c005c;
+    public static final int select_dialog_item_material=0x7f0c005d;
+    public static final int select_dialog_multichoice_material=0x7f0c005e;
+    public static final int select_dialog_singlechoice_material=0x7f0c005f;
+    public static final int slidingimages_layout=0x7f0c0060;
+    public static final int support_simple_spinner_dropdown_item=0x7f0c0061;
+    public static final int wallet_test_layout=0x7f0c0062;
   }
   public static final class menu {
     public static final int activity_home_drawer=0x7f0d0000;
@@ -6004,7 +6007,7 @@ public final class R {
     public static final int ChangePassword=0x7f0f0007;
     public static final int ChangePasswordd=0x7f0f0008;
     public static final int City=0x7f0f0009;
-    public static final int Contactus=0x7f0f000a;
+    public static final int Code=0x7f0f000a;
     public static final int CreateAccount=0x7f0f000b;
     public static final int Email=0x7f0f000c;
     public static final int FirstName=0x7f0f000d;
@@ -6014,206 +6017,211 @@ public final class R {
     public static final int Lanmark=0x7f0f0011;
     public static final int LastName=0x7f0f0012;
     public static final int Latitude=0x7f0f0013;
-    public static final int Logout=0x7f0f0014;
-    public static final int Longitude=0x7f0f0015;
-    public static final int MobileNumber=0x7f0f0016;
-    public static final int MyProfile=0x7f0f0017;
-    public static final int MyTrees=0x7f0f0018;
-    public static final int Newpassword=0x7f0f0019;
-    public static final int NotAccount=0x7f0f001a;
-    public static final int Oldpassword=0x7f0f001b;
-    public static final int Password=0x7f0f001c;
-    public static final int PinCode=0x7f0f001d;
-    public static final int PlantDate=0x7f0f001e;
-    public static final int Rateus=0x7f0f001f;
-    public static final int ReenterPassword=0x7f0f0020;
-    public static final int Reenternewpassword=0x7f0f0021;
-    public static final int Relation=0x7f0f0022;
-    public static final int Settings=0x7f0f0023;
-    public static final int TOKENSEARNED=0x7f0f0024;
-    public static final int TreeName=0x7f0f0025;
-    public static final int UserName=0x7f0f0026;
-    public static final int aadhar=0x7f0f0027;
-    public static final int abc_action_bar_home_description=0x7f0f0028;
-    public static final int abc_action_bar_up_description=0x7f0f0029;
-    public static final int abc_action_menu_overflow_description=0x7f0f002a;
-    public static final int abc_action_mode_done=0x7f0f002b;
-    public static final int abc_activity_chooser_view_see_all=0x7f0f002c;
-    public static final int abc_activitychooserview_choose_application=0x7f0f002d;
-    public static final int abc_capital_off=0x7f0f002e;
-    public static final int abc_capital_on=0x7f0f002f;
-    public static final int abc_font_family_body_1_material=0x7f0f0030;
-    public static final int abc_font_family_body_2_material=0x7f0f0031;
-    public static final int abc_font_family_button_material=0x7f0f0032;
-    public static final int abc_font_family_caption_material=0x7f0f0033;
-    public static final int abc_font_family_display_1_material=0x7f0f0034;
-    public static final int abc_font_family_display_2_material=0x7f0f0035;
-    public static final int abc_font_family_display_3_material=0x7f0f0036;
-    public static final int abc_font_family_display_4_material=0x7f0f0037;
-    public static final int abc_font_family_headline_material=0x7f0f0038;
-    public static final int abc_font_family_menu_material=0x7f0f0039;
-    public static final int abc_font_family_subhead_material=0x7f0f003a;
-    public static final int abc_font_family_title_material=0x7f0f003b;
-    public static final int abc_search_hint=0x7f0f003c;
-    public static final int abc_searchview_description_clear=0x7f0f003d;
-    public static final int abc_searchview_description_query=0x7f0f003e;
-    public static final int abc_searchview_description_search=0x7f0f003f;
-    public static final int abc_searchview_description_submit=0x7f0f0040;
-    public static final int abc_searchview_description_voice=0x7f0f0041;
-    public static final int abc_shareactionprovider_share_with=0x7f0f0042;
-    public static final int abc_shareactionprovider_share_with_application=0x7f0f0043;
-    public static final int abc_toolbar_collapse_description=0x7f0f0044;
-    public static final int app_name=0x7f0f0045;
-    public static final int appbar_scrolling_view_behavior=0x7f0f0046;
-    public static final int appname=0x7f0f0047;
-    public static final int bottom_sheet_behavior=0x7f0f0048;
-    public static final int cast_ad_label=0x7f0f0049;
-    public static final int cast_casting_to_device=0x7f0f004a;
-    public static final int cast_closed_captions=0x7f0f004b;
-    public static final int cast_closed_captions_unavailable=0x7f0f004c;
-    public static final int cast_connecting_to_device=0x7f0f004d;
-    public static final int cast_disconnect=0x7f0f004e;
-    public static final int cast_expanded_controller_ad_image_description=0x7f0f004f;
-    public static final int cast_expanded_controller_ad_in_progress=0x7f0f0050;
-    public static final int cast_expanded_controller_background_image=0x7f0f0051;
-    public static final int cast_expanded_controller_live_stream_indicator=0x7f0f0052;
-    public static final int cast_expanded_controller_loading=0x7f0f0053;
-    public static final int cast_expanded_controller_skip_ad_label=0x7f0f0054;
-    public static final int cast_forward=0x7f0f0055;
-    public static final int cast_forward_10=0x7f0f0056;
-    public static final int cast_forward_30=0x7f0f0057;
-    public static final int cast_intro_overlay_button_text=0x7f0f0058;
-    public static final int cast_invalid_stream_duration_text=0x7f0f0059;
-    public static final int cast_invalid_stream_position_text=0x7f0f005a;
-    public static final int cast_mute=0x7f0f005b;
-    public static final int cast_notification_connected_message=0x7f0f005c;
-    public static final int cast_notification_connecting_message=0x7f0f005d;
-    public static final int cast_notification_default_channel_name=0x7f0f005e;
-    public static final int cast_notification_disconnect=0x7f0f005f;
-    public static final int cast_pause=0x7f0f0060;
-    public static final int cast_play=0x7f0f0061;
-    public static final int cast_rewind=0x7f0f0062;
-    public static final int cast_rewind_10=0x7f0f0063;
-    public static final int cast_rewind_30=0x7f0f0064;
-    public static final int cast_seek_bar=0x7f0f0065;
-    public static final int cast_skip_next=0x7f0f0066;
-    public static final int cast_skip_prev=0x7f0f0067;
-    public static final int cast_stop=0x7f0f0068;
-    public static final int cast_stop_live_stream=0x7f0f0069;
-    public static final int cast_tracks_chooser_dialog_audio=0x7f0f006a;
-    public static final int cast_tracks_chooser_dialog_cancel=0x7f0f006b;
-    public static final int cast_tracks_chooser_dialog_closed_captions=0x7f0f006c;
-    public static final int cast_tracks_chooser_dialog_default_track_name=0x7f0f006d;
-    public static final int cast_tracks_chooser_dialog_none=0x7f0f006e;
-    public static final int cast_tracks_chooser_dialog_ok=0x7f0f006f;
-    public static final int cast_tracks_chooser_dialog_subtitles=0x7f0f0070;
-    public static final int cast_unmute=0x7f0f0071;
-    public static final int chPLANTTREE=0x7f0f0072;
-    public static final int chTREES=0x7f0f0073;
-    public static final int changelanguage=0x7f0f0074;
-    public static final int character_counter_pattern=0x7f0f0075;
-    public static final int city=0x7f0f0076;
-    public static final int common_google_play_services_enable_button=0x7f0f0077;
-    public static final int common_google_play_services_enable_text=0x7f0f0078;
-    public static final int common_google_play_services_enable_title=0x7f0f0079;
-    public static final int common_google_play_services_install_button=0x7f0f007a;
-    public static final int common_google_play_services_install_text=0x7f0f007b;
-    public static final int common_google_play_services_install_title=0x7f0f007c;
-    public static final int common_google_play_services_notification_channel_name=0x7f0f007d;
-    public static final int common_google_play_services_notification_ticker=0x7f0f007e;
-    public static final int common_google_play_services_unknown_issue=0x7f0f007f;
-    public static final int common_google_play_services_unsupported_text=0x7f0f0080;
-    public static final int common_google_play_services_update_button=0x7f0f0081;
-    public static final int common_google_play_services_update_text=0x7f0f0082;
-    public static final int common_google_play_services_update_title=0x7f0f0083;
-    public static final int common_google_play_services_updating_text=0x7f0f0084;
-    public static final int common_google_play_services_wear_update_text=0x7f0f0085;
-    public static final int common_open_on_phone=0x7f0f0086;
-    public static final int common_signin_button_text=0x7f0f0087;
-    public static final int common_signin_button_text_long=0x7f0f0088;
-    public static final int country=0x7f0f0089;
-    public static final int exitnotification=0x7f0f008a;
-    public static final int fcm_fallback_notification_channel_label=0x7f0f008b;
-    public static final int gcm_fallback_notification_channel_label=0x7f0f008c;
-    public static final int logoutnotification=0x7f0f008d;
-    public static final int mr_button_content_description=0x7f0f008e;
-    public static final int mr_cast_button_connected=0x7f0f008f;
-    public static final int mr_cast_button_connecting=0x7f0f0090;
-    public static final int mr_cast_button_disconnected=0x7f0f0091;
-    public static final int mr_chooser_searching=0x7f0f0092;
-    public static final int mr_chooser_title=0x7f0f0093;
-    public static final int mr_controller_album_art=0x7f0f0094;
-    public static final int mr_controller_casting_screen=0x7f0f0095;
-    public static final int mr_controller_close_description=0x7f0f0096;
-    public static final int mr_controller_collapse_group=0x7f0f0097;
-    public static final int mr_controller_disconnect=0x7f0f0098;
-    public static final int mr_controller_expand_group=0x7f0f0099;
-    public static final int mr_controller_no_info_available=0x7f0f009a;
-    public static final int mr_controller_no_media_selected=0x7f0f009b;
-    public static final int mr_controller_pause=0x7f0f009c;
-    public static final int mr_controller_play=0x7f0f009d;
-    public static final int mr_controller_stop=0x7f0f009e;
-    public static final int mr_controller_stop_casting=0x7f0f009f;
-    public static final int mr_controller_volume_slider=0x7f0f00a0;
-    public static final int mr_system_route_name=0x7f0f00a1;
-    public static final int mr_user_route_category_name=0x7f0f00a2;
-    public static final int nav_header_desc=0x7f0f00a3;
-    public static final int nav_header_subtitle=0x7f0f00a4;
-    public static final int nav_header_title=0x7f0f00a5;
-    public static final int navigation_drawer_close=0x7f0f00a6;
-    public static final int navigation_drawer_open=0x7f0f00a7;
-    public static final int next=0x7f0f00a8;
-    public static final int password_toggle_content_description=0x7f0f00a9;
-    public static final int path_password_eye=0x7f0f00aa;
-    public static final int path_password_eye_mask_strike_through=0x7f0f00ab;
-    public static final int path_password_eye_mask_visible=0x7f0f00ac;
-    public static final int path_password_strike_through=0x7f0f00ad;
-    public static final int phoneNo=0x7f0f00ae;
-    public static final int pincode=0x7f0f00af;
-    public static final int place_autocomplete_clear_button=0x7f0f00b0;
-    public static final int place_autocomplete_search_hint=0x7f0f00b1;
-    public static final int ptac=0x7f0f00b2;
-    public static final int rate_dialog_cancel=0x7f0f00b3;
-    public static final int rate_dialog_message=0x7f0f00b4;
-    public static final int rate_dialog_no=0x7f0f00b5;
-    public static final int rate_dialog_ok=0x7f0f00b6;
-    public static final int rate_dialog_title=0x7f0f00b7;
-    public static final int rateus=0x7f0f00b8;
-    public static final int s1=0x7f0f00b9;
-    public static final int s2=0x7f0f00ba;
-    public static final int s3=0x7f0f00bb;
-    public static final int s4=0x7f0f00bc;
-    public static final int s5=0x7f0f00bd;
-    public static final int s6=0x7f0f00be;
-    public static final int s7=0x7f0f00bf;
-    public static final int search_menu_title=0x7f0f00c0;
-    public static final int selected_lang=0x7f0f00c1;
-    public static final int skip=0x7f0f00c2;
-    public static final int start=0x7f0f00c3;
-    public static final int state=0x7f0f00c4;
-    public static final int statement1=0x7f0f00c5;
-    public static final int statement2=0x7f0f00c6;
-    public static final int status_bar_notification_info_overflow=0x7f0f00c7;
-    public static final int tagmanager_preview_dialog_button=0x7f0f00c8;
-    public static final int tagmanager_preview_dialog_message=0x7f0f00c9;
-    public static final int tagmanager_preview_dialog_title=0x7f0f00ca;
-    public static final int teyc=0x7f0f00cb;
-    public static final int title_activity_home=0x7f0f00cc;
-    public static final int token=0x7f0f00cd;
-    public static final int tpf=0x7f0f00ce;
-    public static final int trees=0x7f0f00cf;
-    public static final int updCancel=0x7f0f00d0;
-    public static final int updImage=0x7f0f00d1;
-    public static final int updPlantUpdateDate=0x7f0f00d2;
-    public static final int updPlantedon=0x7f0f00d3;
-    public static final int updSelectDate=0x7f0f00d4;
-    public static final int updSelectImage=0x7f0f00d5;
-    public static final int updUpdate=0x7f0f00d6;
-    public static final int updUpdatedon=0x7f0f00d7;
-    public static final int updateLocation=0x7f0f00d8;
-    public static final int updateTreeName=0x7f0f00d9;
-    public static final int wallet_buy_button_place_holder=0x7f0f00da;
-    public static final int yctp=0x7f0f00db;
+    public static final int Login=0x7f0f0014;
+    public static final int Logout=0x7f0f0015;
+    public static final int Longitude=0x7f0f0016;
+    public static final int MobileNumber=0x7f0f0017;
+    public static final int MyProfile=0x7f0f0018;
+    public static final int MyTrees=0x7f0f0019;
+    public static final int Newpassword=0x7f0f001a;
+    public static final int NotAccount=0x7f0f001b;
+    public static final int Oldpassword=0x7f0f001c;
+    public static final int Password=0x7f0f001d;
+    public static final int PinCode=0x7f0f001e;
+    public static final int PlantDate=0x7f0f001f;
+    public static final int Rateus=0x7f0f0020;
+    public static final int ReenterPassword=0x7f0f0021;
+    public static final int Reenternewpassword=0x7f0f0022;
+    public static final int Relation=0x7f0f0023;
+    public static final int Settings=0x7f0f0024;
+    public static final int TOKENSEARNED=0x7f0f0025;
+    public static final int TreeName=0x7f0f0026;
+    public static final int UserName=0x7f0f0027;
+    public static final int aadhar=0x7f0f0028;
+    public static final int abc_action_bar_home_description=0x7f0f0029;
+    public static final int abc_action_bar_up_description=0x7f0f002a;
+    public static final int abc_action_menu_overflow_description=0x7f0f002b;
+    public static final int abc_action_mode_done=0x7f0f002c;
+    public static final int abc_activity_chooser_view_see_all=0x7f0f002d;
+    public static final int abc_activitychooserview_choose_application=0x7f0f002e;
+    public static final int abc_capital_off=0x7f0f002f;
+    public static final int abc_capital_on=0x7f0f0030;
+    public static final int abc_font_family_body_1_material=0x7f0f0031;
+    public static final int abc_font_family_body_2_material=0x7f0f0032;
+    public static final int abc_font_family_button_material=0x7f0f0033;
+    public static final int abc_font_family_caption_material=0x7f0f0034;
+    public static final int abc_font_family_display_1_material=0x7f0f0035;
+    public static final int abc_font_family_display_2_material=0x7f0f0036;
+    public static final int abc_font_family_display_3_material=0x7f0f0037;
+    public static final int abc_font_family_display_4_material=0x7f0f0038;
+    public static final int abc_font_family_headline_material=0x7f0f0039;
+    public static final int abc_font_family_menu_material=0x7f0f003a;
+    public static final int abc_font_family_subhead_material=0x7f0f003b;
+    public static final int abc_font_family_title_material=0x7f0f003c;
+    public static final int abc_search_hint=0x7f0f003d;
+    public static final int abc_searchview_description_clear=0x7f0f003e;
+    public static final int abc_searchview_description_query=0x7f0f003f;
+    public static final int abc_searchview_description_search=0x7f0f0040;
+    public static final int abc_searchview_description_submit=0x7f0f0041;
+    public static final int abc_searchview_description_voice=0x7f0f0042;
+    public static final int abc_shareactionprovider_share_with=0x7f0f0043;
+    public static final int abc_shareactionprovider_share_with_application=0x7f0f0044;
+    public static final int abc_toolbar_collapse_description=0x7f0f0045;
+    public static final int app_name=0x7f0f0046;
+    public static final int appbar_scrolling_view_behavior=0x7f0f0047;
+    public static final int appname=0x7f0f0048;
+    public static final int bottom_sheet_behavior=0x7f0f0049;
+    public static final int cast_ad_label=0x7f0f004a;
+    public static final int cast_casting_to_device=0x7f0f004b;
+    public static final int cast_closed_captions=0x7f0f004c;
+    public static final int cast_closed_captions_unavailable=0x7f0f004d;
+    public static final int cast_connecting_to_device=0x7f0f004e;
+    public static final int cast_disconnect=0x7f0f004f;
+    public static final int cast_expanded_controller_ad_image_description=0x7f0f0050;
+    public static final int cast_expanded_controller_ad_in_progress=0x7f0f0051;
+    public static final int cast_expanded_controller_background_image=0x7f0f0052;
+    public static final int cast_expanded_controller_live_stream_indicator=0x7f0f0053;
+    public static final int cast_expanded_controller_loading=0x7f0f0054;
+    public static final int cast_expanded_controller_skip_ad_label=0x7f0f0055;
+    public static final int cast_forward=0x7f0f0056;
+    public static final int cast_forward_10=0x7f0f0057;
+    public static final int cast_forward_30=0x7f0f0058;
+    public static final int cast_intro_overlay_button_text=0x7f0f0059;
+    public static final int cast_invalid_stream_duration_text=0x7f0f005a;
+    public static final int cast_invalid_stream_position_text=0x7f0f005b;
+    public static final int cast_mute=0x7f0f005c;
+    public static final int cast_notification_connected_message=0x7f0f005d;
+    public static final int cast_notification_connecting_message=0x7f0f005e;
+    public static final int cast_notification_default_channel_name=0x7f0f005f;
+    public static final int cast_notification_disconnect=0x7f0f0060;
+    public static final int cast_pause=0x7f0f0061;
+    public static final int cast_play=0x7f0f0062;
+    public static final int cast_rewind=0x7f0f0063;
+    public static final int cast_rewind_10=0x7f0f0064;
+    public static final int cast_rewind_30=0x7f0f0065;
+    public static final int cast_seek_bar=0x7f0f0066;
+    public static final int cast_skip_next=0x7f0f0067;
+    public static final int cast_skip_prev=0x7f0f0068;
+    public static final int cast_stop=0x7f0f0069;
+    public static final int cast_stop_live_stream=0x7f0f006a;
+    public static final int cast_tracks_chooser_dialog_audio=0x7f0f006b;
+    public static final int cast_tracks_chooser_dialog_cancel=0x7f0f006c;
+    public static final int cast_tracks_chooser_dialog_closed_captions=0x7f0f006d;
+    public static final int cast_tracks_chooser_dialog_default_track_name=0x7f0f006e;
+    public static final int cast_tracks_chooser_dialog_none=0x7f0f006f;
+    public static final int cast_tracks_chooser_dialog_ok=0x7f0f0070;
+    public static final int cast_tracks_chooser_dialog_subtitles=0x7f0f0071;
+    public static final int cast_unmute=0x7f0f0072;
+    public static final int chPLANTTREE=0x7f0f0073;
+    public static final int chTREES=0x7f0f0074;
+    public static final int changelanguage=0x7f0f0075;
+    public static final int character_counter_pattern=0x7f0f0076;
+    public static final int city=0x7f0f0077;
+    public static final int common_google_play_services_enable_button=0x7f0f0078;
+    public static final int common_google_play_services_enable_text=0x7f0f0079;
+    public static final int common_google_play_services_enable_title=0x7f0f007a;
+    public static final int common_google_play_services_install_button=0x7f0f007b;
+    public static final int common_google_play_services_install_text=0x7f0f007c;
+    public static final int common_google_play_services_install_title=0x7f0f007d;
+    public static final int common_google_play_services_notification_channel_name=0x7f0f007e;
+    public static final int common_google_play_services_notification_ticker=0x7f0f007f;
+    public static final int common_google_play_services_unknown_issue=0x7f0f0080;
+    public static final int common_google_play_services_unsupported_text=0x7f0f0081;
+    public static final int common_google_play_services_update_button=0x7f0f0082;
+    public static final int common_google_play_services_update_text=0x7f0f0083;
+    public static final int common_google_play_services_update_title=0x7f0f0084;
+    public static final int common_google_play_services_updating_text=0x7f0f0085;
+    public static final int common_google_play_services_wear_update_text=0x7f0f0086;
+    public static final int common_open_on_phone=0x7f0f0087;
+    public static final int common_signin_button_text=0x7f0f0088;
+    public static final int common_signin_button_text_long=0x7f0f0089;
+    public static final int country=0x7f0f008a;
+    public static final int email=0x7f0f008b;
+    public static final int exitnotification=0x7f0f008c;
+    public static final int fcm_fallback_notification_channel_label=0x7f0f008d;
+    public static final int gcm_fallback_notification_channel_label=0x7f0f008e;
+    public static final int logoutnotification=0x7f0f008f;
+    public static final int mr_button_content_description=0x7f0f0090;
+    public static final int mr_cast_button_connected=0x7f0f0091;
+    public static final int mr_cast_button_connecting=0x7f0f0092;
+    public static final int mr_cast_button_disconnected=0x7f0f0093;
+    public static final int mr_chooser_searching=0x7f0f0094;
+    public static final int mr_chooser_title=0x7f0f0095;
+    public static final int mr_controller_album_art=0x7f0f0096;
+    public static final int mr_controller_casting_screen=0x7f0f0097;
+    public static final int mr_controller_close_description=0x7f0f0098;
+    public static final int mr_controller_collapse_group=0x7f0f0099;
+    public static final int mr_controller_disconnect=0x7f0f009a;
+    public static final int mr_controller_expand_group=0x7f0f009b;
+    public static final int mr_controller_no_info_available=0x7f0f009c;
+    public static final int mr_controller_no_media_selected=0x7f0f009d;
+    public static final int mr_controller_pause=0x7f0f009e;
+    public static final int mr_controller_play=0x7f0f009f;
+    public static final int mr_controller_stop=0x7f0f00a0;
+    public static final int mr_controller_stop_casting=0x7f0f00a1;
+    public static final int mr_controller_volume_slider=0x7f0f00a2;
+    public static final int mr_system_route_name=0x7f0f00a3;
+    public static final int mr_user_route_category_name=0x7f0f00a4;
+    public static final int nav_header_desc=0x7f0f00a5;
+    public static final int nav_header_subtitle=0x7f0f00a6;
+    public static final int nav_header_title=0x7f0f00a7;
+    public static final int navigation_drawer_close=0x7f0f00a8;
+    public static final int navigation_drawer_open=0x7f0f00a9;
+    public static final int next=0x7f0f00aa;
+    public static final int password=0x7f0f00ab;
+    public static final int password_toggle_content_description=0x7f0f00ac;
+    public static final int path_password_eye=0x7f0f00ad;
+    public static final int path_password_eye_mask_strike_through=0x7f0f00ae;
+    public static final int path_password_eye_mask_visible=0x7f0f00af;
+    public static final int path_password_strike_through=0x7f0f00b0;
+    public static final int phoneNo=0x7f0f00b1;
+    public static final int pincode=0x7f0f00b2;
+    public static final int place_autocomplete_clear_button=0x7f0f00b3;
+    public static final int place_autocomplete_search_hint=0x7f0f00b4;
+    public static final int ptac=0x7f0f00b5;
+    public static final int rate_dialog_cancel=0x7f0f00b6;
+    public static final int rate_dialog_message=0x7f0f00b7;
+    public static final int rate_dialog_no=0x7f0f00b8;
+    public static final int rate_dialog_ok=0x7f0f00b9;
+    public static final int rate_dialog_title=0x7f0f00ba;
+    public static final int rateus=0x7f0f00bb;
+    public static final int s1=0x7f0f00bc;
+    public static final int s2=0x7f0f00bd;
+    public static final int s3=0x7f0f00be;
+    public static final int s4=0x7f0f00bf;
+    public static final int s5=0x7f0f00c0;
+    public static final int s6=0x7f0f00c1;
+    public static final int s7=0x7f0f00c2;
+    public static final int search_menu_title=0x7f0f00c3;
+    public static final int selected_lang=0x7f0f00c4;
+    public static final int skip=0x7f0f00c5;
+    public static final int start=0x7f0f00c6;
+    public static final int state=0x7f0f00c7;
+    public static final int statement1=0x7f0f00c8;
+    public static final int statement2=0x7f0f00c9;
+    public static final int status_bar_notification_info_overflow=0x7f0f00ca;
+    public static final int submit=0x7f0f00cb;
+    public static final int tagmanager_preview_dialog_button=0x7f0f00cc;
+    public static final int tagmanager_preview_dialog_message=0x7f0f00cd;
+    public static final int tagmanager_preview_dialog_title=0x7f0f00ce;
+    public static final int teyc=0x7f0f00cf;
+    public static final int title_activity_home=0x7f0f00d0;
+    public static final int token=0x7f0f00d1;
+    public static final int tpf=0x7f0f00d2;
+    public static final int trees=0x7f0f00d3;
+    public static final int updCancel=0x7f0f00d4;
+    public static final int updImage=0x7f0f00d5;
+    public static final int updPlantUpdateDate=0x7f0f00d6;
+    public static final int updPlantedon=0x7f0f00d7;
+    public static final int updSelectDate=0x7f0f00d8;
+    public static final int updSelectImage=0x7f0f00d9;
+    public static final int updUpdate=0x7f0f00da;
+    public static final int updUpdatedon=0x7f0f00db;
+    public static final int updateLocation=0x7f0f00dc;
+    public static final int updateTreeName=0x7f0f00dd;
+    public static final int wallet_buy_button_place_holder=0x7f0f00de;
+    public static final int writetous=0x7f0f00df;
+    public static final int yctp=0x7f0f00e0;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;
@@ -6646,35 +6654,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.project.materialloginexample:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.project.materialloginexample:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.project.materialloginexample:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.project.materialloginexample:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.project.materialloginexample:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.project.materialloginexample:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.project.materialloginexample:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.project.materialloginexample:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.project.materialloginexample:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.project.materialloginexample:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.project.materialloginexample:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.project.materialloginexample:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.project.materialloginexample:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.project.materialloginexample:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.project.materialloginexample:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.project.materialloginexample:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.project.materialloginexample:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.project.materialloginexample:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.project.materialloginexample:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.project.materialloginexample:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.project.materialloginexample:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.project.materialloginexample:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.project.materialloginexample:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.project.materialloginexample:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.project.materialloginexample:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.project.materialloginexample:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.project.materialloginexample:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.project.materialloginexample:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.project.EarthFoundation:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.project.EarthFoundation:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.project.EarthFoundation:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.project.EarthFoundation:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.project.EarthFoundation:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.project.EarthFoundation:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.project.EarthFoundation:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.project.EarthFoundation:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.project.EarthFoundation:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.project.EarthFoundation:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.project.EarthFoundation:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.project.EarthFoundation:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.project.EarthFoundation:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.project.EarthFoundation:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.project.EarthFoundation:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.project.EarthFoundation:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.project.EarthFoundation:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.project.EarthFoundation:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.project.EarthFoundation:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.project.EarthFoundation:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.project.EarthFoundation:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.project.EarthFoundation:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.project.EarthFoundation:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.project.EarthFoundation:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.project.EarthFoundation:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.project.EarthFoundation:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.project.EarthFoundation:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.project.EarthFoundation:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -6717,7 +6725,7 @@ public final class R {
       0x7f040216
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6725,11 +6733,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:background
+     * @attr name com.project.EarthFoundation:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6740,11 +6748,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:backgroundSplit
+     * @attr name com.project.EarthFoundation:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6755,11 +6763,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:backgroundStacked
+     * @attr name com.project.EarthFoundation:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6768,11 +6776,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetEnd
+     * @attr name com.project.EarthFoundation:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6781,11 +6789,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetEndWithActions
+     * @attr name com.project.EarthFoundation:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6794,11 +6802,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetLeft
+     * @attr name com.project.EarthFoundation:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6807,11 +6815,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetRight
+     * @attr name com.project.EarthFoundation:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6820,11 +6828,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetStart
+     * @attr name com.project.EarthFoundation:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6833,11 +6841,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetStartWithNavigation
+     * @attr name com.project.EarthFoundation:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6845,11 +6853,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:customNavigationLayout
+     * @attr name com.project.EarthFoundation:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -6867,11 +6875,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:displayOptions
+     * @attr name com.project.EarthFoundation:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6879,11 +6887,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:divider
+     * @attr name com.project.EarthFoundation:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6892,11 +6900,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6905,21 +6913,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:height
+     * @attr name com.project.EarthFoundation:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:hideOnContentScroll
+     * @attr name com.project.EarthFoundation:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6927,11 +6935,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:homeAsUpIndicator
+     * @attr name com.project.EarthFoundation:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6939,11 +6947,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:homeLayout
+     * @attr name com.project.EarthFoundation:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6951,11 +6959,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:icon
+     * @attr name com.project.EarthFoundation:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6963,11 +6971,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:indeterminateProgressStyle
+     * @attr name com.project.EarthFoundation:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6976,11 +6984,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:itemPadding
+     * @attr name com.project.EarthFoundation:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6988,11 +6996,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:logo
+     * @attr name com.project.EarthFoundation:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7006,11 +7014,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:navigationMode
+     * @attr name com.project.EarthFoundation:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7018,11 +7026,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:popupTheme
+     * @attr name com.project.EarthFoundation:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7031,11 +7039,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:progressBarPadding
+     * @attr name com.project.EarthFoundation:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7043,21 +7051,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:progressBarStyle
+     * @attr name com.project.EarthFoundation:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:subtitle
+     * @attr name com.project.EarthFoundation:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7065,21 +7073,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:subtitleTextStyle
+     * @attr name com.project.EarthFoundation:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:title
+     * @attr name com.project.EarthFoundation:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7087,7 +7095,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:titleTextStyle
+     * @attr name com.project.EarthFoundation:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -7169,12 +7177,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.project.materialloginexample:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.project.materialloginexample:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.project.materialloginexample:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.project.materialloginexample:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.project.materialloginexample:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.project.materialloginexample:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.project.EarthFoundation:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.project.EarthFoundation:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.project.EarthFoundation:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.project.EarthFoundation:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.project.EarthFoundation:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.project.EarthFoundation:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -7188,7 +7196,7 @@ public final class R {
       0x7f0401df, 0x7f040216
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7196,11 +7204,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:background
+     * @attr name com.project.EarthFoundation:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7211,11 +7219,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:backgroundSplit
+     * @attr name com.project.EarthFoundation:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7223,11 +7231,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:closeItemLayout
+     * @attr name com.project.EarthFoundation:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7236,11 +7244,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:height
+     * @attr name com.project.EarthFoundation:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7248,11 +7256,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:subtitleTextStyle
+     * @attr name com.project.EarthFoundation:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7260,7 +7268,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:titleTextStyle
+     * @attr name com.project.EarthFoundation:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -7270,8 +7278,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.project.materialloginexample:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.project.materialloginexample:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.project.EarthFoundation:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.project.EarthFoundation:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -7280,7 +7288,7 @@ public final class R {
       0x7f0400d5, 0x7f040112
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7288,17 +7296,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:expandActivityOverflowButtonDrawable
+     * @attr name com.project.EarthFoundation:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:initialActivityCount
+     * @attr name com.project.EarthFoundation:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -7308,9 +7316,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSize com.project.materialloginexample:adSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSizes com.project.materialloginexample:adSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adUnitId com.project.materialloginexample:adUnitId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSize com.project.EarthFoundation:adSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSizes com.project.EarthFoundation:adSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adUnitId com.project.EarthFoundation:adUnitId}</code></td><td></td></tr>
      * </table>
      * @see #AdsAttrs_adSize
      * @see #AdsAttrs_adSizes
@@ -7320,33 +7328,33 @@ public final class R {
       0x7f040022, 0x7f040023, 0x7f040024
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#adSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#adSize}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:adSize
+     * @attr name com.project.EarthFoundation:adSize
      */
     public static final int AdsAttrs_adSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#adSizes}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#adSizes}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:adSizes
+     * @attr name com.project.EarthFoundation:adSizes
      */
     public static final int AdsAttrs_adSizes=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#adUnitId}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#adUnitId}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:adUnitId
+     * @attr name com.project.EarthFoundation:adUnitId
      */
     public static final int AdsAttrs_adUnitId=2;
     /**
@@ -7357,13 +7365,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.project.materialloginexample:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.project.materialloginexample:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.project.materialloginexample:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.project.materialloginexample:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.project.materialloginexample:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.project.materialloginexample:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.project.materialloginexample:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.project.EarthFoundation:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.project.EarthFoundation:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.project.EarthFoundation:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.project.EarthFoundation:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.project.EarthFoundation:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.project.EarthFoundation:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.project.EarthFoundation:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -7391,7 +7399,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7400,11 +7408,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:buttonIconDimen
+     * @attr name com.project.EarthFoundation:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7412,11 +7420,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonPanelSideLayout
+     * @attr name com.project.EarthFoundation:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7424,11 +7432,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listItemLayout
+     * @attr name com.project.EarthFoundation:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7436,11 +7444,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listLayout
+     * @attr name com.project.EarthFoundation:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7448,21 +7456,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:multiChoiceItemLayout
+     * @attr name com.project.EarthFoundation:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:showTitle
+     * @attr name com.project.EarthFoundation:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7470,7 +7478,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:singleChoiceItemLayout
+     * @attr name com.project.EarthFoundation:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -7483,8 +7491,8 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.project.materialloginexample:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.project.EarthFoundation:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -7532,7 +7540,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7541,17 +7549,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:expanded
+     * @attr name com.project.EarthFoundation:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
@@ -7561,8 +7569,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.project.materialloginexample:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.project.materialloginexample:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.project.EarthFoundation:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.project.EarthFoundation:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -7571,23 +7579,23 @@ public final class R {
       0x7f0401d3, 0x7f0401d4
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:state_collapsed
+     * @attr name com.project.EarthFoundation:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:state_collapsible
+     * @attr name com.project.EarthFoundation:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -7597,8 +7605,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.project.materialloginexample:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.project.materialloginexample:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.project.EarthFoundation:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.project.EarthFoundation:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -7607,7 +7615,7 @@ public final class R {
       0x7f04015c, 0x7f04015d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7623,11 +7631,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_scrollFlags
+     * @attr name com.project.EarthFoundation:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7635,7 +7643,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:layout_scrollInterpolator
+     * @attr name com.project.EarthFoundation:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -7646,9 +7654,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.project.materialloginexample:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.project.materialloginexample:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.project.materialloginexample:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.project.EarthFoundation:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.project.EarthFoundation:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.project.EarthFoundation:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -7674,7 +7682,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7682,22 +7690,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:srcCompat
+     * @attr name com.project.EarthFoundation:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tint
+     * @attr name com.project.EarthFoundation:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7714,7 +7722,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:tintMode
+     * @attr name com.project.EarthFoundation:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -7725,9 +7733,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.project.materialloginexample:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.project.materialloginexample:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.project.materialloginexample:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.project.EarthFoundation:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.project.EarthFoundation:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.project.EarthFoundation:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -7750,7 +7758,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7758,22 +7766,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:tickMark
+     * @attr name com.project.EarthFoundation:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tickMarkTint
+     * @attr name com.project.EarthFoundation:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7790,7 +7798,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:tickMarkTintMode
+     * @attr name com.project.EarthFoundation:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -7930,13 +7938,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.project.materialloginexample:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.project.materialloginexample:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.project.materialloginexample:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.project.materialloginexample:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.project.materialloginexample:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.project.materialloginexample:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.project.materialloginexample:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.project.EarthFoundation:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.project.EarthFoundation:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.project.EarthFoundation:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.project.EarthFoundation:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.project.EarthFoundation:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.project.EarthFoundation:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.project.EarthFoundation:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7964,7 +7972,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7973,11 +7981,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:autoSizeMaxTextSize
+     * @attr name com.project.EarthFoundation:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7986,11 +7994,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:autoSizeMinTextSize
+     * @attr name com.project.EarthFoundation:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7998,11 +8006,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:autoSizePresetSizes
+     * @attr name com.project.EarthFoundation:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8011,11 +8019,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:autoSizeStepGranularity
+     * @attr name com.project.EarthFoundation:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8028,21 +8036,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:autoSizeTextType
+     * @attr name com.project.EarthFoundation:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:fontFamily
+     * @attr name com.project.EarthFoundation:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8052,7 +8060,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:textAllCaps
+     * @attr name com.project.EarthFoundation:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -8064,124 +8072,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.project.materialloginexample:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.project.materialloginexample:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.project.materialloginexample:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.project.materialloginexample:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.project.materialloginexample:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.project.materialloginexample:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.project.materialloginexample:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.project.materialloginexample:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.project.materialloginexample:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.project.materialloginexample:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.project.materialloginexample:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.project.materialloginexample:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.project.materialloginexample:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.project.materialloginexample:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.project.materialloginexample:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.project.materialloginexample:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.project.materialloginexample:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.project.materialloginexample:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.project.materialloginexample:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.project.materialloginexample:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.project.materialloginexample:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.project.materialloginexample:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.project.materialloginexample:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.project.materialloginexample:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.project.materialloginexample:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.project.materialloginexample:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.project.materialloginexample:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.project.materialloginexample:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.project.materialloginexample:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.project.materialloginexample:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.project.materialloginexample:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.project.materialloginexample:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.project.materialloginexample:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.project.materialloginexample:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.project.materialloginexample:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.project.materialloginexample:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.project.materialloginexample:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.project.materialloginexample:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.project.materialloginexample:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.project.materialloginexample:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.project.materialloginexample:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.project.materialloginexample:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.project.materialloginexample:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.project.materialloginexample:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.project.materialloginexample:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.project.materialloginexample:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.project.materialloginexample:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.project.materialloginexample:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.project.materialloginexample:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.project.materialloginexample:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.project.materialloginexample:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.project.materialloginexample:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.project.materialloginexample:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.project.materialloginexample:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.project.materialloginexample:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.project.materialloginexample:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.project.materialloginexample:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.project.materialloginexample:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.project.materialloginexample:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.project.materialloginexample:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.project.materialloginexample:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.project.materialloginexample:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.project.materialloginexample:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.project.materialloginexample:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.project.materialloginexample:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.project.materialloginexample:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.project.materialloginexample:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.project.materialloginexample:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.project.materialloginexample:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.project.materialloginexample:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.project.materialloginexample:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.project.materialloginexample:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.project.materialloginexample:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.project.materialloginexample:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.project.materialloginexample:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.project.materialloginexample:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.project.materialloginexample:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.project.materialloginexample:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.project.materialloginexample:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.project.materialloginexample:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.project.materialloginexample:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.project.materialloginexample:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.project.materialloginexample:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.project.materialloginexample:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.project.materialloginexample:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.project.materialloginexample:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.project.materialloginexample:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.project.materialloginexample:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.project.materialloginexample:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.project.materialloginexample:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.project.materialloginexample:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.project.materialloginexample:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.project.materialloginexample:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.project.materialloginexample:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.project.materialloginexample:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.project.materialloginexample:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.project.materialloginexample:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.project.materialloginexample:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.project.materialloginexample:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.project.materialloginexample:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.project.materialloginexample:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.project.materialloginexample:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.project.materialloginexample:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.project.materialloginexample:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.project.materialloginexample:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.project.materialloginexample:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.project.materialloginexample:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.project.materialloginexample:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.project.materialloginexample:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.project.materialloginexample:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.project.materialloginexample:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.project.materialloginexample:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.project.materialloginexample:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.project.materialloginexample:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.project.materialloginexample:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.project.materialloginexample:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.project.materialloginexample:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.project.materialloginexample:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.project.EarthFoundation:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.project.EarthFoundation:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.project.EarthFoundation:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.project.EarthFoundation:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.project.EarthFoundation:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.project.EarthFoundation:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.project.EarthFoundation:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.project.EarthFoundation:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.project.EarthFoundation:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.project.EarthFoundation:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.project.EarthFoundation:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.project.EarthFoundation:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.project.EarthFoundation:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.project.EarthFoundation:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.project.EarthFoundation:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.project.EarthFoundation:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.project.EarthFoundation:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.project.EarthFoundation:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.project.EarthFoundation:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.project.EarthFoundation:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.project.EarthFoundation:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.project.EarthFoundation:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.project.EarthFoundation:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.project.EarthFoundation:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.project.EarthFoundation:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.project.EarthFoundation:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.project.EarthFoundation:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.project.EarthFoundation:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.project.EarthFoundation:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.project.EarthFoundation:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.project.EarthFoundation:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.project.EarthFoundation:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.project.EarthFoundation:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.project.EarthFoundation:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.project.EarthFoundation:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.project.EarthFoundation:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.project.EarthFoundation:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.project.EarthFoundation:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.project.EarthFoundation:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.project.EarthFoundation:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.project.EarthFoundation:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.project.EarthFoundation:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.project.EarthFoundation:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.project.EarthFoundation:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.project.EarthFoundation:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.project.EarthFoundation:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.project.EarthFoundation:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.project.EarthFoundation:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.project.EarthFoundation:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.project.EarthFoundation:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.project.EarthFoundation:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.project.EarthFoundation:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.project.EarthFoundation:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.project.EarthFoundation:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.project.EarthFoundation:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.project.EarthFoundation:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.project.EarthFoundation:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.project.EarthFoundation:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.project.EarthFoundation:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.project.EarthFoundation:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.project.EarthFoundation:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.project.EarthFoundation:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.project.EarthFoundation:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.project.EarthFoundation:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.project.EarthFoundation:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.project.EarthFoundation:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.project.EarthFoundation:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.project.EarthFoundation:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.project.EarthFoundation:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.project.EarthFoundation:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.project.EarthFoundation:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.project.EarthFoundation:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.project.EarthFoundation:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.project.EarthFoundation:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.project.EarthFoundation:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.project.EarthFoundation:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.project.EarthFoundation:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.project.EarthFoundation:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.project.EarthFoundation:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.project.EarthFoundation:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.project.EarthFoundation:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.project.EarthFoundation:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.project.EarthFoundation:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.project.EarthFoundation:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.project.EarthFoundation:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.project.EarthFoundation:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.project.EarthFoundation:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.project.EarthFoundation:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.project.EarthFoundation:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.project.EarthFoundation:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.project.EarthFoundation:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.project.EarthFoundation:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.project.EarthFoundation:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.project.EarthFoundation:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.project.EarthFoundation:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.project.EarthFoundation:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.project.EarthFoundation:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.project.EarthFoundation:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.project.EarthFoundation:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.project.EarthFoundation:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.project.EarthFoundation:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.project.EarthFoundation:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.project.EarthFoundation:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.project.EarthFoundation:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.project.EarthFoundation:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.project.EarthFoundation:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.project.EarthFoundation:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.project.EarthFoundation:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.project.EarthFoundation:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.project.EarthFoundation:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.project.EarthFoundation:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.project.EarthFoundation:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.project.EarthFoundation:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.project.EarthFoundation:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.project.EarthFoundation:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.project.EarthFoundation:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.project.EarthFoundation:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.project.EarthFoundation:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -8359,7 +8367,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8367,11 +8375,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarDivider
+     * @attr name com.project.EarthFoundation:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8379,11 +8387,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarItemBackground
+     * @attr name com.project.EarthFoundation:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8391,11 +8399,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarPopupTheme
+     * @attr name com.project.EarthFoundation:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8412,11 +8420,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:actionBarSize
+     * @attr name com.project.EarthFoundation:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8424,11 +8432,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarSplitStyle
+     * @attr name com.project.EarthFoundation:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8436,11 +8444,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarStyle
+     * @attr name com.project.EarthFoundation:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8448,11 +8456,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarTabBarStyle
+     * @attr name com.project.EarthFoundation:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8460,11 +8468,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarTabStyle
+     * @attr name com.project.EarthFoundation:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8472,11 +8480,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarTabTextStyle
+     * @attr name com.project.EarthFoundation:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8484,11 +8492,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarTheme
+     * @attr name com.project.EarthFoundation:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8496,11 +8504,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionBarWidgetTheme
+     * @attr name com.project.EarthFoundation:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8508,11 +8516,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionButtonStyle
+     * @attr name com.project.EarthFoundation:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8520,11 +8528,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionDropDownStyle
+     * @attr name com.project.EarthFoundation:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8532,11 +8540,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionMenuTextAppearance
+     * @attr name com.project.EarthFoundation:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8547,11 +8555,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionMenuTextColor
+     * @attr name com.project.EarthFoundation:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8559,11 +8567,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeBackground
+     * @attr name com.project.EarthFoundation:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8571,11 +8579,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeCloseButtonStyle
+     * @attr name com.project.EarthFoundation:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8583,11 +8591,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeCloseDrawable
+     * @attr name com.project.EarthFoundation:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8595,11 +8603,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeCopyDrawable
+     * @attr name com.project.EarthFoundation:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8607,11 +8615,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeCutDrawable
+     * @attr name com.project.EarthFoundation:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8619,11 +8627,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeFindDrawable
+     * @attr name com.project.EarthFoundation:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8631,11 +8639,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModePasteDrawable
+     * @attr name com.project.EarthFoundation:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8643,11 +8651,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModePopupWindowStyle
+     * @attr name com.project.EarthFoundation:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8655,11 +8663,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeSelectAllDrawable
+     * @attr name com.project.EarthFoundation:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8667,11 +8675,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeShareDrawable
+     * @attr name com.project.EarthFoundation:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8679,11 +8687,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeSplitBackground
+     * @attr name com.project.EarthFoundation:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8691,11 +8699,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeStyle
+     * @attr name com.project.EarthFoundation:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8703,11 +8711,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionModeWebSearchDrawable
+     * @attr name com.project.EarthFoundation:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8715,11 +8723,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionOverflowButtonStyle
+     * @attr name com.project.EarthFoundation:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8727,11 +8735,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionOverflowMenuStyle
+     * @attr name com.project.EarthFoundation:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8739,11 +8747,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:activityChooserViewStyle
+     * @attr name com.project.EarthFoundation:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8751,21 +8759,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:alertDialogButtonGroupStyle
+     * @attr name com.project.EarthFoundation:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:alertDialogCenterButtons
+     * @attr name com.project.EarthFoundation:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8773,11 +8781,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:alertDialogStyle
+     * @attr name com.project.EarthFoundation:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8785,11 +8793,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:alertDialogTheme
+     * @attr name com.project.EarthFoundation:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8797,11 +8805,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:autoCompleteTextViewStyle
+     * @attr name com.project.EarthFoundation:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8809,11 +8817,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:borderlessButtonStyle
+     * @attr name com.project.EarthFoundation:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8821,11 +8829,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonBarButtonStyle
+     * @attr name com.project.EarthFoundation:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8833,11 +8841,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonBarNegativeButtonStyle
+     * @attr name com.project.EarthFoundation:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8845,11 +8853,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonBarNeutralButtonStyle
+     * @attr name com.project.EarthFoundation:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8857,11 +8865,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonBarPositiveButtonStyle
+     * @attr name com.project.EarthFoundation:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8869,11 +8877,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonBarStyle
+     * @attr name com.project.EarthFoundation:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8881,11 +8889,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonStyle
+     * @attr name com.project.EarthFoundation:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8893,11 +8901,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonStyleSmall
+     * @attr name com.project.EarthFoundation:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8905,11 +8913,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:checkboxStyle
+     * @attr name com.project.EarthFoundation:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8917,77 +8925,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:checkedTextViewStyle
+     * @attr name com.project.EarthFoundation:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorAccent
+     * @attr name com.project.EarthFoundation:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorBackgroundFloating
+     * @attr name com.project.EarthFoundation:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorButtonNormal
+     * @attr name com.project.EarthFoundation:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorControlActivated
+     * @attr name com.project.EarthFoundation:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorControlHighlight
+     * @attr name com.project.EarthFoundation:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorControlNormal
+     * @attr name com.project.EarthFoundation:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8998,44 +9006,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorError
+     * @attr name com.project.EarthFoundation:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorPrimary
+     * @attr name com.project.EarthFoundation:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorPrimaryDark
+     * @attr name com.project.EarthFoundation:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:colorSwitchThumbNormal
+     * @attr name com.project.EarthFoundation:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9043,11 +9051,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:controlBackground
+     * @attr name com.project.EarthFoundation:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9056,11 +9064,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:dialogPreferredPadding
+     * @attr name com.project.EarthFoundation:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9068,11 +9076,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:dialogTheme
+     * @attr name com.project.EarthFoundation:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9080,11 +9088,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:dividerHorizontal
+     * @attr name com.project.EarthFoundation:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9092,11 +9100,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:dividerVertical
+     * @attr name com.project.EarthFoundation:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9104,11 +9112,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:dropDownListViewStyle
+     * @attr name com.project.EarthFoundation:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9117,11 +9125,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:dropdownListPreferredItemHeight
+     * @attr name com.project.EarthFoundation:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9129,11 +9137,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:editTextBackground
+     * @attr name com.project.EarthFoundation:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9144,11 +9152,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:editTextColor
+     * @attr name com.project.EarthFoundation:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9156,11 +9164,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:editTextStyle
+     * @attr name com.project.EarthFoundation:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9168,11 +9176,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:homeAsUpIndicator
+     * @attr name com.project.EarthFoundation:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9180,11 +9188,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:imageButtonStyle
+     * @attr name com.project.EarthFoundation:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9192,11 +9200,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listChoiceBackgroundIndicator
+     * @attr name com.project.EarthFoundation:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9204,11 +9212,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listDividerAlertDialog
+     * @attr name com.project.EarthFoundation:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9216,11 +9224,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listMenuViewStyle
+     * @attr name com.project.EarthFoundation:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9228,11 +9236,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:listPopupWindowStyle
+     * @attr name com.project.EarthFoundation:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9241,11 +9249,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:listPreferredItemHeight
+     * @attr name com.project.EarthFoundation:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9254,11 +9262,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:listPreferredItemHeightLarge
+     * @attr name com.project.EarthFoundation:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9267,11 +9275,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:listPreferredItemHeightSmall
+     * @attr name com.project.EarthFoundation:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9280,11 +9288,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:listPreferredItemPaddingLeft
+     * @attr name com.project.EarthFoundation:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9293,11 +9301,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:listPreferredItemPaddingRight
+     * @attr name com.project.EarthFoundation:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9305,11 +9313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:panelBackground
+     * @attr name com.project.EarthFoundation:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9317,11 +9325,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:panelMenuListTheme
+     * @attr name com.project.EarthFoundation:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9330,11 +9338,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:panelMenuListWidth
+     * @attr name com.project.EarthFoundation:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9342,11 +9350,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:popupMenuStyle
+     * @attr name com.project.EarthFoundation:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9354,11 +9362,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:popupWindowStyle
+     * @attr name com.project.EarthFoundation:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9366,11 +9374,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:radioButtonStyle
+     * @attr name com.project.EarthFoundation:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9378,11 +9386,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:ratingBarStyle
+     * @attr name com.project.EarthFoundation:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9390,11 +9398,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:ratingBarStyleIndicator
+     * @attr name com.project.EarthFoundation:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9402,11 +9410,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:ratingBarStyleSmall
+     * @attr name com.project.EarthFoundation:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9414,11 +9422,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:searchViewStyle
+     * @attr name com.project.EarthFoundation:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9426,11 +9434,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:seekBarStyle
+     * @attr name com.project.EarthFoundation:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9438,11 +9446,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:selectableItemBackground
+     * @attr name com.project.EarthFoundation:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9450,11 +9458,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:selectableItemBackgroundBorderless
+     * @attr name com.project.EarthFoundation:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9462,11 +9470,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:spinnerDropDownItemStyle
+     * @attr name com.project.EarthFoundation:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9474,11 +9482,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:spinnerStyle
+     * @attr name com.project.EarthFoundation:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9486,11 +9494,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:switchStyle
+     * @attr name com.project.EarthFoundation:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9498,11 +9506,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceLargePopupMenu
+     * @attr name com.project.EarthFoundation:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9510,11 +9518,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceListItem
+     * @attr name com.project.EarthFoundation:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9522,11 +9530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceListItemSecondary
+     * @attr name com.project.EarthFoundation:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9534,11 +9542,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceListItemSmall
+     * @attr name com.project.EarthFoundation:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9546,11 +9554,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearancePopupMenuHeader
+     * @attr name com.project.EarthFoundation:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9558,11 +9566,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceSearchResultSubtitle
+     * @attr name com.project.EarthFoundation:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9570,11 +9578,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceSearchResultTitle
+     * @attr name com.project.EarthFoundation:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9582,11 +9590,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:textAppearanceSmallPopupMenu
+     * @attr name com.project.EarthFoundation:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9597,11 +9605,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:textColorAlertDialogListItem
+     * @attr name com.project.EarthFoundation:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9612,11 +9620,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:textColorSearchUrl
+     * @attr name com.project.EarthFoundation:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9624,11 +9632,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:toolbarNavigationButtonStyle
+     * @attr name com.project.EarthFoundation:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9636,11 +9644,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:toolbarStyle
+     * @attr name com.project.EarthFoundation:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9651,11 +9659,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tooltipForegroundColor
+     * @attr name com.project.EarthFoundation:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9663,51 +9671,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:tooltipFrameBackground
+     * @attr name com.project.EarthFoundation:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:viewInflaterClass
+     * @attr name com.project.EarthFoundation:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:windowActionBar
+     * @attr name com.project.EarthFoundation:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:windowActionBarOverlay
+     * @attr name com.project.EarthFoundation:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:windowActionModeOverlay
+     * @attr name com.project.EarthFoundation:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9720,11 +9728,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowFixedHeightMajor
+     * @attr name com.project.EarthFoundation:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9737,11 +9745,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowFixedHeightMinor
+     * @attr name com.project.EarthFoundation:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9754,11 +9762,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowFixedWidthMajor
+     * @attr name com.project.EarthFoundation:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9771,11 +9779,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowFixedWidthMinor
+     * @attr name com.project.EarthFoundation:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9788,11 +9796,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowMinWidthMajor
+     * @attr name com.project.EarthFoundation:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9805,17 +9813,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.project.materialloginexample:windowMinWidthMinor
+     * @attr name com.project.EarthFoundation:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:windowNoTitle
+     * @attr name com.project.EarthFoundation:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     public static final int[] AppDataSearch={
@@ -9827,11 +9835,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.project.materialloginexample:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.project.materialloginexample:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.project.materialloginexample:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.project.materialloginexample:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.project.EarthFoundation:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.project.EarthFoundation:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.project.EarthFoundation:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.project.EarthFoundation:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9844,7 +9852,7 @@ public final class R {
       0x7f040186
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9853,11 +9861,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9865,33 +9873,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemBackground
+     * @attr name com.project.EarthFoundation:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemIconTint
+     * @attr name com.project.EarthFoundation:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemTextColor
+     * @attr name com.project.EarthFoundation:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9899,7 +9907,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:menu
+     * @attr name com.project.EarthFoundation:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -9909,9 +9917,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.project.materialloginexample:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.project.materialloginexample:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.project.materialloginexample:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.project.EarthFoundation:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.project.EarthFoundation:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.project.EarthFoundation:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -9921,17 +9929,17 @@ public final class R {
       0x7f040040, 0x7f040042, 0x7f040043
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:behavior_hideable
+     * @attr name com.project.EarthFoundation:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9948,17 +9956,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:behavior_peekHeight
+     * @attr name com.project.EarthFoundation:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:behavior_skipCollapsed
+     * @attr name com.project.EarthFoundation:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -9968,7 +9976,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.project.materialloginexample:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.project.EarthFoundation:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -9976,13 +9984,13 @@ public final class R {
       0x7f04002a
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:allowStacking
+     * @attr name com.project.EarthFoundation:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -9994,17 +10002,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.project.materialloginexample:cardBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.project.materialloginexample:cardCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.project.materialloginexample:cardElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.project.materialloginexample:cardMaxElevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.project.materialloginexample:cardPreventCornerOverlap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.project.materialloginexample:cardUseCompatPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.project.materialloginexample:contentPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.project.materialloginexample:contentPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.project.materialloginexample:contentPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.project.materialloginexample:contentPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.project.materialloginexample:contentPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.project.EarthFoundation:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.project.EarthFoundation:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.project.EarthFoundation:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.project.EarthFoundation:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.project.EarthFoundation:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.project.EarthFoundation:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.project.EarthFoundation:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.project.EarthFoundation:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.project.EarthFoundation:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.project.EarthFoundation:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.project.EarthFoundation:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -10053,18 +10061,18 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:cardBackgroundColor
+     * @attr name com.project.EarthFoundation:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10073,11 +10081,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:cardCornerRadius
+     * @attr name com.project.EarthFoundation:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10086,11 +10094,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:cardElevation
+     * @attr name com.project.EarthFoundation:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10099,31 +10107,31 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:cardMaxElevation
+     * @attr name com.project.EarthFoundation:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:cardPreventCornerOverlap
+     * @attr name com.project.EarthFoundation:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:cardUseCompatPadding
+     * @attr name com.project.EarthFoundation:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10132,11 +10140,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentPadding
+     * @attr name com.project.EarthFoundation:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10145,11 +10153,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentPaddingBottom
+     * @attr name com.project.EarthFoundation:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10158,11 +10166,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentPaddingLeft
+     * @attr name com.project.EarthFoundation:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10171,11 +10179,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentPaddingRight
+     * @attr name com.project.EarthFoundation:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10184,7 +10192,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentPaddingTop
+     * @attr name com.project.EarthFoundation:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -10194,19 +10202,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastExpandedController_castButtonColor com.project.materialloginexample:castButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castClosedCaptionsButtonDrawable com.project.materialloginexample:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castControlButtons com.project.materialloginexample:castControlButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castForward30ButtonDrawable com.project.materialloginexample:castForward30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castMuteToggleButtonDrawable com.project.materialloginexample:castMuteToggleButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castPauseButtonDrawable com.project.materialloginexample:castPauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castPlayButtonDrawable com.project.materialloginexample:castPlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castRewind30ButtonDrawable com.project.materialloginexample:castRewind30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSeekBarProgressDrawable com.project.materialloginexample:castSeekBarProgressDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSeekBarThumbDrawable com.project.materialloginexample:castSeekBarThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSkipNextButtonDrawable com.project.materialloginexample:castSkipNextButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castSkipPreviousButtonDrawable com.project.materialloginexample:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastExpandedController_castStopButtonDrawable com.project.materialloginexample:castStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castButtonColor com.project.EarthFoundation:castButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castClosedCaptionsButtonDrawable com.project.EarthFoundation:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castControlButtons com.project.EarthFoundation:castControlButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castForward30ButtonDrawable com.project.EarthFoundation:castForward30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castMuteToggleButtonDrawable com.project.EarthFoundation:castMuteToggleButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castPauseButtonDrawable com.project.EarthFoundation:castPauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castPlayButtonDrawable com.project.EarthFoundation:castPlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castRewind30ButtonDrawable com.project.EarthFoundation:castRewind30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSeekBarProgressDrawable com.project.EarthFoundation:castSeekBarProgressDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSeekBarThumbDrawable com.project.EarthFoundation:castSeekBarThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSkipNextButtonDrawable com.project.EarthFoundation:castSkipNextButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castSkipPreviousButtonDrawable com.project.EarthFoundation:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastExpandedController_castStopButtonDrawable com.project.EarthFoundation:castStopButtonDrawable}</code></td><td></td></tr>
      * </table>
      * @see #CastExpandedController_castButtonColor
      * @see #CastExpandedController_castClosedCaptionsButtonDrawable
@@ -10229,7 +10237,7 @@ public final class R {
       0x7f040082
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10240,11 +10248,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castButtonColor
+     * @attr name com.project.EarthFoundation:castButtonColor
      */
     public static final int CastExpandedController_castButtonColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10252,11 +10260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castClosedCaptionsButtonDrawable
+     * @attr name com.project.EarthFoundation:castClosedCaptionsButtonDrawable
      */
     public static final int CastExpandedController_castClosedCaptionsButtonDrawable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10264,11 +10272,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castControlButtons
+     * @attr name com.project.EarthFoundation:castControlButtons
      */
     public static final int CastExpandedController_castControlButtons=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10276,11 +10284,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castForward30ButtonDrawable
+     * @attr name com.project.EarthFoundation:castForward30ButtonDrawable
      */
     public static final int CastExpandedController_castForward30ButtonDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10288,11 +10296,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castMuteToggleButtonDrawable
+     * @attr name com.project.EarthFoundation:castMuteToggleButtonDrawable
      */
     public static final int CastExpandedController_castMuteToggleButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10300,11 +10308,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castPauseButtonDrawable
+     * @attr name com.project.EarthFoundation:castPauseButtonDrawable
      */
     public static final int CastExpandedController_castPauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10312,11 +10320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castPlayButtonDrawable
+     * @attr name com.project.EarthFoundation:castPlayButtonDrawable
      */
     public static final int CastExpandedController_castPlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10324,11 +10332,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castRewind30ButtonDrawable
+     * @attr name com.project.EarthFoundation:castRewind30ButtonDrawable
      */
     public static final int CastExpandedController_castRewind30ButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSeekBarProgressDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSeekBarProgressDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10336,11 +10344,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSeekBarProgressDrawable
+     * @attr name com.project.EarthFoundation:castSeekBarProgressDrawable
      */
     public static final int CastExpandedController_castSeekBarProgressDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSeekBarThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSeekBarThumbDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10348,11 +10356,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSeekBarThumbDrawable
+     * @attr name com.project.EarthFoundation:castSeekBarThumbDrawable
      */
     public static final int CastExpandedController_castSeekBarThumbDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10360,11 +10368,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSkipNextButtonDrawable
+     * @attr name com.project.EarthFoundation:castSkipNextButtonDrawable
      */
     public static final int CastExpandedController_castSkipNextButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10372,11 +10380,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSkipPreviousButtonDrawable
+     * @attr name com.project.EarthFoundation:castSkipPreviousButtonDrawable
      */
     public static final int CastExpandedController_castSkipPreviousButtonDrawable=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastExpandedController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10384,7 +10392,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castStopButtonDrawable
+     * @attr name com.project.EarthFoundation:castStopButtonDrawable
      */
     public static final int CastExpandedController_castStopButtonDrawable=12;
     /**
@@ -10394,12 +10402,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor com.project.materialloginexample:castBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor com.project.materialloginexample:castButtonBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonText com.project.materialloginexample:castButtonText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance com.project.materialloginexample:castButtonTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castFocusRadius com.project.materialloginexample:castFocusRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance com.project.materialloginexample:castTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castBackgroundColor com.project.EarthFoundation:castBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonBackgroundColor com.project.EarthFoundation:castButtonBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonText com.project.EarthFoundation:castButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castButtonTextAppearance com.project.EarthFoundation:castButtonTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castFocusRadius com.project.EarthFoundation:castFocusRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastIntroOverlay_castTitleTextAppearance com.project.EarthFoundation:castTitleTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #CastIntroOverlay_castBackgroundColor
      * @see #CastIntroOverlay_castButtonBackgroundColor
@@ -10413,7 +10421,7 @@ public final class R {
       0x7f040071, 0x7f040084
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10424,11 +10432,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castBackgroundColor
+     * @attr name com.project.EarthFoundation:castBackgroundColor
      */
     public static final int CastIntroOverlay_castBackgroundColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castButtonBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castButtonBackgroundColor}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10439,11 +10447,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castButtonBackgroundColor
+     * @attr name com.project.EarthFoundation:castButtonBackgroundColor
      */
     public static final int CastIntroOverlay_castButtonBackgroundColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castButtonText}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castButtonText}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10453,11 +10461,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:castButtonText
+     * @attr name com.project.EarthFoundation:castButtonText
      */
     public static final int CastIntroOverlay_castButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castButtonTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10465,11 +10473,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castButtonTextAppearance
+     * @attr name com.project.EarthFoundation:castButtonTextAppearance
      */
     public static final int CastIntroOverlay_castButtonTextAppearance=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castFocusRadius}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castFocusRadius}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10482,11 +10490,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:castFocusRadius
+     * @attr name com.project.EarthFoundation:castFocusRadius
      */
     public static final int CastIntroOverlay_castFocusRadius=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastIntroOverlay} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10494,7 +10502,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castTitleTextAppearance
+     * @attr name com.project.EarthFoundation:castTitleTextAppearance
      */
     public static final int CastIntroOverlay_castTitleTextAppearance=5;
     /**
@@ -10504,25 +10512,25 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CastMiniController_castBackground com.project.materialloginexample:castBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castButtonColor com.project.materialloginexample:castButtonColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castClosedCaptionsButtonDrawable com.project.materialloginexample:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castControlButtons com.project.materialloginexample:castControlButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castForward30ButtonDrawable com.project.materialloginexample:castForward30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargePauseButtonDrawable com.project.materialloginexample:castLargePauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargePlayButtonDrawable com.project.materialloginexample:castLargePlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castLargeStopButtonDrawable com.project.materialloginexample:castLargeStopButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castMuteToggleButtonDrawable com.project.materialloginexample:castMuteToggleButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castPauseButtonDrawable com.project.materialloginexample:castPauseButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castPlayButtonDrawable com.project.materialloginexample:castPlayButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castProgressBarColor com.project.materialloginexample:castProgressBarColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castRewind30ButtonDrawable com.project.materialloginexample:castRewind30ButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castShowImageThumbnail com.project.materialloginexample:castShowImageThumbnail}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSkipNextButtonDrawable com.project.materialloginexample:castSkipNextButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSkipPreviousButtonDrawable com.project.materialloginexample:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castStopButtonDrawable com.project.materialloginexample:castStopButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance com.project.materialloginexample:castSubtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CastMiniController_castTitleTextAppearance com.project.materialloginexample:castTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castBackground com.project.EarthFoundation:castBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castButtonColor com.project.EarthFoundation:castButtonColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castClosedCaptionsButtonDrawable com.project.EarthFoundation:castClosedCaptionsButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castControlButtons com.project.EarthFoundation:castControlButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castForward30ButtonDrawable com.project.EarthFoundation:castForward30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargePauseButtonDrawable com.project.EarthFoundation:castLargePauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargePlayButtonDrawable com.project.EarthFoundation:castLargePlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castLargeStopButtonDrawable com.project.EarthFoundation:castLargeStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castMuteToggleButtonDrawable com.project.EarthFoundation:castMuteToggleButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castPauseButtonDrawable com.project.EarthFoundation:castPauseButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castPlayButtonDrawable com.project.EarthFoundation:castPlayButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castProgressBarColor com.project.EarthFoundation:castProgressBarColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castRewind30ButtonDrawable com.project.EarthFoundation:castRewind30ButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castShowImageThumbnail com.project.EarthFoundation:castShowImageThumbnail}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSkipNextButtonDrawable com.project.EarthFoundation:castSkipNextButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSkipPreviousButtonDrawable com.project.EarthFoundation:castSkipPreviousButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castStopButtonDrawable com.project.EarthFoundation:castStopButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castSubtitleTextAppearance com.project.EarthFoundation:castSubtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CastMiniController_castTitleTextAppearance com.project.EarthFoundation:castTitleTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #CastMiniController_castBackground
      * @see #CastMiniController_castButtonColor
@@ -10552,7 +10560,7 @@ public final class R {
       0x7f040082, 0x7f040083, 0x7f040084
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castBackground}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10563,11 +10571,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castBackground
+     * @attr name com.project.EarthFoundation:castBackground
      */
     public static final int CastMiniController_castBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castButtonColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castButtonColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10578,11 +10586,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castButtonColor
+     * @attr name com.project.EarthFoundation:castButtonColor
      */
     public static final int CastMiniController_castButtonColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castClosedCaptionsButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castClosedCaptionsButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10590,11 +10598,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castClosedCaptionsButtonDrawable
+     * @attr name com.project.EarthFoundation:castClosedCaptionsButtonDrawable
      */
     public static final int CastMiniController_castClosedCaptionsButtonDrawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castControlButtons}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castControlButtons}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10602,11 +10610,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castControlButtons
+     * @attr name com.project.EarthFoundation:castControlButtons
      */
     public static final int CastMiniController_castControlButtons=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castForward30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castForward30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10614,11 +10622,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castForward30ButtonDrawable
+     * @attr name com.project.EarthFoundation:castForward30ButtonDrawable
      */
     public static final int CastMiniController_castForward30ButtonDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castLargePauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castLargePauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10626,11 +10634,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castLargePauseButtonDrawable
+     * @attr name com.project.EarthFoundation:castLargePauseButtonDrawable
      */
     public static final int CastMiniController_castLargePauseButtonDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castLargePlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castLargePlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10638,11 +10646,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castLargePlayButtonDrawable
+     * @attr name com.project.EarthFoundation:castLargePlayButtonDrawable
      */
     public static final int CastMiniController_castLargePlayButtonDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castLargeStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castLargeStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10650,11 +10658,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castLargeStopButtonDrawable
+     * @attr name com.project.EarthFoundation:castLargeStopButtonDrawable
      */
     public static final int CastMiniController_castLargeStopButtonDrawable=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castMuteToggleButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castMuteToggleButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10662,11 +10670,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castMuteToggleButtonDrawable
+     * @attr name com.project.EarthFoundation:castMuteToggleButtonDrawable
      */
     public static final int CastMiniController_castMuteToggleButtonDrawable=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castPauseButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castPauseButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10674,11 +10682,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castPauseButtonDrawable
+     * @attr name com.project.EarthFoundation:castPauseButtonDrawable
      */
     public static final int CastMiniController_castPauseButtonDrawable=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castPlayButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castPlayButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10686,22 +10694,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castPlayButtonDrawable
+     * @attr name com.project.EarthFoundation:castPlayButtonDrawable
      */
     public static final int CastMiniController_castPlayButtonDrawable=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castProgressBarColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castProgressBarColor}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:castProgressBarColor
+     * @attr name com.project.EarthFoundation:castProgressBarColor
      */
     public static final int CastMiniController_castProgressBarColor=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castRewind30ButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castRewind30ButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10709,21 +10717,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castRewind30ButtonDrawable
+     * @attr name com.project.EarthFoundation:castRewind30ButtonDrawable
      */
     public static final int CastMiniController_castRewind30ButtonDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castShowImageThumbnail}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castShowImageThumbnail}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:castShowImageThumbnail
+     * @attr name com.project.EarthFoundation:castShowImageThumbnail
      */
     public static final int CastMiniController_castShowImageThumbnail=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSkipNextButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSkipNextButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10731,11 +10739,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSkipNextButtonDrawable
+     * @attr name com.project.EarthFoundation:castSkipNextButtonDrawable
      */
     public static final int CastMiniController_castSkipNextButtonDrawable=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSkipPreviousButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSkipPreviousButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10743,11 +10751,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSkipPreviousButtonDrawable
+     * @attr name com.project.EarthFoundation:castSkipPreviousButtonDrawable
      */
     public static final int CastMiniController_castSkipPreviousButtonDrawable=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castStopButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castStopButtonDrawable}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10755,11 +10763,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castStopButtonDrawable
+     * @attr name com.project.EarthFoundation:castStopButtonDrawable
      */
     public static final int CastMiniController_castStopButtonDrawable=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castSubtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castSubtitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10767,11 +10775,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castSubtitleTextAppearance
+     * @attr name com.project.EarthFoundation:castSubtitleTextAppearance
      */
     public static final int CastMiniController_castSubtitleTextAppearance=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castTitleTextAppearance}
      * attribute's value can be found in the {@link #CastMiniController} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10779,7 +10787,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castTitleTextAppearance
+     * @attr name com.project.EarthFoundation:castTitleTextAppearance
      */
     public static final int CastMiniController_castTitleTextAppearance=18;
     /**
@@ -10789,10 +10797,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_color com.project.materialloginexample:civ_border_color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_overlay com.project.materialloginexample:civ_border_overlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_border_width com.project.materialloginexample:civ_border_width}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CircleImageView_civ_fill_color com.project.materialloginexample:civ_fill_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_color com.project.EarthFoundation:civ_border_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_overlay com.project.EarthFoundation:civ_border_overlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_border_width com.project.EarthFoundation:civ_border_width}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CircleImageView_civ_fill_color com.project.EarthFoundation:civ_fill_color}</code></td><td></td></tr>
      * </table>
      * @see #CircleImageView_civ_border_color
      * @see #CircleImageView_civ_border_overlay
@@ -10803,28 +10811,28 @@ public final class R {
       0x7f04008a, 0x7f04008b, 0x7f04008c, 0x7f04008d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#civ_border_color}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#civ_border_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:civ_border_color
+     * @attr name com.project.EarthFoundation:civ_border_color
      */
     public static final int CircleImageView_civ_border_color=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#civ_border_overlay}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#civ_border_overlay}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:civ_border_overlay
+     * @attr name com.project.EarthFoundation:civ_border_overlay
      */
     public static final int CircleImageView_civ_border_overlay=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#civ_border_width}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#civ_border_width}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10833,18 +10841,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:civ_border_width
+     * @attr name com.project.EarthFoundation:civ_border_width
      */
     public static final int CircleImageView_civ_border_width=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#civ_fill_color}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#civ_fill_color}
      * attribute's value can be found in the {@link #CircleImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:civ_fill_color
+     * @attr name com.project.EarthFoundation:civ_fill_color
      */
     public static final int CircleImageView_civ_fill_color=3;
     /**
@@ -10856,13 +10864,13 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_centered com.project.materialloginexample:centered}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_fillColor com.project.materialloginexample:fillColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_pageColor com.project.materialloginexample:pageColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_radius com.project.materialloginexample:radius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_snap com.project.materialloginexample:snap}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_strokeColor com.project.materialloginexample:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.project.materialloginexample:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_centered com.project.EarthFoundation:centered}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_fillColor com.project.EarthFoundation:fillColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_pageColor com.project.EarthFoundation:pageColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_radius com.project.EarthFoundation:radius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_snap com.project.EarthFoundation:snap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_strokeColor com.project.EarthFoundation:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.project.EarthFoundation:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #CirclePageIndicator_android_orientation
      * @see #CirclePageIndicator_android_background
@@ -10912,39 +10920,39 @@ public final class R {
      */
     public static final int CirclePageIndicator_android_background=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#centered}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#centered}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:centered
+     * @attr name com.project.EarthFoundation:centered
      */
     public static final int CirclePageIndicator_centered=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fillColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fillColor}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:fillColor
+     * @attr name com.project.EarthFoundation:fillColor
      */
     public static final int CirclePageIndicator_fillColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#pageColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#pageColor}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:pageColor
+     * @attr name com.project.EarthFoundation:pageColor
      */
     public static final int CirclePageIndicator_pageColor=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#radius}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#radius}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10953,32 +10961,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:radius
+     * @attr name com.project.EarthFoundation:radius
      */
     public static final int CirclePageIndicator_radius=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#snap}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#snap}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:snap
+     * @attr name com.project.EarthFoundation:snap
      */
     public static final int CirclePageIndicator_snap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#strokeColor}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:strokeColor
+     * @attr name com.project.EarthFoundation:strokeColor
      */
     public static final int CirclePageIndicator_strokeColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #CirclePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10987,7 +10995,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:strokeWidth
+     * @attr name com.project.EarthFoundation:strokeWidth
      */
     public static final int CirclePageIndicator_strokeWidth=8;
     /**
@@ -10997,22 +11005,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.project.materialloginexample:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.project.materialloginexample:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.project.materialloginexample:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.project.materialloginexample:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.project.materialloginexample:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.project.materialloginexample:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.project.materialloginexample:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.project.materialloginexample:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.project.materialloginexample:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.project.materialloginexample:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.project.materialloginexample:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.project.materialloginexample:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.project.materialloginexample:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.project.materialloginexample:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.project.materialloginexample:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.project.materialloginexample:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.project.EarthFoundation:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.project.EarthFoundation:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.project.EarthFoundation:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.project.EarthFoundation:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.project.EarthFoundation:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.project.EarthFoundation:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.project.EarthFoundation:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.project.EarthFoundation:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.project.EarthFoundation:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.project.EarthFoundation:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.project.EarthFoundation:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.project.EarthFoundation:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.project.EarthFoundation:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.project.EarthFoundation:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.project.EarthFoundation:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.project.EarthFoundation:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -11038,7 +11046,7 @@ public final class R {
       0x7f0401d6, 0x7f04020b, 0x7f04020c, 0x7f040218
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11059,11 +11067,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:collapsedTitleGravity
+     * @attr name com.project.EarthFoundation:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11071,22 +11079,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:collapsedTitleTextAppearance
+     * @attr name com.project.EarthFoundation:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:contentScrim
+     * @attr name com.project.EarthFoundation:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11107,11 +11115,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:expandedTitleGravity
+     * @attr name com.project.EarthFoundation:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11120,11 +11128,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:expandedTitleMargin
+     * @attr name com.project.EarthFoundation:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11133,11 +11141,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:expandedTitleMarginBottom
+     * @attr name com.project.EarthFoundation:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11146,11 +11154,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:expandedTitleMarginEnd
+     * @attr name com.project.EarthFoundation:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11159,11 +11167,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:expandedTitleMarginStart
+     * @attr name com.project.EarthFoundation:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11172,11 +11180,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:expandedTitleMarginTop
+     * @attr name com.project.EarthFoundation:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11184,20 +11192,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:expandedTitleTextAppearance
+     * @attr name com.project.EarthFoundation:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:scrimAnimationDuration
+     * @attr name com.project.EarthFoundation:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11206,42 +11214,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:scrimVisibleHeightTrigger
+     * @attr name com.project.EarthFoundation:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:statusBarScrim
+     * @attr name com.project.EarthFoundation:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:title
+     * @attr name com.project.EarthFoundation:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:titleEnabled
+     * @attr name com.project.EarthFoundation:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11249,7 +11257,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:toolbarId
+     * @attr name com.project.EarthFoundation:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -11259,8 +11267,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.project.materialloginexample:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.project.materialloginexample:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.project.EarthFoundation:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.project.EarthFoundation:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -11269,7 +11277,7 @@ public final class R {
       0x7f040125, 0x7f040126
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11283,16 +11291,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_collapseMode
+     * @attr name com.project.EarthFoundation:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_collapseParallaxMultiplier
+     * @attr name com.project.EarthFoundation:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -11304,7 +11312,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.project.materialloginexample:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.project.EarthFoundation:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -11334,12 +11342,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:alpha
+     * @attr name com.project.EarthFoundation:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -11350,8 +11358,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.project.materialloginexample:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.project.materialloginexample:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.project.EarthFoundation:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.project.EarthFoundation:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -11373,18 +11381,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:buttonTint
+     * @attr name com.project.EarthFoundation:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11401,7 +11409,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buttonTintMode
+     * @attr name com.project.EarthFoundation:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -11416,61 +11424,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.project.materialloginexample:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.project.materialloginexample:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.project.materialloginexample:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.project.materialloginexample:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.project.materialloginexample:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.project.materialloginexample:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.project.materialloginexample:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.project.materialloginexample:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.project.materialloginexample:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.project.materialloginexample:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.project.materialloginexample:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.project.materialloginexample:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.project.materialloginexample:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.project.materialloginexample:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.project.materialloginexample:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.project.materialloginexample:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.project.materialloginexample:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.project.materialloginexample:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.project.materialloginexample:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.project.materialloginexample:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.project.materialloginexample:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.project.materialloginexample:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.project.materialloginexample:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.project.materialloginexample:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.project.materialloginexample:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.project.materialloginexample:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.project.materialloginexample:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.project.materialloginexample:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.project.materialloginexample:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.project.materialloginexample:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.project.materialloginexample:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.project.materialloginexample:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.project.materialloginexample:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.project.materialloginexample:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.project.materialloginexample:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.project.materialloginexample:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.project.materialloginexample:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.project.materialloginexample:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.project.materialloginexample:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.project.materialloginexample:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.project.materialloginexample:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.project.materialloginexample:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.project.materialloginexample:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.project.materialloginexample:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.project.materialloginexample:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.project.materialloginexample:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.project.materialloginexample:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.project.materialloginexample:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.project.materialloginexample:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.project.materialloginexample:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.project.materialloginexample:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.project.materialloginexample:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.project.materialloginexample:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.project.materialloginexample:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.project.materialloginexample:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.project.EarthFoundation:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.project.EarthFoundation:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.project.EarthFoundation:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.project.EarthFoundation:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.project.EarthFoundation:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.project.EarthFoundation:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.project.EarthFoundation:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.project.EarthFoundation:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.project.EarthFoundation:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.project.EarthFoundation:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.project.EarthFoundation:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.project.EarthFoundation:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.project.EarthFoundation:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.project.EarthFoundation:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.project.EarthFoundation:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.project.EarthFoundation:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.project.EarthFoundation:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.project.EarthFoundation:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.project.EarthFoundation:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.project.EarthFoundation:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.project.EarthFoundation:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.project.EarthFoundation:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.project.EarthFoundation:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.project.EarthFoundation:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.project.EarthFoundation:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.project.EarthFoundation:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.project.EarthFoundation:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.project.EarthFoundation:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.project.EarthFoundation:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.project.EarthFoundation:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.project.EarthFoundation:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.project.EarthFoundation:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.project.EarthFoundation:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.project.EarthFoundation:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.project.EarthFoundation:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.project.EarthFoundation:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.project.EarthFoundation:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.project.EarthFoundation:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.project.EarthFoundation:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.project.EarthFoundation:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.project.EarthFoundation:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.project.EarthFoundation:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.project.EarthFoundation:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.project.EarthFoundation:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.project.EarthFoundation:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.project.EarthFoundation:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.project.EarthFoundation:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.project.EarthFoundation:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.project.EarthFoundation:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.project.EarthFoundation:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.project.EarthFoundation:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.project.EarthFoundation:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.project.EarthFoundation:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.project.EarthFoundation:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.project.EarthFoundation:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -11620,17 +11628,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:barrierAllowsGoneWidgets
+     * @attr name com.project.EarthFoundation:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11647,21 +11655,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:barrierDirection
+     * @attr name com.project.EarthFoundation:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:chainUseRtl
+     * @attr name com.project.EarthFoundation:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11669,50 +11677,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:constraintSet
+     * @attr name com.project.EarthFoundation:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:constraint_referenced_ids
+     * @attr name com.project.EarthFoundation:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constrainedHeight
+     * @attr name com.project.EarthFoundation:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constrainedWidth
+     * @attr name com.project.EarthFoundation:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintBaseline_creator
+     * @attr name com.project.EarthFoundation:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11728,20 +11736,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBaseline_toBaselineOf
+     * @attr name com.project.EarthFoundation:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_creator
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11757,11 +11765,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_toBottomOf
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11777,11 +11785,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_toTopOf
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11789,20 +11797,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircle
+     * @attr name com.project.EarthFoundation:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircleAngle
+     * @attr name com.project.EarthFoundation:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11811,21 +11819,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircleRadius
+     * @attr name com.project.EarthFoundation:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:layout_constraintDimensionRatio
+     * @attr name com.project.EarthFoundation:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11841,11 +11849,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintEnd_toEndOf
+     * @attr name com.project.EarthFoundation:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11861,11 +11869,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintEnd_toStartOf
+     * @attr name com.project.EarthFoundation:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11874,11 +11882,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_begin
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11887,20 +11895,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_end
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_percent
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11914,11 +11922,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_default
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11935,11 +11943,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_max
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11956,29 +11964,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_min
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_percent
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_bias
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11992,29 +12000,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_chainStyle
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_weight
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_creator
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12030,11 +12038,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_toLeftOf
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12050,20 +12058,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_toRightOf
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_creator
+     * @attr name com.project.EarthFoundation:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12079,11 +12087,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_toLeftOf
+     * @attr name com.project.EarthFoundation:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12099,11 +12107,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_toRightOf
+     * @attr name com.project.EarthFoundation:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12119,11 +12127,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintStart_toEndOf
+     * @attr name com.project.EarthFoundation:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12139,20 +12147,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintStart_toStartOf
+     * @attr name com.project.EarthFoundation:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_creator
+     * @attr name com.project.EarthFoundation:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12168,11 +12176,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_toBottomOf
+     * @attr name com.project.EarthFoundation:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12188,20 +12196,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_toTopOf
+     * @attr name com.project.EarthFoundation:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_bias
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12215,20 +12223,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_chainStyle
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_weight
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12242,11 +12250,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_default
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12263,11 +12271,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_max
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12284,20 +12292,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_min
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_percent
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12306,11 +12314,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_editor_absoluteX
+     * @attr name com.project.EarthFoundation:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12319,11 +12327,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_editor_absoluteY
+     * @attr name com.project.EarthFoundation:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12332,11 +12340,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginBottom
+     * @attr name com.project.EarthFoundation:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12345,11 +12353,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginEnd
+     * @attr name com.project.EarthFoundation:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12358,11 +12366,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginLeft
+     * @attr name com.project.EarthFoundation:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12371,11 +12379,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginRight
+     * @attr name com.project.EarthFoundation:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12384,11 +12392,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginStart
+     * @attr name com.project.EarthFoundation:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12397,11 +12405,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginTop
+     * @attr name com.project.EarthFoundation:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12418,7 +12426,7 @@ public final class R {
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_optimizationLevel
+     * @attr name com.project.EarthFoundation:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -12428,8 +12436,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.project.materialloginexample:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.project.materialloginexample:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.project.EarthFoundation:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.project.EarthFoundation:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -12438,7 +12446,7 @@ public final class R {
       0x7f0400a4, 0x7f0400d1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12446,11 +12454,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:content
+     * @attr name com.project.EarthFoundation:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12463,7 +12471,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:emptyVisibility
+     * @attr name com.project.EarthFoundation:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -12496,55 +12504,55 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.project.materialloginexample:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.project.materialloginexample:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.project.materialloginexample:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.project.materialloginexample:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.project.materialloginexample:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.project.materialloginexample:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.project.materialloginexample:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.project.materialloginexample:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.project.materialloginexample:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.project.materialloginexample:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.project.materialloginexample:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.project.materialloginexample:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.project.materialloginexample:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.project.materialloginexample:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.project.materialloginexample:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.project.materialloginexample:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.project.materialloginexample:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.project.materialloginexample:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.project.materialloginexample:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.project.materialloginexample:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.project.materialloginexample:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.project.materialloginexample:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.project.materialloginexample:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.project.materialloginexample:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.project.materialloginexample:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.project.materialloginexample:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.project.materialloginexample:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.project.materialloginexample:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.project.materialloginexample:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.project.materialloginexample:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.project.materialloginexample:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.project.materialloginexample:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.project.materialloginexample:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.project.materialloginexample:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.project.materialloginexample:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.project.materialloginexample:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.project.materialloginexample:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.project.materialloginexample:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.project.materialloginexample:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.project.materialloginexample:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.project.materialloginexample:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.project.materialloginexample:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.project.materialloginexample:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.project.materialloginexample:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.project.materialloginexample:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.project.materialloginexample:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.project.materialloginexample:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.project.materialloginexample:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.project.materialloginexample:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.project.EarthFoundation:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.project.EarthFoundation:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.project.EarthFoundation:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.project.EarthFoundation:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.project.EarthFoundation:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.project.EarthFoundation:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.project.EarthFoundation:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.project.EarthFoundation:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.project.EarthFoundation:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.project.EarthFoundation:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.project.EarthFoundation:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.project.EarthFoundation:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.project.EarthFoundation:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.project.EarthFoundation:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.project.EarthFoundation:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.project.EarthFoundation:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.project.EarthFoundation:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.project.EarthFoundation:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.project.EarthFoundation:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.project.EarthFoundation:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.project.EarthFoundation:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.project.EarthFoundation:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.project.EarthFoundation:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.project.EarthFoundation:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.project.EarthFoundation:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.project.EarthFoundation:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.project.EarthFoundation:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.project.EarthFoundation:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.project.EarthFoundation:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.project.EarthFoundation:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.project.EarthFoundation:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.project.EarthFoundation:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.project.EarthFoundation:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.project.EarthFoundation:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.project.EarthFoundation:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.project.EarthFoundation:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.project.EarthFoundation:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.project.EarthFoundation:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.project.EarthFoundation:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.project.EarthFoundation:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.project.EarthFoundation:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.project.EarthFoundation:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.project.EarthFoundation:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.project.EarthFoundation:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.project.EarthFoundation:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.project.EarthFoundation:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.project.EarthFoundation:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.project.EarthFoundation:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.project.EarthFoundation:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -12943,36 +12951,36 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=22;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constrainedHeight
+     * @attr name com.project.EarthFoundation:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constrainedWidth
+     * @attr name com.project.EarthFoundation:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintBaseline_creator
+     * @attr name com.project.EarthFoundation:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12988,20 +12996,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBaseline_toBaselineOf
+     * @attr name com.project.EarthFoundation:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_creator
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13017,11 +13025,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_toBottomOf
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13037,11 +13045,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintBottom_toTopOf
+     * @attr name com.project.EarthFoundation:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13049,20 +13057,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircle
+     * @attr name com.project.EarthFoundation:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircleAngle
+     * @attr name com.project.EarthFoundation:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13071,21 +13079,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintCircleRadius
+     * @attr name com.project.EarthFoundation:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:layout_constraintDimensionRatio
+     * @attr name com.project.EarthFoundation:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13101,11 +13109,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintEnd_toEndOf
+     * @attr name com.project.EarthFoundation:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13121,11 +13129,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintEnd_toStartOf
+     * @attr name com.project.EarthFoundation:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13134,11 +13142,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_begin
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13147,20 +13155,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_end
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintGuide_percent
+     * @attr name com.project.EarthFoundation:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13174,11 +13182,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_default
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13195,11 +13203,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_max
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13216,29 +13224,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_min
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHeight_percent
+     * @attr name com.project.EarthFoundation:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_bias
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13252,29 +13260,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_chainStyle
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintHorizontal_weight
+     * @attr name com.project.EarthFoundation:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_creator
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13290,11 +13298,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_toLeftOf
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13310,20 +13318,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintLeft_toRightOf
+     * @attr name com.project.EarthFoundation:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_creator
+     * @attr name com.project.EarthFoundation:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13339,11 +13347,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_toLeftOf
+     * @attr name com.project.EarthFoundation:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13359,11 +13367,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintRight_toRightOf
+     * @attr name com.project.EarthFoundation:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13379,11 +13387,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintStart_toEndOf
+     * @attr name com.project.EarthFoundation:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13399,20 +13407,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintStart_toStartOf
+     * @attr name com.project.EarthFoundation:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_creator
+     * @attr name com.project.EarthFoundation:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13428,11 +13436,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_toBottomOf
+     * @attr name com.project.EarthFoundation:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13448,20 +13456,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintTop_toTopOf
+     * @attr name com.project.EarthFoundation:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_bias
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13475,20 +13483,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_chainStyle
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintVertical_weight
+     * @attr name com.project.EarthFoundation:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13502,11 +13510,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_default
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13523,11 +13531,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_max
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13544,20 +13552,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_min
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:layout_constraintWidth_percent
+     * @attr name com.project.EarthFoundation:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13566,11 +13574,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_editor_absoluteX
+     * @attr name com.project.EarthFoundation:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13579,11 +13587,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_editor_absoluteY
+     * @attr name com.project.EarthFoundation:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13592,11 +13600,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginBottom
+     * @attr name com.project.EarthFoundation:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13605,11 +13613,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginEnd
+     * @attr name com.project.EarthFoundation:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13618,11 +13626,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginLeft
+     * @attr name com.project.EarthFoundation:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13631,11 +13639,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginRight
+     * @attr name com.project.EarthFoundation:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13644,11 +13652,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginStart
+     * @attr name com.project.EarthFoundation:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13657,7 +13665,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:layout_goneMarginTop
+     * @attr name com.project.EarthFoundation:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=71;
     /**
@@ -13667,8 +13675,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.project.materialloginexample:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.project.materialloginexample:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.project.EarthFoundation:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.project.EarthFoundation:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -13677,7 +13685,7 @@ public final class R {
       0x7f04011b, 0x7f0401d5
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13685,11 +13693,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:keylines
+     * @attr name com.project.EarthFoundation:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13700,7 +13708,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:statusBarBackground
+     * @attr name com.project.EarthFoundation:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -13711,12 +13719,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.project.materialloginexample:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.project.materialloginexample:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.project.materialloginexample:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.project.materialloginexample:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.project.materialloginexample:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.project.materialloginexample:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.project.EarthFoundation:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.project.EarthFoundation:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.project.EarthFoundation:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.project.EarthFoundation:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.project.EarthFoundation:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.project.EarthFoundation:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -13760,7 +13768,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13768,11 +13776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:layout_anchor
+     * @attr name com.project.EarthFoundation:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13797,21 +13805,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_anchorGravity
+     * @attr name com.project.EarthFoundation:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:layout_behavior
+     * @attr name com.project.EarthFoundation:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13830,11 +13838,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_dodgeInsetEdges
+     * @attr name com.project.EarthFoundation:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13852,16 +13860,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:layout_insetEdge
+     * @attr name com.project.EarthFoundation:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:layout_keyline
+     * @attr name com.project.EarthFoundation:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -13871,14 +13879,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Corpus_contentProviderUri com.project.materialloginexample:contentProviderUri}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_corpusId com.project.materialloginexample:corpusId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_corpusVersion com.project.materialloginexample:corpusVersion}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_documentMaxAgeSecs com.project.materialloginexample:documentMaxAgeSecs}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_perAccountTemplate com.project.materialloginexample:perAccountTemplate}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_schemaOrgType com.project.materialloginexample:schemaOrgType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_semanticallySearchable com.project.materialloginexample:semanticallySearchable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Corpus_trimmable com.project.materialloginexample:trimmable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_contentProviderUri com.project.EarthFoundation:contentProviderUri}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_corpusId com.project.EarthFoundation:corpusId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_corpusVersion com.project.EarthFoundation:corpusVersion}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_documentMaxAgeSecs com.project.EarthFoundation:documentMaxAgeSecs}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_perAccountTemplate com.project.EarthFoundation:perAccountTemplate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_schemaOrgType com.project.EarthFoundation:schemaOrgType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_semanticallySearchable com.project.EarthFoundation:semanticallySearchable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Corpus_trimmable com.project.EarthFoundation:trimmable}</code></td><td></td></tr>
      * </table>
      * @see #Corpus_contentProviderUri
      * @see #Corpus_corpusId
@@ -13894,82 +13902,82 @@ public final class R {
       0x7f04019d, 0x7f0401af, 0x7f0401c2, 0x7f040223
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentProviderUri}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentProviderUri}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:contentProviderUri
+     * @attr name com.project.EarthFoundation:contentProviderUri
      */
     public static final int Corpus_contentProviderUri=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#corpusId}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#corpusId}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:corpusId
+     * @attr name com.project.EarthFoundation:corpusId
      */
     public static final int Corpus_corpusId=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#corpusVersion}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#corpusVersion}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:corpusVersion
+     * @attr name com.project.EarthFoundation:corpusVersion
      */
     public static final int Corpus_corpusVersion=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#documentMaxAgeSecs}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#documentMaxAgeSecs}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:documentMaxAgeSecs
+     * @attr name com.project.EarthFoundation:documentMaxAgeSecs
      */
     public static final int Corpus_documentMaxAgeSecs=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#perAccountTemplate}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#perAccountTemplate}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:perAccountTemplate
+     * @attr name com.project.EarthFoundation:perAccountTemplate
      */
     public static final int Corpus_perAccountTemplate=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#schemaOrgType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#schemaOrgType}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:schemaOrgType
+     * @attr name com.project.EarthFoundation:schemaOrgType
      */
     public static final int Corpus_schemaOrgType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#semanticallySearchable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#semanticallySearchable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:semanticallySearchable
+     * @attr name com.project.EarthFoundation:semanticallySearchable
      */
     public static final int Corpus_semanticallySearchable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#trimmable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#trimmable}
      * attribute's value can be found in the {@link #Corpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:trimmable
+     * @attr name com.project.EarthFoundation:trimmable
      */
     public static final int Corpus_trimmable=7;
     /**
@@ -13979,9 +13987,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castExpandedControllerStyle com.project.materialloginexample:castExpandedControllerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle com.project.materialloginexample:castIntroOverlayStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle com.project.materialloginexample:castMiniControllerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castExpandedControllerStyle com.project.EarthFoundation:castExpandedControllerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castIntroOverlayStyle com.project.EarthFoundation:castIntroOverlayStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomCastTheme_castMiniControllerStyle com.project.EarthFoundation:castMiniControllerStyle}</code></td><td></td></tr>
      * </table>
      * @see #CustomCastTheme_castExpandedControllerStyle
      * @see #CustomCastTheme_castIntroOverlayStyle
@@ -13991,7 +13999,7 @@ public final class R {
       0x7f04006f, 0x7f040073, 0x7f040077
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castExpandedControllerStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castExpandedControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13999,11 +14007,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castExpandedControllerStyle
+     * @attr name com.project.EarthFoundation:castExpandedControllerStyle
      */
     public static final int CustomCastTheme_castExpandedControllerStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castIntroOverlayStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castIntroOverlayStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14011,11 +14019,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castIntroOverlayStyle
+     * @attr name com.project.EarthFoundation:castIntroOverlayStyle
      */
     public static final int CustomCastTheme_castIntroOverlayStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#castMiniControllerStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#castMiniControllerStyle}
      * attribute's value can be found in the {@link #CustomCastTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14023,7 +14031,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:castMiniControllerStyle
+     * @attr name com.project.EarthFoundation:castMiniControllerStyle
      */
     public static final int CustomCastTheme_castMiniControllerStyle=2;
     /**
@@ -14033,9 +14041,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CustomWalletTheme_customThemeStyle com.project.materialloginexample:customThemeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle com.project.materialloginexample:toolbarTextColorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.project.materialloginexample:windowTransitionStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomWalletTheme_customThemeStyle com.project.EarthFoundation:customThemeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomWalletTheme_toolbarTextColorStyle com.project.EarthFoundation:toolbarTextColorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CustomWalletTheme_windowTransitionStyle com.project.EarthFoundation:windowTransitionStyle}</code></td><td></td></tr>
      * </table>
      * @see #CustomWalletTheme_customThemeStyle
      * @see #CustomWalletTheme_toolbarTextColorStyle
@@ -14045,7 +14053,7 @@ public final class R {
       0x7f0400bc, 0x7f04021b, 0x7f040243
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#customThemeStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#customThemeStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14058,11 +14066,11 @@ public final class R {
      * <tr><td>material</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:customThemeStyle
+     * @attr name com.project.EarthFoundation:customThemeStyle
      */
     public static final int CustomWalletTheme_customThemeStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#toolbarTextColorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#toolbarTextColorStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14075,11 +14083,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:toolbarTextColorStyle
+     * @attr name com.project.EarthFoundation:toolbarTextColorStyle
      */
     public static final int CustomWalletTheme_toolbarTextColorStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#windowTransitionStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#windowTransitionStyle}
      * attribute's value can be found in the {@link #CustomWalletTheme} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14092,7 +14100,7 @@ public final class R {
      * <tr><td>slide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:windowTransitionStyle
+     * @attr name com.project.EarthFoundation:windowTransitionStyle
      */
     public static final int CustomWalletTheme_windowTransitionStyle=2;
     /**
@@ -14102,9 +14110,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.project.materialloginexample:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.project.materialloginexample:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.project.materialloginexample:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.project.EarthFoundation:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.project.EarthFoundation:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError com.project.EarthFoundation:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -14114,7 +14122,7 @@ public final class R {
       0x7f040046, 0x7f040047, 0x7f0401ff
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14122,11 +14130,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:bottomSheetDialogTheme
+     * @attr name com.project.EarthFoundation:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14134,11 +14142,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:bottomSheetStyle
+     * @attr name com.project.EarthFoundation:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14149,7 +14157,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:textColorError
+     * @attr name com.project.EarthFoundation:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -14159,14 +14167,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.project.materialloginexample:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.project.materialloginexample:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.project.materialloginexample:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.project.materialloginexample:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.project.materialloginexample:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.project.materialloginexample:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.project.materialloginexample:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.project.materialloginexample:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.project.EarthFoundation:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.project.EarthFoundation:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.project.EarthFoundation:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.project.EarthFoundation:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.project.EarthFoundation:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.project.EarthFoundation:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.project.EarthFoundation:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.project.EarthFoundation:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -14182,7 +14190,7 @@ public final class R {
       0x7f0400c9, 0x7f0400fe, 0x7f0401cc, 0x7f040202
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14191,11 +14199,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:arrowHeadLength
+     * @attr name com.project.EarthFoundation:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14204,11 +14212,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:arrowShaftLength
+     * @attr name com.project.EarthFoundation:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14217,22 +14225,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:barLength
+     * @attr name com.project.EarthFoundation:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:color
+     * @attr name com.project.EarthFoundation:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14241,11 +14249,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:drawableSize
+     * @attr name com.project.EarthFoundation:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14254,21 +14262,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:gapBetweenBars
+     * @attr name com.project.EarthFoundation:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:spinBars
+     * @attr name com.project.EarthFoundation:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14277,7 +14285,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:thickness
+     * @attr name com.project.EarthFoundation:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -14287,8 +14295,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FeatureParam_paramName com.project.materialloginexample:paramName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FeatureParam_paramValue com.project.materialloginexample:paramValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FeatureParam_paramName com.project.EarthFoundation:paramName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FeatureParam_paramValue com.project.EarthFoundation:paramValue}</code></td><td></td></tr>
      * </table>
      * @see #FeatureParam_paramName
      * @see #FeatureParam_paramValue
@@ -14297,23 +14305,23 @@ public final class R {
       0x7f040196, 0x7f040197
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paramName}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paramName}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:paramName
+     * @attr name com.project.EarthFoundation:paramName
      */
     public static final int FeatureParam_paramName=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paramValue}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paramValue}
      * attribute's value can be found in the {@link #FeatureParam} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:paramValue
+     * @attr name com.project.EarthFoundation:paramValue
      */
     public static final int FeatureParam_paramValue=1;
     /**
@@ -14323,15 +14331,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.project.materialloginexample:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.project.materialloginexample:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.project.materialloginexample:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.project.materialloginexample:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.project.materialloginexample:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.project.materialloginexample:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.project.materialloginexample:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.project.materialloginexample:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.project.EarthFoundation:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.project.EarthFoundation:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.project.EarthFoundation:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.project.EarthFoundation:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.project.EarthFoundation:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.project.EarthFoundation:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.project.EarthFoundation:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.project.EarthFoundation:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -14349,18 +14357,18 @@ public final class R {
       0x7f04022c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:backgroundTint
+     * @attr name com.project.EarthFoundation:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14377,11 +14385,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:backgroundTintMode
+     * @attr name com.project.EarthFoundation:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14390,11 +14398,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:borderWidth
+     * @attr name com.project.EarthFoundation:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14403,11 +14411,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14416,11 +14424,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:fabCustomSize
+     * @attr name com.project.EarthFoundation:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14434,11 +14442,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:fabSize
+     * @attr name com.project.EarthFoundation:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14447,28 +14455,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:pressedTranslationZ
+     * @attr name com.project.EarthFoundation:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:rippleColor
+     * @attr name com.project.EarthFoundation:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:useCompatPadding
+     * @attr name com.project.EarthFoundation:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=8;
     /**
@@ -14478,7 +14486,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.project.materialloginexample:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.project.EarthFoundation:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -14486,13 +14494,13 @@ public final class R {
       0x7f04003f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:behavior_autoHide
+     * @attr name com.project.EarthFoundation:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -14502,12 +14510,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.project.materialloginexample:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.project.materialloginexample:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.project.materialloginexample:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.project.materialloginexample:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.project.materialloginexample:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.project.materialloginexample:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.project.EarthFoundation:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.project.EarthFoundation:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.project.EarthFoundation:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.project.EarthFoundation:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.project.EarthFoundation:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.project.EarthFoundation:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -14521,17 +14529,17 @@ public final class R {
       0x7f0400f1, 0x7f0400f2
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:fontProviderAuthority
+     * @attr name com.project.EarthFoundation:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14539,11 +14547,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fontProviderCerts
+     * @attr name com.project.EarthFoundation:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14556,11 +14564,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:fontProviderFetchStrategy
+     * @attr name com.project.EarthFoundation:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -14573,27 +14581,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:fontProviderFetchTimeout
+     * @attr name com.project.EarthFoundation:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:fontProviderPackage
+     * @attr name com.project.EarthFoundation:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:fontProviderQuery
+     * @attr name com.project.EarthFoundation:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -14606,9 +14614,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.project.materialloginexample:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.project.materialloginexample:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.project.materialloginexample:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.project.EarthFoundation:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.project.EarthFoundation:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.project.EarthFoundation:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -14660,7 +14668,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14668,11 +14676,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:font
+     * @attr name com.project.EarthFoundation:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14685,16 +14693,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:fontStyle
+     * @attr name com.project.EarthFoundation:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:fontWeight
+     * @attr name com.project.EarthFoundation:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -14706,7 +14714,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.project.materialloginexample:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.project.EarthFoundation:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -14758,13 +14766,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:foregroundInsidePadding
+     * @attr name com.project.EarthFoundation:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -14774,12 +14782,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentAction com.project.materialloginexample:defaultIntentAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentActivity com.project.materialloginexample:defaultIntentActivity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_defaultIntentData com.project.materialloginexample:defaultIntentData}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_searchEnabled com.project.materialloginexample:searchEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_searchLabel com.project.materialloginexample:searchLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearch_settingsDescription com.project.materialloginexample:settingsDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentAction com.project.EarthFoundation:defaultIntentAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentActivity com.project.EarthFoundation:defaultIntentActivity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_defaultIntentData com.project.EarthFoundation:defaultIntentData}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_searchEnabled com.project.EarthFoundation:searchEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_searchLabel com.project.EarthFoundation:searchLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearch_settingsDescription com.project.EarthFoundation:settingsDescription}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearch_defaultIntentAction
      * @see #GlobalSearch_defaultIntentActivity
@@ -14793,63 +14801,63 @@ public final class R {
       0x7f0401b6, 0x7f0401c3
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#defaultIntentAction}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#defaultIntentAction}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:defaultIntentAction
+     * @attr name com.project.EarthFoundation:defaultIntentAction
      */
     public static final int GlobalSearch_defaultIntentAction=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#defaultIntentActivity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#defaultIntentActivity}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:defaultIntentActivity
+     * @attr name com.project.EarthFoundation:defaultIntentActivity
      */
     public static final int GlobalSearch_defaultIntentActivity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#defaultIntentData}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#defaultIntentData}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:defaultIntentData
+     * @attr name com.project.EarthFoundation:defaultIntentData
      */
     public static final int GlobalSearch_defaultIntentData=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#searchEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#searchEnabled}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:searchEnabled
+     * @attr name com.project.EarthFoundation:searchEnabled
      */
     public static final int GlobalSearch_searchEnabled=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#searchLabel}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#searchLabel}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:searchLabel
+     * @attr name com.project.EarthFoundation:searchLabel
      */
     public static final int GlobalSearch_searchLabel=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#settingsDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#settingsDescription}
      * attribute's value can be found in the {@link #GlobalSearch} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:settingsDescription
+     * @attr name com.project.EarthFoundation:settingsDescription
      */
     public static final int GlobalSearch_settingsDescription=5;
     /**
@@ -14859,7 +14867,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts com.project.materialloginexample:allowShortcuts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchCorpus_allowShortcuts com.project.EarthFoundation:allowShortcuts}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearchCorpus_allowShortcuts
      */
@@ -14867,13 +14875,13 @@ public final class R {
       0x7f040029
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#allowShortcuts}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#allowShortcuts}
      * attribute's value can be found in the {@link #GlobalSearchCorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:allowShortcuts
+     * @attr name com.project.EarthFoundation:allowShortcuts
      */
     public static final int GlobalSearchCorpus_allowShortcuts=0;
     /**
@@ -14883,8 +14891,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #GlobalSearchSection_sectionContent com.project.materialloginexample:sectionContent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #GlobalSearchSection_sectionType com.project.materialloginexample:sectionType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchSection_sectionContent com.project.EarthFoundation:sectionContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #GlobalSearchSection_sectionType com.project.EarthFoundation:sectionType}</code></td><td></td></tr>
      * </table>
      * @see #GlobalSearchSection_sectionContent
      * @see #GlobalSearchSection_sectionType
@@ -14893,17 +14901,17 @@ public final class R {
       0x7f0401b8, 0x7f0401bb
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sectionContent}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sectionContent}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:sectionContent
+     * @attr name com.project.EarthFoundation:sectionContent
      */
     public static final int GlobalSearchSection_sectionContent=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sectionType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sectionType}
      * attribute's value can be found in the {@link #GlobalSearchSection} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14924,7 +14932,7 @@ public final class R {
      * <tr><td>thing_proto</td><td>9</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:sectionType
+     * @attr name com.project.EarthFoundation:sectionType
      */
     public static final int GlobalSearchSection_sectionType=1;
     /**
@@ -14934,12 +14942,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #IMECorpus_inputEnabled com.project.materialloginexample:inputEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_sourceClass com.project.materialloginexample:sourceClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_toAddressesSection com.project.materialloginexample:toAddressesSection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputSection com.project.materialloginexample:userInputSection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputTag com.project.materialloginexample:userInputTag}</code></td><td></td></tr>
-     * <tr><td><code>{@link #IMECorpus_userInputValue com.project.materialloginexample:userInputValue}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_inputEnabled com.project.EarthFoundation:inputEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_sourceClass com.project.EarthFoundation:sourceClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_toAddressesSection com.project.EarthFoundation:toAddressesSection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputSection com.project.EarthFoundation:userInputSection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputTag com.project.EarthFoundation:userInputTag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #IMECorpus_userInputValue com.project.EarthFoundation:userInputValue}</code></td><td></td></tr>
      * </table>
      * @see #IMECorpus_inputEnabled
      * @see #IMECorpus_sourceClass
@@ -14953,17 +14961,17 @@ public final class R {
       0x7f04022f, 0x7f040230
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#inputEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#inputEnabled}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:inputEnabled
+     * @attr name com.project.EarthFoundation:inputEnabled
      */
     public static final int IMECorpus_inputEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sourceClass}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sourceClass}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14977,47 +14985,47 @@ public final class R {
      * <tr><td>instant_message</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:sourceClass
+     * @attr name com.project.EarthFoundation:sourceClass
      */
     public static final int IMECorpus_sourceClass=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#toAddressesSection}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#toAddressesSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:toAddressesSection
+     * @attr name com.project.EarthFoundation:toAddressesSection
      */
     public static final int IMECorpus_toAddressesSection=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#userInputSection}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#userInputSection}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:userInputSection
+     * @attr name com.project.EarthFoundation:userInputSection
      */
     public static final int IMECorpus_userInputSection=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#userInputTag}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#userInputTag}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:userInputTag
+     * @attr name com.project.EarthFoundation:userInputTag
      */
     public static final int IMECorpus_userInputTag=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#userInputValue}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#userInputValue}
      * attribute's value can be found in the {@link #IMECorpus} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:userInputValue
+     * @attr name com.project.EarthFoundation:userInputValue
      */
     public static final int IMECorpus_userInputValue=5;
     /**
@@ -15028,12 +15036,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_centered com.project.materialloginexample:centered}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_gapWidth com.project.materialloginexample:gapWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_lineWidth com.project.materialloginexample:lineWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_selectedColor com.project.materialloginexample:selectedColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_strokeWidth com.project.materialloginexample:strokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinePageIndicator_unselectedColor com.project.materialloginexample:unselectedColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_centered com.project.EarthFoundation:centered}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_gapWidth com.project.EarthFoundation:gapWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_lineWidth com.project.EarthFoundation:lineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_selectedColor com.project.EarthFoundation:selectedColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_strokeWidth com.project.EarthFoundation:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinePageIndicator_unselectedColor com.project.EarthFoundation:unselectedColor}</code></td><td></td></tr>
      * </table>
      * @see #LinePageIndicator_android_background
      * @see #LinePageIndicator_centered
@@ -15063,17 +15071,17 @@ public final class R {
      */
     public static final int LinePageIndicator_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#centered}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#centered}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:centered
+     * @attr name com.project.EarthFoundation:centered
      */
     public static final int LinePageIndicator_centered=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#gapWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#gapWidth}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15082,11 +15090,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:gapWidth
+     * @attr name com.project.EarthFoundation:gapWidth
      */
     public static final int LinePageIndicator_gapWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#lineWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#lineWidth}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15095,22 +15103,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:lineWidth
+     * @attr name com.project.EarthFoundation:lineWidth
      */
     public static final int LinePageIndicator_lineWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectedColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectedColor}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:selectedColor
+     * @attr name com.project.EarthFoundation:selectedColor
      */
     public static final int LinePageIndicator_selectedColor=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15119,18 +15127,18 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:strokeWidth
+     * @attr name com.project.EarthFoundation:strokeWidth
      */
     public static final int LinePageIndicator_strokeWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#unselectedColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#unselectedColor}
      * attribute's value can be found in the {@link #LinePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:unselectedColor
+     * @attr name com.project.EarthFoundation:unselectedColor
      */
     public static final int LinePageIndicator_unselectedColor=6;
     /**
@@ -15176,10 +15184,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.project.materialloginexample:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.project.materialloginexample:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.project.materialloginexample:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.project.materialloginexample:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.project.EarthFoundation:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.project.EarthFoundation:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.project.EarthFoundation:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.project.EarthFoundation:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -15271,7 +15279,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15279,11 +15287,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:divider
+     * @attr name com.project.EarthFoundation:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15292,21 +15300,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:dividerPadding
+     * @attr name com.project.EarthFoundation:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:measureWithLargestChild
+     * @attr name com.project.EarthFoundation:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15321,7 +15329,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:showDividers
+     * @attr name com.project.EarthFoundation:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -15477,9 +15485,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.project.materialloginexample:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.project.materialloginexample:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.project.materialloginexample:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.project.EarthFoundation:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.project.EarthFoundation:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.project.EarthFoundation:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -15489,26 +15497,26 @@ public final class R {
       0x7f040089, 0x7f04010d, 0x7f04010e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:circleCrop
+     * @attr name com.project.EarthFoundation:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:imageAspectRatio
+     * @attr name com.project.EarthFoundation:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15522,7 +15530,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:imageAspectRatioAdjust
+     * @attr name com.project.EarthFoundation:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -15532,29 +15540,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.project.materialloginexample:ambientEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraBearing com.project.materialloginexample:cameraBearing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.project.materialloginexample:cameraMaxZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.project.materialloginexample:cameraMinZoomPreference}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.project.materialloginexample:cameraTargetLat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.project.materialloginexample:cameraTargetLng}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraTilt com.project.materialloginexample:cameraTilt}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_cameraZoom com.project.materialloginexample:cameraZoom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.project.materialloginexample:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.project.materialloginexample:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.project.materialloginexample:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.project.materialloginexample:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_liteMode com.project.materialloginexample:liteMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_mapType com.project.materialloginexample:mapType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiCompass com.project.materialloginexample:uiCompass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.project.materialloginexample:uiMapToolbar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.project.materialloginexample:uiRotateGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.project.materialloginexample:uiScrollGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.project.materialloginexample:uiTiltGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.project.materialloginexample:uiZoomControls}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.project.materialloginexample:uiZoomGestures}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.project.materialloginexample:useViewLifecycle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.project.materialloginexample:zOrderOnTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_ambientEnabled com.project.EarthFoundation:ambientEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraBearing com.project.EarthFoundation:cameraBearing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMaxZoomPreference com.project.EarthFoundation:cameraMaxZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraMinZoomPreference com.project.EarthFoundation:cameraMinZoomPreference}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLat com.project.EarthFoundation:cameraTargetLat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTargetLng com.project.EarthFoundation:cameraTargetLng}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraTilt com.project.EarthFoundation:cameraTilt}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_cameraZoom com.project.EarthFoundation:cameraZoom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLatitude com.project.EarthFoundation:latLngBoundsNorthEastLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsNorthEastLongitude com.project.EarthFoundation:latLngBoundsNorthEastLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLatitude com.project.EarthFoundation:latLngBoundsSouthWestLatitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_latLngBoundsSouthWestLongitude com.project.EarthFoundation:latLngBoundsSouthWestLongitude}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_liteMode com.project.EarthFoundation:liteMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_mapType com.project.EarthFoundation:mapType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiCompass com.project.EarthFoundation:uiCompass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiMapToolbar com.project.EarthFoundation:uiMapToolbar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiRotateGestures com.project.EarthFoundation:uiRotateGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiScrollGestures com.project.EarthFoundation:uiScrollGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiTiltGestures com.project.EarthFoundation:uiTiltGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomControls com.project.EarthFoundation:uiZoomControls}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_uiZoomGestures com.project.EarthFoundation:uiZoomGestures}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_useViewLifecycle com.project.EarthFoundation:useViewLifecycle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MapAttrs_zOrderOnTop com.project.EarthFoundation:zOrderOnTop}</code></td><td></td></tr>
      * </table>
      * @see #MapAttrs_ambientEnabled
      * @see #MapAttrs_cameraBearing
@@ -15589,126 +15597,126 @@ public final class R {
       0x7f04022a, 0x7f04022d, 0x7f040244
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#ambientEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#ambientEnabled}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:ambientEnabled
+     * @attr name com.project.EarthFoundation:ambientEnabled
      */
     public static final int MapAttrs_ambientEnabled=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraBearing}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraBearing}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraBearing
+     * @attr name com.project.EarthFoundation:cameraBearing
      */
     public static final int MapAttrs_cameraBearing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraMaxZoomPreference}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraMaxZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraMaxZoomPreference
+     * @attr name com.project.EarthFoundation:cameraMaxZoomPreference
      */
     public static final int MapAttrs_cameraMaxZoomPreference=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraMinZoomPreference}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraMinZoomPreference}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraMinZoomPreference
+     * @attr name com.project.EarthFoundation:cameraMinZoomPreference
      */
     public static final int MapAttrs_cameraMinZoomPreference=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraTargetLat}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraTargetLat}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraTargetLat
+     * @attr name com.project.EarthFoundation:cameraTargetLat
      */
     public static final int MapAttrs_cameraTargetLat=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraTargetLng}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraTargetLng}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraTargetLng
+     * @attr name com.project.EarthFoundation:cameraTargetLng
      */
     public static final int MapAttrs_cameraTargetLng=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraTilt}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraTilt}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraTilt
+     * @attr name com.project.EarthFoundation:cameraTilt
      */
     public static final int MapAttrs_cameraTilt=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#cameraZoom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#cameraZoom}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:cameraZoom
+     * @attr name com.project.EarthFoundation:cameraZoom
      */
     public static final int MapAttrs_cameraZoom=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#latLngBoundsNorthEastLatitude}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#latLngBoundsNorthEastLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:latLngBoundsNorthEastLatitude
+     * @attr name com.project.EarthFoundation:latLngBoundsNorthEastLatitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLatitude=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#latLngBoundsNorthEastLongitude}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#latLngBoundsNorthEastLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:latLngBoundsNorthEastLongitude
+     * @attr name com.project.EarthFoundation:latLngBoundsNorthEastLongitude
      */
     public static final int MapAttrs_latLngBoundsNorthEastLongitude=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#latLngBoundsSouthWestLatitude}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#latLngBoundsSouthWestLatitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:latLngBoundsSouthWestLatitude
+     * @attr name com.project.EarthFoundation:latLngBoundsSouthWestLatitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLatitude=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#latLngBoundsSouthWestLongitude}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#latLngBoundsSouthWestLongitude}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.project.materialloginexample:latLngBoundsSouthWestLongitude
+     * @attr name com.project.EarthFoundation:latLngBoundsSouthWestLongitude
      */
     public static final int MapAttrs_latLngBoundsSouthWestLongitude=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#liteMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#liteMode}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:liteMode
+     * @attr name com.project.EarthFoundation:liteMode
      */
     public static final int MapAttrs_liteMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#mapType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#mapType}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15724,97 +15732,97 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:mapType
+     * @attr name com.project.EarthFoundation:mapType
      */
     public static final int MapAttrs_mapType=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiCompass}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiCompass}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiCompass
+     * @attr name com.project.EarthFoundation:uiCompass
      */
     public static final int MapAttrs_uiCompass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiMapToolbar}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiMapToolbar}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiMapToolbar
+     * @attr name com.project.EarthFoundation:uiMapToolbar
      */
     public static final int MapAttrs_uiMapToolbar=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiRotateGestures}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiRotateGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiRotateGestures
+     * @attr name com.project.EarthFoundation:uiRotateGestures
      */
     public static final int MapAttrs_uiRotateGestures=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiScrollGestures}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiScrollGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiScrollGestures
+     * @attr name com.project.EarthFoundation:uiScrollGestures
      */
     public static final int MapAttrs_uiScrollGestures=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiTiltGestures}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiTiltGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiTiltGestures
+     * @attr name com.project.EarthFoundation:uiTiltGestures
      */
     public static final int MapAttrs_uiTiltGestures=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiZoomControls}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiZoomControls}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiZoomControls
+     * @attr name com.project.EarthFoundation:uiZoomControls
      */
     public static final int MapAttrs_uiZoomControls=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#uiZoomGestures}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#uiZoomGestures}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:uiZoomGestures
+     * @attr name com.project.EarthFoundation:uiZoomGestures
      */
     public static final int MapAttrs_uiZoomGestures=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#useViewLifecycle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#useViewLifecycle}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:useViewLifecycle
+     * @attr name com.project.EarthFoundation:useViewLifecycle
      */
     public static final int MapAttrs_useViewLifecycle=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#zOrderOnTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#zOrderOnTop}
      * attribute's value can be found in the {@link #MapAttrs} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:zOrderOnTop
+     * @attr name com.project.EarthFoundation:zOrderOnTop
      */
     public static final int MapAttrs_zOrderOnTop=22;
     /**
@@ -15826,8 +15834,8 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.project.materialloginexample:externalRouteEnabledDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MediaRouteButton_mediaRouteButtonTint com.project.materialloginexample:mediaRouteButtonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.project.EarthFoundation:externalRouteEnabledDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MediaRouteButton_mediaRouteButtonTint com.project.EarthFoundation:mediaRouteButtonTint}</code></td><td></td></tr>
      * </table>
      * @see #MediaRouteButton_android_minWidth
      * @see #MediaRouteButton_android_minHeight
@@ -15864,7 +15872,7 @@ public final class R {
      */
     public static final int MediaRouteButton_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#externalRouteEnabledDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#externalRouteEnabledDrawable}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15872,18 +15880,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:externalRouteEnabledDrawable
+     * @attr name com.project.EarthFoundation:externalRouteEnabledDrawable
      */
     public static final int MediaRouteButton_externalRouteEnabledDrawable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#mediaRouteButtonTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#mediaRouteButtonTint}
      * attribute's value can be found in the {@link #MediaRouteButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:mediaRouteButtonTint
+     * @attr name com.project.EarthFoundation:mediaRouteButtonTint
      */
     public static final int MediaRouteButton_mediaRouteButtonTint=3;
     /**
@@ -16009,16 +16017,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.project.materialloginexample:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.project.materialloginexample:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.project.materialloginexample:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.project.materialloginexample:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.project.materialloginexample:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.project.materialloginexample:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.project.materialloginexample:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.project.materialloginexample:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.project.materialloginexample:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.project.materialloginexample:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.project.EarthFoundation:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.project.EarthFoundation:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.project.EarthFoundation:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.project.EarthFoundation:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.project.EarthFoundation:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.project.EarthFoundation:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.project.EarthFoundation:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.project.EarthFoundation:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.project.EarthFoundation:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.project.EarthFoundation:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -16195,7 +16203,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16203,31 +16211,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:actionLayout
+     * @attr name com.project.EarthFoundation:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:actionProviderClass
+     * @attr name com.project.EarthFoundation:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:actionViewClass
+     * @attr name com.project.EarthFoundation:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -16244,32 +16252,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:alphabeticModifiers
+     * @attr name com.project.EarthFoundation:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:contentDescription
+     * @attr name com.project.EarthFoundation:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:iconTint
+     * @attr name com.project.EarthFoundation:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16286,11 +16294,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:iconTintMode
+     * @attr name com.project.EarthFoundation:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -16307,11 +16315,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:numericModifiers
+     * @attr name com.project.EarthFoundation:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -16327,17 +16335,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:showAsAction
+     * @attr name com.project.EarthFoundation:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:tooltipText
+     * @attr name com.project.EarthFoundation:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -16354,8 +16362,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.project.materialloginexample:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.project.materialloginexample:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.project.EarthFoundation:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.project.EarthFoundation:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -16460,17 +16468,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:preserveIconSpacing
+     * @attr name com.project.EarthFoundation:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16478,7 +16486,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:subMenuArrow
+     * @attr name com.project.EarthFoundation:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -16491,13 +16499,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.project.materialloginexample:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.project.materialloginexample:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.project.materialloginexample:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.project.materialloginexample:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.project.materialloginexample:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.project.materialloginexample:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.project.EarthFoundation:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.project.EarthFoundation:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.project.EarthFoundation:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.project.EarthFoundation:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.project.EarthFoundation:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.project.EarthFoundation:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -16554,7 +16562,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16563,11 +16571,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16575,11 +16583,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:headerLayout
+     * @attr name com.project.EarthFoundation:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16587,22 +16595,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemBackground
+     * @attr name com.project.EarthFoundation:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemIconTint
+     * @attr name com.project.EarthFoundation:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16610,22 +16618,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemTextAppearance
+     * @attr name com.project.EarthFoundation:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:itemTextColor
+     * @attr name com.project.EarthFoundation:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16633,7 +16641,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:menu
+     * @attr name com.project.EarthFoundation:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -16645,7 +16653,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.project.materialloginexample:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.project.EarthFoundation:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -16682,13 +16690,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:overlapAnchor
+     * @attr name com.project.EarthFoundation:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -16698,7 +16706,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.project.materialloginexample:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.project.EarthFoundation:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -16706,13 +16714,13 @@ public final class R {
       0x7f0401d2
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:state_above_anchor
+     * @attr name com.project.EarthFoundation:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -16722,8 +16730,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.project.materialloginexample:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.project.materialloginexample:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.project.EarthFoundation:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.project.EarthFoundation:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -16732,7 +16740,7 @@ public final class R {
       0x7f04018e, 0x7f040191
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16741,11 +16749,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:paddingBottomNoButtons
+     * @attr name com.project.EarthFoundation:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16754,7 +16762,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:paddingTopNoTitle
+     * @attr name com.project.EarthFoundation:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -16766,15 +16774,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.project.materialloginexample:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.project.materialloginexample:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.project.materialloginexample:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.project.materialloginexample:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.project.materialloginexample:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.project.materialloginexample:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.project.materialloginexample:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.project.materialloginexample:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.project.materialloginexample:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.project.EarthFoundation:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.project.EarthFoundation:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.project.EarthFoundation:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.project.EarthFoundation:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.project.EarthFoundation:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.project.EarthFoundation:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.project.EarthFoundation:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.project.EarthFoundation:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.project.EarthFoundation:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -16829,17 +16837,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:fastScrollEnabled
+     * @attr name com.project.EarthFoundation:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16847,11 +16855,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fastScrollHorizontalThumbDrawable
+     * @attr name com.project.EarthFoundation:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16859,11 +16867,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fastScrollHorizontalTrackDrawable
+     * @attr name com.project.EarthFoundation:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16871,11 +16879,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fastScrollVerticalThumbDrawable
+     * @attr name com.project.EarthFoundation:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16883,46 +16891,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fastScrollVerticalTrackDrawable
+     * @attr name com.project.EarthFoundation:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:layoutManager
+     * @attr name com.project.EarthFoundation:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:reverseLayout
+     * @attr name com.project.EarthFoundation:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:spanCount
+     * @attr name com.project.EarthFoundation:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:stackFromEnd
+     * @attr name com.project.EarthFoundation:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -16932,7 +16940,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.project.materialloginexample:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.project.EarthFoundation:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -16940,7 +16948,7 @@ public final class R {
       0x7f040114
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16951,7 +16959,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:insetForeground
+     * @attr name com.project.EarthFoundation:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -16961,7 +16969,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.project.materialloginexample:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.project.EarthFoundation:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -16969,7 +16977,7 @@ public final class R {
       0x7f040041
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16978,7 +16986,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:behavior_overlapTop
+     * @attr name com.project.EarthFoundation:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -16992,19 +17000,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.project.materialloginexample:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.project.materialloginexample:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.project.materialloginexample:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.project.materialloginexample:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.project.materialloginexample:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.project.materialloginexample:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.project.materialloginexample:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.project.materialloginexample:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.project.materialloginexample:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.project.materialloginexample:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.project.materialloginexample:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.project.materialloginexample:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.project.materialloginexample:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.project.EarthFoundation:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.project.EarthFoundation:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.project.EarthFoundation:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.project.EarthFoundation:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.project.EarthFoundation:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.project.EarthFoundation:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.project.EarthFoundation:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.project.EarthFoundation:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.project.EarthFoundation:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.project.EarthFoundation:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.project.EarthFoundation:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.project.EarthFoundation:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.project.EarthFoundation:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -17142,7 +17150,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17150,11 +17158,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:closeIcon
+     * @attr name com.project.EarthFoundation:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17162,21 +17170,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:commitIcon
+     * @attr name com.project.EarthFoundation:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:defaultQueryHint
+     * @attr name com.project.EarthFoundation:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17184,21 +17192,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:goIcon
+     * @attr name com.project.EarthFoundation:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:iconifiedByDefault
+     * @attr name com.project.EarthFoundation:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17206,11 +17214,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:layout
+     * @attr name com.project.EarthFoundation:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17218,21 +17226,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:queryBackground
+     * @attr name com.project.EarthFoundation:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:queryHint
+     * @attr name com.project.EarthFoundation:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17240,11 +17248,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:searchHintIcon
+     * @attr name com.project.EarthFoundation:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17252,11 +17260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:searchIcon
+     * @attr name com.project.EarthFoundation:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17264,11 +17272,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:submitBackground
+     * @attr name com.project.EarthFoundation:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17276,11 +17284,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:suggestionRowLayout
+     * @attr name com.project.EarthFoundation:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17288,7 +17296,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:voiceIcon
+     * @attr name com.project.EarthFoundation:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -17298,13 +17306,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Section_indexPrefixes com.project.materialloginexample:indexPrefixes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_noIndex com.project.materialloginexample:noIndex}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_schemaOrgProperty com.project.materialloginexample:schemaOrgProperty}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionFormat com.project.materialloginexample:sectionFormat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionId com.project.materialloginexample:sectionId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_sectionWeight com.project.materialloginexample:sectionWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Section_subsectionSeparator com.project.materialloginexample:subsectionSeparator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_indexPrefixes com.project.EarthFoundation:indexPrefixes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_noIndex com.project.EarthFoundation:noIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_schemaOrgProperty com.project.EarthFoundation:schemaOrgProperty}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionFormat com.project.EarthFoundation:sectionFormat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionId com.project.EarthFoundation:sectionId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_sectionWeight com.project.EarthFoundation:sectionWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Section_subsectionSeparator com.project.EarthFoundation:subsectionSeparator}</code></td><td></td></tr>
      * </table>
      * @see #Section_indexPrefixes
      * @see #Section_noIndex
@@ -17319,37 +17327,37 @@ public final class R {
       0x7f0401ba, 0x7f0401bc, 0x7f0401db
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#indexPrefixes}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#indexPrefixes}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:indexPrefixes
+     * @attr name com.project.EarthFoundation:indexPrefixes
      */
     public static final int Section_indexPrefixes=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#noIndex}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#noIndex}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:noIndex
+     * @attr name com.project.EarthFoundation:noIndex
      */
     public static final int Section_noIndex=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#schemaOrgProperty}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#schemaOrgProperty}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:schemaOrgProperty
+     * @attr name com.project.EarthFoundation:schemaOrgProperty
      */
     public static final int Section_schemaOrgProperty=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sectionFormat}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sectionFormat}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17365,36 +17373,36 @@ public final class R {
      * <tr><td>url</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:sectionFormat
+     * @attr name com.project.EarthFoundation:sectionFormat
      */
     public static final int Section_sectionFormat=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sectionId}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sectionId}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:sectionId
+     * @attr name com.project.EarthFoundation:sectionId
      */
     public static final int Section_sectionId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#sectionWeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#sectionWeight}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:sectionWeight
+     * @attr name com.project.EarthFoundation:sectionWeight
      */
     public static final int Section_sectionWeight=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subsectionSeparator}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subsectionSeparator}
      * attribute's value can be found in the {@link #Section} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:subsectionSeparator
+     * @attr name com.project.EarthFoundation:subsectionSeparator
      */
     public static final int Section_subsectionSeparator=6;
     /**
@@ -17404,7 +17412,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SectionFeature_featureType com.project.materialloginexample:featureType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SectionFeature_featureType com.project.EarthFoundation:featureType}</code></td><td></td></tr>
      * </table>
      * @see #SectionFeature_featureType
      */
@@ -17412,7 +17420,7 @@ public final class R {
       0x7f0400e9
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#featureType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#featureType}
      * attribute's value can be found in the {@link #SectionFeature} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17429,7 +17437,7 @@ public final class R {
      * <tr><td>omnibox_url_section</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:featureType
+     * @attr name com.project.EarthFoundation:featureType
      */
     public static final int SectionFeature_featureType=0;
     /**
@@ -17439,9 +17447,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.project.materialloginexample:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.project.materialloginexample:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.project.materialloginexample:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.project.EarthFoundation:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.project.EarthFoundation:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.project.EarthFoundation:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -17451,7 +17459,7 @@ public final class R {
       0x7f040050, 0x7f04009f, 0x7f0401b0
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17469,11 +17477,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buttonSize
+     * @attr name com.project.EarthFoundation:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17491,11 +17499,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:colorScheme
+     * @attr name com.project.EarthFoundation:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17505,7 +17513,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:scopeUris
+     * @attr name com.project.EarthFoundation:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -17516,8 +17524,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.project.materialloginexample:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.project.materialloginexample:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.project.EarthFoundation:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.project.EarthFoundation:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -17540,7 +17548,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17549,11 +17557,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:elevation
+     * @attr name com.project.EarthFoundation:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17562,7 +17570,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:maxActionInlineWidth
+     * @attr name com.project.EarthFoundation:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -17576,7 +17584,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.project.materialloginexample:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.project.EarthFoundation:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -17651,7 +17659,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17659,7 +17667,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:popupTheme
+     * @attr name com.project.EarthFoundation:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -17672,17 +17680,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.project.materialloginexample:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.project.materialloginexample:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.project.materialloginexample:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.project.materialloginexample:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.project.materialloginexample:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.project.materialloginexample:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.project.materialloginexample:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.project.materialloginexample:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.project.materialloginexample:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.project.materialloginexample:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.project.materialloginexample:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.project.EarthFoundation:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.project.EarthFoundation:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.project.EarthFoundation:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.project.EarthFoundation:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.project.EarthFoundation:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.project.EarthFoundation:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.project.EarthFoundation:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.project.EarthFoundation:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.project.EarthFoundation:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.project.EarthFoundation:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.project.EarthFoundation:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -17738,27 +17746,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:showText
+     * @attr name com.project.EarthFoundation:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:splitTrack
+     * @attr name com.project.EarthFoundation:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17767,11 +17775,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:switchMinWidth
+     * @attr name com.project.EarthFoundation:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17780,11 +17788,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:switchPadding
+     * @attr name com.project.EarthFoundation:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17792,11 +17800,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:switchTextAppearance
+     * @attr name com.project.EarthFoundation:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17805,22 +17813,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:thumbTextPadding
+     * @attr name com.project.EarthFoundation:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:thumbTint
+     * @attr name com.project.EarthFoundation:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17837,11 +17845,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:thumbTintMode
+     * @attr name com.project.EarthFoundation:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17849,22 +17857,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:track
+     * @attr name com.project.EarthFoundation:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:trackTint
+     * @attr name com.project.EarthFoundation:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17881,7 +17889,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:trackTintMode
+     * @attr name com.project.EarthFoundation:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -17943,22 +17951,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.project.materialloginexample:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.project.materialloginexample:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.project.materialloginexample:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.project.materialloginexample:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.project.materialloginexample:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.project.materialloginexample:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.project.materialloginexample:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.project.materialloginexample:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.project.materialloginexample:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.project.materialloginexample:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.project.materialloginexample:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.project.materialloginexample:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.project.materialloginexample:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.project.materialloginexample:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.project.materialloginexample:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.project.materialloginexample:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.project.EarthFoundation:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.project.EarthFoundation:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.project.EarthFoundation:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.project.EarthFoundation:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.project.EarthFoundation:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.project.EarthFoundation:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.project.EarthFoundation:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.project.EarthFoundation:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.project.EarthFoundation:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.project.EarthFoundation:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.project.EarthFoundation:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.project.EarthFoundation:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.project.EarthFoundation:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.project.EarthFoundation:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.project.EarthFoundation:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.project.EarthFoundation:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -17984,7 +17992,7 @@ public final class R {
       0x7f0401f1, 0x7f0401f2, 0x7f0401f3, 0x7f0401f4
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17992,11 +18000,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:tabBackground
+     * @attr name com.project.EarthFoundation:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18005,11 +18013,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabContentStart
+     * @attr name com.project.EarthFoundation:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18022,22 +18030,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:tabGravity
+     * @attr name com.project.EarthFoundation:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tabIndicatorColor
+     * @attr name com.project.EarthFoundation:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18046,11 +18054,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabIndicatorHeight
+     * @attr name com.project.EarthFoundation:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18059,11 +18067,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabMaxWidth
+     * @attr name com.project.EarthFoundation:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18072,11 +18080,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabMinWidth
+     * @attr name com.project.EarthFoundation:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18089,11 +18097,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:tabMode
+     * @attr name com.project.EarthFoundation:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18102,11 +18110,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabPadding
+     * @attr name com.project.EarthFoundation:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18115,11 +18123,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabPaddingBottom
+     * @attr name com.project.EarthFoundation:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18128,11 +18136,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabPaddingEnd
+     * @attr name com.project.EarthFoundation:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18141,11 +18149,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabPaddingStart
+     * @attr name com.project.EarthFoundation:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18154,22 +18162,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:tabPaddingTop
+     * @attr name com.project.EarthFoundation:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tabSelectedTextColor
+     * @attr name com.project.EarthFoundation:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18177,18 +18185,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:tabTextAppearance
+     * @attr name com.project.EarthFoundation:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:tabTextColor
+     * @attr name com.project.EarthFoundation:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -18209,8 +18217,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.project.materialloginexample:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.project.materialloginexample:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.project.EarthFoundation:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.project.EarthFoundation:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -18376,17 +18384,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:fontFamily
+     * @attr name com.project.EarthFoundation:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18396,7 +18404,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:textAllCaps
+     * @attr name com.project.EarthFoundation:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -18408,20 +18416,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.project.materialloginexample:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.project.materialloginexample:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.project.materialloginexample:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.project.materialloginexample:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.project.materialloginexample:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.project.materialloginexample:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.project.materialloginexample:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.project.materialloginexample:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.project.materialloginexample:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.project.materialloginexample:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.project.materialloginexample:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.project.materialloginexample:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.project.materialloginexample:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.project.materialloginexample:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.project.EarthFoundation:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.project.EarthFoundation:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.project.EarthFoundation:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.project.EarthFoundation:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.project.EarthFoundation:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.project.EarthFoundation:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.project.EarthFoundation:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.project.EarthFoundation:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.project.EarthFoundation:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.project.EarthFoundation:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.project.EarthFoundation:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.project.EarthFoundation:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.project.EarthFoundation:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.project.EarthFoundation:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -18472,26 +18480,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:counterEnabled
+     * @attr name com.project.EarthFoundation:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:counterMaxLength
+     * @attr name com.project.EarthFoundation:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18499,11 +18507,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:counterOverflowTextAppearance
+     * @attr name com.project.EarthFoundation:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18511,21 +18519,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:counterTextAppearance
+     * @attr name com.project.EarthFoundation:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:errorEnabled
+     * @attr name com.project.EarthFoundation:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18533,31 +18541,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:errorTextAppearance
+     * @attr name com.project.EarthFoundation:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:hintAnimationEnabled
+     * @attr name com.project.EarthFoundation:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:hintEnabled
+     * @attr name com.project.EarthFoundation:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18565,21 +18573,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:hintTextAppearance
+     * @attr name com.project.EarthFoundation:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:passwordToggleContentDescription
+     * @attr name com.project.EarthFoundation:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18587,32 +18595,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:passwordToggleDrawable
+     * @attr name com.project.EarthFoundation:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:passwordToggleEnabled
+     * @attr name com.project.EarthFoundation:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:passwordToggleTint
+     * @attr name com.project.EarthFoundation:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18628,7 +18636,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:passwordToggleTintMode
+     * @attr name com.project.EarthFoundation:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -18641,18 +18649,18 @@ public final class R {
      * <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_clipPadding com.project.materialloginexample:clipPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerColor com.project.materialloginexample:footerColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.project.materialloginexample:footerIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.project.materialloginexample:footerIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.project.materialloginexample:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.project.materialloginexample:footerLineHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_footerPadding com.project.materialloginexample:footerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_linePosition com.project.materialloginexample:linePosition}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_selectedBold com.project.materialloginexample:selectedBold}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_selectedColor com.project.materialloginexample:selectedColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_titlePadding com.project.materialloginexample:titlePadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TitlePageIndicator_topPadding com.project.materialloginexample:topPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_clipPadding com.project.EarthFoundation:clipPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerColor com.project.EarthFoundation:footerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.project.EarthFoundation:footerIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.project.EarthFoundation:footerIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.project.EarthFoundation:footerIndicatorUnderlinePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.project.EarthFoundation:footerLineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_footerPadding com.project.EarthFoundation:footerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_linePosition com.project.EarthFoundation:linePosition}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_selectedBold com.project.EarthFoundation:selectedBold}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_selectedColor com.project.EarthFoundation:selectedColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_titlePadding com.project.EarthFoundation:titlePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TitlePageIndicator_topPadding com.project.EarthFoundation:topPadding}</code></td><td></td></tr>
      * </table>
      * @see #TitlePageIndicator_android_textSize
      * @see #TitlePageIndicator_android_textColor
@@ -18720,7 +18728,7 @@ public final class R {
      */
     public static final int TitlePageIndicator_android_background=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#clipPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#clipPadding}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18729,22 +18737,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:clipPadding
+     * @attr name com.project.EarthFoundation:clipPadding
      */
     public static final int TitlePageIndicator_clipPadding=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerColor}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:footerColor
+     * @attr name com.project.EarthFoundation:footerColor
      */
     public static final int TitlePageIndicator_footerColor=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerIndicatorHeight}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18753,11 +18761,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:footerIndicatorHeight
+     * @attr name com.project.EarthFoundation:footerIndicatorHeight
      */
     public static final int TitlePageIndicator_footerIndicatorHeight=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerIndicatorStyle}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18771,11 +18779,11 @@ public final class R {
      * <tr><td>underline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:footerIndicatorStyle
+     * @attr name com.project.EarthFoundation:footerIndicatorStyle
      */
     public static final int TitlePageIndicator_footerIndicatorStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerIndicatorUnderlinePadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerIndicatorUnderlinePadding}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18784,11 +18792,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:footerIndicatorUnderlinePadding
+     * @attr name com.project.EarthFoundation:footerIndicatorUnderlinePadding
      */
     public static final int TitlePageIndicator_footerIndicatorUnderlinePadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerLineHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerLineHeight}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18797,11 +18805,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:footerLineHeight
+     * @attr name com.project.EarthFoundation:footerLineHeight
      */
     public static final int TitlePageIndicator_footerLineHeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#footerPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#footerPadding}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18810,11 +18818,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:footerPadding
+     * @attr name com.project.EarthFoundation:footerPadding
      */
     public static final int TitlePageIndicator_footerPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#linePosition}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#linePosition}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18827,32 +18835,32 @@ public final class R {
      * <tr><td>top</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:linePosition
+     * @attr name com.project.EarthFoundation:linePosition
      */
     public static final int TitlePageIndicator_linePosition=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectedBold}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectedBold}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:selectedBold
+     * @attr name com.project.EarthFoundation:selectedBold
      */
     public static final int TitlePageIndicator_selectedBold=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectedColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectedColor}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:selectedColor
+     * @attr name com.project.EarthFoundation:selectedColor
      */
     public static final int TitlePageIndicator_selectedColor=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titlePadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titlePadding}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18861,11 +18869,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titlePadding
+     * @attr name com.project.EarthFoundation:titlePadding
      */
     public static final int TitlePageIndicator_titlePadding=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#topPadding}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#topPadding}
      * attribute's value can be found in the {@link #TitlePageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18874,7 +18882,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:topPadding
+     * @attr name com.project.EarthFoundation:topPadding
      */
     public static final int TitlePageIndicator_topPadding=14;
     /**
@@ -18886,33 +18894,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.project.materialloginexample:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.project.materialloginexample:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.project.materialloginexample:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.project.materialloginexample:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.project.materialloginexample:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.project.materialloginexample:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.project.materialloginexample:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.project.materialloginexample:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.project.materialloginexample:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.project.materialloginexample:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.project.materialloginexample:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.project.materialloginexample:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.project.materialloginexample:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.project.materialloginexample:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.project.materialloginexample:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.project.materialloginexample:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.project.materialloginexample:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.project.materialloginexample:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.project.materialloginexample:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.project.materialloginexample:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.project.materialloginexample:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.project.materialloginexample:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.project.materialloginexample:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.project.materialloginexample:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.project.materialloginexample:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.project.materialloginexample:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.project.materialloginexample:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.project.EarthFoundation:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.project.EarthFoundation:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.project.EarthFoundation:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.project.EarthFoundation:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.project.EarthFoundation:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.project.EarthFoundation:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.project.EarthFoundation:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.project.EarthFoundation:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.project.EarthFoundation:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.project.EarthFoundation:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.project.EarthFoundation:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.project.EarthFoundation:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.project.EarthFoundation:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.project.EarthFoundation:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.project.EarthFoundation:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.project.EarthFoundation:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.project.EarthFoundation:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.project.EarthFoundation:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.project.EarthFoundation:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.project.EarthFoundation:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.project.EarthFoundation:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.project.EarthFoundation:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.project.EarthFoundation:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.project.EarthFoundation:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.project.EarthFoundation:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.project.EarthFoundation:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.project.EarthFoundation:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -18997,7 +19005,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -19010,21 +19018,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buttonGravity
+     * @attr name com.project.EarthFoundation:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:collapseContentDescription
+     * @attr name com.project.EarthFoundation:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19032,11 +19040,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:collapseIcon
+     * @attr name com.project.EarthFoundation:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19045,11 +19053,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetEnd
+     * @attr name com.project.EarthFoundation:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19058,11 +19066,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetEndWithActions
+     * @attr name com.project.EarthFoundation:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19071,11 +19079,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetLeft
+     * @attr name com.project.EarthFoundation:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19084,11 +19092,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetRight
+     * @attr name com.project.EarthFoundation:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19097,11 +19105,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetStart
+     * @attr name com.project.EarthFoundation:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19110,11 +19118,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:contentInsetStartWithNavigation
+     * @attr name com.project.EarthFoundation:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19122,21 +19130,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:logo
+     * @attr name com.project.EarthFoundation:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:logoDescription
+     * @attr name com.project.EarthFoundation:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19145,21 +19153,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:maxButtonHeight
+     * @attr name com.project.EarthFoundation:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:navigationContentDescription
+     * @attr name com.project.EarthFoundation:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19167,11 +19175,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:navigationIcon
+     * @attr name com.project.EarthFoundation:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19179,21 +19187,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:popupTheme
+     * @attr name com.project.EarthFoundation:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:subtitle
+     * @attr name com.project.EarthFoundation:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19201,32 +19209,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:subtitleTextAppearance
+     * @attr name com.project.EarthFoundation:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:subtitleTextColor
+     * @attr name com.project.EarthFoundation:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.project.materialloginexample:title
+     * @attr name com.project.EarthFoundation:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19235,11 +19243,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMargin
+     * @attr name com.project.EarthFoundation:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19248,11 +19256,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMarginBottom
+     * @attr name com.project.EarthFoundation:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19261,11 +19269,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMarginEnd
+     * @attr name com.project.EarthFoundation:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19274,11 +19282,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMarginStart
+     * @attr name com.project.EarthFoundation:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19287,11 +19295,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMarginTop
+     * @attr name com.project.EarthFoundation:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19300,11 +19308,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:titleMargins
+     * @attr name com.project.EarthFoundation:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19312,18 +19320,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:titleTextAppearance
+     * @attr name com.project.EarthFoundation:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:titleTextColor
+     * @attr name com.project.EarthFoundation:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -19334,10 +19342,10 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.project.materialloginexample:fadeDelay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.project.materialloginexample:fadeLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UnderlinePageIndicator_fades com.project.materialloginexample:fades}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.project.materialloginexample:selectedColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.project.EarthFoundation:fadeDelay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.project.EarthFoundation:fadeLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UnderlinePageIndicator_fades com.project.EarthFoundation:fades}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.project.EarthFoundation:selectedColor}</code></td><td></td></tr>
      * </table>
      * @see #UnderlinePageIndicator_android_background
      * @see #UnderlinePageIndicator_fadeDelay
@@ -19365,42 +19373,42 @@ public final class R {
      */
     public static final int UnderlinePageIndicator_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fadeDelay}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fadeDelay}
      * attribute's value can be found in the {@link #UnderlinePageIndicator} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:fadeDelay
+     * @attr name com.project.EarthFoundation:fadeDelay
      */
     public static final int UnderlinePageIndicator_fadeDelay=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fadeLength}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fadeLength}
      * attribute's value can be found in the {@link #UnderlinePageIndicator} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.project.materialloginexample:fadeLength
+     * @attr name com.project.EarthFoundation:fadeLength
      */
     public static final int UnderlinePageIndicator_fadeLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fades}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fades}
      * attribute's value can be found in the {@link #UnderlinePageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.project.materialloginexample:fades
+     * @attr name com.project.EarthFoundation:fades
      */
     public static final int UnderlinePageIndicator_fades=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#selectedColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#selectedColor}
      * attribute's value can be found in the {@link #UnderlinePageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:selectedColor
+     * @attr name com.project.EarthFoundation:selectedColor
      */
     public static final int UnderlinePageIndicator_selectedColor=4;
     /**
@@ -19412,9 +19420,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.project.materialloginexample:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.project.materialloginexample:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.project.materialloginexample:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.project.EarthFoundation:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.project.EarthFoundation:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.project.EarthFoundation:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -19457,7 +19465,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19466,11 +19474,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:paddingEnd
+     * @attr name com.project.EarthFoundation:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19479,11 +19487,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.project.materialloginexample:paddingStart
+     * @attr name com.project.EarthFoundation:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19491,7 +19499,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:theme
+     * @attr name com.project.EarthFoundation:theme
      */
     public static final int View_theme=4;
     /**
@@ -19502,8 +19510,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.project.materialloginexample:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.project.materialloginexample:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.project.EarthFoundation:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.project.EarthFoundation:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -19528,18 +19536,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:backgroundTint
+     * @attr name com.project.EarthFoundation:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19556,7 +19564,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:backgroundTintMode
+     * @attr name com.project.EarthFoundation:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -19566,12 +19574,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.project.materialloginexample:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.project.materialloginexample:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.project.materialloginexample:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.project.materialloginexample:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.project.materialloginexample:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.project.materialloginexample:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.project.EarthFoundation:vpiCirclePageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.project.EarthFoundation:vpiIconPageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.project.EarthFoundation:vpiLinePageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.project.EarthFoundation:vpiTabPageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.project.EarthFoundation:vpiTitlePageIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.project.EarthFoundation:vpiUnderlinePageIndicatorStyle}</code></td><td></td></tr>
      * </table>
      * @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
      * @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
@@ -19585,7 +19593,7 @@ public final class R {
       0x7f040237, 0x7f040238
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiCirclePageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiCirclePageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19593,11 +19601,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiCirclePageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiCirclePageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiIconPageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiIconPageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19605,11 +19613,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiIconPageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiIconPageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiLinePageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiLinePageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19617,11 +19625,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiLinePageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiLinePageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiTabPageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiTabPageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19629,11 +19637,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiTabPageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiTabPageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiTitlePageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiTitlePageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19641,11 +19649,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiTitlePageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiTitlePageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#vpiUnderlinePageIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#vpiUnderlinePageIndicatorStyle}
      * attribute's value can be found in the {@link #ViewPagerIndicator} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19653,7 +19661,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:vpiUnderlinePageIndicatorStyle
+     * @attr name com.project.EarthFoundation:vpiUnderlinePageIndicatorStyle
      */
     public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle=5;
     /**
@@ -19717,10 +19725,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_appTheme com.project.materialloginexample:appTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_environment com.project.materialloginexample:environment}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.project.materialloginexample:fragmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.project.materialloginexample:fragmentStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_appTheme com.project.EarthFoundation:appTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_environment com.project.EarthFoundation:environment}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_fragmentMode com.project.EarthFoundation:fragmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle com.project.EarthFoundation:fragmentStyle}</code></td><td></td></tr>
      * </table>
      * @see #WalletFragmentOptions_appTheme
      * @see #WalletFragmentOptions_environment
@@ -19731,7 +19739,7 @@ public final class R {
       0x7f04002e, 0x7f0400d2, 0x7f0400fc, 0x7f0400fd
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#appTheme}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#appTheme}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19744,11 +19752,11 @@ public final class R {
      * <tr><td>holo_light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:appTheme
+     * @attr name com.project.EarthFoundation:appTheme
      */
     public static final int WalletFragmentOptions_appTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#environment}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#environment}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19763,11 +19771,11 @@ public final class R {
      * <tr><td>test</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:environment
+     * @attr name com.project.EarthFoundation:environment
      */
     public static final int WalletFragmentOptions_environment=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fragmentMode}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fragmentMode}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19780,11 +19788,11 @@ public final class R {
      * <tr><td>selectionDetails</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:fragmentMode
+     * @attr name com.project.EarthFoundation:fragmentMode
      */
     public static final int WalletFragmentOptions_fragmentMode=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#fragmentStyle}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#fragmentStyle}
      * attribute's value can be found in the {@link #WalletFragmentOptions} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19792,7 +19800,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:fragmentStyle
+     * @attr name com.project.EarthFoundation:fragmentStyle
      */
     public static final int WalletFragmentOptions_fragmentStyle=3;
     /**
@@ -19802,17 +19810,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.project.materialloginexample:buyButtonAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.project.materialloginexample:buyButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.project.materialloginexample:buyButtonText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.project.materialloginexample:buyButtonWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.project.materialloginexample:maskedWalletDetailsBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.project.materialloginexample:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.project.materialloginexample:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.project.materialloginexample:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.project.materialloginexample:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.project.materialloginexample:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.project.materialloginexample:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance com.project.EarthFoundation:buyButtonAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight com.project.EarthFoundation:buyButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonText com.project.EarthFoundation:buyButtonText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth com.project.EarthFoundation:buyButtonWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground com.project.EarthFoundation:maskedWalletDetailsBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground com.project.EarthFoundation:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance com.project.EarthFoundation:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance com.project.EarthFoundation:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType com.project.EarthFoundation:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor com.project.EarthFoundation:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance com.project.EarthFoundation:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #WalletFragmentStyle_buyButtonAppearance
      * @see #WalletFragmentStyle_buyButtonHeight
@@ -19832,7 +19840,7 @@ public final class R {
       0x7f040173, 0x7f040174, 0x7f040175
     };
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buyButtonAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buyButtonAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19852,11 +19860,11 @@ public final class R {
      * <tr><td>monochrome</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buyButtonAppearance
+     * @attr name com.project.EarthFoundation:buyButtonAppearance
      */
     public static final int WalletFragmentStyle_buyButtonAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buyButtonHeight}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buyButtonHeight}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19874,11 +19882,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buyButtonHeight
+     * @attr name com.project.EarthFoundation:buyButtonHeight
      */
     public static final int WalletFragmentStyle_buyButtonHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buyButtonText}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buyButtonText}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19896,11 +19904,11 @@ public final class R {
      * <tr><td>logo_only</td><td>6</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buyButtonText
+     * @attr name com.project.EarthFoundation:buyButtonText
      */
     public static final int WalletFragmentStyle_buyButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#buyButtonWidth}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#buyButtonWidth}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19918,11 +19926,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:buyButtonWidth
+     * @attr name com.project.EarthFoundation:buyButtonWidth
      */
     public static final int WalletFragmentStyle_buyButtonWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19933,11 +19941,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsBackground
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsBackground
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsBackground=4;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsButtonBackground}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsButtonBackground}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19948,11 +19956,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsButtonBackground
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsButtonBackground
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsButtonTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsButtonTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19960,11 +19968,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsButtonTextAppearance
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsButtonTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance=6;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsHeaderTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsHeaderTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19972,11 +19980,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsHeaderTextAppearance
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsHeaderTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsLogoImageType}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsLogoImageType}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19992,22 +20000,22 @@ public final class R {
      * <tr><td>monochrome</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsLogoImageType
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsLogoImageType
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType=8;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsLogoTextColor}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsLogoTextColor}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsLogoTextColor
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsLogoTextColor
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.project.materialloginexample.R.attr#maskedWalletDetailsTextAppearance}
+     * <p>This symbol is the offset where the {@link com.project.EarthFoundation.R.attr#maskedWalletDetailsTextAppearance}
      * attribute's value can be found in the {@link #WalletFragmentStyle} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20015,7 +20023,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.project.materialloginexample:maskedWalletDetailsTextAppearance
+     * @attr name com.project.EarthFoundation:maskedWalletDetailsTextAppearance
      */
     public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance=10;
   }

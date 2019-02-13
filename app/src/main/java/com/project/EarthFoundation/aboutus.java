@@ -1,9 +1,11 @@
 package com.project.EarthFoundation;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ExpandableListView;
 
@@ -20,6 +22,13 @@ public class aboutus extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aboutus);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         SharedPreferences pref = getSharedPreferences("Settings",Activity.MODE_PRIVATE);
         String language = pref.getString("My Lang","");
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
@@ -64,5 +73,15 @@ public class aboutus extends AppCompatActivity {
                 return false;
             }
         });
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+    @Override
+    public void onBackPressed() {
+        // Disable going back to the previous activity
+       finish();
     }
 }

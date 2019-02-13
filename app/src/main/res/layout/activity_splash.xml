@@ -9,11 +9,21 @@
         android:id="@+id/logo_id"
         android:layout_width="255dp"
         android:layout_height="246dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:src="@drawable/elflogo" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_alignEnd="@+id/logo_id"
+        android:layout_alignRight="@+id/logo_id"
+        android:layout_marginTop="-34dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:text="“पेड लगाओ दुनिया बचाओ”"
+        android:textColor="#07800b"
+        android:textSize="25dp" />
 
 </RelativeLayout>

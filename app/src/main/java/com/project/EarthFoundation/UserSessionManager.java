@@ -34,6 +34,8 @@ public class UserSessionManager {
     // Email address (make variable public to access from outside)
     public static final String KEY_EMAIL = "email";
 
+   public static final String KEY_PASSWORD = "password";
+
     // Profile picture (make variable public to access from outside)
     public static final String KEY_IMAGE = "image_url";
 
@@ -48,7 +50,7 @@ public class UserSessionManager {
     }
 
     //Create login session
-    public void createUserLoginSession(String name, String email,String image_url,String user_type){
+    public void createUserLoginSession(String name, String email,String image_url,String user_type,String password){
         // Storing login value as TRUE
         editor.putBoolean(IS_USER_LOGIN, true);
 
@@ -57,6 +59,8 @@ public class UserSessionManager {
 
         // Storing email in pref
         editor.putString(KEY_EMAIL, email);
+
+       editor.putString(KEY_PASSWORD,password);
 
         // Storing profile Picture in pref
         editor.putString(KEY_IMAGE, image_url);
@@ -114,6 +118,7 @@ public class UserSessionManager {
         // user profile picture id
         user.put(KEY_USER_TYPE, pref.getString(KEY_USER_TYPE, null));
 
+        user.put(KEY_PASSWORD, pref.getString(KEY_PASSWORD, null));
         // return user
         return user;
     }

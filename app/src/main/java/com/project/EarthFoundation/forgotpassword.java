@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -37,6 +38,11 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgotpassword);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         ButterKnife.bind(this);
 
         _forgotPassButton.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +73,8 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
     @Override
     public void onBackPressed() {
         // Disable going back to the previous activity
+        Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+        startActivity(intent);
         finish();
     }
 
@@ -110,13 +118,14 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
                         }
                         progressDialog.dismiss();
                     }
-                }, 6000);
+                }, 10000);
     }
 
 
     public void onForgotSuccess() {
         _forgotPassButton.setEnabled(true);
         _emailText.setVisibility(View.GONE);
+        _emailText.setHint("");
         _otp.setVisibility(View.VISIBLE);
         _emailNotification.setVisibility(View.VISIBLE);
         _forgotPassButton.setText("Verify OTP");
@@ -129,18 +138,18 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
     }
 
     public void validateOtp(){
-        Toast.makeText(getApplicationContext(),
-                received_otp+" "+_otp,
-                Toast.LENGTH_LONG).show();
         otp=_otp.getText().toString();
         if(otp.equals(received_otp)){
+
             Intent intent = new Intent(getApplicationContext(), forgotchangepassword.class);
             startActivity(intent);
-            //finish();
+            finish();
         }
         else{
+            Toast.makeText(getBaseContext(), "Code do not match", Toast.LENGTH_LONG).show();
             Intent intent = new Intent(getApplicationContext(), forgotpassword.class);
             startActivity(intent);
+            finish();
         }
     }
 
@@ -154,11 +163,16 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
         String email = _emailText.getText().toString();
 
         if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            _emailText.setError("enter a valid email address");
+            _emailText.setError("Please enter a valid email address");
             valid = false;
         } else {
             _emailText.setError(null);
         }
         return valid;
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 }

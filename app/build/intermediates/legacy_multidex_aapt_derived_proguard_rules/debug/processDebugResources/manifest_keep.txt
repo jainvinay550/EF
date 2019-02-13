@@ -1,2 +1,2 @@
-# Referenced at C:\Users\MONTY\Desktop\treeApp\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34
+# Referenced at C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34
 -keep class android.support.multidex.MultiDexApplication { <init>(...); }

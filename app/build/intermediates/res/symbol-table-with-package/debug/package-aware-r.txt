@@ -1,4 +1,4 @@
-com.project.materialloginexample
+com.project.EarthFoundation
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -645,6 +645,7 @@ color background_material_light
 color backgroundcolor
 color base
 color black
+color blackk
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1376,6 +1377,7 @@ drawable ic_plusone_medium_off_client
 drawable ic_plusone_small_off_client
 drawable ic_plusone_standard_off_client
 drawable ic_plusone_tall_off_client
+drawable ic_stat_name
 drawable ic_vol_type_speaker_dark
 drawable ic_vol_type_speaker_group_dark
 drawable ic_vol_type_speaker_group_light
@@ -1385,6 +1387,8 @@ drawable ic_vol_type_tv_light
 drawable ic_wifi_black_24dp
 drawable image
 drawable language
+drawable load
+drawable loading
 drawable logout
 drawable maleuser
 drawable mr_button_connected_dark
@@ -1408,7 +1412,6 @@ drawable mr_media_stop_light
 drawable mr_vol_type_audiotrack_dark
 drawable mr_vol_type_audiotrack_light
 drawable myprof3
-drawable nav_menu_header_bg
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1422,6 +1425,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable passbg
 drawable places_ic_clear
 drawable places_ic_search
 drawable powered_by_google_dark
@@ -1475,7 +1479,7 @@ drawable settings
 drawable side_nav_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-drawable treebg
+drawable treebackground
 drawable vpi__tab_indicator
 drawable vpi__tab_selected_focused_holo
 drawable vpi__tab_selected_holo
@@ -1528,6 +1532,7 @@ id android_pay_light_with_border
 id async
 id audio_list_view
 id auto
+id background
 id background_image_view
 id background_place_holder_image_view
 id bankcardId
@@ -1540,10 +1545,10 @@ id bottom
 id btnSubmit
 id btnSubmitProfile
 id btn_changelanguage
+id btn_changepassword
 id btn_login
 id btn_next
 id btn_reset
-id btn_reset2
 id btn_signup
 id btn_skip
 id button
@@ -1664,9 +1669,6 @@ id indicator
 id info
 id input_email
 id input_fname
-id input_fname2
-id input_fname3
-id input_fname4
 id input_lname
 id input_password
 id input_reEnterPassword
@@ -1687,7 +1689,6 @@ id light
 id line1
 id line3
 id link_forgotpassword
-id link_login
 id link_signup
 id listMode
 id listTitle
@@ -1735,6 +1736,7 @@ id mr_volume_group_list
 id mr_volume_item_icon
 id mr_volume_slider
 id multiply
+id mytrees_planttree
 id name
 id nav_aboutus
 id nav_contactus
@@ -1750,6 +1752,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id old_password
 id omnibox_title_section
 id omnibox_url_section
 id p_email
@@ -1784,7 +1787,6 @@ id profile_bar
 id profile_bar2
 id profile_image
 id profile_layout
-id progress
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -1982,6 +1984,7 @@ layout activity_setting
 layout activity_signup
 layout activity_splash
 layout activity_update_tree_details
+layout activity_write_to_us
 layout app_bar_home
 layout cast_expanded_controller_activity
 layout cast_help_text
@@ -2055,7 +2058,7 @@ string CONTRIBUTION
 string ChangePassword
 string ChangePasswordd
 string City
-string Contactus
+string Code
 string CreateAccount
 string Email
 string FirstName
@@ -2065,6 +2068,7 @@ string InMemoryOf
 string Lanmark
 string LastName
 string Latitude
+string Login
 string Logout
 string Longitude
 string MobileNumber
@@ -2183,6 +2187,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string country
+string email
 string exitnotification
 string fcm_fallback_notification_channel_label
 string gcm_fallback_notification_channel_label
@@ -2214,6 +2219,7 @@ string nav_header_title
 string navigation_drawer_close
 string navigation_drawer_open
 string next
+string password
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -2245,6 +2251,7 @@ string state
 string statement1
 string statement2
 string status_bar_notification_info_overflow
+string submit
 string tagmanager_preview_dialog_button
 string tagmanager_preview_dialog_message
 string tagmanager_preview_dialog_title
@@ -2264,6 +2271,7 @@ string updUpdatedon
 string updateLocation
 string updateTreeName
 string wallet_buy_button_place_holder
+string writetous
 string yctp
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

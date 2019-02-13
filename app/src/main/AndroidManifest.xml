@@ -19,14 +19,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.Dark">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="EARTH  FOUNDATION"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/AppTheme.Dark"
@@ -75,7 +79,12 @@
             android:name=".MyTreesActivity"
             android:label="EARTH  FOUNDATION"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity
+            android:name=".SettingActivity"
+            android:label="EARTH  FOUNDATION"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".WriteToUs"></activity>
     </application>
 
 </manifest>

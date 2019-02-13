@@ -211,13 +211,14 @@
                     <EditText
                         android:id="@+id/phoneNo"
                         android:layout_width="0dp"
+                        android:singleLine="true"
                         android:layout_height="40dp"
                         android:layout_gravity="top"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:ems="10"
                         android:gravity="center_vertical"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -243,12 +244,13 @@
 
                     <EditText
                         android:id="@+id/country"
+                        android:singleLine="true"
                         android:layout_width="0dp"
                         android:layout_height="40dp"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:gravity="center_vertical"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -268,18 +270,19 @@
                         android:layout_weight="0.50"
                         android:gravity="center_vertical"
                         android:text="@string/state"
-                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="normal" />
 
                     <EditText
                         android:id="@+id/state"
                         android:layout_width="0dp"
+                        android:singleLine="true"
                         android:layout_height="40dp"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:gravity="center_vertical"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -304,11 +307,12 @@
                     <EditText
                         android:id="@+id/city"
                         android:layout_width="0dp"
+                        android:singleLine="true"
                         android:layout_height="40dp"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:gravity="center_vertical"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textColorHint="#000000"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -328,17 +332,18 @@
                         android:layout_weight="0.50"
                         android:gravity="center_vertical"
                         android:text="@string/pincode"
-                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                     <EditText
                         android:id="@+id/pincode"
                         android:layout_width="0dp"
+                        android:singleLine="true"
                         android:layout_height="40dp"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:ems="10"
                         android:gravity="center_vertical"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -357,16 +362,17 @@
                         android:layout_weight="0.50"
                         android:gravity="center_vertical"
                         android:text="@string/aadhar"
-                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                     <EditText
                         android:id="@+id/aadhar"
                         android:layout_width="0dp"
+                        android:singleLine="true"
                         android:layout_height="40dp"
                         android:layout_weight="0.50"
                         android:background="@color/vpi__bright_foreground_holo_dark"
                         android:ems="10"
-                        android:textColor="#000000"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -388,7 +394,7 @@
                             android:background="@color/primary_darker"
                             android:ems="5"
                             android:text="edit profile"
-                            android:textColor="@color/backgroundcolor"
+                            android:textColor="@color/primary"
                             android:textSize="18sp" />
                     </LinearLayout>
                 </LinearLayout>

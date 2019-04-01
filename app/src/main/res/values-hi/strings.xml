@@ -11,37 +11,39 @@
     <string name="ForgotPassword">पासवर्ड भूल गए?</string>
     <string name="NotAccount">अभी तक कोई खाता नहीं है? साइन अप करें </string>
     <string name="ChangePassword">पासवर्ड बदलें</string>
-    <string name="TreeName">वृक्ष का नाम *</string>
+    <string name="TreeName">वृक्ष का नाम </string>
     <string name="Latitude">अक्षांश</string>
     <string name="Longitude">देशान्तर</string>
     <string name="InMemoryOf">किसके याद में</string>
     <string name="Relation">रिश्ता</string>
-    <string name="PlantDate">वृक्षारोपण की तारीख *</string>
-    <string name="Address">पता *</string>
-    <string name="Lanmark">सीमा चिन्ह *</string>
-    <string name="Image">छवि *</string>
+    <string name="PlantDate">वृक्षारोपण की तारीख </string>
+    <string name="Address">पता </string>
+    <string name="Lanmark">सीमा चिन्ह </string>
+    <string name="Image">छवि </string>
 
 
     <!--hint page -->
-    <string name="FirstName">पहला नाम *</string>
-    <string name="LastName">अंतिम नाम *</string>
-    <string name="Age">आयु *</string>
-    <string name="Addresshint">पत्ता *</string>
+    <string name="FirstName">पहला नाम </string>
+    <string name="LastName">अंतिम नाम </string>
+    <string name="Age">आयु </string>
+    <string name="Addresshint">पत्ता </string>
     <string name="City">शहर</string>
     <string name="PinCode">पिन कोड</string>
     <string name="AadharNumber">आधार संख्या</string>
-    <string name="Email">ईमेल *</string>
+    <string name="Email">ईमेल </string>
     <string name="email">ईमेल </string>
     <string name="MobileNumber">मोबाइल नंबर</string>
     <string name="UserName">उपयोगकर्ता नाम</string>
-    <string name="Password">पासवर्ड *</string>
+    <string name="Password">पासवर्ड </string>
     <string name="password">पासवर्ड </string>
-    <string name="ReenterPassword">पासवर्ड फिर से दर्ज करें *</string>
+    <string name="ReenterPassword">पासवर्ड फिर से दर्ज करें </string>
     <string name="CreateAccount">खाता बनाएं</string>
     <string name="AlreadyamemberLogin">पहले से सदस्य हैं? लॉग इन करें</string>
 
     <!--Activity update tree details -->
     <string name="updateTreeName">पेड़ का नाम</string>
+    <string name="PlantationType">वृक्षारोपण प्रकार</string>
+    <string name="NumberofTrees">पेड़ों की संख्या</string>
     <string name="updateLocation">स्थित है</string>
     <string name="updPlantedon">पर लगाया</string>
     <string name="updUpdatedon">पिछला नवीनीकरण</string>
@@ -49,19 +51,24 @@
     <string name="updSelectDate">तारीख़ चुनें...</string>
     <string name="updImage">छवि</string>
     <string name="updSelectImage">छवि चुने</string>
+    <string name="HaveTreeGuard">ट्री गार्ड है?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
     <string name="updUpdate">अद्यतन करें</string>
     <string name="updCancel">रद्द करना</string>
     <string name="submit">जमा करें</string>
+    <string name="treeStatus">क्या पेड़ जीवित है?</string>
+    <string name="NoOfTrees">पेड़ लगाए है </string>
 
     <!--Content home page-->
-    <string name="chTREES">पौधे </string>
-    <string name="tpf">हमारी नींव से लगाए गए कुल पौधे </string>
+    <string name="chTREES">पेड़ </string>
+    <string name="tpf">हमारी नींव से लगाए गए कुल पेड़ </string>
     <string name="CONTRIBUTION">योगदान</string>
     <string name="yctp">अभीतक वृक्षारोपण में आपका योगदान</string>TOKENSEARNED
     <string name="TOKENSEARNED">टोकन अर्जित किया</string>
     <string name="teyc">आपके योगदान से अर्जित की गई टोकन</string>
     <string name="chPLANTTREE">पेड़ लगाए</string>
-    <string name="ptac">पौधे लगाएं और अपना योगदान करें</string>
+    <string name="ptac">पेड़ लगाएं और अपना योगदान करें</string>
 
     <string name="title_activity_home">HomeActivity</string>
 
@@ -79,11 +86,12 @@
     <string name="writetous">हमें लिखें</string>
     <string name="Settings">सेटिंग्स</string>
     <string name="Logout">लोग आउट</string>Rateus
-    <string name="Rateus">हमें रेटिंग दें</string>
-
+    <string name="share">शेयर</string>
+    <string name="Dashboard">मेरा डैशबोर्ड</string>
     <string name="selected_lang">हिंदी</string>
 
     <!--Profile-->
+    <string name="personalInfo">व्यक्तिगत जानकारी</string>
     <string name="phoneNo">फोन नंबर</string>
     <string name="country">देश</string>
     <string name="state">राज्य</string>
@@ -91,7 +99,7 @@
     <string name="pincode">पिन कोड</string>
     <string name="aadhar">आधार नंबर</string>
     <string name="trees">पेड़</string>
-    <string name="token">टोकन</string>
+    <string name="save">सेव </string>
 
     <string name="logoutnotification">Logout Notification</string>
     <string name="exitnotification">Exit Notification</string>
@@ -106,13 +114,58 @@
     <string name="rate_dialog_no">नहीं, धन्यवाद </string>
 
     <!--Settings page-->
-    <string name="Oldpassword">पुराना पासवर्ड *</string>
-    <string name="Newpassword">नया पासवर्ड *</string>
+    <string name="Oldpassword">पुराना पासवर्ड </string>
+    <string name="Newpassword">नया पासवर्ड </string>
     <string name="Reenternewpassword">नया पासवर्ड पुनः दर्ज करें *</string>
     <string name="ChangePasswordd">पासवर्ड बदलें</string>
 
     <string name="Login">लॉग इन</string>
 
     <string name="Code">कोड</string>
+    <!--Home-->
+    <string name = "contactus"> हमसे संपर्क करें </string>
+    <string name="about_foundation">अर्थ फाउंडेशन के बारे में जानकारी</string>
+    <string name="balance_project">संतुलन प्रकल्प के बारे में</string>
+    <string name="about_trees">पेड़ो का महत्व  </string>
+    <string name="be_part">हमसे जुड़िये </string>
+    <string name="aboutusinfo">2018 में विक्रांत जाधव द्वारा महाराष्ट्र में पेड़ बनाने की अवधारणा द्वारा स्थापित अर्थ फौंडेशन एक गैर-लाभकारी संगठन है। परियोजना ने इसके लिए संतुलन शुरू कर दिया है, और परियोजना के मुख्य निर्देशक विक्रांत जाधव और उप निर्देशक रूपेश महाजन और अन्य सदस्य हैं।</string>
+    <string name="tree_importance">पेड़ संतुलित वर्षा देने, ऑक्सीजन का समर्थन करने, वायुमंडलीय सुधार, जल संचयन, मिट्टी संरक्षण और वन्यजीवों द्वारा अपने पर्यावरण में योगदान करते हैं। और कई महत्वपूर्ण चीजें जिनके आगे मानव सभ्यता टिकती नहीं है। अब आपके लिए कुछ वापस पाने और अपनी मातृभूमि को बचाने का समय है।</string>
+    <string name="message">Ok</string>
+    <string name="about_EF">2018 में विक्रांत जाधव द्वारा महाराष्ट्र में पेड़ बनाने की अवधारणा द्वारा स्थापित, वित्त एक गैर-लाभकारी संगठन है। परियोजना ने इसके लिए संतुलन शुरू कर दिया है, और परियोजना के मुख्य निर्देशक विक्रांत जाधव और उप निर्देशक रूपेश महाजन और अन्य सदस्य हैं। \n\nपरियोजना की आवश्यकता क्यों है? \n\nपिछले कुछ वर्षों में बड़ी संख्या में पेड़ों को कटा गया, इसका प्रतिकूल प्रभाव आम जनता और वातावरण पर देखा गया है। यह व्यापक रूप से माना जाता है कि पेड़ों को संरक्षित नहीं किया जा रहा है। महाराष्ट्र में सूखा अब होने लगा है। सूखा प्रकृति द्वारा नहीं बनाया गया है, लेकिन मानव नियोजन शून्य कार्य का परिणाम माना जाता है। सूखे को कम करने और महाराष्ट्र के सतत विकास के लिए पेड़ों के क्षेत्र में वृद्धि करना आवश्यक है। महाराष्ट्र में पेड़ों और वन पर अनधिकृत अतिक्रमण के कारण राज्य में उग्र आपदाएँ, तापमान में वृद्धि, जलवायु परिवर्तन, पानी की कमी और सूखे जैसी आपदाएँ हुई हैं। यदि आप इसे बहुत गंभीरता से नहीं देखते हैं, तो आने वाले वर्षों में महाराष्ट्र में रेगिस्तान होने में समय नहीं लगेगा। \n\n
+भारत में पेड़  लगाने की  आवश्यकता क्यों है?\n\nदुनिया के कई राष्ट्रों की तुलना में, भारत एक ऐसा देश था जिसमें आवश्यक प्रमाण में  पेड़ थे। लेकिन देश के वन क्षेत्र का औसत क्षेत्रफल 78.29 मिलियन हेक्टेयर है, जो देश के क्षेत्र का औसत 24 प्रतिशत है, लेकिन वास्तव में, वन क्षेत्र केवल 8 प्रतिशत है, केंद्र सरकार की रिपोर्ट में कहा गया है। इस प्रकार की तस्वीर अन्य देशों में भी दिखाई देती है। \n\n
+क्या इस पर कोई समाधान है?\n\nसंत तुकाराम महाराज ने चार सौ साल पहले अपनी \'वृक्षावली अमा सोयारे वैंकारे\' अभंग के माध्यम से हमें वृक्ष और वन के महत्व के बारे में बताया है। यदि हर कोई इसके संरक्षण की पूरी जिम्मेदारी स्वीकार कर लेता है, तो दुनिया दुनिया के सामने आने वाले संभावित खतरों को प्राप्त करने में सक्षम होगी और इससे सतत विकास का सपना साकार हो सकेगा।\n\n
+अर्थ फाउंडेशन संचालित संतुलन परियोजना क्या है?\n\nपृथ्वी फाउंडेशन शुरू में संतुलन परियोजना के माध्यम से वृक्षारोपण और संवर्धन पर काम करेगा। विभिन्न सरकारी और निजी संगठनों ने पेड़ लगाने के लिए युद्धस्तर पर काम शुरू कर दिया है। उनके द्वारा किए गए कार्यों की सराहना करने के लिए बहुत कम ही है। महाराष्ट्र सरकार ने विभिन्न विभागों और लोगों की भागीदारी के माध्यम से 50 करोड़ पेड़ लगाने की योजना बनाई है और यह महत्वाकांक्षी परियोजना शुरू हुई है। सरकार की यह पहल महत्वपूर्ण है लेकिन हम इस चुनौती को भी अलग नजरिए से दूर करने की कोशिश कर रहे हैं। हमारा मानना है कि बढ़ते पेड़ों की सबसे बड़ी ताकत और क्षमताओं में से एक ही व्यक्ति है। एक बार जब लोग इस तथ्य के बारे में आश्वस्त हो जाते हैं और वे प्रेरित होते हैं, तो वे वहां पेड़ लगा सकेंगे और यदि संभव हो तो पेड़ों को रोक सकते हैं। दिन-प्रतिदिन घटते पेड़ों की संख्या को बढ़ाने के लिए, सार्वजनिक भागीदारी के यथार्थवादी उपाय दूसरे नहीं हो सकते हैं।  \n\n
+संतुलन परियोजना दो प्रमुख मोर्चों पर ठोस काम करेगी:\n\n
+प्रेरणा 1: लोगों को यह विश्वास होना चाहिए कि पृथ्वी के संतुलन को बनाए रखने के लिए वृक्षारोपण और संरक्षण एक आवश्यक और बुद्धिमान तरीका है। छोटे और बड़े हर नागरिक को इस आंदोलन का हिस्सा बनना चाहिए। प्रत्येक व्यक्ति की भावनाओं का सम्मान करते हुए पेड़ों की खेती और संवर्धन किया जाना चाहिए। बैलेंस प्रोजेक्ट जनता और डिजिटल मीडिया के हर माध्यम का उपयोग करके और इस आंदोलन में एक भावनात्मक संबंध स्थापित करके लोगों को प्रेरित करेगा। \n\n 2 स्वयंसेवकों को जोड़ना: वृक्षारोपण और संरक्षण पृथ्वी के संतुलन को बनाए रखने का आवश्यक और बुद्धिमान तरीका है। इसके लिए हर छोटा और बड़ा नागरिक प्रेरित होकर आंदोलन में शामिल होगा।
 
+</string>
+    <string name="about_SP">"पृथ्वी पर वृक्ष-कम पेड़ बनाने के लिए विक्रांत जाधव की अवधारणा के माध्यम से 2018 तक स्थापित वित्त, एक गैर-लाभकारी संगठन है। यह प्रोजेक्ट बैलेंस इंस्टीट्यूट द्वारा शुरू किया गया है। वृक्षारोपण और संरक्षण पृथ्वी के संतुलन को बनाए रखने का एक आवश्यक और बुद्धिमान तरीका है, और दुनिया के प्रत्येक नागरिक को इस परियोजना के तहत स्वयंसेवक के रूप में जोड़ा जा सकता है, और विभिन्न तकनीकों, जैसे कि ऊपर का उपयोग करने का प्रयास किया जाएगा।\n\nहम संतुलन परियोजना के माध्यम से क्या हासिल करना चाहते हैं: \n\nसंत तुकाराम महाराज ने चार सौ साल पहले अपने '‘वृक्षवल्ली आम्हा सोयरे वनचरे’ ' अभंग के माध्यम से हमें वृक्ष और वन के महत्व के बारे में बताया है। वनश्री हीच धनश्री' पेड़ लगाना , देखभाल करना, पेड़ों को बचाना और देश को बचाना हर किसी के लिए जरूरी है।
+यदि हर कोई इसके संरक्षण की पूरी जिम्मेदारी स्वीकार करता है, तो यह राज्य, देश और दुनिया में लोगों के सामने आने वाले संभावित खतरों में सफलता लाएगा और सतत विकास का सपना साकार हो सकता है।
+</string>
+    <string name="ABOUTUS">हमारे बारे में</string>
+    <string name="CD">मुख्य निर्देशक</string>
+
+    <string name="getintouch">संपर्क में रहो</string>
+    <string name="earthfoundation">अर्थ फौंडेशन</string>
+
+    <string name="addr1">प्लॉट नं .5, गट नं. 179</string>
+    <string name="addr2">वाघनगर, जळगाव-425001</string>
+    <string name="twitter">
+    हमसे ट्विटर पर सूचित रहें</string>
+    <string name="fb">हमे फेसबूक पर पसंद करे</string>
+    <string name="wt">व्हाट्सएप पर हमसे जुड़ें</string>
+    <string name="you">हमें Youtube पर देखें</string>
+
+    <string name="suggesion">आपके सुझावों की सराहना की जाएगी!</string>
+    <string name="subject">विषय</string>
+    <string name="msg">संदेश</string>
+    <string name="send">भेजना</string>
+
+    <string name="pdf">PDF से और पढ़ें</string>
+    <string name="youtube">Youtube वीडियो देखें</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="mytrees">My Trees</string>
+    <string name="planttree">Plant Tree</string>
+    <string name="treenearby">Trees Nearby</string>
 </resources>

@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/updateTree_Layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.project.EarthFoundation.UpdateTreeDetails">
@@ -30,7 +31,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="200dp">
+        android:layout_height="230dp">
 
         <ProgressBar
             android:id="@+id/tree_bar"
@@ -64,7 +65,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="215dp">
+        android:layout_marginTop="245dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <TextView
+                <com.project.EarthFoundation.CustomTextView
                     android:id="@+id/tree_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -95,7 +96,68 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
+                        android:id="@+id/inMemoryOfTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="6dp"
+                        android:gravity="center"
+                        android:text="@string/InMemoryOf"
+                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+                    <com.project.EarthFoundation.CustomTextView
+                        android:id="@+id/inMemoryOf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="mother"
+                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/NoOfTreesLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.project.EarthFoundation.CustomTextView
+                        android:id="@+id/NoOfTrees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginRight="6dp"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                    <com.project.EarthFoundation.CustomTextView
+                        android:id="@+id/NoOfTreesTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="@string/NoOfTrees"
+                        android:textColor="@color/cast_expanded_controller_background_color"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/locationTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -107,7 +169,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/location"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -125,7 +187,7 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/planted_dateTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -137,7 +199,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/planted_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -155,7 +217,7 @@
                     android:gravity="center"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/updated_dateTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -167,7 +229,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
 
-                    <TextView
+                    <com.project.EarthFoundation.CustomTextView
                         android:id="@+id/updated_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -178,6 +240,7 @@
                         android:textSize="18sp"
                         android:textStyle="italic" />
                 </LinearLayout>
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -192,25 +255,76 @@
                         android:text="Update Tree Information"
                         android:textColor="@color/backgroundcolor"
                         android:textSize="18sp"
-                        android:visibility="gone" />
+                        android:visibility="visible" />
                 </LinearLayout>
             </LinearLayout>
 
+            <LinearLayout
+                android:id="@+id/treeStatusLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/treeStatus"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioYes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="@string/yes"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/no"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+            </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/date_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:visibility="gone"
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="2dp"
-                android:background="@color/default_circle_indicator_stroke_color">
+                android:background="@color/deeppurple"
+                android:orientation="horizontal"
+                android:visibility="gone">
 
-                <TextView
+                <com.project.EarthFoundation.CustomTextView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="2dp"
                     android:layout_weight="0.50"
                     android:gravity="center_vertical"
@@ -225,10 +339,11 @@
                     android:layout_weight="0.50"
                     android:background="@color/vpi__bright_foreground_holo_dark"
                     android:gravity="center_vertical"
-                    android:hint="Select Date"
+                    android:hint="SELECT DATE"
                     android:textColor="#000000"
                     android:textColorHint="#000000"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:paddingLeft="10dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -238,13 +353,14 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:layout_marginBottom="2dp"
-                android:background="@color/default_circle_indicator_stroke_color"
+                android:background="@color/deeppurple"
                 android:orientation="horizontal"
                 android:visibility="gone">
 
-                <TextView
+                <com.project.EarthFoundation.CustomTextView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="2dp"
                     android:layout_weight="0.50"
                     android:gravity="center_vertical"
@@ -259,9 +375,11 @@
                     android:layout_weight="0.50"
                     android:background="@color/vpi__bright_foreground_holo_dark"
                     android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
                     android:text="Select Image"
-                    android:textColor="#000000"
-                    android:textSize="14sp" />
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -278,6 +396,57 @@
                     android:layout_height="170dp"
                     android:scaleType="fitXY"
                     android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/haveGuardLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/HaveTreeGuard"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupGuard"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioYesGuard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:textColor="@color/black"
+                        android:text="@string/yes"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioNoGuard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/no"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
             </LinearLayout>
 
             <LinearLayout

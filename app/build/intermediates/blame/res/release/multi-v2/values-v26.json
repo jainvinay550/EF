@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Vishal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c9dda1614613984324412be1fdaa9833\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\51bc7ca9ce5e44a739800fbc0a7ca9c8\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Vishal\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\313c4be29a2760edee2d5cb10be7fd41\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

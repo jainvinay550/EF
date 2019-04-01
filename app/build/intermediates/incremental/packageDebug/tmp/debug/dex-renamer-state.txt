@@ -1,10 +1,10 @@
-#Wed Feb 13 18:47:45 IST 2019
+#Sat Mar 30 13:16:29 IST 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.1=C\:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
-base.0=C\:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.2=C\:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=C\:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.0=C\:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

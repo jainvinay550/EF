@@ -1,53 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
 
-    <TextView
+    <com.project.EarthFoundation.CustomTextView
+        android:id="@+id/txtFrom"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="To:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        android:hint="From" />
+    <com.project.EarthFoundation.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:hint="@string/suggesion" />
 
-    <EditText
-        android:id="@+id/edit_text_to"
+    <com.project.EarthFoundation.CustomTextView
+        android:id="@+id/txtTo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Subject:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-    <EditText
-        android:id="@+id/edit_text_subject"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailSubject" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Message:"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:layout_height="40dp"
+        android:hint="To"
+        android:textColor="@color/black"
+        android:visibility="invisible" />
 
     <EditText
-        android:id="@+id/edit_text_message"
+        android:id="@+id/txtSubject"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="start|top"
-        android:lines="10" />
+        android:hint="@string/subject"
+        android:singleLine="true"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="@string/msg"
+        android:textColor="@color/black" />
 
     <Button
-        android:id="@+id/button_send"
-        android:layout_width="match_parent"
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="send" />
-
+        android:layout_gravity="end"
+        android:background="@color/primary_darker"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/primary"
+        android:textSize="18sp"
+        android:text="@string/send" />
 </LinearLayout>

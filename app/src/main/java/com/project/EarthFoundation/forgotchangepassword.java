@@ -1,20 +1,30 @@
 package com.project.EarthFoundation;
 
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Typeface;
+import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
 
 import java.util.HashMap;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Single;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 
 public class forgotchangepassword extends AppCompatActivity {
 
@@ -29,25 +39,43 @@ public class forgotchangepassword extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgotchangepassword);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-       // getSupportActionBar().setDisplayShowHomeEnabled(true);
-        fp = new forgotpassword();
-
-        // get email
-        email = fp.email;
         ButterKnife.bind(this);
 
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/TNR.ttf");
+        _newPasswordText.setTypeface(myCustomFont);
+        _forgotPassButton.setTypeface(myCustomFont);
+        _reEnterPasswordText.setTypeface(myCustomFont);
 
-        _forgotPassButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                changepassword();
-            }
-        });
+
+        ReactiveNetwork
+                .observeNetworkConnectivity(getApplicationContext())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                        connectivity -> {
+                            if(connectivity.state()==NetworkInfo.State.CONNECTED) {
+                                setContentView(R.layout.activity_forgotchangepassword);
+                                Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+                                setSupportActionBar(toolbar);
+
+                                //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+                                // getSupportActionBar().setDisplayShowHomeEnabled(true);
+                                fp = new forgotpassword();
+
+                                // get email
+                                email = fp.email;
+//                                ButterKnife.bind(this);
+
+
+                                _forgotPassButton.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        changepassword();
+                                    }
+                                });
+                            }
+                            });
 
     }
 
@@ -72,7 +100,18 @@ public class forgotchangepassword extends AppCompatActivity {
 
         String type = "ChangePassword";
         BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-        backgroundWorker.execute(email,newPassword);
+        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+        single
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(isConnectedToInternet -> {
+                    if(isConnectedToInternet.equals(true)) {
+                        backgroundWorker.execute(email,newPassword);                    }
+                    else{
+                        buildDialog(forgotchangepassword.this).show();
+                    }
+                });
+
 
     }
     public void onChangeFailed() {
@@ -111,6 +150,22 @@ public class forgotchangepassword extends AppCompatActivity {
         }
 
         return valid;
+    }
+    public android.app.AlertDialog.Builder buildDialog(Context c) {
+
+        android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(c);
+        builder.setTitle("Oops!");
+        builder.setMessage("No internet. Check your connection");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                 finish();
+            }
+        });
+
+        return builder;
     }
 
 }

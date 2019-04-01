@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c4468bd4e7f2ae73633d58e796c738f8\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\59a8ee2122b07a4e68e3098d2198617d\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\28a4992bb3502640bcbd21f9494ad5e6\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

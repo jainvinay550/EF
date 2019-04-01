@@ -7,9 +7,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
@@ -21,6 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
+import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
+
 import org.json.JSONObject;
 import org.json.JSONException;
 
@@ -28,6 +33,9 @@ import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Single;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 
 public class LoginActivity extends AppCompatActivity implements BackgroundWorkerResponce {
     private static final String TAG = "LoginActivity";
@@ -43,52 +51,127 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
     @BindView(R.id.btn_login) Button _loginButton;
     @BindView(R.id.link_signup) TextView _signupLink;
     @BindView(R.id.link_forgotpassword) TextView _forgotpasswordLink;
+    @BindView(R.id.login_layout) CoordinatorLayout coordinatorLayout;
     UserSessionManager session;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
 
-        if(!isConnected(LoginActivity.this)) {
-            buildDialog(LoginActivity.this).show();}
-        else {
-            loadLocale();
-            setContentView(R.layout.activity_login);
+        ButterKnife.bind(this);
 
-            ButterKnife.bind(this);
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/TNR.ttf");
+        _emailText.setTypeface(myCustomFont);
+        _passwordText.setTypeface(myCustomFont);
+        _loginButton.setTypeface(myCustomFont);
 
-            // User Session Manager
-            session = new UserSessionManager(getApplicationContext());
+        ReactiveNetwork
+                .observeNetworkConnectivity(getApplicationContext())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                        connectivity -> {
+                            if(connectivity.state()==NetworkInfo.State.CONNECTED) {
+                                    loadLocale();
 
-            _loginButton.setOnClickListener(new View.OnClickListener() {
+//                                    ButterKnife.bind(this);
 
-                @Override
-                public void onClick(View v) {
-                    login();
-                }
-            });
+                                    // User Session Manager
+                                    session = new UserSessionManager(getApplicationContext());
+
+                                    _loginButton.setOnClickListener(new View.OnClickListener() {
+
+                                        @Override
+                                        public void onClick(View v) {
+                                            Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+                                            single
+                                                    .subscribeOn(Schedulers.io())
+                                                    .observeOn(AndroidSchedulers.mainThread())
+                                                    .subscribe(isConnectedToInternet -> {
+                                                        if(isConnectedToInternet.equals(true)) {
+                                                            login();
+                                                        }
+                                                        else{
+                                                            Snackbar snackbar = Snackbar
+                                                                    .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                                                            snackbar.show();
+                                                            _loginButton.setEnabled(true);
+
+                                                            //buildDialog1(HomeActivity.this).show();
+                                                        }
+                                                    });
+                                        }
+                                    });
 
 
-            _signupLink.setOnClickListener(new View.OnClickListener() {
+                                    _signupLink.setOnClickListener(new View.OnClickListener() {
 
-                @Override
-                public void onClick(View v) {
-                    // Start the Signup activity
-                    Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
-                    startActivityForResult(intent, REQUEST_SIGNUP);
-                    //finish();
-                    overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
-                }
-            });
+                                        @Override
+                                        public void onClick(View v) {
+                                            // Start the Signup activity
+                                            Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+                                            single
+                                                    .subscribeOn(Schedulers.io())
+                                                    .observeOn(AndroidSchedulers.mainThread())
+                                                    .subscribe(isConnectedToInternet -> {
+                                                        if(isConnectedToInternet.equals(true)) {
+                                                            Intent intent = new Intent(getApplicationContext(), SignupActivity.class);
+                                                            startActivityForResult(intent, REQUEST_SIGNUP);
+                                                            //finish();
+                                                            overridePendingTransition(R.anim.push_left_in, R.anim.push_left_out);
+                                                        }
+                                                        else{
+                                                            Snackbar snackbar = Snackbar
+                                                                    .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
 
-            _forgotpasswordLink.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(getApplicationContext(), forgotpassword.class);
-                    startActivity(intent);
-                    finish();
-                }
-            });
-        }
+                                                            snackbar.show();
+                                                            _loginButton.setEnabled(true);
+
+                                                            //buildDialog1(HomeActivity.this).show();
+                                                        }
+                                                    });
+
+                                        }
+                                    });
+
+                                    _forgotpasswordLink.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View view) {
+                                            Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+                                            single
+                                                    .subscribeOn(Schedulers.io())
+                                                    .observeOn(AndroidSchedulers.mainThread())
+                                                    .subscribe(isConnectedToInternet -> {
+                                                        if(isConnectedToInternet.equals(true)) {
+                                                            Intent intent = new Intent(getApplicationContext(), forgotpassword.class);
+                                                            startActivity(intent);
+                                                            finish();
+                                                        }
+                                                        else{
+                                                            Snackbar snackbar = Snackbar
+                                                                    .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                                                            snackbar.show();
+                                                            _loginButton.setEnabled(true);
+
+                                                            //buildDialog1(HomeActivity.this).show();
+                                                        }
+                                                    });
+
+                                        }
+                                    });
+                                }
+                            else{
+                                Snackbar snackbar = Snackbar
+                                        .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                                snackbar.show();
+                                // finish();
+                            }
+                        } /* handle connectivity here */,
+                        throwable    ->{} /* handle error here */
+                );
     }
 
     @Override
@@ -123,50 +206,69 @@ public class LoginActivity extends AppCompatActivity implements BackgroundWorker
 
         _loginButton.setEnabled(false);
 
-        final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
-                R.style.Theme_AppCompat_Light_Dialog);
-        progressDialog.setMessage("Authenticating...");
-        progressDialog.setIndeterminate(true);
-        progressDialog.show();
+//        final ProgressDialog progressDialog = new ProgressDialog(LoginActivity.this,
+//                R.style.Theme_AppCompat_Light_Dialog);
+//        progressDialog.setMessage("Authenticating...");
+//        progressDialog.setIndeterminate(true);
+//        progressDialog.show();
 
         final String email = _emailText.getText().toString();
         final String password = _passwordText.getText().toString();
 
         // TODO: Implement your own authentication logic here.
+        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+        single
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(isConnectedToInternet -> {
+                    if(isConnectedToInternet.equals(true)) {
+                        String type = "login";
+                        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
+                        backgroundWorker.delegate=this;
+                        backgroundWorker.execute(email, password);
+                    }
+                    else{
+                        Snackbar snackbar = Snackbar
+                                .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
 
-        String type = "login";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-        backgroundWorker.delegate=this;
-        backgroundWorker.execute(email, password);
+                        snackbar.show();
+                        _loginButton.setEnabled(true);
+
+                        //buildDialog1(HomeActivity.this).show();
+                    }
+                });
+
+
+
         //String result=backgroundWorker.doInBackground(type,email,password);
 
        // Toast.makeText(getBaseContext(), received_email+" "+received_password, Toast.LENGTH_LONG).show();
 
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        // On complete call either onLoginSuccess or onLoginFailed
-                        if(email.equals(received_email) && password.equals(received_password)){
-                            onLoginSuccess(received_fname+" "+received_lname,received_email);
-                        }
-                        else{
-                            AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
-                            builder.setTitle("Login Failed");
-                            builder.setMessage("Incorrect email or password. Please enter correct credentials");
-
-                            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-
-                                }
-                            });
-                            builder.show();
-                            onLoginFailed();
-                        }
-                        progressDialog.dismiss();
-                    }
-                }, 2000);
+//        new android.os.Handler().postDelayed(
+//                new Runnable() {
+//                    public void run() {
+//                        // On complete call either onLoginSuccess or onLoginFailed
+//                        if(email.equals(received_email) && password.equals(received_password)){
+//                            onLoginSuccess(received_fname+" "+received_lname,received_email);
+//                        }
+//                        else{
+//                            AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this,AlertDialog.THEME_DEVICE_DEFAULT_LIGHT);
+//                            builder.setTitle("Login Failed");
+//                            builder.setMessage("Incorrect email or password. Please enter correct credentials");
+//
+//                            builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+//
+//                                @Override
+//                                public void onClick(DialogInterface dialog, int which) {
+//
+//                                }
+//                            });
+//                            builder.show();
+//                            onLoginFailed();
+//                        }
+//                        //progressDialog.dismiss();
+//                    }
+//                }, 2000);
     }
 
 

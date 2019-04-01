@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ABOUTUS">आमच्याबद्दल</string>
     <string name="AadharNumber">आधार क्रमांक</string>
     <string name="Aboutus">आमच्याबद्दल</string>
-    <string name="Address">पत्ता *</string>
-    <string name="Addresshint">पत्ता *</string>
-    <string name="Age">वय *</string>
+    <string name="Address">पत्ता </string>
+    <string name="Addresshint">पत्ता </string>
+    <string name="Age">वय </string>
     <string name="AlreadyamemberLogin">आधीपासूनच सदस्य आहात? लॉग इन</string>
+    <string name="CD">मुख्य संचालक</string>
     <string name="CONTRIBUTION">योगदान</string>
     <string name="ChangePassword">पासवर्ड बदला</string>
     <string name="ChangePasswordd">पासवर्ड बदलें</string>
     <string name="City">शहर</string>
     <string name="Code">कोड</string>
-    <string name="Contactus">आमच्याशी संपर्क साधा</string>
     <string name="CreateAccount">खाते तयार करा</string>
-    <string name="Email">ईमेल *</string>
-    <string name="FirstName">पहिले नाव *</string>
+    <string name="Dashboard">माझे डॅशबोर्ड</string>
+    <string name="Email">ईमेल </string>
+    <string name="FirstName">पहिले नाव </string>
     <string name="ForgotPassword">पासवर्ड विसरलात ?</string>
+    <string name="HaveTreeGuard">कुंपण वापरले आहे का?</string>
     <string name="Image">प्रतिमा</string>
     <string name="InMemoryOf">कोणाच्या स्मृतीमध्ये</string>
-    <string name="Lanmark">मार्गदर्शक खूण *</string>
-    <string name="LastName">आडनाव *</string>
+    <string name="Lanmark">मार्गदर्शक खूण </string>
+    <string name="LastName">आडनाव </string>
     <string name="Latitude">अक्षांश</string>
     <string name="Login">लॉग इन</string>
     <string name="Logout">बाहेर पडणे</string>
@@ -27,19 +30,21 @@
     <string name="MobileNumber">मोबाइल नंबर</string>
     <string name="MyProfile">माझे प्रोफाइल</string>
     <string name="MyTrees">माझी झाडं </string>
-    <string name="Newpassword">नया पासवर्ड *</string>
+    <string name="Newpassword">नया पासवर्ड </string>
+    <string name="NoOfTrees">झाडे लावली आहेत </string>
     <string name="NotAccount">अद्याप खाते नाही? साइन अप करा</string>
-    <string name="Oldpassword">पुराना पासवर्ड *</string>
-    <string name="Password">पासवर्ड *</string>
+    <string name="NumberofTrees">झाडे संख्या</string>
+    <string name="Oldpassword">पुराना पासवर्ड </string>
+    <string name="Password">पासवर्ड </string>
     <string name="PinCode">पिन कोड</string>
-    <string name="PlantDate">रोपाची तारीख *</string>
-    <string name="Rateus">आम्हाला रेट करा</string>
-    <string name="ReenterPassword">पासवर्ड पुन्हा प्रविष्ट करा *</string>
+    <string name="PlantDate">रोपाची तारीख </string>
+    <string name="PlantationType">वृक्षारोपण प्रकार</string>
+    <string name="ReenterPassword">पासवर्ड पुन्हा प्रविष्ट करा </string>
     <string name="Reenternewpassword">नया पासवर्ड पुनः दर्ज करें *</string>
     <string name="Relation">संबंध</string>
     <string name="Settings">सेटिंग्ज</string>
     <string name="TOKENSEARNED">टोकन कमावले</string>
-    <string name="TreeName">झाडाचे नाव *</string>
+    <string name="TreeName">झाडाचे नाव </string>
     <string name="UserName">वापरकर्ता नाव</string>
     <string name="aadhar">आधार नंबर</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"होमवर नेव्‍हिगेट करा"</string>
@@ -59,8 +64,29 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"यांच्यासह सामायिक करा"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> सह शेअर करा"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"संक्षिप्त करा"</string>
+    <string name="about_EF">महाराष्ट्रातील जमीन वृक्षाछादित बनविण्यासाठी विक्रांत जाधव यांचे संकल्पनेतून २०१८ साली स्थापन केलेली अर्थ फौंडेशन हि एक ना-नफा तत्वावर काम करणारी (Non- Profit) संस्था आहे. संस्थेने याकरिता संतुलन ह्या प्रकल्पाची सुरुवात केलेली असून प्रकल्पाचे मुख्य संचालक विक्रांत जाधव व उपसंचालक रुपेश महाजन व इतर सदस्य हे आहेत.
+        \n\nसंतुलन प्रकल्पाची गरज का आहे? \n\nगेल्या काही वर्षात वृक्षतोड मोठया प्रमाणात झाल्याने त्याचा विपरीत परिणाम जनसामान्यांवर व वातावरणावर झालेला दिसून येत आहे. वृक्षतोड होतानाच वृक्षलागवड करून त्याची जोपासना केली जात नसल्याचे प्रकर्षाने जाणवते. महाराष्ट्रात भिषण दुष्काळ सध्या जानवू लागला आहे. दुष्काळ हा निसर्ग निर्मित नसून मानवाच्या नियोजन शून्य कृतिचा परिणाम आहे असे मानले जाते. दुष्काळ निवारण आणि महाराष्ट्राचा समृध्द शाश्वत विकास करण्यासाठी वृक्षलागवडीचे क्षेत्र वाढविणे गरजेचे आहे. महाराष्ट्रातील वृक्षतोड आणि जंगलावरील अनाधिकृत अतिक्रमण यामुळे राज्यात आवर्षण, तापमान वाढ, क्लायमेट चेंज, पाणी टंचाई, दुष्काळ सारखे संकट वाढत आहे किंबहूना वाढले आहे. याकडे त्वरीत गांभीर्याने न पाहिल्यास येत्या काही वर्षात महाराष्ट्रात वाळवंट होण्यास वेळ लागणार नाही.\n\n
+भारतात वृक्ष लागवडीची गरज आहे का? \n\n
+जगातील अनेक राष्ट्रांच्या तुलनेत भारत हे पुरेस वृक्ष असलेले राष्ट्र होते. परंतु देशातील जंगलाचे सरासरी क्षेत्र ७८ लाख २९ हजार दशलक्ष हेक्टर म्हणजेच देशाच्या क्षेत्रफळाच्या सरासरी २४ टक्के इतके असतानाही प्रत्यक्षात मात्र जंगलातल्या झाडांचे क्षेत्र ८ टक्के इतकेच कसेबसे उरल्याचे केंद्र सरकारचा अहवाल सांगतो. याप्रकाराचेच चित्र अन्य देशांतही दिसून येते.\n\n
+यावर उपाय आहे का?\n\n
+वृक्ष आणि वन यांच महत्व संत तुकाराम महाराजांनी चारशे वर्षापूर्वी त्यांच्या ‘वृक्षवल्ली आम्हा सोयरे वनचरे’ या अभंगाच्या माध्यमातून सांगीतले आहे. त्यासाठी प्रत्येकाने एक झाड लावून त्याच्या संवर्धनाची सर्वस्वी जबाबदारी स्वीकारली तर जगात भेडसावू लागलेले संभाव्य धोके रोखण्यात मानवाला यश मिळेल आणि त्यातूनच शाश्वत विकासाचे स्वप्न प्रत्यक्षात उतरू शकेल. \n\n
+अर्थ फौंडेशन संचलित संतुलन प्रकल्प काय करणार आहे? \n\nअर्थ फौंडेशन सुरुवातीला संतुलन प्रकल्पाचे माधमातून वृक्ष लागवड व संवर्धनावर काम करणार आहे. विविध शासकीय व खाजगी संस्थांनी वृक्ष लागवडीसाठी युद्धपातळीवर काम सुरू केले आहे. त्यांनी केलेल्या या कार्याचे कौतुक करावे तितके कमीच आहे. महाराष्ट्र शासनाच्या वतीने विविध विभाग आणि जनतेच्या सहभागातून 50 कोटी वृक्ष लागवडीचे उद्दिष्ट ठेवण्यात आले असून हा महत्त्वाकांक्षी उपक्रम सुरु केला आहे. शासनाचा हा उपक्रम महत्वाचा तर आहेच परंतु याचबरोबर आम्ही या आव्हानाला एका वेगळ्या दृष्टीकोनातून भिडण्याचा प्रयत्न करतोय. आमचा हा विश्वास आहे की वृक्षांचे कमी होते प्रमाण वाढविण्याचे सर्वात मोठी शक्ती आणि क्षमता लोकांमध्येच आहे. एकदा का लोकांना हि गोष्ट मनापासून पटली आणि ते प्रेरित झालेत मग त्यांना शक्य होईल तिथे ते वृक्ष लागवड करून संवर्धन करतील व वृक्षतोड थांबवतीलही. दिवसेंदिवस कमी होत असलेल्या वृक्षांचे प्रमाण वाढविणे करिता याप्रकारे लोकसहभागाची वास्तवदर्शी उपाययोजना कदाचित दुसरी असू शकत नाही.   \n\n
+संतुलन प्रकल्प दोन प्रमुख आघाड्यांवर ठोस काम करणार आहे:\n\n
+१ प्रेरणा : लोकांना याची खात्री पटायला हवी की, वृक्ष लागवड व संवर्धन हेच पृथ्वीचे संतुलन राखणेकरिता अत्यावश्यक व शास्वत मार्ग आहे. लहान-मोठा प्रत्येक नागरिक या चळवळीचा भाग झाला पाहिजे. प्रत्येक व्यक्तीच्या मनातील भावनांचा आदर करून वृक्षांची लागवड व संवर्धन झाले पाहिजे. संतुलन प्रकल्प जनसंपर्काच्या प्रत्येक माध्यमाचा व डिजिटल मिडीयाचा वापर करत लोकांचं प्रबोधन करेल त्याद्वारे त्यांना प्रेरित करेल आणि या चळवळीत त्याचं एक भावनिक नातं प्रस्थापित करेल. \n\n २ स्वयंसेवक जोडणे : वृक्ष लागवड व संवर्धन हेच पृथ्वीचे संतुलन राखणेकरिता अत्यावश्यक व शास्वत मार्ग आहे. याकरिता प्रत्येक लहान-मोठ्या नागरिकास प्रेरित करून चळवळीत सहभागी करून घेतले जाईल.
+
+</string>
+    <string name="about_SP">"पृथ्वीतलावरील जमीन वृक्षाछादित बनविण्यासाठी विक्रांत जाधव यांचे संकल्पनेतून २०१८ साली स्थापन केलेली अर्थ फौंडेशन हि एक ना-नफा तत्वावर काम करणारी (Not-for profit) संस्था आहे. संस्थेने याकरिता संतुलन ह्या प्रकल्पाची सुरुवात केलेली आहे. वृक्ष लागवड व संवर्धन हेच पृथ्वीचे संतुलन राखणेकरिता अत्यावश्यक व शास्वत मार्ग असून जगातील प्रत्येक नागरिक या प्रकल्पांतर्गत स्वयंसेवक म्हणून जोडला जाऊ शकतो व त्याकरिता प्रकल्पांतर्गत अप सारखे विविध तंत्रांचा उपयोग करून प्रयत्न केले जाणार आहे.\n\n संतुलन प्रकल्पाद्वारे आम्ही काय साध्य करू इच्छितो ? \n\n वृक्ष आणि वन यांच महत्व संत तुकाराम महाराजांनी चारशे वर्षापूर्वी त्यांच्या ‘वृक्षवल्ली आम्हा सोयरे वनचरे’ या अभंगाच्या माध्यमातून सांगीतले आहे. ‘वनश्री हीच धनश्री। वृक्ष लावू घरोघरी।।’ व “झाडे लावा आणि देश वाचवा” हा ध्यास प्रत्येकाने घेणे गरजेचे आहे.
+त्यासाठी प्रत्येकाने एक झाड लावून त्याच्या संवर्धनाची सर्वस्वी जबाबदारी स्वीकारली तर राज्यात, देशात आणि जगात भेडसावू लागलेले संभाव्य धोके रोखण्यात मानवाला यश मिळेल आणि त्यातूनच शाश्वत विकासाचे स्वप्न प्रत्यक्षात उतरू शकेल.
+</string>
+    <string name="about_foundation">अर्थ फौंडेशन बद्दल</string>
+    <string name="about_trees">झाडांचे महत्व </string>
+    <string name="aboutusinfo">महाराष्ट्रातील जमीन वृक्षाछादित बनविण्यासाठी विक्रांत जाधव यांचे संकल्पनेतून २०१८ साली स्थापन केलेली अर्थ फौंडेशन हि एक ना-नफा तत्वावर काम करणारी (Non- Profit) संस्था आहे. संस्थेने याकरिता संतुलन ह्या प्रकल्पाची सुरुवात केलेली असून प्रकल्पाचे मुख्य संचालक विक्रांत जाधव व उपसंचालक रुपेश महाजन व इतर सदस्य हे आहेत.</string>
+    <string name="addr1">प्लॉट नं .5, गट नं. 179</string>
+    <string name="addr2">वाघनगर, जळगाव-425001</string>
     <string name="app_name">Earth Foundation</string>
     <string name="appname">Earth Foundation</string>
+    <string name="balance_project">संतुलन प्रकल्प विषयी</string>
+    <string name="be_part">सहभागी व्हा </string>
     <string msgid="4778414446709286370" name="cast_ad_label">"जाहिरात"</string>
     <string msgid="366047012176970604" name="cast_casting_to_device">"%s वर कास्ट करत आहे"</string>
     <string msgid="2888745622334830481" name="cast_closed_captions">"बंद मथळे"</string>
@@ -122,12 +148,18 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"फोनवर उघडा"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करा"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google सह साइन इन करा"</string>
+    <string name="contactus"> आमच्याशी संपर्क साधा </string>
     <string name="country">देश</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="earthfoundation">अर्थ फौंडेशन</string>
     <string name="email">ईमेल </string>
     <string name="exitnotification">Exit Notification</string>
+    <string name="fb">आम्हाला फेसबुकवर आवडतं</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"मिश्र"</string>
     <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"मिश्र"</string>
+    <string name="getintouch">संपर्कात रहाण्यासाठी</string>
     <string name="logoutnotification">Logout Notification</string>
+    <string name="message">Ok</string>
     <string msgid="3698378085901466129" name="mr_button_content_description">"कास्ट बटण"</string>
     <string msgid="5088427771788648085" name="mr_cast_button_connected">"कास्ट बटण. कनेक्ट केले"</string>
     <string msgid="2187642765091873834" name="mr_cast_button_connecting">"कास्ट बटण. कनेक्ट करीत आहे"</string>
@@ -149,18 +181,24 @@
     <string msgid="2361785992211841709" name="mr_controller_volume_slider">"व्हॉल्यूम स्लायडर"</string>
     <string msgid="5441529851481176817" name="mr_system_route_name">"सिस्टम"</string>
     <string msgid="7498112907524977311" name="mr_user_route_category_name">"डिव्हाइसेस"</string>
+    <string name="msg">संदेश</string>
+    <string name="mytrees">My Trees</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="next">NEXT</string>
+    <string name="no">नाही</string>
     <string name="password">पासवर्ड </string>
+    <string name="pdf">पीडीएफ वरून वाचा</string>
+    <string name="personalInfo">वैयक्तिक माहिती</string>
     <string name="phoneNo">दूरध्वनी क्रमांक</string>
     <string name="pincode">पिन कोड</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"शोध साफ करा"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"शोध"</string>
-    <string name="ptac">झाडे लावा आणि योगदान आपले द्या</string>
+    <string name="planttree">Plant Tree</string>
+    <string name="ptac">झाडे लावा आणि आपले योगदान  द्या</string>
     <string name="rate_dialog_cancel">नंतर आठवण करून देणे</string>
     <string name="rate_dialog_message">कृपया हे अँप रेट करून आम्हाला मदत करा,आपल्या समर्थनाबद्दल धन्यवाद!</string>
     <string name="rate_dialog_no">नाही, धन्यवाद </string>
@@ -174,30 +212,45 @@
     <string msgid="1566682516266724847" name="s5">"कॅलेंडर इव्हेंट तयार करा"</string>
     <string msgid="5996672174517137271" name="s6">"जाहिरातीस कॅलेंडर इव्हेंट तयार करण्याची परवानगी द्यायची?"</string>
     <string msgid="7163549807207034258" name="s7">"चाचणी जाहिरात"</string>
+    <string name="save">सेव </string>
     <string msgid="146198913615257606" name="search_menu_title">"शोधा"</string>
     <string name="selected_lang">मराठी</string>
+    <string name="send">पाठवा</string>
+    <string name="share">सामायिक करा</string>
     <string name="skip">SKIP</string>
     <string name="start">START</string>
     <string name="state">राज्य</string>
     <string name="statement1">आपली निवडलेली भाषा आहे </string>
     <string name="statement2">सुरू ठेवण्यासाठी NEXT बटण दाबा. </string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subject">विषय</string>
     <string name="submit">जमा करा</string>
+    <string name="suggesion">
+    आपल्या सूचनांचे कौतुक केले जाईल!</string>
     <string name="teyc">आपल्या योगदानाने कमावलेला टोकन</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="token">टोकन</string>
     <string name="tpf">आमच्या फाउंडेशन द्वारे लागवड एकूण झाडे </string>
+    <string name="treeStatus">झाड जिवंत आहे का?</string>
+    <string name="tree_importance">"झाडं ऑक्सिजन, वातावरणातील सुधारणा, पाण्याची साठवण, मातीची राखण व वन्यजीवांना आधार देणारी, संतुलित पाऊस देऊन त्यांच्या वातावरणात योगदान देतात. आणि अनेक महत्त्वपूर्ण गोष्टी ज्याशिवाय मानवी सभ्यता टिकली नाही. आता आपल्यासाठी काहीतरी परत आणणे आणि मातृभूमी वाचवणे हा आपला वेळ आहे.</string>
+    <string name="treenearby">Trees Nearby</string>
     <string name="trees">झाडं</string>
+    <string name="twitter">
+    ट्विटर वर आमचे अनुसरण करा</string>
     <string name="updCancel">रद्द करा</string>
     <string name="updImage">प्रतिमा</string>
-    <string name="updPlantUpdateDate">झाड अद्ययावत तारीख</string>
-    <string name="updPlantedon">वर लागवड</string>
+    <string name="updPlantUpdateDate">झाडाची अपडेट दिनांक </string>
+    <string name="updPlantedon">लागवडीचे दिनांक </string>
     <string name="updSelectDate">तारीख निवडा...</string>
     <string name="updSelectImage">प्रतिमा निवडा</string>
     <string name="updUpdate">अद्ययावत करा</string>
-    <string name="updUpdatedon">अखेरचे अद्यतनित</string>
-    <string name="updateLocation">येथे स्थित</string>
+    <string name="updUpdatedon">अखेरचे अपडेट दिनांक </string>
+    <string name="updateLocation">लागवडीचे ठिकाण </string>
     <string name="updateTreeName">झाडाचे नाव</string>
     <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Google सह खरेदी करा"</string>
-    <string name="yctp">झाड वृक्षारोपण मध्ये आपले योगदान</string>
+    <string name="writetous">आम्हाला लिहा</string>
+    <string name="wt">व्हाट्सएप वर आमच्यासह सामील व्हा</string>
+    <string name="yctp">वृक्षारोपण मध्ये आपण केलेले योगदान</string>
+    <string name="yes">हो</string>
+    <string name="you">आम्हाला यूट्यूब वर पहा</string>
+    <string name="youtube">यूट्यूब व्हिडिओ पहा</string>
 </resources>

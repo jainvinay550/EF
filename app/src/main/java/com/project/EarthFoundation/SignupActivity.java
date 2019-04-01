@@ -2,20 +2,39 @@ package com.project.EarthFoundation;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Single;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 
 public class SignupActivity extends AppCompatActivity implements BackgroundWorkerResponce{
     private static final String TAG = "SignupActivity";
@@ -26,21 +45,142 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
     @BindView(R.id.input_password) EditText _passwordText;
     @BindView(R.id.input_reEnterPassword) EditText _reEnterPasswordText;
     @BindView(R.id.btn_signup) Button _signupButton;
+    @BindView(R.id.titletextview) EditText _titletextview;
+    @BindView(R.id.signup_layout) CoordinatorLayout coordinatorLayout;
 
-    String msg;
+    String msg="",titleText="";
     
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
         ButterKnife.bind(this);
 
-        _signupButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                signup();
-            }
-        });
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/TNR.ttf");
+        _emailText.setTypeface(myCustomFont);
+        _passwordText.setTypeface(myCustomFont);
+        _fnameText.setTypeface(myCustomFont);
+        _lnameText.setTypeface(myCustomFont);
+        _reEnterPasswordText.setTypeface(myCustomFont);
+        _signupButton.setTypeface(myCustomFont);
+        _titletextview.setTypeface(myCustomFont);
+
+
+        ReactiveNetwork
+                .observeNetworkConnectivity(getApplicationContext())
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                        connectivity -> {
+                            if(connectivity.state()== NetworkInfo.State.CONNECTED) {
+
+//                                ButterKnife.bind(this);
+
+                                // Initializing a String Array
+                                String[] gender = new String[]{
+                                        "Title",
+                                        "Mr.",
+                                        "Mrs.",
+                                        "Ms."
+                                };
+
+                                final List<String> genderList = new ArrayList<>(Arrays.asList(gender));
+                                final Spinner spinner = (Spinner) findViewById(R.id.simpleSpinner);
+                                // Initializing an ArrayAdapter
+                                final ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(
+                                        this,R.layout.spinner_item,genderList){
+                                    @Override
+                                    public boolean isEnabled(int position){
+                                        if(position == 0)
+                                        {
+                                            // Disable the first item from Spinner
+                                            // First item will be use for hint
+                                            return false;
+                                        }
+                                        else
+                                        {
+                                            return true;
+                                        }
+                                    }
+                                    @Override
+                                    public View getDropDownView(int position, View convertView,
+                                                                ViewGroup parent) {
+                                        View view = super.getDropDownView(position, convertView, parent);
+                                        TextView tv = (TextView) view;
+                                        if(position == 0){
+                                            // Set the hint text color gray
+                                            tv.setTextColor(Color.GRAY);
+                                            //tv.setText(gender[position]);
+                                        }
+                                        else {
+                                            tv.setTextColor(Color.WHITE);
+                                        }
+                                        return view;
+                                    }
+                                };
+                                spinnerArrayAdapter.setDropDownViewResource(R.layout.spinner_item);
+                                spinner.setAdapter(spinnerArrayAdapter);
+
+                                spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                                    @Override
+                                    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                                        String selectedItemText = (String) parent.getItemAtPosition(position);
+
+
+                                        // If user change the default selection
+                                        // First item is disable and it is used for hint
+                                        if(position > 0){
+                                            // Notify the selected item text
+                                            spinner.setVisibility(View.GONE);
+                                            _titletextview.setVisibility(View.VISIBLE);
+                                            _titletextview.setInputType(InputType.TYPE_NULL);
+                                            titleText=selectedItemText;
+                                            _titletextview.setText(titleText);
+
+                                        }
+                                    }
+
+                                    @Override
+                                    public void onNothingSelected(AdapterView<?> parent) {
+
+                                    }
+                                });
+
+
+                                _signupButton.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+                                        single
+                                                .subscribeOn(Schedulers.io())
+                                                .observeOn(AndroidSchedulers.mainThread())
+                                                .subscribe(isConnectedToInternet -> {
+                                                    if(isConnectedToInternet.equals(true)) {
+                                                        signup();
+                                                    }
+                                                    else{
+                                                        Snackbar snackbar = Snackbar
+                                                                .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                                                        snackbar.show();
+                                                    }
+                                                });
+
+
+                                    }
+                                });
+                            }
+                            else{
+                                Snackbar snackbar = Snackbar
+                                        .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                                snackbar.show();
+                                // finish();
+                            }
+                        } /* handle connectivity here */,
+                        throwable    ->{} /* handle error here */
+                );
 
     }
 
@@ -67,30 +207,49 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
         String reEnterPassword = _reEnterPasswordText.getText().toString();
 
         // TODO: Implement your own signup logic here.
+        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+        single
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(isConnectedToInternet -> {
+                    if(isConnectedToInternet.equals(true)) {
+                        String type = "register";
+                        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
+                        backgroundWorker.delegate=this;
+                        backgroundWorker.execute(fname,lname,email,password,titleText);
+                        new android.os.Handler().postDelayed(
+                                new Runnable() {
+                                    public void run() {
+                                        // On complete call either onSignupSuccess or onSignupFailed
+                                        // depending on success
+                                        if(msg.isEmpty()) {
+                                            Toast.makeText(getBaseContext(), "Failed to SignUp. Please try again", Toast.LENGTH_LONG).show();
+                                            _signupButton.setEnabled(true);
+                                        } else if(msg.equals("Not Match")){
+                                            _emailText.setError("Email already taken. Please try using different email address.");
+                                            _signupButton.setEnabled(true);
+                                        }else {
+                                            onSignupSuccess();
+                                        }
 
-        String type = "register";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-        backgroundWorker.delegate=this;
-        backgroundWorker.execute(fname,lname,email,password);
-
-
-
-        new android.os.Handler().postDelayed(
-                new Runnable() {
-                    public void run() {
-                        // On complete call either onSignupSuccess or onSignupFailed
-                        // depending on success
-                        if(msg.equals("Not Match")){
-                            _emailText.setError("Email already taken. Please try using different email address.");
-                            _signupButton.setEnabled(true);
-                        }else {
-                            onSignupSuccess();
-                        }
-
-                        // onSignupFailed();
-                        progressDialog.dismiss();
+                                        // onSignupFailed();
+                                        progressDialog.dismiss();
+                                    }
+                                }, 3000);
                     }
-                }, 3000);
+                    else{
+                        Snackbar snackbar = Snackbar
+                                .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                        snackbar.show();
+
+                        //buildDialog1(HomeActivity.this).show();
+                    }
+                });
+
+
+
+
     }
     @Override
     public void processFinish(String output){
@@ -111,7 +270,12 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
     }
 
     public void onSignupFailed() {
-        Toast.makeText(getBaseContext(), "Login failed", Toast.LENGTH_LONG).show();
+        if (titleText.isEmpty()) {
+            Toast.makeText(getBaseContext(), "Please select title", Toast.LENGTH_LONG).show();
+        }
+        else {
+            Toast.makeText(getBaseContext(), "Sign Up failed", Toast.LENGTH_LONG).show();
+        }
 
         _signupButton.setEnabled(true);
     }
@@ -188,6 +352,11 @@ public class SignupActivity extends AppCompatActivity implements BackgroundWorke
         } else {
             _reEnterPasswordText.setError(null);
         }
+
+        if (titleText.isEmpty()) {
+            valid = false;
+        }
+
 
         return valid;
     }

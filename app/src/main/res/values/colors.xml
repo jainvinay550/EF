@@ -3,12 +3,12 @@
   <color name="primary">#ffffff</color>
   <color name="primary_dark">#f42e18</color>
   <color name="primary_darker">#0b6e04</color>
-  <color name="accent">#e9faba</color>
+  <color name="accent">#E9FABA</color>
 
-  <color name="blackk">#071477</color>
+  <color name="blackk">#1aa9eb</color>
   <color name="black">#000000</color>
-  <color name="jet">#222222</color>
-  <color name="oil">#333333</color>
+  <color name="jet">#c4f806</color>
+  <color name="oil">#054E43</color>
   <color name="monsoon">#777777</color>
   <color name="jumbo">#888888</color>
   <color name="aluminum">#999999</color>
@@ -16,16 +16,27 @@
   <color name="iron">#595857</color>
   <color name="white">#000000</color>
 
-  <color name="colorPrimary">#e96666</color>
+  <color name="colorPrimary">#c84444</color>
   <color name="colorPrimaryDark">#ffa000</color>
-  <color name="backgroundcolor">#fcfcfc</color>
+  <color name="backgroundcolor">#FCFCFC</color>
   <color name="lightgray">#ededed</color>
-  <color name="deeppurple">#7c4dff</color>
+  <color name="deeppurple">#C3DAC5</color>
   <color name="yello">#ffb300</color>
-  <color name="green">#00bfa5</color>
-  <color name="colorAccent">#FF4081</color>
+  <color name="green">#2ab945</color>
+  <color name="colorAccent">#f3256a</color>
   <color name="darkblue">#23283a</color>
   <color name="test_color_blue">#152b38</color>
-  <color name="pink">#fe104d</color>
+  <color name="pink">#E84F53</color>
+  <color name="yellowNav">#F4C20D</color>
+  <color name="blueNav">#33B3CC</color>
+  <color name="bottomtab_item_resting">#36000000</color>
+  <color name="bottomtab_item_disabled">#1e000000</color>
+
+  <color name="dashPink">#FFFFFF</color>
+  <color name="dashYellow">#FFFFFFFF</color>
+  <color name="dashBlue">#FFFFFF</color>
+  <color name="dashGreen">#FFFFFF</color>
+  <color name="homeBlue">#D1EDF3</color>
+
 
 </resources>

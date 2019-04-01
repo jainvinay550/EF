@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "D:\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\Vishal\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c9dda1614613984324412be1fdaa9833\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

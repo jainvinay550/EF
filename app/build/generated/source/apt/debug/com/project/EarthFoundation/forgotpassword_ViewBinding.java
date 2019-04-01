@@ -3,6 +3,7 @@ package com.project.EarthFoundation;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.design.widget.CoordinatorLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,6 +29,7 @@ public class forgotpassword_ViewBinding implements Unbinder {
     target._forgotPassButton = Utils.findRequiredViewAsType(source, R.id.btn_reset, "field '_forgotPassButton'", Button.class);
     target._otp = Utils.findRequiredViewAsType(source, R.id.et_code, "field '_otp'", EditText.class);
     target._emailNotification = Utils.findRequiredViewAsType(source, R.id.emailNotification, "field '_emailNotification'", TextView.class);
+    target.coordinatorLayout = Utils.findRequiredViewAsType(source, R.id.forgotpassword_layout, "field 'coordinatorLayout'", CoordinatorLayout.class);
   }
 
   @Override
@@ -41,5 +43,6 @@ public class forgotpassword_ViewBinding implements Unbinder {
     target._forgotPassButton = null;
     target._otp = null;
     target._emailNotification = null;
+    target.coordinatorLayout = null;
   }
 }

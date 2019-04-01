@@ -3,6 +3,7 @@ package com.project.EarthFoundation;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.design.widget.CoordinatorLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -29,6 +30,7 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target._loginButton = Utils.findRequiredViewAsType(source, R.id.btn_login, "field '_loginButton'", Button.class);
     target._signupLink = Utils.findRequiredViewAsType(source, R.id.link_signup, "field '_signupLink'", TextView.class);
     target._forgotpasswordLink = Utils.findRequiredViewAsType(source, R.id.link_forgotpassword, "field '_forgotpasswordLink'", TextView.class);
+    target.coordinatorLayout = Utils.findRequiredViewAsType(source, R.id.login_layout, "field 'coordinatorLayout'", CoordinatorLayout.class);
   }
 
   @Override
@@ -43,5 +45,6 @@ public class LoginActivity_ViewBinding implements Unbinder {
     target._loginButton = null;
     target._signupLink = null;
     target._forgotpasswordLink = null;
+    target.coordinatorLayout = null;
   }
 }

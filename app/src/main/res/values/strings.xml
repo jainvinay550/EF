@@ -18,37 +18,39 @@
     <string name="statement1">Your Selected Language is </string>
     <string name="statement2"> Press NEXT button to continue. </string>
     <string name="ForgotPassword">Forgot Password</string>
-    <string name="NotAccount">No account yet? SIGN UP </string>
-    <string name="TreeName">Tree Name *</string>
+    <string name="NotAccount">No account yet? <u>SIGN UP</u> </string>
+    <string name="TreeName">Tree Name </string>
     <string name="Latitude">Latitude</string>
     <string name="Longitude">Longitude</string>
     <string name="InMemoryOf">In memory of </string>
     <string name="Relation">Relation</string>
-    <string name="PlantDate">Date of plantation *</string>
-    <string name="Address">Address *</string>
-    <string name="Lanmark">Landmark *</string>
-    <string name="Image">Image *</string>
+    <string name="PlantDate">Date of plantation </string>
+    <string name="Address">Address </string>
+    <string name="Lanmark">Landmark </string>
+    <string name="Image">Image </string>
     <!--hint page -->
-    <string name="FirstName">FirstName *</string>
-    <string name="LastName">LastName *</string>
-    <string name="Age">Age *</string>
-    <string name="Addresshint">Address *</string>
+    <string name="FirstName">FirstName </string>
+    <string name="LastName">LastName </string>
+    <string name="Age">Age </string>
+    <string name="Addresshint">Address </string>
     <string name="City">City</string>
     <string name="PinCode">Pin Code</string>
     <string name="AadharNumber">Aadhar Number</string>
-    <string name="Email">Email *</string>
+    <string name="Email">Email </string>
     <string name="email">Email </string>
     <string name="MobileNumber">Mobile Number</string>
     <string name="UserName">User Name</string>
-    <string name="Password">Password *</string>
+    <string name="Password">Password </string>
     <string name="password">Password </string>
-    <string name="ReenterPassword">Re-enter Password *</string>
+    <string name="ReenterPassword">Re-enter Password </string>
     <string name="CreateAccount">Create Account</string>
     <string name="AlreadyamemberLogin">Already a member? Login</string>
 
     <!--Activity update tree details -->
 
     <string name="updateTreeName">Tree Name</string>
+    <string name="PlantationType">Plantation Type</string>
+    <string name="NumberofTrees">Number of Trees</string>
     <string name="updateLocation">Located at </string>
     <string name="updPlantedon">Planted on </string>
     <string name="updUpdatedon">Last updated on </string>
@@ -56,19 +58,24 @@
     <string name="updSelectDate">Select Date...</string>
     <string name="updImage">Image</string>
     <string name="updSelectImage">Select Image</string>
+    <string name="HaveTreeGuard">Have Tree Guard?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
     <string name="updUpdate">Update</string>
     <string name="updCancel">Cancel</string>
     <string name="submit">Submit</string>
+    <string name="treeStatus">Is tree alive?</string>
+    <string name="NoOfTrees">trees are planted</string>
 
     <!--Content home page-->
     <string name="chTREES">TREES</string>
     <string name="tpf">Total trees planted by our foundation</string>
     <string name="CONTRIBUTION">CONTRIBUTION</string>
-    <string name="yctp">Your contribution in tree plantation</string>TOKENSEARNED
+    <string name="yctp">Your contribution in tree plantation</string>
     <string name="TOKENSEARNED">TOKENS EARNED</string>
     <string name="teyc">Tokens earned by your contribution</string>
-    <string name="chPLANTTREE">PLANT TREE</string>
-    <string name="ptac">Plant a tree and contribute</string>
+    <string name="chPLANTTREE">TREES LIVED</string>
+    <string name="ptac">Trees lived after your contribution</string>
 
     <!--drawer-->
     <string name="MyProfile">My Profile</string>
@@ -77,11 +84,13 @@
     <string name="writetous">Write to us</string>
     <string name="Settings">Settings</string>
     <string name="Logout">Logout</string>Rateus
-    <string name="Rateus">Rate us</string>
+    <string name="share">Share</string>
+    <string name="Dashboard">Santulan Prakalp</string>
 
     <string name="selected_lang">English</string>
 
     <!--Profile-->
+    <string name="personalInfo">Personal Information</string>
     <string name="phoneNo">Phone No</string>
     <string name="country">Country</string>
     <string name="state">State</string>
@@ -89,7 +98,7 @@
     <string name="pincode">Pincode</string>
     <string name="aadhar">Aadhar Number</string>
     <string name="trees">Trees</string>
-    <string name="token">Tokens</string>
+    <string name="save">Save</string>
 
     <string name="rateus">Rate Us</string>
 
@@ -105,12 +114,65 @@
     <string name="rate_dialog_no">No, Thanks</string>
 
     <!--Settings page-->
-    <string name="Oldpassword">Old Password *</string>
-    <string name="Newpassword">New Password *</string>
-    <string name="Reenternewpassword">Re-enter new Password *</string>
+    <string name="Oldpassword">Old Password </string>
+    <string name="Newpassword">New Password </string>
+    <string name="Reenternewpassword">Re-enter new Password </string>
     <string name="ChangePasswordd">Change Password</string>
     <string name="Login">Login</string>
-
-
     <string name="Code">Code</string>
+
+
+    <!--Home-->
+    <string name="contactus">Contact us</string>
+    <string name="about_foundation">About Earth Foundation</string>
+    <string name="balance_project">About Santulan Prakalp</string>
+    <string name="about_trees">Importance of Trees</string>
+    <string name="be_part">Participate</string>
+    s
+    <string name="aboutusinfo">Earth Foundation is a Non-Profit organization founded in 2018 by Vikrant Jadhav, promoting concept of balancing Earths botanical resources and ecosystem in Maharashtra. To accomplish this vision foundation\'s chief director Vikrant Jadhav and deputy director Rupesh Mahajan have initialized the Santulan Prakalp with other members.</string>
+    <string name="tree_importance">"Trees contribute to their environment by providing oxygen, climate amelioration, conserving water, preserving soil, supporting wildlife, balanced rain and many important things without which human civilization wouldn’t have survived. Now it’s time for us to return something and save the Earth.</string>
+    <string name="message">OK</string>
+    <string name="about_EF">Earth Foundation is a Non-Profit organization founded in 2018 by Vikrant Jadhav,
+                    promoting concept of balancing Earths botanical resources and ecosystem in Maharashtra.
+                    To accomplish this vision foundation\'s chief director Vikrant Jadhav and
+                    deputy director Rupesh Mahajan have initialized the Santulan Prakalp with other members. \n\nNEED OF SANTULAN PRAKALP? \n\n
+Due to the vast deforestation in the last few years, its adverse effects have been seen on the masses and atmosphere. We have seen the ignorance to preservation of our environment. Drought\'s in Maharashtra has increased significantly. Drought\'s are results of mankind\'s inability to balance ecosystem. Major tree plantation moment is the necessity for the purpose of reducing the severity of drought\'s and for sustainable development of Maharashtra. The unauthorized encroachment on trees and forest in Maharashtra has resulted in aggravated disasters such as Climate change, Rise in temperature, Water shortage and drought\'s in the state. If you do not see it very seriously, it will not take time to form deserts in Maharashtra in the coming years. \n\n
+NEED FOR TREE PLANTATION IN INDIA? \n\n
+Compared to many nations in the world, India was a nation with purse forestation. According to central government\'s report the count of forest area is 78.29 million hectares which is the 24 of country\'s area but in reality, only 8% area is covered with trees in India. The same picture can be seen in other countries today. \n\n
+THE SOLUTION ON THIS:\n\n
+Saint Tukaram Maharaj has told us about the importance of tree and forest through his poems ‘वृक्षवल्ली आम्हा सोयरे वनचरे ’ four hundred years ago. If everyone accepts the full responsibility of its conservation, then the world will be able to achieve the dream of sustainable development. \n\n
+HOW EARTH FOUNDATION OPERATED SANTULAN PRAKALP WILL MAKE DIFFERENCE? \n\n
+The Earth Foundation will initially work on planting and enriching plantation through balance project. Various government and private organizations have started work on war footing for planting trees. Maharashtra government has planned to plant 500 million trees through the participation of various departments and the people with this ambitious project has started. Such initiative\'s by government are important but we are also trying to overcome this challenge from a different perspective. We believe in the power of an individual; one motivated person is the biggest strength having capabilities to change the future. Once the people are convinced of this fact and reality then they will be able to contribute by planting trees in order to balance botanical ecosystem of Earth. Afterall every tree count\'s. \n\n
+THE SANTULAN PRAKALP WILL WORK SOLID ON TWO MAJORS FRONTS:\n\n
+1 INSPIRATION: We believe planting trees and conservation is an essential and wise way to keep the balance of the earth. Every citizen should be a part of this movement. Trees should be cultivated and cultured by respecting the feelings of each person. The Santulan Prakalp will inspire people through using every mass media and digital media, this will establish an emotional relationship between them. \n\n 2 PROMOTING ACTIVE PARTICIPATION: Encouraging with the statistics and the need for this movement, every citizen will be involved in the movement.
+
+</string>
+    <string name="about_SP">"What balance do we want to achieve:  Saint Tukaram Maharaj has told us about the importance of tree and forest through his 'Vrukshavalli Amha Soyare Vanchare' abhanga four hundred years ago. ‘वनश्री हीच धनश्री। वृक्ष लावू घरोघरी।।’ व “झाडे लावा आणि देश वाचवा”, this motive needs to be followed by everyone.
+If everyone accepts the full responsibility of its conservation, it will bring success in avoiding potential dangers faced by the people in the state, country and world. Also the dream of sustainable development can be realized.
+</string>
+    <string name="ABOUTUS">ABOUT US</string>
+    <string name="CD">Founder</string>
+
+    <string name="getintouch">GET IN TOUCH</string>
+    <string name="earthfoundation">EARTH FOUNDATION</string>
+    <string name="addr1">Plot No.35, Gat No.179</string>
+    <string name="addr2">Waghnagar, Jalgaon-425001</string>
+    <string name="twitter">Follow us on Twitter</string>
+    <string name="fb">Like us on Facebook</string>
+    <string name="wt">Join us on Whatsapp</string>
+    <string name="you">Watch us on Youtube</string>
+
+    <string name="suggesion">Your suggestions will be appreciated!</string>
+    <string name="subject">Subject</string>
+    <string name="msg">Message</string>
+    <string name="send">SEND</string>
+
+    <string name="pdf">Read more from PDF</string>
+    <string name="youtube">Watch Youtube Videos</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="mytrees">My Trees</string>
+    <string name="planttree">Plant Tree</string>
+    <string name="treenearby">Trees Nearby</string>
+
 </resources>

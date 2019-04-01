@@ -1,64 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="24"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="27"
     build-mode="FULL"
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1547664885066"
+    timestamp="1551904675035"
     token="-2539540674999368550"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="9159" />
+        duration="3591" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1667" />
+        duration="164" />
     <task
         name="verifier"
-        duration="2096" />
+        duration="261" />
 
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
@@ -66,25 +141,34 @@
         location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -96,28 +180,13 @@
         location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -128,44 +197,119 @@
 
     <build
         build-mode="FULL"
-        timestamp="1547664885066"
+        timestamp="1551904675035"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -173,25 +317,34 @@
             location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\MONTY\Desktop\App_Key\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -203,28 +356,13 @@
             location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\MONTY\Desktop\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\MONTY\Desktop\AppVersion316012019\AppVersion3\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\MONTY\Desktop\materiallogindemo-master\materiallogindemo-master\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

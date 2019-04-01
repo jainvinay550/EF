@@ -2,355 +2,471 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plantTreeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.project.EarthFoundation.PlantTreeActivity">
 
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#0b6e04"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    </android.support.design.widget.AppBarLayout>
-<ScrollView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:padding="5dp"
-    android:layout_marginTop="50dp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="5dp">
+        android:layout_marginBottom="65dp"
+        android:padding="5dp">
 
         <LinearLayout
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/TreeName"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tree_name"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/PlantationType"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/plantation_type"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/TreeName"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/tree_name"
-                android:singleLine="true"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_gravity="top"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:ems="10"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:id="@+id/type_countName"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/NumberofTrees"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/type_count"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:ems="10"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Latitude"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/tvLatitude"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Latitude"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:id="@+id/tvLatitude"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
 
-        </LinearLayout>
+            </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Longitude"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/tvLongitude"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__background_holo_light"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Longitude"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
 
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:id="@+id/tvLongitude"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__background_holo_light"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/InMemoryOf"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/InMemory"
-                android:singleLine="true"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/InMemoryOf"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/InMemory"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Relation"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp"
-                android:textStyle="normal" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/relation"
-                android:singleLine="true"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Relation"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/relation"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/PlantDate"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/date"
-                android:layout_width="0dp"
-                android:singleLine="true"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:gravity="center_vertical"
-                android:hint="SELECT DATE"
-                android:textColor="@color/black"
-                android:textColorHint="#000000"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/PlantDate"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:hint="SELECT DATE"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Address"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/tree_address"
-                android:layout_width="0dp"
-                android:singleLine="true"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:ems="10"
-                android:gravity="center_vertical"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Address"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/tree_address"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Lanmark"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/tree_landmark"
-                android:layout_width="0dp"
-                android:singleLine="true"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:ems="10"
-                android:textColor="@color/black"
-                android:textSize="18sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Lanmark"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_marginBottom="2dp"
-            android:background="@color/default_circle_indicator_stroke_color"
-            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/tree_landmark"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:ems="10"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="30dp"
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:layout_weight="0.50"
-                android:gravity="center_vertical"
-                android:text="@string/Image"
-                android:textColor="@color/cast_expanded_controller_background_color"
-                android:textSize="18sp" />
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/select_image"
-                android:layout_width="0dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.50"
-                android:background="@color/vpi__bright_foreground_holo_dark"
-                android:gravity="center_vertical"
-                android:text="Select Image"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-        </LinearLayout>
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/Image"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:orientation="horizontal">
+                <Button
+                    android:id="@+id/select_image"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Select Image"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
 
-            <ImageView
-                android:id="@+id/tree_image"
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:scaleType="fitXY"
-                android:visibility="gone" />
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/tree_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="170dp"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="@color/deeppurple"
+                android:orientation="horizontal">
+
+                <com.project.EarthFoundation.CustomTextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="0.50"
+                    android:gravity="center_vertical"
+                    android:text="@string/HaveTreeGuard"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.50"
+                    android:background="@color/vpi__bright_foreground_holo_dark"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioYes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="@string/yes"
+                        android:textSize="18sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/no"
+                        android:textSize="18sp" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:orientation="horizontal">
+
                 <Button
                     android:id="@+id/btnSubmit"
                     android:layout_width="match_parent"
@@ -362,7 +478,8 @@
                     android:textColor="@color/primary"
                     android:textSize="18sp" />
 
+            </LinearLayout>
+
         </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>

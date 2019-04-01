@@ -6,6 +6,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
+import android.graphics.Typeface;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -13,6 +16,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -22,6 +27,9 @@ import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Single;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 
 public class SettingActivity extends AppCompatActivity{
 
@@ -33,6 +41,7 @@ public class SettingActivity extends AppCompatActivity{
     @BindView(R.id.et_code) EditText _newPasswordText;
     @BindView(R.id.re_password) EditText _reEnterPasswordText;
     @BindView(R.id.btn_changepassword) Button _changePassButton;
+    @BindView(R.id.setting_layout) CoordinatorLayout coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +56,12 @@ public class SettingActivity extends AppCompatActivity{
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         ButterKnife.bind(this);
+
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/TNR.ttf");
+        _oldPasswordText.setTypeface(myCustomFont);
+        _newPasswordText.setTypeface(myCustomFont);
+        _reEnterPasswordText.setTypeface(myCustomFont);
+        _changePassButton.setTypeface(myCustomFont);
 
         session = new UserSessionManager(getApplicationContext());
         HashMap<String, String> user = session.getUserDetails();
@@ -65,6 +80,7 @@ public class SettingActivity extends AppCompatActivity{
         });
 
         Button changeLang = findViewById(R.id.btn_changelanguage);
+        changeLang.setTypeface(myCustomFont);
         changeLang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -151,10 +167,26 @@ public class SettingActivity extends AppCompatActivity{
             onChangeFailed();
             return;
         }
-        String type = "ChangePassword";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this, type);
+        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+        single
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(isConnectedToInternet -> {
+                    if(isConnectedToInternet.equals(true)) {
+                        String type = "ChangePassword";
+                        BackgroundWorker backgroundWorker = new BackgroundWorker(this, type);
 
-        backgroundWorker.execute(email, newPassword);
+                        backgroundWorker.execute(email, newPassword);
+
+                    }
+                    else{
+                        Snackbar snackbar = Snackbar
+                                .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
+
+                        snackbar.show();
+                        //buildDialog1(HomeActivity.this).show();
+                    }
+                });
 
 //        new android.os.Handler().postDelayed(
 //                new Runnable() {

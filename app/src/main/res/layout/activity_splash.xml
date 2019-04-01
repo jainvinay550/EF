@@ -13,16 +13,16 @@
         android:layout_centerVertical="true"
         android:src="@drawable/elflogo" />
 
-    <TextView
+    <com.project.EarthFoundation.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo_id"
         android:layout_alignEnd="@+id/logo_id"
         android:layout_alignRight="@+id/logo_id"
-        android:layout_marginTop="-34dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginRight="6dp"
-        android:text="“पेड लगाओ दुनिया बचाओ”"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="“पेड लगाओ पृथ्वी बचाओ”"
         android:textColor="#07800b"
         android:textSize="25dp" />
 

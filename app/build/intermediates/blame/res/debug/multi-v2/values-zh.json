@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "C:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\android-rate-1.0.1.aar\\251dc3fc9e0bba5808baac5428b24bdd\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\android-rate-1.0.1.aar\\63f15dcd72ec8f18d756109bf08ae76d\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "4,4,4,4,4",

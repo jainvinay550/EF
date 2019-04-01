@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:id="@+id/ll"
         android:layout_width="match_parent"
@@ -17,7 +20,7 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:layout_marginTop="50dp">
 
             <ProgressBar
@@ -53,133 +56,98 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/image"
             android:orientation="vertical">
 
 
             <LinearLayout
-                android:id="@+id/tree_planted_layout"
+                android:id="@+id/tree_foundation_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:clipToPadding="false"
+                android:layout_marginTop="5dp"
                 android:gravity="center"
                 android:orientation="horizontal">
 
 
-
-
                 <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="1.5dp"
+                    android:layout_weight=".5"
                     android:clickable="true"
                     android:focusable="@bool/default_title_indicator_selected_bold"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
-                    app:cardElevation="@dimen/activity_horizontal_margin"
-                    app:cardMaxElevation="@dimen/activity_vertical_margin">
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/plantation_contribution_layout"
+                        android:id="@+id/about_ef_layout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@color/pink"
                         android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
-                        android:orientation="vertical">
-
-                        <RelativeLayout
-                            android:layout_width="64dp"
-                            android:layout_height="64dp">
-
-                            <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpink"
-                                android:padding="10dp" />
-
-                            <TextView
-                                android:id="@+id/plantation_contribution"
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:gravity="center"
-                                android:text="0"
-                                android:textColor="@color/backgroundcolor"
-                                android:textSize="16sp"
-                                android:textStyle="bold" />
-                        </RelativeLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/CONTRIBUTION"
-                            android:textColor="@color/cast_expanded_controller_background_color"
-                            android:textStyle="bold" />
-
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/internet" />
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:layout_margin="10dp"
-                            android:background="@color/iron" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                            android:background="@color/default_circle_indicator_fill_color" />
+                        <com.project.EarthFoundation.CustomTextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:padding="5dp"
-                            android:text="@string/yctp"
-                            android:textColor="@color/iron" />
+                            android:text="@string/about_foundation"
+                            android:textColor="@color/backgroundcolor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="1.5dp"
                     android:clickable="true"
                     android:focusable="@bool/default_title_indicator_selected_bold"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
-                    app:cardElevation="@dimen/activity_horizontal_margin"
-                    app:cardMaxElevation="@dimen/activity_vertical_margin">
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/plant_tree_layout"
+                        android:id="@+id/balance_project_layout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="#f4c20d"
                         android:gravity="center"
-
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
                         <ImageView
-                            android:layout_width="64dp"
-                            android:layout_height="64dp"
-                            android:background="@drawable/cerclebackgroundgreen"
-                            android:padding="10dp"
-                            android:src="@drawable/ic_control_point_black_24dp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/chPLANTTREE"
-                            android:textColor="@color/cast_expanded_controller_background_color"
-                            android:textStyle="bold" />
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/training" />
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:layout_margin="10dp"
-                            android:background="@color/iron" />
+                            android:background="@color/default_circle_indicator_fill_color" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <com.project.EarthFoundation.CustomTextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:padding="5dp"
-                            android:text="@string/ptac"
-                            android:textColor="@color/iron" />
+                            android:text="@string/balance_project"
+                            android:textColor="@color/backgroundcolor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -191,143 +159,95 @@
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"
                 android:gravity="center"
+                android:layout_marginTop="4.5dp"
                 android:orientation="horizontal">
 
                 <android.support.v7.widget.CardView
                     android:id="@+id/bankcardId"
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight=".5"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="1.5dp"
                     android:clickable="true"
                     android:focusable="@bool/default_title_indicator_selected_bold"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
-                    app:cardElevation="@dimen/activity_horizontal_margin"
-                    app:cardMaxElevation="@dimen/activity_vertical_margin">
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
+                        android:id="@+id/plant_function_layout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/cardview_light_background"
+                        android:background="#4885ed"
                         android:dividerPadding="@dimen/cardview_default_elevation"
                         android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
 
-                        android:orientation="vertical">
-
-                        <RelativeLayout
-                            android:layout_width="64dp"
-                            android:layout_height="64dp">
-
-                            <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundpurple"
-
-                                android:padding="10dp" />
-
-                            <TextView
-                                android:id="@+id/trees_planted"
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:gravity="center"
-                                android:text="0"
-                                android:textColor="@color/backgroundcolor"
-                                android:textSize="16sp"
-                                android:textStyle="bold" />
-                        </RelativeLayout>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/chTREES"
-                            android:textColor="@color/cast_expanded_controller_background_color"
-                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/ecology" />
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:layout_margin="10dp"
-                            android:background="@color/iron" />
+                            android:background="@color/default_circle_indicator_fill_color" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <com.project.EarthFoundation.CustomTextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:padding="5dp"
-                            android:text="@string/tpf"
-                            android:textColor="@color/iron" />
+                            android:text="@string/about_trees"
+                            android:textColor="@color/backgroundcolor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
 
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="160dp"
-                    android:layout_height="190dp"
-                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight=".5"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginBottom="1.5dp"
                     android:clickable="true"
                     android:focusable="@bool/default_title_indicator_selected_bold"
-                    android:foreground="?android:attr/selectableItemBackground"
-                    app:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
-                    app:cardElevation="@dimen/activity_horizontal_margin"
-                    app:cardMaxElevation="@dimen/activity_vertical_margin">
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
-                        android:id="@+id/tokens_earned_layout"
+                        android:id="@+id/be_a_part_layout"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@color/green"
                         android:elevation="16dp"
                         android:gravity="center"
+                        android:padding="10dp"
                         android:orientation="vertical">
 
-                        <RelativeLayout
-                            android:layout_width="64dp"
-                            android:layout_height="64dp">
-
-                            <ImageView
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:background="@drawable/cerclebackgroundyello"
-                                android:padding="10dp" />
-
-                            <TextView
-                                android:id="@+id/tokens_earned"
-                                android:layout_width="64dp"
-                                android:layout_height="64dp"
-                                android:gravity="center"
-                                android:text="0"
-                                android:textColor="@color/backgroundcolor"
-                                android:textSize="16sp"
-                                android:textStyle="bold" />
-                        </RelativeLayout>
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/TOKENSEARNED"
-                            android:textColor="@color/cast_expanded_controller_background_color"
-                            android:textStyle="bold" />
-
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/connectus" />
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:layout_margin="10dp"
-                            android:background="@color/iron" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                            android:background="@color/default_circle_indicator_fill_color" />
+                        <com.project.EarthFoundation.CustomTextView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:padding="5dp"
-                            android:text="@string/teyc"
-                            android:textColor="@color/iron" />
-
+                            android:text="@string/be_part"
+                            android:textColor="@color/backgroundcolor"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

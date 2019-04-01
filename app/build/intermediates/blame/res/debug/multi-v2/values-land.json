@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\App_Key\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\Vinay Jain\\Downloads\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\799469649bca31fb750232a3e6e13c45\\res\\values-land\\values.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-12.0.1.aar\\d48bb43d32620a0fde84f18463a82249\\res\\values-land\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "0,0,0,0,0,0",
@@ -21,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\51bc7ca9ce5e44a739800fbc0a7ca9c8\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\986a8407f1caaee25e4ff4446fef1899\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "12,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "838,913,991",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "908,986,1061"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\cb924e35816b2e63dab33d6de91dea58\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -40,30 +57,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\a0991d72820e79881e6f67534ecaee60\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Vinay Jain\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\c4468bd4e7f2ae73633d58e796c738f8\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
                         "startOffsets": "55,125,189,260",
                         "endColumns": "69,63,70,67",
                         "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\d4c87a7ce631e542d246b0bd17ec59df\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,130,208",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "125,203,278"
-                    },
-                    "to": {
-                        "startLines": "12,13,14",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "838,913,991",
-                        "endColumns": "74,77,74",
-                        "endOffsets": "908,986,1061"
                     }
                 }
             ]

@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
+import com.bumptech.glide.request.target.Target;
 
 import java.util.ArrayList;
 
@@ -47,7 +50,16 @@ public class SlidingImage_Adapter extends PagerAdapter {
 
         Glide.with(context)
                 .load(urls.get(position))
+
+                .apply(new RequestOptions()
+                        .fitCenter())
+//                        .skipMemoryCache(true)
+//                        .diskCacheStrategy(DiskCacheStrategy.NONE))
+
+//                .apply(new RequestOptions()
+//                        .override(1024,768))
                 .into(imageView);
+
 
         view.addView(imageLayout, 0);
 

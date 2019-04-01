@@ -9,7 +9,7 @@ package com.project.EarthFoundation;
 
 public final class Manifest {
   public static final class permission {
-    public static final String C2D_MESSAGE="com.project.materialloginexample.permission.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="com.project.EarthFoundation.permission.C2D_MESSAGE";
   }
 
 }

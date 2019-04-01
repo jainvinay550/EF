@@ -2,6 +2,9 @@ package com.project.EarthFoundation;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Typeface;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -13,11 +16,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.app.AlertDialog;
 
+import com.github.pwittchen.reactivenetwork.library.rx2.ReactiveNetwork;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Single;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 
 public class forgotpassword extends AppCompatActivity implements BackgroundWorkerResponce {
 
@@ -32,6 +40,7 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
     @BindView(R.id.btn_reset) Button _forgotPassButton;
     @BindView(R.id.et_code) EditText _otp;
     @BindView(R.id.emailNotification) TextView _emailNotification;
+    @BindView(R.id.forgotpassword_layout) CoordinatorLayout coordinatorLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +53,12 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         ButterKnife.bind(this);
+
+        Typeface myCustomFont=Typeface.createFromAsset(getAssets(),"fonts/TNR.ttf");
+        _emailText.setTypeface(myCustomFont);
+        _forgotPassButton.setTypeface(myCustomFont);
+        _otp.setTypeface(myCustomFont);
+
 
         _forgotPassButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,11 +113,26 @@ public class forgotpassword extends AppCompatActivity implements BackgroundWorke
 
 
         // TODO: Implement your own forgotpassword logic here.
+        Single<Boolean> single = ReactiveNetwork.checkInternetConnectivity();
+        single
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(isConnectedToInternet -> {
+                    if(isConnectedToInternet.equals(true)) {
+                        String type = "ForgotPassword";
+                        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
+                        backgroundWorker.delegate=this;
+                        backgroundWorker.execute(email);
+                    }
+                    else{
+                        Snackbar snackbar = Snackbar
+                                .make(coordinatorLayout, "No Internet...Please check your internet connection", Snackbar.LENGTH_LONG);
 
-        String type = "ForgotPassword";
-        BackgroundWorker backgroundWorker = new BackgroundWorker(this,type);
-        backgroundWorker.delegate=this;
-        backgroundWorker.execute(email);
+                        snackbar.show();
+                    }
+                });
+
+
 
 
         new android.os.Handler().postDelayed(

@@ -134,7 +134,7 @@
     <attr format="dimension" name="layout_goneMarginTop"/>
     <attr name="layout_optimizationLevel">
         <flag name="none" value="0"/>
-        <flag name="standard" value="3"/> <!-- for now only direct & barriers -->
+        <flag name="standard" value="3"/> 
         <flag name="direct" value="1"/>
         <flag name="barrier" value="2"/>
         <flag name="chains" value="4"/>
@@ -169,7 +169,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <color name="accent">#e9faba</color>
+    <color name="accent">#E9FABA</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="aluminum">#999999</color>
@@ -177,10 +177,13 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="backgroundcolor">#FCFCFC</color>
     <color name="base">#0d358c</color>
     <color name="black">#000000</color>
-    <color name="blackk">#071477</color>
+    <color name="blackk">#1aa9eb</color>
+    <color name="blueNav">#33B3CC</color>
+    <color name="bottomtab_item_disabled">#1e000000</color>
+    <color name="bottomtab_item_resting">#36000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -204,8 +207,16 @@
     <color name="cast_libraries_material_featurehighlight_outer_highlight_default_color">#2196F3</color>
     <color name="cast_libraries_material_featurehighlight_text_body_color">#FFFFFFFF</color>
     <color name="cast_libraries_material_featurehighlight_text_header_color">#FFFFFFFF</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#e96666</color>
+    <color name="colorAccent">#f3256a</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorPrimary">#c84444</color>
     <color name="colorPrimaryDark">#ffa000</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
@@ -216,7 +227,11 @@
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
     <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="darkblue">#23283a</color>
-    <color name="deeppurple">#7c4dff</color>
+    <color name="dashBlue">#FFFFFF</color>
+    <color name="dashGreen">#FFFFFF</color>
+    <color name="dashPink">#FFFFFF</color>
+    <color name="dashYellow">#FFFFFFFF</color>
+    <color name="deeppurple">#C3DAC5</color>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
@@ -242,12 +257,13 @@
     <color name="error_color_material">#F4511E</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="green">#00bfa5</color>
+    <color name="green">#2ab945</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="homeBlue">#D1EDF3</color>
     <color name="ic_launcher_background">#FFFFFF</color>
     <color name="iron">#595857</color>
-    <color name="jet">#222222</color>
+    <color name="jet">#c4f806</color>
     <color name="jumbo">#888888</color>
     <color name="lightgray">#ededed</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -266,8 +282,8 @@
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
-    <color name="oil">#333333</color>
-    <color name="pink">#fe104d</color>
+    <color name="oil">#054E43</color>
+    <color name="pink">#E84F53</color>
     <color name="place_autocomplete_prediction_primary_text">#212121</color>
     <color name="place_autocomplete_prediction_primary_text_highlight">#757575</color>
     <color name="place_autocomplete_prediction_secondary_text">#757575</color>
@@ -319,6 +335,8 @@
     <color name="wallet_link_text_light">#0000ee</color>
     <color name="white">#000000</color>
     <color name="yello">#ffb300</color>
+    <color name="yellowNav">#F4C20D</color>
+    <declare-styleable name="AHBottomNavigationBehavior_Params"><attr format="reference" name="tabLayoutId"/><attr format="boolean" name="selectedBackgroundVisible"/><attr format="boolean" name="translucentNavigationEnabled"/></declare-styleable>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -1196,6 +1214,39 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_icon">24dp</dimen>
+    <dimen name="bottom_navigation_margin_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_margin_top_active">6dp</dimen>
+    <dimen name="bottom_navigation_margin_top_inactive">8dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_notification_elevation">1dp</dimen>
+    <dimen name="bottom_navigation_notification_height">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_left_active">16dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top">14dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_active">3dp</dimen>
+    <dimen name="bottom_navigation_notification_margin_top_classic">4dp</dimen>
+    <dimen name="bottom_navigation_notification_padding">3dp</dimen>
+    <dimen name="bottom_navigation_notification_radius">8dp</dimen>
+    <dimen name="bottom_navigation_notification_text_size">9sp</dimen>
+    <dimen name="bottom_navigation_notification_width">16dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+    <dimen name="bottom_navigation_small_active_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_small_active_min_width">96dp</dimen>
+    <dimen name="bottom_navigation_small_inactive_max_width">96dp</dimen>
+    <dimen name="bottom_navigation_small_inactive_min_width">64dp</dimen>
+    <dimen name="bottom_navigation_small_margin_bottom">16dp</dimen>
+    <dimen name="bottom_navigation_small_margin_top">16dp</dimen>
+    <dimen name="bottom_navigation_small_margin_top_active">6dp</dimen>
+    <dimen name="bottom_navigation_small_selected_width_difference">10dp</dimen>
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_forced_active">11sp</dimen>
+    <dimen name="bottom_navigation_text_size_forced_inactive">10sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -1412,26 +1463,29 @@
     <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="ABOUTUS">ABOUT US</string>
     <string name="AadharNumber">Aadhar Number</string>
     <string name="Aboutus">About us</string>
-    <string name="Address">Address *</string>
-    <string name="Addresshint">Address *</string>
-    <string name="Age">Age *</string>
+    <string name="Address">Address </string>
+    <string name="Addresshint">Address </string>
+    <string name="Age">Age </string>
     <string name="AlreadyamemberLogin">Already a member? Login</string>
+    <string name="CD">Founder</string>
     <string name="CONTRIBUTION">CONTRIBUTION</string>
     <string name="ChangePassword">Change Password</string>
     <string name="ChangePasswordd">Change Password</string>
     <string name="City">City</string>
     <string name="Code">Code</string>
-    <string name="Contactus">Contact us</string>
     <string name="CreateAccount">Create Account</string>
-    <string name="Email">Email *</string>
-    <string name="FirstName">FirstName *</string>
+    <string name="Dashboard">Santulan Prakalp</string>
+    <string name="Email">Email </string>
+    <string name="FirstName">FirstName </string>
     <string name="ForgotPassword">Forgot Password</string>
-    <string name="Image">Image *</string>
+    <string name="HaveTreeGuard">Have Tree Guard?</string>
+    <string name="Image">Image </string>
     <string name="InMemoryOf">In memory of </string>
-    <string name="Lanmark">Landmark *</string>
-    <string name="LastName">LastName *</string>
+    <string name="Lanmark">Landmark </string>
+    <string name="LastName">LastName </string>
     <string name="Latitude">Latitude</string>
     <string name="Login">Login</string>
     <string name="Logout">Logout</string>
@@ -1439,19 +1493,21 @@
     <string name="MobileNumber">Mobile Number</string>
     <string name="MyProfile">My Profile</string>
     <string name="MyTrees">My Trees</string>
-    <string name="Newpassword">New Password *</string>
-    <string name="NotAccount">No account yet? SIGN UP </string>
-    <string name="Oldpassword">Old Password *</string>
-    <string name="Password">Password *</string>
+    <string name="Newpassword">New Password </string>
+    <string name="NoOfTrees">trees are planted</string>
+    <string name="NotAccount">No account yet? <u>SIGN UP</u> </string>
+    <string name="NumberofTrees">Number of Trees</string>
+    <string name="Oldpassword">Old Password </string>
+    <string name="Password">Password </string>
     <string name="PinCode">Pin Code</string>
-    <string name="PlantDate">Date of plantation *</string>
-    <string name="Rateus">Rate us</string>
-    <string name="ReenterPassword">Re-enter Password *</string>
-    <string name="Reenternewpassword">Re-enter new Password *</string>
+    <string name="PlantDate">Date of plantation </string>
+    <string name="PlantationType">Plantation Type</string>
+    <string name="ReenterPassword">Re-enter Password </string>
+    <string name="Reenternewpassword">Re-enter new Password </string>
     <string name="Relation">Relation</string>
     <string name="Settings">Settings</string>
     <string name="TOKENSEARNED">TOKENS EARNED</string>
-    <string name="TreeName">Tree Name *</string>
+    <string name="TreeName">Tree Name </string>
     <string name="UserName">User Name</string>
     <string name="aadhar">Aadhar Number</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -1483,9 +1539,34 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_EF">Earth Foundation is a Non-Profit organization founded in 2018 by Vikrant Jadhav,
+                    promoting concept of balancing Earths botanical resources and ecosystem in Maharashtra.
+                    To accomplish this vision foundation\'s chief director Vikrant Jadhav and
+                    deputy director Rupesh Mahajan have initialized the Santulan Prakalp with other members. \n\nNEED OF SANTULAN PRAKALP? \n\n
+Due to the vast deforestation in the last few years, its adverse effects have been seen on the masses and atmosphere. We have seen the ignorance to preservation of our environment. Drought\'s in Maharashtra has increased significantly. Drought\'s are results of mankind\'s inability to balance ecosystem. Major tree plantation moment is the necessity for the purpose of reducing the severity of drought\'s and for sustainable development of Maharashtra. The unauthorized encroachment on trees and forest in Maharashtra has resulted in aggravated disasters such as Climate change, Rise in temperature, Water shortage and drought\'s in the state. If you do not see it very seriously, it will not take time to form deserts in Maharashtra in the coming years. \n\n
+NEED FOR TREE PLANTATION IN INDIA? \n\n
+Compared to many nations in the world, India was a nation with purse forestation. According to central government\'s report the count of forest area is 78.29 million hectares which is the 24 of country\'s area but in reality, only 8% area is covered with trees in India. The same picture can be seen in other countries today. \n\n
+THE SOLUTION ON THIS:\n\n
+Saint Tukaram Maharaj has told us about the importance of tree and forest through his poems ‘वृक्षवल्ली आम्हा सोयरे वनचरे ’ four hundred years ago. If everyone accepts the full responsibility of its conservation, then the world will be able to achieve the dream of sustainable development. \n\n
+HOW EARTH FOUNDATION OPERATED SANTULAN PRAKALP WILL MAKE DIFFERENCE? \n\n
+The Earth Foundation will initially work on planting and enriching plantation through balance project. Various government and private organizations have started work on war footing for planting trees. Maharashtra government has planned to plant 500 million trees through the participation of various departments and the people with this ambitious project has started. Such initiative\'s by government are important but we are also trying to overcome this challenge from a different perspective. We believe in the power of an individual; one motivated person is the biggest strength having capabilities to change the future. Once the people are convinced of this fact and reality then they will be able to contribute by planting trees in order to balance botanical ecosystem of Earth. Afterall every tree count\'s. \n\n
+THE SANTULAN PRAKALP WILL WORK SOLID ON TWO MAJORS FRONTS:\n\n
+1 INSPIRATION: We believe planting trees and conservation is an essential and wise way to keep the balance of the earth. Every citizen should be a part of this movement. Trees should be cultivated and cultured by respecting the feelings of each person. The Santulan Prakalp will inspire people through using every mass media and digital media, this will establish an emotional relationship between them. \n\n 2 PROMOTING ACTIVE PARTICIPATION: Encouraging with the statistics and the need for this movement, every citizen will be involved in the movement.
+
+</string>
+    <string name="about_SP">"What balance do we want to achieve:  Saint Tukaram Maharaj has told us about the importance of tree and forest through his 'Vrukshavalli Amha Soyare Vanchare' abhanga four hundred years ago. ‘वनश्री हीच धनश्री। वृक्ष लावू घरोघरी।।’ व “झाडे लावा आणि देश वाचवा”, this motive needs to be followed by everyone.
+If everyone accepts the full responsibility of its conservation, it will bring success in avoiding potential dangers faced by the people in the state, country and world. Also the dream of sustainable development can be realized.
+</string>
+    <string name="about_foundation">About Earth Foundation</string>
+    <string name="about_trees">Importance of Trees</string>
+    <string name="aboutusinfo">Earth Foundation is a Non-Profit organization founded in 2018 by Vikrant Jadhav, promoting concept of balancing Earths botanical resources and ecosystem in Maharashtra. To accomplish this vision foundation\'s chief director Vikrant Jadhav and deputy director Rupesh Mahajan have initialized the Santulan Prakalp with other members.</string>
+    <string name="addr1">Plot No.35, Gat No.179</string>
+    <string name="addr2">Waghnagar, Jalgaon-425001</string>
     <string name="app_name">Earth Foundation</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appname">Earth Foundation</string>
+    <string name="balance_project">About Santulan Prakalp</string>
+    <string name="be_part">Participate</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="cast_ad_label">Ad</string>
     <string name="cast_casting_to_device">Casting to %1$s</string>
@@ -1528,7 +1609,7 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitles</string>
     <string name="cast_unmute">Unmute</string>
-    <string name="chPLANTTREE">PLANT TREE</string>
+    <string name="chPLANTTREE">TREES LIVED</string>
     <string name="chTREES">TREES</string>
     <string name="changelanguage">CHANGE LANGUAGE</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
@@ -1551,12 +1632,18 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="contactus">Contact us</string>
     <string name="country">Country</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="earthfoundation">EARTH FOUNDATION</string>
     <string name="email">Email </string>
     <string name="exitnotification">Exit Notification</string>
+    <string name="fb">Like us on Facebook</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="gcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="getintouch">GET IN TOUCH</string>
     <string name="logoutnotification">Logout Notification</string>
+    <string name="message">OK</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_cast_button_connected">Cast button. Connected</string>
     <string name="mr_cast_button_connecting">Cast button. Connecting</string>
@@ -1578,23 +1665,29 @@
     <string name="mr_controller_volume_slider">Volume slider</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="msg">Message</string>
+    <string name="mytrees">My Trees</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="next">NEXT</string>
+    <string name="no">No</string>
     <string name="password">Password </string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pdf">Read more from PDF</string>
+    <string name="personalInfo">Personal Information</string>
     <string name="phoneNo">Phone No</string>
     <string name="pincode">Pincode</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
-    <string name="ptac">Plant a tree and contribute</string>
+    <string name="planttree">Plant Tree</string>
+    <string name="ptac">Trees lived after your contribution</string>
     <string name="rate_dialog_cancel">Remind Me Later</string>
     <string name="rate_dialog_message">Would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
     <string name="rate_dialog_no">No, Thanks</string>
@@ -1608,23 +1701,31 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="s7">Test Ad</string>
+    <string name="save">Save</string>
     <string name="search_menu_title">Search</string>
     <string name="selected_lang">English</string>
+    <string name="send">SEND</string>
+    <string name="share">Share</string>
     <string name="skip">SKIP</string>
     <string name="start">GOT IT</string>
     <string name="state">State</string>
     <string name="statement1">Your Selected Language is </string>
     <string name="statement2"> Press NEXT button to continue. </string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="subject">Subject</string>
     <string name="submit">Submit</string>
+    <string name="suggesion">Your suggestions will be appreciated!</string>
     <string name="tagmanager_preview_dialog_button">Continue</string>
     <string name="tagmanager_preview_dialog_message">Preview mode updated.</string>
     <string name="tagmanager_preview_dialog_title">Preview</string>
     <string name="teyc">Tokens earned by your contribution</string>
     <string name="title_activity_home">HomeActivity</string>
-    <string name="token">Tokens</string>
     <string name="tpf">Total trees planted by our foundation</string>
+    <string name="treeStatus">Is tree alive?</string>
+    <string name="tree_importance">"Trees contribute to their environment by providing oxygen, climate amelioration, conserving water, preserving soil, supporting wildlife, balanced rain and many important things without which human civilization wouldn’t have survived. Now it’s time for us to return something and save the Earth.</string>
+    <string name="treenearby">Trees Nearby</string>
     <string name="trees">Trees</string>
+    <string name="twitter">Follow us on Twitter</string>
     <string name="updCancel">Cancel</string>
     <string name="updImage">Image</string>
     <string name="updPlantUpdateDate">Plant Update Date</string>
@@ -1636,7 +1737,12 @@
     <string name="updateLocation">Located at </string>
     <string name="updateTreeName">Tree Name</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
+    <string name="writetous">Write to us</string>
+    <string name="wt">Join us on Whatsapp</string>
     <string name="yctp">Your contribution in tree plantation</string>
+    <string name="yes">Yes</string>
+    <string name="you">Watch us on Youtube</string>
+    <string name="youtube">Watch Youtube Videos</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1655,10 +1761,10 @@
 
         <item name="android:windowBackground">@color/primary</item>
 
-        <item name="colorControlNormal">@color/iron</item>
+        <item name="colorControlNormal">@color/primary</item>
         <item name="colorControlActivated">@color/white</item>
         <item name="colorControlHighlight">@color/white</item>
-        <item name="android:textColorHint">@color/iron</item>
+        <item name="android:textColorHint">@color/primary</item>
 
         <item name="colorButtonNormal">@color/primary_darker</item>
         <item name="android:colorButtonNormal">@color/primary_darker</item>
@@ -1711,6 +1817,15 @@
         <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
         <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
         <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
+    </style>
+    <style name="Base.MyTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/primary_darker</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/backgroundcolor</item>
     </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1911,7 +2026,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
@@ -1962,7 +2077,7 @@
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
@@ -1999,7 +2114,7 @@
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.V14.Widget.Design.AppBarLayout" parent="android:Widget">
@@ -2015,7 +2130,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">false</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
@@ -2026,7 +2141,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        <!-- Action Bar Styles -->
+        
         <item name="actionBarTabStyle">@style/Widget.AppCompat.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.ActionBar.TabText</item>
@@ -2043,10 +2158,10 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -2059,14 +2174,14 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
 
-        <!-- List attributes -->
+        
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -2076,16 +2191,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        <!-- Spinner styles -->
+        
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
@@ -2094,17 +2209,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        <!-- Toolbar styles -->
+        
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -2113,7 +2228,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        <!-- Color palette -->
+        
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorAccent">@color/accent_material_dark</item>
@@ -2136,7 +2251,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        <!-- Button styles -->
+        
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -2149,7 +2264,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        <!-- Dialog attributes -->
+        
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -2159,14 +2274,13 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        <!-- Define these here; ContextThemeWrappers around themes that define them should
-             always clear these values. -->
+        
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        <!-- Tooltip attributes -->
+        
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
 
@@ -2209,7 +2323,7 @@
 
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
 
-        <!-- Used by MediaRouter -->
+        
         <item name="isLightTheme">true</item>
 
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
@@ -2220,7 +2334,7 @@
         <item name="dividerVertical">@drawable/abc_list_divider_mtrl_alpha</item>
         <item name="dividerHorizontal">@drawable/abc_list_divider_mtrl_alpha</item>
 
-        <!-- Action Bar Styles -->
+        
         <item name="actionBarTabStyle">@style/Widget.AppCompat.Light.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
         <item name="actionBarTabTextStyle">@style/Widget.AppCompat.Light.ActionBar.TabText</item>
@@ -2237,7 +2351,7 @@
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:attr/textColorPrimaryDisableOnly</item>
 
-        <!-- Action Mode -->
+        
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
         <item name="actionModeSplitBackground">?attr/colorPrimaryDark</item>
@@ -2250,17 +2364,17 @@
         <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
         <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
 
-        <!-- Dropdown Spinner Attributes -->
+        
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
 
-        <!-- Panel attributes -->
+        
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelBackground">@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
         <item name="android:panelBackground">@android:color/transparent</item>
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
 
-        <!-- List attributes -->
+        
         <item name="textAppearanceListItem">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSmall">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="textAppearanceListItemSecondary">@style/TextAppearance.AppCompat.Body1</item>
@@ -2270,16 +2384,16 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
 
-        <!-- Spinner styles -->
+        
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
         <item name="android:spinnerItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
         <item name="android:dropDownListViewStyle">@style/Widget.AppCompat.ListView.DropDown</item>
 
-        <!-- Required for use of support_simple_spinner_dropdown_item.xml -->
+        
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
 
-        <!-- Popup Menu styles -->
+        
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
@@ -2288,17 +2402,17 @@
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="textColorSearchUrl">@color/abc_search_url_text</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
 
-        <!-- ShareActionProvider attributes -->
+        
         <item name="activityChooserViewStyle">@style/Widget.AppCompat.ActivityChooserView</item>
 
-        <!-- Toolbar styles -->
+        
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
 
@@ -2307,7 +2421,7 @@
         <item name="editTextColor">?android:attr/textColorPrimary</item>
         <item name="autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
 
-        <!-- Color palette -->
+        
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorAccent">@color/accent_material_light</item>
@@ -2330,7 +2444,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
 
-        <!-- Button styles -->
+        
         <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
         <item name="buttonStyleSmall">@style/Widget.AppCompat.Button.Small</item>
         <item name="android:textAppearanceButton">@style/TextAppearance.AppCompat.Widget.Button</item>
@@ -2343,7 +2457,7 @@
         <item name="buttonBarNegativeButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?attr/buttonBarButtonStyle</item>
 
-        <!-- Dialog attributes -->
+        
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
 
@@ -2353,14 +2467,13 @@
         <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
         <item name="listDividerAlertDialog">@null</item>
 
-        <!-- Define these here; ContextThemeWrappers around themes that define them should
-             always clear these values. -->
+        
         <item name="windowFixedWidthMajor">@null</item>
         <item name="windowFixedWidthMinor">@null</item>
         <item name="windowFixedHeightMajor">@null</item>
         <item name="windowFixedHeightMinor">@null</item>
 
-        <!-- Tooltip attributes -->
+        
         <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
 
@@ -2811,6 +2924,20 @@
 <item name="castIntroOverlayStyle">@style/CastIntroOverlay</item>
 <item name="castMiniControllerStyle">@style/CastMiniController</item>
 </style>
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+    <style name="MyTheme" parent="Base.MyTheme"/>
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/PauseDialogTitle</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="PauseDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/primary_darker</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -2819,7 +2946,7 @@
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
-        <!-- Window colors -->
+        
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -2828,7 +2955,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_dark</item>
 
-        <!-- Text colors -->
+        
         <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
@@ -2844,7 +2971,7 @@
         <item name="android:textColorLinkInverse">?attr/colorAccent</item>
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
 
-        <!-- Text styles -->
+        
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2877,7 +3004,7 @@
         <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
         <item name="android:borderlessButtonStyle">?attr/borderlessButtonStyle</item>
 
-        <!-- Window colors -->
+        
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_light</item>
@@ -2886,7 +3013,7 @@
         <item name="android:backgroundDimAmount">0.6</item>
         <item name="android:windowBackground">@color/background_material_light</item>
 
-        <!-- Text colors -->
+        
         <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
         <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
         <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
@@ -2903,7 +3030,7 @@
         <item name="android:textColorLinkInverse">?attr/colorAccent</item>
         <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
 
-        <!-- Text styles -->
+        
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
@@ -2930,12 +3057,12 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
     <style name="Platform.ThemeOverlay.AppCompat.Dark">
-        <!-- Action Bar styles -->
+        
         <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
 
-        <!-- SearchView styles -->
+        
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>
@@ -2944,7 +3071,7 @@
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
 
-        <!-- SearchView attributes -->
+        
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
     </style>

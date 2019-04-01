@@ -62,7 +62,7 @@
         android:textColor="@color/cast_expanded_controller_background_color"
         android:visibility="gone" />
 
-    <TextView
+    <com.project.EarthFoundation.CustomTextView
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         android:text="@string/nav_header_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
-    <TextView
+    <com.project.EarthFoundation.CustomTextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

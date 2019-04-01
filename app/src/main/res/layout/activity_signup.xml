@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:id="@+id/signup_layout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:orientation="vertical"
@@ -18,12 +23,37 @@
             android:layout_height="120dp"
             android:layout_marginBottom="15dp"
             android:layout_gravity="center_horizontal" />
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/simpleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titletextview"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:textSize="18sp"
+                    android:hint="Title"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
         <!-- Name Label -->
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
 
             <EditText
@@ -35,6 +65,7 @@
                 android:inputType="textPersonName" />
 
         </android.support.design.widget.TextInputLayout>
+
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -131,4 +162,5 @@
             <!--android:textSize="16dip"/>-->
 
     </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

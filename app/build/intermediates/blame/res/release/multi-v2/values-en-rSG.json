@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MONTY\\Desktop\\treeApp\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "outputFile": "D:\\AppVersion3\\materiallogindemo-master\\materiallogindemo-master\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MONTY\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.1.aar\\3c53cadf434498b9241ed066a88ced6c\\res\\values-en-rSG\\values.xml",
+                    "source": "C:\\Users\\Vishal\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-12.0.1.aar\\89f54e07b3972ccc858872b344c4ed9e\\res\\values-en-rSG\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

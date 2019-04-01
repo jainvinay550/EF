@@ -34,4 +34,16 @@
         <item name="android:colorButtonNormal">@color/primary_darker</item>
     </style>
 
+    <style name="MyTheme" parent="Base.MyTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="MyTheme.Detail" parent="MyTheme">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="MyTheme.TranslucentNavigation" parent="MyTheme">
+         <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
 </resources>

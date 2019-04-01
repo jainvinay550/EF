@@ -9,14 +9,23 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    "
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="EARTH FOUNDATION"
         android:largeHeap="true"
-        android:theme="@style/AppTheme">
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity android:name=".AdminActivity"></activity>
+        <activity
+            android:name=".SantulanPrakalpActivity"
+            android:label="EARTH  FOUNDATION" />
+        <activity
+            android:name=".TreeImportanceActivity"
+            android:label="@string/app_name" />
         <activity
             android:name=".SplashActivity"
             android:label="@string/app_name"
@@ -42,49 +51,51 @@
         <activity
             android:name=".HomeActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".PlantTreeActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden" />
+            /> <!-- <activity -->
+        <!-- android:name=".PlantTreeActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:windowSoftInputMode="stateHidden" /> -->
         <activity
             android:name=".MyProfileActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".aboutus"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".AboutUs"
+            android:theme="@style/AppTheme.Dark" />
         <activity
             android:name=".forgotpassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".forgotchangepassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".UpdateTreeDetails"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name=".Language"
-            android:theme="@style/AppTheme.Dark" />
-        <activity
-            android:name=".MyTreesActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.Dark" /> <!-- <activity -->
+        <!-- android:name=".MyTreesActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <activity
             android:name=".SettingActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".WriteToUs"></activity>
+        <activity
+            android:name=".WriteToUs"
+            android:theme="@style/AppTheme.Dark"
+            android:windowSoftInputMode="stateHidden" /> <!-- <activity android:name=".MyDashboard" /> -->
+        <activity
+            android:name=".ContactUs"
+            android:theme="@style/AppTheme.Dark" />
     </application>
 
 </manifest>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.project.EarthFoundation"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    "
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
@@ -39,7 +39,16 @@
         android:icon="@mipmap/ic_launcher"
         android:label="EARTH FOUNDATION"
         android:largeHeap="true"
-        android:theme="@style/AppTheme" >
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/MyTheme" >
+        <activity android:name="com.project.EarthFoundation.AdminActivity" />
+        <activity
+            android:name="com.project.EarthFoundation.SantulanPrakalpActivity"
+            android:label="EARTH  FOUNDATION" />
+        <activity
+            android:name="com.project.EarthFoundation.TreeImportanceActivity"
+            android:label="@string/app_name" />
         <activity
             android:name="com.project.EarthFoundation.SplashActivity"
             android:label="@string/app_name"
@@ -64,50 +73,51 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.HomeActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.project.EarthFoundation.PlantTreeActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden" />
+            android:label="EARTH  FOUNDATION" /> <!-- <activity -->
+        <!-- android:name=".PlantTreeActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:windowSoftInputMode="stateHidden" /> -->
         <activity
             android:name="com.project.EarthFoundation.MyProfileActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.project.EarthFoundation.aboutus"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.project.EarthFoundation.AboutUs"
+            android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="com.project.EarthFoundation.forgotpassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.forgotchangepassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.UpdateTreeDetails"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.Language"
-            android:theme="@style/AppTheme.Dark" />
-        <activity
-            android:name="com.project.EarthFoundation.MyTreesActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.Dark" /> <!-- <activity -->
+        <!-- android:name=".MyTreesActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <activity
             android:name="com.project.EarthFoundation.SettingActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="com.project.EarthFoundation.WriteToUs" />
+        <activity
+            android:name="com.project.EarthFoundation.WriteToUs"
+            android:theme="@style/AppTheme.Dark"
+            android:windowSoftInputMode="stateHidden" /> <!-- <activity android:name=".MyDashboard" /> -->
+        <activity
+            android:name="com.project.EarthFoundation.ContactUs"
+            android:theme="@style/AppTheme.Dark" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 

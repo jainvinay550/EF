@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true">
@@ -13,7 +14,6 @@
         android:paddingLeft="24dp"
         android:paddingTop="32dp"
         android:paddingRight="24dp"
-        android:layout_marginTop="50dp"
         android:gravity="center">
 
         <!--  Email Label -->
@@ -68,7 +68,7 @@
             android:textColor="@color/primary"
             android:text="@string/Login"
             android:textSize="18sp"/>
-        <TextView
+        <com.project.EarthFoundation.CustomTextView
             android:id="@+id/link_forgotpassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
             android:textColor="@color/black"
             android:textSize="17dip" />
 
-        <TextView
+        <com.project.EarthFoundation.CustomTextView
             android:id="@+id/link_signup"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -89,4 +89,4 @@
             android:textSize="17dip" />
 
     </LinearLayout>
-</ScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.project.materialloginexample"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.project.EarthFoundation"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    "
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
@@ -26,10 +26,10 @@
         android:required="true" />
 
     <permission
-        android:name="com.project.materialloginexample.permission.C2D_MESSAGE"
+        android:name="com.project.EarthFoundation.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.project.materialloginexample.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.project.EarthFoundation.permission.C2D_MESSAGE" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -38,7 +38,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="EARTH FOUNDATION"
         android:largeHeap="true"
-        android:theme="@style/AppTheme" >
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme" >
+        <activity android:name="com.project.EarthFoundation.AdminActivity" />
+        <activity
+            android:name="com.project.EarthFoundation.SantulanPrakalpActivity"
+            android:label="EARTH  FOUNDATION" />
+        <activity
+            android:name="com.project.EarthFoundation.TreeImportanceActivity"
+            android:label="@string/app_name" />
         <activity
             android:name="com.project.EarthFoundation.SplashActivity"
             android:label="@string/app_name"
@@ -63,49 +71,51 @@
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.HomeActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.project.EarthFoundation.PlantTreeActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateHidden" />
+            android:label="EARTH  FOUNDATION" /> <!-- <activity -->
+        <!-- android:name=".PlantTreeActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:windowSoftInputMode="stateHidden" /> -->
         <activity
             android:name="com.project.EarthFoundation.MyProfileActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.project.EarthFoundation.aboutus"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name="com.project.EarthFoundation.AboutUs"
+            android:theme="@style/AppTheme.Dark" />
         <activity
             android:name="com.project.EarthFoundation.forgotpassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.forgotchangepassword"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.UpdateTreeDetails"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/AppTheme.Dark"
             android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.project.EarthFoundation.Language"
-            android:theme="@style/AppTheme.Dark" />
-        <activity
-            android:name="com.project.EarthFoundation.MyTreesActivity"
-            android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.Dark" /> <!-- <activity -->
+        <!-- android:name=".MyTreesActivity" -->
+        <!-- android:label="EARTH  FOUNDATION" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <activity
             android:name="com.project.EarthFoundation.SettingActivity"
             android:label="EARTH  FOUNDATION"
-            android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.project.EarthFoundation.WriteToUs"
+            android:theme="@style/AppTheme.Dark"
+            android:windowSoftInputMode="stateHidden" /> <!-- <activity android:name=".MyDashboard" /> -->
+        <activity
+            android:name="com.project.EarthFoundation.ContactUs"
+            android:theme="@style/AppTheme.Dark" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 
@@ -193,7 +203,7 @@
             android:exported="true"
             android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
             <intent-filter>
-                <data android:scheme="tagmanager.c.com.project.materialloginexample" />
+                <data android:scheme="tagmanager.c.com.project.EarthFoundation" />
 
                 <action android:name="android.intent.action.VIEW" />
 
@@ -234,7 +244,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.project.materialloginexample" />
+                <category android:name="com.project.EarthFoundation" />
             </intent-filter>
         </receiver>
         <!--
@@ -251,7 +261,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.project.materialloginexample.firebaseinitprovider"
+            android:authorities="com.project.EarthFoundation.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
